@@ -107,7 +107,13 @@ def mine_transcript(transcript_path, output_manifest_path=None):
             # 3. Check for Tool Errors or Failure Outputs
             text_to_check = content if isinstance(content, str) else json.dumps(content)
             found_errors = [ek for ek in ERROR_KEYWORDS if ek.lower() in text_to_check.lower()]
-            if status in ["ERROR", "FAILED"] or found_errors:
+            
+            # Distinguish genuine tool execution failures from simply viewing source files containing error strings
+            is_execution_failure = status in ["ERROR", "FAILED"]
+            if not is_execution_failure and step_type not in ["VIEW_FILE", "READ_FILE"]:
+                is_execution_failure = bool(found_errors)
+
+            if is_execution_failure:
                 incidents.append({
                     "step_index": step_idx,
                     "type": step_type,
