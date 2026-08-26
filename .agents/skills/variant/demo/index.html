@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variant — Multi-Direction UI Candidate Switcher</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col items-center p-6 md:p-12 selection:bg-indigo-500/30">
+
+  <!-- Header -->
+  <header class="w-full max-w-4xl flex items-center justify-between pb-8 border-b border-zinc-800/80 mb-8">
+    <div>
+      <div class="flex items-center gap-2 mb-1">
+        <span class="px-2.5 py-0.5 rounded-full text-xs font-mono bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">Skill: variant</span>
+        <span class="text-xs text-zinc-500">Antigravity Design OS</span>
+      </div>
+      <h1 class="text-2xl md:text-3xl font-bold tracking-tight text-white">Multi-Direction UI Variant Explorer</h1>
+      <p class="text-sm text-zinc-400 mt-1">Answers "which of these?" by building 3+ distinct architectural positions behind an in-page picker.</p>
+    </div>
+  </header>
+
+  <!-- Interactive Floating Variant Switcher Control -->
+  <div class="sticky top-6 z-50 mb-10 bg-zinc-900/90 backdrop-blur-md border border-zinc-700/60 p-1.5 rounded-2xl shadow-2xl flex items-center gap-1.5">
+    <button onclick="setVariant('quiet')" id="btn-quiet" class="variant-btn px-4 py-2 rounded-xl text-xs md:text-sm font-medium transition-all duration-200 text-zinc-400 hover:text-white">
+      1. Quiet (Minimal)
+    </button>
+    <button onclick="setVariant('editorial')" id="btn-editorial" class="variant-btn px-4 py-2 rounded-xl text-xs md:text-sm font-medium transition-all duration-200 bg-indigo-600 text-white shadow-lg shadow-indigo-500/20">
+      2. Editorial (Expressive)
+    </button>
+    <button onclick="setVariant('dense')" id="btn-dense" class="variant-btn px-4 py-2 rounded-xl text-xs md:text-sm font-medium transition-all duration-200 text-zinc-400 hover:text-white">
+      3. Dense (Pro Tool)
+    </button>
+  </div>
+
+  <!-- Variant Presentation Sandbox -->
+  <main class="w-full max-w-4xl flex flex-col gap-8 items-center justify-center">
+
+    <!-- Card 1: Quiet Variant -->
+    <div id="view-quiet" class="variant-view hidden w-full max-w-md transition-all duration-300">
+      <div class="bg-zinc-900/40 border border-zinc-800/80 rounded-2xl p-6 hover:border-zinc-700 transition-colors">
+        <div class="flex items-center justify-between text-xs text-zinc-500 mb-4 font-mono">
+          <span>METRIC CARD &bull; QUIET</span>
+          <span class="text-emerald-400 font-medium">+14.2%</span>
+        </div>
+        <div class="text-3xl font-light text-zinc-200 tracking-tight">$128,490</div>
+        <p class="text-xs text-zinc-500 mt-1">Net ARR across active enterprise tier pipelines.</p>
+        <div class="mt-6 pt-4 border-t border-zinc-800/60 flex items-center justify-between text-xs text-zinc-400">
+          <span>Active Accounts</span>
+          <span class="font-mono text-zinc-300">1,420</span>
+        </div>
+      </div>
+      <div class="mt-4 p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 text-xs text-zinc-400">
+        <strong class="text-zinc-200">Axis Position:</strong> Lowest visual weight, muted neutrals. Ideal for high-frequency daily dashboards.
+      </div>
+    </div>
+
+    <!-- Card 2: Editorial Variant (Default Active) -->
+    <div id="view-editorial" class="variant-view w-full max-w-xl transition-all duration-300">
+      <div class="relative overflow-hidden bg-gradient-to-b from-zinc-900 to-zinc-950 border border-zinc-800 rounded-3xl p-8 shadow-2xl">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="flex items-center justify-between mb-8">
+          <span class="text-xs font-mono tracking-widest text-indigo-400 uppercase">Enterprise Yield</span>
+          <div class="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            +14.2% Growth
+          </div>
+        </div>
+        <div class="text-5xl md:text-6xl font-extrabold text-white tracking-tighter leading-none mb-3">
+          $128,490<span class="text-indigo-400 text-3xl font-light">.00</span>
+        </div>
+        <p class="text-sm text-zinc-400 leading-relaxed max-w-md">
+          Net ARR across continuous customer success pipelines, accelerating towards Q4 revenue projection targets.
+        </p>
+        <div class="mt-8 pt-6 border-t border-zinc-800 flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-mono text-xs font-bold">1.4k</div>
+            <span class="text-xs text-zinc-400">Active accounts verified</span>
+          </div>
+          <button class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-semibold transition-all transform active:scale-95 shadow-lg shadow-indigo-600/30">
+            View Analytics &rarr;
+          </button>
+        </div>
+      </div>
+      <div class="mt-4 p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 text-xs text-zinc-400">
+        <strong class="text-zinc-200">Axis Position:</strong> High typographic drama, generous white space, layered depth glow. Ideal for spotlight metrics.
+      </div>
+    </div>
+
+    <!-- Card 3: Dense Variant -->
+    <div id="view-dense" class="variant-view hidden w-full max-w-2xl transition-all duration-300">
+      <div class="bg-zinc-900 border border-zinc-700/80 rounded-lg p-3 text-xs font-mono">
+        <div class="flex items-center justify-between bg-zinc-950 px-3 py-1.5 rounded border border-zinc-800 mb-2">
+          <span class="text-zinc-400 font-semibold">ARR_PIPELINE_METRIC</span>
+          <span class="text-emerald-400 font-bold">DELTA +14.2%</span>
+        </div>
+        <div class="grid grid-cols-3 gap-2 text-center my-3">
+          <div class="p-2 bg-zinc-950/60 rounded border border-zinc-800/80">
+            <div class="text-[10px] text-zinc-500">NET ARR</div>
+            <div class="text-base font-bold text-white mt-0.5">$128,490</div>
+          </div>
+          <div class="p-2 bg-zinc-950/60 rounded border border-zinc-800/80">
+            <div class="text-[10px] text-zinc-500">ACCOUNTS</div>
+            <div class="text-base font-bold text-indigo-400 mt-0.5">1,420</div>
+          </div>
+          <div class="p-2 bg-zinc-950/60 rounded border border-zinc-800/80">
+            <div class="text-[10px] text-zinc-500">CONFIDENCE</div>
+            <div class="text-base font-bold text-emerald-400 mt-0.5">99.4%</div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center text-[11px] text-zinc-500 pt-2 border-t border-zinc-800">
+          <span>LATENCY: 12ms</span>
+          <span>STATUS: STREAMING_ACTIVE</span>
+        </div>
+      </div>
+      <div class="mt-4 p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 text-xs text-zinc-400">
+        <strong class="text-zinc-200">Axis Position:</strong> High data density, structured grid, tabular monospace numerals. Ideal for complex financial/dev operations.
+      </div>
+    </div>
+
+    <!-- Trade-offs Comparison Matrix -->
+    <section class="w-full mt-12 bg-zinc-900/40 border border-zinc-800 rounded-2xl p-6">
+      <h3 class="text-sm font-semibold text-white mb-4 uppercase tracking-wider font-mono">Variant Decision Matrix</h3>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs border-collapse">
+          <thead>
+            <tr class="border-b border-zinc-800 text-zinc-400 font-mono">
+              <th class="pb-3 pr-4">Variant</th>
+              <th class="pb-3 px-4">Primary Axis Position</th>
+              <th class="pb-3 px-4">Optimal Context</th>
+              <th class="pb-3 pl-4">Inherent Trade-off</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-800/60 text-zinc-300">
+            <tr>
+              <td class="py-3 pr-4 font-semibold text-white">Quiet</td>
+              <td class="py-3 px-4 text-zinc-400">Minimal neutral contrast</td>
+              <td class="py-3 px-4">Daily repetitious workflows</td>
+              <td class="py-3 pl-4 text-zinc-400">Lower initial memorability</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-semibold text-indigo-400">Editorial</td>
+              <td class="py-3 px-4 text-zinc-400">Heroic scale, generous padding</td>
+              <td class="py-3 px-4">Executive dashboards, landing features</td>
+              <td class="py-3 pl-4 text-zinc-400">Consumes vertical viewport</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-semibold text-white">Dense</td>
+              <td class="py-3 px-4 text-zinc-400">High information-per-pixel grid</td>
+              <td class="py-3 px-4">Fintech, cloud consoles, developer tools</td>
+              <td class="py-3 pl-4 text-zinc-400">Requires high cognitive focus</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    function setVariant(name) {
+      document.querySelectorAll('.variant-view').forEach(v => v.classList.add('hidden'));
+      document.querySelectorAll('.variant-btn').forEach(b => {
+        b.className = 'variant-btn px-4 py-2 rounded-xl text-xs md:text-sm font-medium transition-all duration-200 text-zinc-400 hover:text-white';
+      });
+
+      const activeView = document.getElementById('view-' + name);
+      const activeBtn = document.getElementById('btn-' + name);
+      if (activeView) activeView.classList.remove('hidden');
+      if (activeBtn) {
+        activeBtn.className = 'variant-btn px-4 py-2 rounded-xl text-xs md:text-sm font-medium transition-all duration-200 bg-indigo-600 text-white shadow-lg shadow-indigo-500/20';
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "id": "apple-editorial",
+  "name": "Apple High-Impact Editorial Minimalism",
+  "category": "editorial-luxury",
+  "tags": ["large-typography", "full-bleed-imagery", "sticky-scroll", "hardware-grade", "restrained"],
+  "tokens": {
+    "backgroundBase": "oklch(0.08 0.005 0)",
+    "textPrimary": "oklch(0.96 0.002 0)",
+    "textMuted": "oklch(0.55 0.01 0)",
+    "fontDisplay": "system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+  },
+  "layoutPattern": "Cinematic full-width media bands with pinned sticky scroll narratives and monumental display typography",
+  "motionPhysics": {
+    "scrollScrub": 1.0,
+    "scaleIn": [0.92, 1.0],
+    "fadeStagger": 0.15
+  },
+  "keyTechniques": [
+    "Sticky pinned container scroll storytelling with GSAP ScrollTrigger",
+    "Hero display headlines spanning 5.5rem fluid clamp",
+    "Extreme visual restraint with zero decorative clutter"
+  ]
+}

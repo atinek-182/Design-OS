@@ -1,0 +1,25 @@
+{
+  "id": "stripe-developer",
+  "name": "Stripe Modern Developer Platform",
+  "category": "developer-glow",
+  "tags": ["mesh-gradients", "developer-first", "interactive-code", "clean-contrast", "smooth-tabs"],
+  "tokens": {
+    "backgroundBase": "oklch(0.98 0.005 240)",
+    "backgroundDarkBase": "oklch(0.13 0.02 270)",
+    "brandAccent": "oklch(0.62 0.24 280)",
+    "borderSubtle": "oklch(0.88 0.01 240 / 0.8)",
+    "fontDisplay": "'Inter', -apple-system, sans-serif",
+    "fontMono": "'Fira Code', monospace"
+  },
+  "layoutPattern": "Multi-column developer hero with animated live interactive code canvas and gradient mesh backdrop",
+  "motionPhysics": {
+    "revealEase": "power3.out",
+    "tabTransitionDuration": 0.25,
+    "meshGlowVelocity": 0.02
+  },
+  "keyTechniques": [
+    "Animated multi-color mesh gradient hero canvas",
+    "Interactive tabbed code-to-preview terminal widget",
+    "High-contrast crisp typography with ultra-clear hierarchy"
+  ]
+}

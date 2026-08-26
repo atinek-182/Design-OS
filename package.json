@@ -1,0 +1,54 @@
+{
+  "name": "antigravity-design-os",
+  "version": "1.0.0",
+  "description": "Universal high-end design engineering repository, Awwwards-tier interactions, WebGL shaders, deterministic contrast math, and Tastemaker anti-slop engines calibrated for Gemini 3.7 Flash.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve-demos.mjs",
+    "serve:studio": "node scripts/serve-demos.mjs",
+    "audit:full": "node scripts/audit-design-os.mjs",
+    "sync:catalog": "node scripts/sync-skills-catalog.mjs",
+    "validate": "node scripts/validate-skills.mjs",
+    "scaffold:demos": "node scripts/scaffold-demo-prompt.mjs",
+    "lint:slop": "python scripts/design_os.py scan",
+    "check:contrast": "python scripts/design_os.py contrast",
+    "palette:generate": "python scripts/design_os.py palette",
+    "photos:fetch": "python scripts/design_os.py photos",
+    "icons:fetch": "python scripts/design_os.py icons",
+    "design:init": "python scripts/design_os.py init",
+    "design:resume": "python scripts/design_os.py resume",
+    "design:stage": "python scripts/design_os.py stage",
+    "design:verify": "python scripts/design_os.py verify",
+    "workflow:page": "python scripts/design_os.py workflow page",
+    "workflow:component": "python scripts/design_os.py workflow component",
+    "workflow:motion": "python scripts/design_os.py workflow motion",
+    "workflow:audit": "python scripts/design_os.py workflow audit"
+  },
+  "keywords": [
+    "antigravity",
+    "design-os",
+    "tastemaker",
+    "awwwards",
+    "gsap",
+    "lenis",
+    "webgl",
+    "anti-slop",
+    "wcag",
+    "gemini-3.7-flash"
+  ],
+  "dependencies": {
+    "culori": "^3.3.0",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.18",
+    "lucide-react": "^0.359.0",
+    "three": "^0.162.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "@types/three": "^0.162.0",
+    "playwright": "^1.42.0"
+  },
+  "author": "Antigravity Design Team",
+  "license": "MIT"
+}

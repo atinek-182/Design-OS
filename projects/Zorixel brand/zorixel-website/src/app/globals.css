@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  /* Zorixel Brand Identity v3.0 OKLCH Palette */
+  --bg-obsidian: oklch(0.12 0.01 260);     /* #0D0E12 Dark Canvas */
+  --bg-linen: oklch(0.98 0.01 85);        /* #FAF8F5 Light Canvas */
+  --burgundy: oklch(0.28 0.14 18);        /* #6D001A Primary Brand Header */
+  --crimson: oklch(0.52 0.24 25);         /* #D61C2C Primary Pop CTA */
+  --ochre-gold: oklch(0.72 0.11 80);      /* #C5A059 Accent Only <5% */
+  
+  --foreground: #FAF8F5;
+  --background: #0D0E12;
+}
+
+@theme inline {
+  --color-obsidian: var(--bg-obsidian);
+  --color-linen: var(--bg-linen);
+  --color-burgundy: var(--burgundy);
+  --color-crimson: var(--crimson);
+  --color-ochre-gold: var(--ochre-gold);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-nuqun: 'Nuqun', sans-serif;
+  --font-havock: 'Havock', sans-serif;
+  --font-rosehot: 'Rosehot', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-rosehot), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, .font-havock {
+  font-family: var(--font-havock), var(--font-rosehot), sans-serif;
+}
+
+.font-nuqun {
+  font-family: var(--font-nuqun), sans-serif;
+}
+
+.font-rosehot {
+  font-family: var(--font-rosehot), sans-serif;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSAP ScrollTrigger Pinned Parallax Lab — Antigravity Design OS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .glass-card {
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen p-6 md:p-12 flex flex-col justify-between">
+  <div class="max-w-5xl mx-auto w-full space-y-8">
+    <div class="flex items-center justify-between border-b border-white/10 pb-6">
+      <div class="space-y-1">
+        <div class="flex items-center gap-3">
+          <span class="px-2.5 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-mono font-semibold">
+            .agents/skills/gsap-scrolltrigger
+          </span>
+          <span class="text-xs text-emerald-400 font-mono">● Active & Verified</span>
+        </div>
+        <h1 class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">GSAP ScrollTrigger Pinned Parallax Lab</h1>
+      </div>
+      <a href="/" class="text-xs font-mono text-slate-400 hover:text-white transition-colors">← Back to Studio</a>
+    </div>
+
+    <div class="glass-card rounded-2xl p-6 md:p-8 space-y-6">
+      <div class="space-y-2">
+        <h2 class="text-lg font-bold text-white">Interactive Production Spec</h2>
+        <p class="text-sm text-slate-400">
+          This skill provides hardened architecture, mathematical invariants, and zero-slop design engineering guidelines.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="p-4 rounded-xl bg-slate-900/80 border border-white/5 space-y-1">
+          <div class="text-xs font-mono text-slate-500">Execution Stack</div>
+          <div class="text-sm font-bold text-slate-200">Native Multi-Framework</div>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/80 border border-white/5 space-y-1">
+          <div class="text-xs font-mono text-slate-500">Model Calibration</div>
+          <div class="text-sm font-bold text-blue-400">Gemini 3.7 Flash (High)</div>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/80 border border-white/5 space-y-1">
+          <div class="text-xs font-mono text-slate-500">Quality Standard</div>
+          <div class="text-sm font-bold text-emerald-400">Awwwards / WCAG 2.2 AA</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center text-xs font-mono text-slate-600 pt-8">
+    Antigravity Design OS · Zero-Slop Architecture
+  </div>
+</body>
+</html>

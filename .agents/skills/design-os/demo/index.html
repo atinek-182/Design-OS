@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antigravity Design OS — Interactive Studio & 10-Stage Pipeline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-base: #090d16;
+      --bg-surface: #111726;
+      --bg-elevated: #1a2236;
+      --brand: #3b82f6;
+      --brand-glow: rgba(59, 130, 246, 0.2);
+      --text-primary: #f8fafc;
+      --text-muted: #94a3b8;
+      --border: rgba(255, 255, 255, 0.08);
+      --border-highlight: rgba(255, 255, 255, 0.15);
+      --font-display: 'Space Grotesk', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-primary);
+      font-family: var(--font-display);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.12) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.08) 0px, transparent 50%);
+    }
+
+    header {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      backdrop-filter: blur(12px);
+      background: rgba(9, 13, 22, 0.8);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .badge {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 9999px;
+      background: var(--brand-glow);
+      color: var(--brand);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+
+    main {
+      flex: 1;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .hero-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+
+    .hero-desc {
+      color: var(--text-muted);
+      font-size: 1.125rem;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+
+    .pipeline-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .stage-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stage-card:hover {
+      border-color: var(--border-highlight);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .stage-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .stage-num {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--brand);
+      font-weight: 600;
+    }
+
+    .stage-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .stage-artifact {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      background: rgba(0, 0, 0, 0.3);
+      padding: 0.35rem 0.6rem;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <span style="font-weight: 700; font-size: 1.1rem; letter-spacing: -0.02em;">⚡ Antigravity Design OS</span>
+      <span class="badge">v2.0 MASTER PIPELINE</span>
+    </div>
+    <div style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-muted);">
+      Calibrated for Gemini 3.7 Flash
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <h1 class="hero-title">Autonomous 10-Stage Design Engineering Pipeline</h1>
+      <p class="hero-desc" style="margin-top: 0.75rem;">
+        Transforming 122+ skills into a sequential, non-conflicting design operating system with Socratic multi-archetype discovery, 7-file context memory, and automated verification.
+      </p>
+    </div>
+
+    <div class="pipeline-grid">
+      <!-- Stage 1 -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-num">STAGE 01</span>
+          <span class="badge">PLANNING</span>
+        </div>
+        <div class="stage-title">Socratic Brand, Mood & Tech Stack</div>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          3 creative approaches presented per question (Dark Precision, Warm Brutalism, Apple Luxury) + explicit stack selection.
+        </p>
+        <div class="stage-artifact">📄 context/1-brand-and-vision.md</div>
+      </div>
+
+      <!-- Stage 2 -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-num">STAGE 02</span>
+          <span class="badge">PLANNING</span>
+        </div>
+        <div class="stage-title">Reference Ingestion & Deconstruction</div>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          Multi-modal ingestion of URLs/videos with Socratic Keep-vs-Discard and token re-binding.
+        </p>
+        <div class="stage-artifact">📄 reference/MANIFEST.md</div>
+      </div>
+
+      <!-- Stage 3 -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-num">STAGE 03</span>
+          <span class="badge">PLANNING</span>
+        </div>
+        <div class="stage-title">Deterministic Token & Contrast Math</div>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          OKLCH palette formulation, fluid clamp typography, and WCAG 2.2 AA contrast matrix verification.
+        </p>
+        <div class="stage-artifact">📄 context/2-design-tokens.json</div>
+      </div>
+
+      <!-- Stage 4 -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-num">STAGE 04</span>
+          <span class="badge">PLANNING</span>
+        </div>
+        <div class="stage-title">Macrostructure & Layout Rotation</div>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          Rotates across 7 anti-monoculture layouts (Asymmetric Bento, Editorial Band, Split Screen).
+        </p>
+        <div class="stage-artifact">📄 context/3-ui-manifest.md</div>
+      </div>
+
+      <!-- Stage 5 -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-num">STAGE 05</span>
+          <span class="badge">PLANNING</span>
+        </div>
+        <div class="stage-title">Motion Physics & Scroll Spec</div>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          GSAP ScrollTrigger, Lenis smooth scroll, spring physics, and cubic-bezier easing curves.
+        </p>
+        <div class="stage-artifact">📄 context/4-motion-choreography.md</div>
+      </div>
+
+      <!-- Stage 6 -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-num">STAGE 06</span>
+          <span class="badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981; border-color: rgba(16, 185, 129, 0.3);">EXECUTION</span>
+        </div>
+        <div class="stage-title">Grid Scaffolding & Wireframe</div>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          Semantic HTML5 layout container and responsive breakpoint foundations (zero horizontal overflow).
+        </p>
+        <div class="stage-artifact">⚡ src/components/layout/</div>
+      </div>
+
+      <!-- Stage 7 -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-num">STAGE 07</span>
+          <span class="badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981; border-color: rgba(16, 185, 129, 0.3);">EXECUTION</span>
+        </div>
+        <div class="stage-title">UI Surface & Visual Polish</div>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          Layered glassmorphism, concentric radii, WebGL liquid metal borders, and ambient mesh glows.
+        </p>
+        <div class="stage-artifact">⚡ src/components/ui/</div>
+      </div>
+
+      <!-- Stage 8 -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-num">STAGE 08</span>
+          <span class="badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981; border-color: rgba(16, 185, 129, 0.3);">EXECUTION</span>
+        </div>
+        <div class="stage-title">Deterministic Asset Binding</div>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          Openverse CC0 photography and Iconify Solar Duotone vector icons (zero broken links).
+        </p>
+        <div class="stage-artifact">⚡ src/assets/</div>
+      </div>
+
+      <!-- Stage 9 -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-num">STAGE 09</span>
+          <span class="badge" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b; border-color: rgba(245, 158, 11, 0.3);">QUALITY GATE</span>
+        </div>
+        <div class="stage-title">Playwright 5-Viewport Visual Gate</div>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          Automated multi-screen screenshots (1920, 1440, 768, 375, 667) with self-healing auto-fix.
+        </p>
+        <div class="stage-artifact">📸 .screenshots/*.png</div>
+      </div>
+
+      <!-- Stage 10 -->
+      <div class="stage-card">
+        <div class="stage-header">
+          <span class="stage-num">STAGE 10</span>
+          <span class="badge" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b; border-color: rgba(245, 158, 11, 0.3);">QUALITY GATE</span>
+        </div>
+        <div class="stage-title">AST Anti-Slop Audit & Handoff</div>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">
+          Scans code against slop patterns, verifies WCAG AA contrast flooring, and completes handoff.
+        </p>
+        <div class="stage-artifact">🛡️ audit-report.md</div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

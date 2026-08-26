@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZORIXEL - Micrographics Templates Showcase</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Mono&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #090909;
+      --bg-card: #151515;
+      --accent: #E5C384;
+      --text: #FFFAEE;
+      --text-muted: #888888;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg-dark);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      overflow-x: hidden;
+    }
+    
+    header {
+      padding: 40px;
+      border-bottom: 1px solid #222;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -1px;
+      color: var(--accent);
+    }
+    
+    .subtitle {
+      font-size: 16px;
+      color: var(--text-muted);
+      margin-top: 5px;
+    }
+    
+    .stats {
+      font-family: 'Space Mono', monospace;
+      font-size: 14px;
+      background: #111;
+      padding: 8px 16px;
+      border: 1px solid #333;
+      border-radius: 4px;
+    }
+    
+    .showcase-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 30px;
+      padding: 40px;
+    }
+    
+    .card-wrapper {
+      background: var(--bg-card);
+      border: 1px solid #222;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    
+    .card-wrapper:hover {
+      transform: translateY(-5px);
+      border-color: var(--accent);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+    
+    .card-header {
+      padding: 15px;
+      background: #1C1C1C;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #222;
+    }
+    
+    .card-num {
+      font-family: 'Space Mono', monospace;
+      font-weight: bold;
+      color: var(--text-muted);
+    }
+    
+    .card-actions {
+      display: flex;
+      gap: 10px;
+    }
+    
+    .action-btn {
+      background: #252525;
+      color: var(--text);
+      border: 1px solid #333;
+      padding: 5px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    
+    .action-btn:hover {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+    }
+    
+    .card-frame {
+      width: 1080px;
+      height: 1080px;
+      border: none;
+      transform: scale(0.324); /* Scales 1080px perfectly into ~350px width wrapper */
+      transform-origin: top left;
+    }
+    
+    /* Container size matched to scaled frame size */
+    .card-wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 480px;
+    }
+    
+    .frame-container {
+      flex-grow: 1;
+      overflow: hidden;
+      position: relative;
+      background: #000;
+    }
+    
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: var(--accent);
+      color: #000;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: 600;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 100;
+    }
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="logo">zorixel.</div>
+    <div class="subtitle">Micrographics Design Templates Collection (50 Layouts)</div>
+  </div>
+  <div class="stats">
+    Vault: For AIOS/Micrographics · Count: 50
+  </div>
+</header>
+
+<div class="showcase-grid">
+
+    <div class="card-wrapper" data-id="001">
+      <div class="card-header">
+        <span class="card-num">Layout 001</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/001.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('001')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/001.html" class="card-frame" title="Card 001"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="002">
+      <div class="card-header">
+        <span class="card-num">Layout 002</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/002.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('002')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/002.html" class="card-frame" title="Card 002"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="003">
+      <div class="card-header">
+        <span class="card-num">Layout 003</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/003.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('003')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/003.html" class="card-frame" title="Card 003"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="004">
+      <div class="card-header">
+        <span class="card-num">Layout 004</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/004.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('004')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/004.html" class="card-frame" title="Card 004"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="005">
+      <div class="card-header">
+        <span class="card-num">Layout 005</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/005.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('005')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/005.html" class="card-frame" title="Card 005"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="006">
+      <div class="card-header">
+        <span class="card-num">Layout 006</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/006.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('006')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/006.html" class="card-frame" title="Card 006"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="007">
+      <div class="card-header">
+        <span class="card-num">Layout 007</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/007.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('007')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/007.html" class="card-frame" title="Card 007"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="008">
+      <div class="card-header">
+        <span class="card-num">Layout 008</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/008.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('008')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/008.html" class="card-frame" title="Card 008"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="009">
+      <div class="card-header">
+        <span class="card-num">Layout 009</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/009.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('009')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/009.html" class="card-frame" title="Card 009"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="010">
+      <div class="card-header">
+        <span class="card-num">Layout 010</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/010.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('010')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/010.html" class="card-frame" title="Card 010"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="011">
+      <div class="card-header">
+        <span class="card-num">Layout 011</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/011.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('011')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/011.html" class="card-frame" title="Card 011"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="012">
+      <div class="card-header">
+        <span class="card-num">Layout 012</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/012.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('012')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/012.html" class="card-frame" title="Card 012"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="013">
+      <div class="card-header">
+        <span class="card-num">Layout 013</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/013.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('013')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/013.html" class="card-frame" title="Card 013"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="014">
+      <div class="card-header">
+        <span class="card-num">Layout 014</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/014.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('014')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/014.html" class="card-frame" title="Card 014"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="015">
+      <div class="card-header">
+        <span class="card-num">Layout 015</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/015.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('015')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/015.html" class="card-frame" title="Card 015"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="016">
+      <div class="card-header">
+        <span class="card-num">Layout 016</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/016.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('016')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/016.html" class="card-frame" title="Card 016"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="017">
+      <div class="card-header">
+        <span class="card-num">Layout 017</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/017.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('017')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/017.html" class="card-frame" title="Card 017"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="018">
+      <div class="card-header">
+        <span class="card-num">Layout 018</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/018.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('018')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/018.html" class="card-frame" title="Card 018"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="019">
+      <div class="card-header">
+        <span class="card-num">Layout 019</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/019.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('019')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/019.html" class="card-frame" title="Card 019"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="020">
+      <div class="card-header">
+        <span class="card-num">Layout 020</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/020.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('020')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/020.html" class="card-frame" title="Card 020"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="021">
+      <div class="card-header">
+        <span class="card-num">Layout 021</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/021.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('021')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/021.html" class="card-frame" title="Card 021"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="022">
+      <div class="card-header">
+        <span class="card-num">Layout 022</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/022.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('022')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/022.html" class="card-frame" title="Card 022"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="023">
+      <div class="card-header">
+        <span class="card-num">Layout 023</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/023.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('023')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/023.html" class="card-frame" title="Card 023"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="024">
+      <div class="card-header">
+        <span class="card-num">Layout 024</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/024.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('024')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/024.html" class="card-frame" title="Card 024"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="025">
+      <div class="card-header">
+        <span class="card-num">Layout 025</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/025.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('025')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/025.html" class="card-frame" title="Card 025"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="026">
+      <div class="card-header">
+        <span class="card-num">Layout 026</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/026.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('026')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/026.html" class="card-frame" title="Card 026"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="027">
+      <div class="card-header">
+        <span class="card-num">Layout 027</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/027.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('027')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/027.html" class="card-frame" title="Card 027"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="028">
+      <div class="card-header">
+        <span class="card-num">Layout 028</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/028.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('028')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/028.html" class="card-frame" title="Card 028"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="029">
+      <div class="card-header">
+        <span class="card-num">Layout 029</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/029.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('029')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/029.html" class="card-frame" title="Card 029"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="030">
+      <div class="card-header">
+        <span class="card-num">Layout 030</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/030.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('030')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/030.html" class="card-frame" title="Card 030"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="031">
+      <div class="card-header">
+        <span class="card-num">Layout 031</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/031.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('031')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/031.html" class="card-frame" title="Card 031"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="032">
+      <div class="card-header">
+        <span class="card-num">Layout 032</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/032.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('032')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/032.html" class="card-frame" title="Card 032"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="033">
+      <div class="card-header">
+        <span class="card-num">Layout 033</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/033.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('033')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/033.html" class="card-frame" title="Card 033"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="034">
+      <div class="card-header">
+        <span class="card-num">Layout 034</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/034.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('034')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/034.html" class="card-frame" title="Card 034"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="035">
+      <div class="card-header">
+        <span class="card-num">Layout 035</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/035.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('035')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/035.html" class="card-frame" title="Card 035"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="036">
+      <div class="card-header">
+        <span class="card-num">Layout 036</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/036.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('036')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/036.html" class="card-frame" title="Card 036"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="037">
+      <div class="card-header">
+        <span class="card-num">Layout 037</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/037.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('037')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/037.html" class="card-frame" title="Card 037"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="038">
+      <div class="card-header">
+        <span class="card-num">Layout 038</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/038.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('038')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/038.html" class="card-frame" title="Card 038"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="039">
+      <div class="card-header">
+        <span class="card-num">Layout 039</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/039.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('039')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/039.html" class="card-frame" title="Card 039"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="040">
+      <div class="card-header">
+        <span class="card-num">Layout 040</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/040.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('040')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/040.html" class="card-frame" title="Card 040"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="041">
+      <div class="card-header">
+        <span class="card-num">Layout 041</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/041.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('041')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/041.html" class="card-frame" title="Card 041"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="042">
+      <div class="card-header">
+        <span class="card-num">Layout 042</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/042.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('042')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/042.html" class="card-frame" title="Card 042"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="043">
+      <div class="card-header">
+        <span class="card-num">Layout 043</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/043.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('043')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/043.html" class="card-frame" title="Card 043"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="044">
+      <div class="card-header">
+        <span class="card-num">Layout 044</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/044.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('044')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/044.html" class="card-frame" title="Card 044"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="045">
+      <div class="card-header">
+        <span class="card-num">Layout 045</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/045.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('045')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/045.html" class="card-frame" title="Card 045"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="046">
+      <div class="card-header">
+        <span class="card-num">Layout 046</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/046.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('046')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/046.html" class="card-frame" title="Card 046"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="047">
+      <div class="card-header">
+        <span class="card-num">Layout 047</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/047.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('047')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/047.html" class="card-frame" title="Card 047"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="048">
+      <div class="card-header">
+        <span class="card-num">Layout 048</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/048.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('048')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/048.html" class="card-frame" title="Card 048"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="049">
+      <div class="card-header">
+        <span class="card-num">Layout 049</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/049.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('049')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/049.html" class="card-frame" title="Card 049"></iframe>
+    </div>
+
+
+    <div class="card-wrapper" data-id="050">
+      <div class="card-header">
+        <span class="card-num">Layout 050</span>
+        <div class="card-actions">
+          <a class="action-btn" href="html/050.html" target="_blank">Open Full</a>
+          <button class="action-btn copy-btn" onclick="copyCode('050')">Copy Code</button>
+        </div>
+      </div>
+      <iframe src="html/050.html" class="card-frame" title="Card 050"></iframe>
+    </div>
+
+</div>
+
+<div id="toast" class="toast">Code copied to clipboard!</div>
+
+<script>
+  // Simple utility to fix scaled viewport container heights
+  document.querySelectorAll('.card-wrapper').forEach(wrapper => {
+    const container = document.createElement('div');
+    container.className = 'frame-container';
+    const frame = wrapper.querySelector('.card-frame');
+    wrapper.replaceChild(container, frame);
+    container.appendChild(frame);
+  });
+  
+  function copyCode(name) {
+    const url = `html/${name}.html`;
+    fetch(url)
+      .then(res => res.text())
+      .then(text => {
+        navigator.clipboard.writeText(text);
+        showToast();
+      });
+  }
+  
+  function showToast() {
+    const t = document.getElementById('toast');
+    t.classList.add('show');
+    setTimeout(() => {
+      t.classList.remove('show');
+    }, 2000);
+  }
+</script>
+
+</body>
+</html>

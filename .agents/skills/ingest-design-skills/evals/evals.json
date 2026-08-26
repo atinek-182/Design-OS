@@ -1,0 +1,17 @@
+{
+  "skill_name": "ingest-design-skills",
+  "evals": [
+    {
+      "id": 1,
+      "name": "ingest-github-skills-repo",
+      "prompt": "Ingest this skills repo: https://github.com/someone/ui-skills, adapt it for Antigravity, and add it to my Design OS.",
+      "expected_output": "Clones repo, sanitizes YAML frontmatters, classifies tiers, updates skills-lock.json and README.md, and verifies 0 errors."
+    },
+    {
+      "id": 2,
+      "name": "adapt-codex-skill-for-gemini",
+      "prompt": "Here is a skill that was made for Fable 5. Adapt it for Gemini 3.7 Flash High with full 7-layer contract.",
+      "expected_output": "Updates SKILL.md with 7-layer contract, zero-placeholder rule, and React/Next.js/Vite recipes."
+    }
+  ]
+}

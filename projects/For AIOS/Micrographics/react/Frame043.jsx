@@ -1,0 +1,127 @@
+import React from 'react';
+
+export default function Frame043({
+  bgColor = '#181818',
+  text_1 = "NEUTRAL_01: HEX #F2F2F2 | RGB 242, 242, 242 | 5% K\nNEUTRAL_02: HEX #1A1A1A | RGB 26, 26, 26 | 90% K\nACCENT_01: HEX #FF3E00 | RGB 255, 62, 0 | 0/85/100/0\nLUMINANCE: 0.88 Y\nCONTRAST_RATIO: 21:1 [PASS_AAA]\n\nPRIMARY_FACE: ANTIQUE_OLIVE_NORD [OTF]\nPOINT_SIZE: 12.0pt / 120.0pt\nLEADING: 14.5pt [120%]\nTRACKING: -20 / 1000 em\nCAP_HEIGHT: 8.4mm\nX_HEIGHT: 5.2mm\nGLYPH_COUNT: 428 [EXTENDED_LATIN]\n\nFILE_FORMAT: .PDF/X-4:2010\nRESOLUTION: 2400 DPI [IMAGE_PULL: 300 PPI]\nCOLOR_SPACE: CMYK [FOGRA39]\nBLEED_LIMIT: 3.175mm [0.125in]\nBIT_DEPTH: 16-BIT_CHANNEL\nRENDER_INTENT: RELATIVE_COLORIMETRIC",
+  textColor_1 = '#FFFAEE',
+  text_2 = "01",
+  textColor_2 = '#FFFAEE',
+  text_3 = "DSGN\nDEPT",
+  textColor_3 = '#FFFAEE'
+}) {
+  return (
+    <div style={{
+      position: 'relative',
+      width: '1080.0px',
+      height: '1080.0px',
+      backgroundColor: bgColor,
+      overflow: 'hidden'
+    }}>
+      {/* Layer: NEUTRAL_01: HEX #F2F2F2 | RGB 242, 242, 242 | 5% K NEUTRAL_02: HEX #1A1A1A | RGB 26, 26, 26 | 90% K ACCENT_01: HEX #FF3E00 | RGB 255, 62, 0 | 0/85/100/0 LUMINANCE: 0.88 Y CONTRAST_RATIO: 21:1 [PASS_AAA] PRIMARY_FACE: ANTIQUE_OLIVE_NORD [OTF] POINT_SIZE: 12.0pt / 120.0pt LEADING: 14.5pt [120%] TRACKING: -20 / 1000 em CAP_HEIGHT: 8.4mm X_HEIGHT: 5.2mm GLYPH_COUNT: 428 [EXTENDED_LATIN] FILE_FORMAT: .PDF/X-4:2010 RESOLUTION: 2400 DPI [IMAGE_PULL: 300 PPI] COLOR_SPACE: CMYK [FOGRA39] BLEED_LIMIT: 3.175mm [0.125in] BIT_DEPTH: 16-BIT_CHANNEL RENDER_INTENT: RELATIVE_COLORIMETRIC */}
+      <div style={{
+        position: 'absolute',
+        left: '382.0px',
+        top: '303.5525007247925px',
+        width: '348.0px',
+        height: '360.0px',
+        
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-start'
+      }}>
+        <div style={{
+          display: 'block',
+          width: '100%',
+          fontFamily: "'42dot Sans', sans-serif",
+          fontSize: '15.0px',
+          fontWeight: 300,
+          lineHeight: '17.89499855041504px',
+          letterSpacing: '-0.6px',
+          color: textColor_1,
+          textAlign: 'left',
+          textAlignLast: 'auto',
+          whiteSpace: 'pre',
+          textTransform: 'none',
+          wordBreak: 'break-word'
+        }}>
+          {text_1}
+        </div>
+      </div>
+      {/* Layer: 01 */}
+      <div style={{
+        position: 'absolute',
+        left: '350.0px',
+        top: '394.8700866699219px',
+        width: '209.0px',
+        height: '350.0px',
+        
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-start'
+      }}>
+        <div style={{
+          display: 'block',
+          width: '100%',
+          fontFamily: "'DIN Condensed', 'Barlow Condensed', sans-serif",
+          fontSize: '291.29901123046875px',
+          fontWeight: 700,
+          lineHeight: '349.558837890625px',
+          letterSpacing: '-8.738970336914063px',
+          WebkitTextStroke: '4.109057903289795px #FFFAEE', color: '#FFFAEE',
+          textAlign: 'left',
+          textAlignLast: 'auto',
+          whiteSpace: 'nowrap',
+          textTransform: 'none',
+          wordBreak: 'break-word'
+        }}>
+          {text_2}
+        </div>
+      </div>
+      {/* Layer: DSGN DEPT */}
+      <div style={{
+        position: 'absolute',
+        left: '581.0px',
+        top: '677.0919065475464px',
+        width: '33.0px',
+        height: '34.0px',
+        
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-start'
+      }}>
+        <div style={{
+          display: 'block',
+          width: '100%',
+          fontFamily: "'IBM Plex Mono', sans-serif",
+          fontSize: '12.720626831054688px',
+          fontWeight: 700,
+          lineHeight: '16.536813735961914px',
+          letterSpacing: '0.6360313415527344px',
+          color: textColor_3,
+          textAlign: 'left',
+          textAlignLast: 'auto',
+          whiteSpace: 'pre',
+          textTransform: 'uppercase',
+          wordBreak: 'break-word'
+        }}>
+          {text_3}
+        </div>
+      </div>
+      {/* Layer Graphic: Vector */}
+      <svg style={{ position: 'absolute', left: '477.9224395751953px', top: '682.0px', width: '31.0px', height: '31.0px', overflow: 'visible' }} width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.74679 0H27.2531C29.319 0 31 1.68101 31 3.74694V27.253C31 29.3191 29.319 30.9999 27.2531 30.9999H3.74703C1.68085 30.9999 7.86336e-05 29.3189 7.86336e-05 27.253V3.74694C7.86336e-05 1.68077 1.68109 0 3.74703 0H3.74679ZM27.2531 2.12278H3.74703C2.85145 2.12278 2.12286 2.85137 2.12286 3.74694V10.9377H17.6949L11.1678 4.87202H14.2881L21.9518 11.997L15.169 18.3047H28.8772V3.74694C28.8772 2.85137 28.1486 2.12278 27.2531 2.12278ZM3.74679 28.8774H27.2531C28.1486 28.8774 28.8772 28.1488 28.8772 27.2532V20.4275H15.0539L21.581 26.4933H18.4607L10.797 19.3683L17.5798 13.0605H2.12239V27.253C2.12239 28.1486 2.85098 28.8771 3.74655 28.8771L3.74679 28.8774Z" fill="#FFFAEE"/>
+</svg>
+      {/* Layer Graphic: Vector */}
+      <svg style={{ position: 'absolute', left: '424.0px', top: '681.0px', width: '38.0px', height: '31.0px', overflow: 'visible' }} width="38" height="31" viewBox="0 0 38 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 0C8.52275 0 0 6.88191 0 15.3467C0 23.8116 8.52275 30.6935 19 30.6935C29.4773 30.6935 38.0001 23.8116 38.0001 15.3467C38.0001 6.88191 29.4773 0 19 0ZM18.1603 2.50471V8.2525C16.4567 8.22837 14.8062 8.12702 13.2523 7.96294C14.8545 5.55475 16.8573 3.62917 18.1603 2.50471ZM18.1603 9.83061V14.5601H10.7427C10.8875 12.7503 11.5052 11.0226 12.3594 9.44935C14.1837 9.67617 16.143 9.80648 18.1651 9.83543L18.1603 9.83061ZM18.1603 16.1334V20.8629C16.1382 20.8918 14.1789 21.0221 12.3546 21.249C11.5052 19.6757 10.8827 17.948 10.7427 16.1382H18.1603V16.1334ZM18.1603 22.4362V28.1888C16.8573 27.0643 14.8497 25.1387 13.2474 22.7306C14.8014 22.5617 16.4567 22.4603 18.1603 22.4362ZM19.8446 28.184V22.4362C21.5337 22.4603 23.1842 22.5665 24.7478 22.7402C23.1456 25.1436 21.1476 27.0643 19.8446 28.1888V28.184ZM19.8446 20.8581V16.1286H27.2622C27.1174 17.9431 26.4997 19.6709 25.6455 21.2441C23.8212 21.0173 21.8667 20.8822 19.8446 20.8532V20.8581ZM19.8446 14.5553V9.82578C21.8667 9.79682 23.8212 9.6617 25.6455 9.43487C26.4997 11.0082 27.1222 12.7407 27.2622 14.5505H19.8446V14.5553ZM19.8446 8.2525V2.50471C21.1476 3.62917 23.1456 5.54992 24.7478 7.95328C23.1842 8.12702 21.5337 8.22837 19.8446 8.25732V8.2525ZM21.4227 1.71324C25.6696 2.18619 29.4291 3.8946 32.1075 6.3607C30.6211 6.93017 28.7197 7.38864 26.5817 7.71198C24.9843 5.12041 22.9139 3.03074 21.4227 1.71324ZM11.4135 7.72646C9.27561 7.40312 7.38381 6.94465 5.88292 6.37035C8.56136 3.8946 12.3257 2.18619 16.5822 1.70841C15.091 3.03074 13.0158 5.12523 11.4184 7.72163L11.4135 7.72646ZM10.5979 9.19357C9.77269 10.8392 9.17909 12.6442 9.04879 14.5553H1.71324C1.89663 11.9878 2.968 9.60861 4.68607 7.60581C6.26418 8.2718 8.28628 8.81231 10.5979 9.19357ZM9.04879 16.1334C9.17909 18.0445 9.77269 19.8494 10.5979 21.4951C8.2911 21.8764 6.269 22.412 4.68607 23.0829C2.968 21.0801 1.89663 18.7008 1.71324 16.1334H9.04396H9.04879ZM11.4135 22.9622C13.0158 25.5586 15.0861 27.6531 16.5774 28.9754C12.3208 28.4977 8.55654 26.7892 5.87809 24.3135C7.38381 23.7392 9.27079 23.2807 11.4087 22.9574L11.4135 22.9622ZM26.5769 22.9767C28.7197 23.3 30.6163 23.7633 32.1027 24.328C29.4243 26.7941 25.6648 28.5025 21.4179 28.9754C22.9091 27.6531 24.9747 25.5634 26.5769 22.9767ZM27.4021 21.4999C28.2322 19.8494 28.8258 18.0445 28.9561 16.1286H36.2869C36.1035 18.7008 35.0273 21.0849 33.3044 23.0925C31.7311 22.4217 29.709 21.8812 27.4021 21.4999ZM28.9561 14.5553C28.8258 12.6442 28.2322 10.8344 27.4021 9.18392C29.709 8.80266 31.7263 8.26215 33.3044 7.59133C35.0273 9.59896 36.1035 11.983 36.2869 14.5553H28.9561Z" fill="#FFFAEE"/>
+</svg>
+      {/* Layer Graphic: Group 22 */}
+      <svg style={{ position: 'absolute', left: '524.0px', top: '681.0px', width: '41.0px', height: '30.0px', overflow: 'visible' }} width="41" height="30" viewBox="0 0 41 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.5 29.8599C9.19423 29.8599 0 23.1608 0 14.9276C0 6.69446 9.19423 0 20.5 0C31.8058 0 41 6.6992 41 14.9276C41 23.156 31.8058 29.8552 20.5 29.8552V29.8599ZM20.5 1.40612C9.97068 1.40612 1.40612 7.47564 1.40612 14.9276C1.40612 22.3796 9.97068 28.4491 20.5 28.4491C31.0293 28.4491 39.5939 22.3843 39.5939 14.9276C39.5939 7.47091 31.0293 1.40612 20.5 1.40612Z" fill="#FFFAEE"/>
+<path d="M31.8197 20.0206C28.8275 19.675 26.5219 17.5114 26.5219 14.9311C26.5219 12.3508 28.8228 10.1825 31.8197 9.84161V7.446C27.5019 7.81528 24.1405 11.0631 24.1405 14.9311C24.1405 18.7991 27.4972 22.0469 31.8197 22.4162V20.0206Z" fill="#FFFAEE"/>
+<path d="M23.6909 20.0206C20.6988 19.675 18.3931 17.5114 18.3931 14.9311C18.3931 12.3508 20.694 10.1825 23.6909 9.84161V7.446C19.3731 7.81528 16.0117 11.0631 16.0117 14.9311C16.0117 18.7991 19.3684 22.0469 23.6909 22.4162V20.0206Z" fill="#FFFAEE"/>
+<path d="M16.0118 20.0206C13.0196 19.675 10.714 17.5114 10.714 14.9311C10.714 12.3508 13.0149 10.1825 16.0118 9.84161V7.446C11.694 7.81528 8.33254 11.0631 8.33254 14.9311C8.33254 18.7991 11.6892 22.0469 16.0118 22.4162V20.0206Z" fill="#FFFAEE"/>
+</svg>
+    </div>
+  );
+}

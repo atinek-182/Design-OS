@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestalt Principles Demo</title>
+  <style>
+    body { background: #0a0e17; color: #f8fafc; font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
+    .card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 2rem; max-width: 480px; backdrop-filter: blur(12px); }
+    h2 { margin-top: 0; color: #38bdf8; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 1rem; }
+    .item { background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.3); padding: 1rem; border-radius: 8px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Gestalt Principles: Common Region & Proximity</h2>
+    <p>Grouped interactive items sharing boundary and spatial cadence.</p>
+    <div class="grid">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+  </div>
+</body>
+</html>

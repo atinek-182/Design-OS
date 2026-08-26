@@ -1,0 +1,26 @@
+{
+  "id": "cosmos-brutalist",
+  "name": "Cosmos Warm Neo-Brutalist Grid",
+  "category": "warm-editorial",
+  "tags": ["warm-beige", "crisp-black-borders", "asymmetric-grid", "tactile-buttons", "monospaced-indices"],
+  "tokens": {
+    "backgroundBase": "oklch(0.95 0.02 85)",
+    "backgroundSurface": "oklch(0.98 0.01 85)",
+    "borderStrong": "oklch(0.18 0.02 85)",
+    "textPrimary": "oklch(0.15 0.02 85)",
+    "fontDisplay": "'Editorial New', 'Playfair Display', serif",
+    "fontBody": "'Neue Haas Grotesk', 'Inter', sans-serif",
+    "fontMono": "'Space Mono', monospace"
+  },
+  "layoutPattern": "High-contrast tactile grid with exposed structural 1px solid borders and editorial serif headlines",
+  "motionPhysics": {
+    "revealEase": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "hoverOffset": "translate(-3px, -3px)",
+    "activeOffset": "translate(0px, 0px)"
+  },
+  "keyTechniques": [
+    "Warm neutral parchment shells with crisp structural borders",
+    "Physical offset button shadows (3px solid black depth)",
+    "Monospaced numbered index labels (`01/`, `02/`, `03/`)"
+  ]
+}

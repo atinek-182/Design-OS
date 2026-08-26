@@ -1,0 +1,26 @@
+{
+  "id": "linear-tech",
+  "name": "Linear Dark Precision Engineering",
+  "category": "technical-dark",
+  "tags": ["dark-mode", "bento-grid", "subtle-borders", "micro-labels", "specular-highlights"],
+  "tokens": {
+    "backgroundBase": "oklch(0.12 0.015 260)",
+    "backgroundSurface": "oklch(0.16 0.02 260)",
+    "borderSubtle": "oklch(0.24 0.02 260 / 0.4)",
+    "borderHighlight": "linear-gradient(to bottom right, oklch(1 0 0 / 0.15), oklch(1 0 0 / 0.02))",
+    "fontDisplay": "'Space Grotesk', -apple-system, sans-serif",
+    "fontMono": "'JetBrains Mono', monospace"
+  },
+  "layoutPattern": "Asymmetrical 4-cell Bento Grid with sticky navigation and compact micro-data metrics",
+  "motionPhysics": {
+    "revealEase": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "revealDuration": 0.85,
+    "staggerOffset": 0.08,
+    "hoverScale": 0.985
+  },
+  "keyTechniques": [
+    "1px gradient borders with radial mouse spotlight tracking",
+    "Monospace utility badges and status indicators",
+    "Layered dark surface depth without heavy drop shadows"
+  ]
+}

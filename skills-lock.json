@@ -1,0 +1,1146 @@
+{
+  "version": 1,
+  "skills": {
+    "animate": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/animate/SKILL.md",
+      "computedHash": "609e30351bf518b21a8cfe87cd1111554855527075d6563605bafe61963252f7"
+    },
+    "animate-expo": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/animate-expo/SKILL.md",
+      "computedHash": "c9eaf6603b97ca61b05c7561e1045b2f58b6d84cdf8d67565bff23a9ff94ce8a"
+    },
+    "animation-vocabulary": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/animation-vocabulary/SKILL.md",
+      "computedHash": "39319fc9a33c15be08666b3685f58666f042ff36bb902b7814c0834a5ba99df4"
+    },
+    "apple-design": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/apple-design/SKILL.md",
+      "computedHash": "8b94db67cb9edaad5f1501010804caa610131f1d2dfda0a27664b2e858deade3"
+    },
+    "ask-sonner": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ask-sonner/SKILL.md",
+      "computedHash": "23f724e97247b2003ccc479f3a9b3af8e4191a0e133b94ee6b73f8405349687f"
+    },
+    "emil-design-eng": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/emil-design-eng/SKILL.md",
+      "computedHash": "41b0a4dc1a27164fe297845a6c6850a39e9242c42c9be999967fcee9df2c5974"
+    },
+    "find-animation-opportunities": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-animation-opportunities/SKILL.md",
+      "computedHash": "8fb8492eb8fbed1313cb430b5831d925d9b8964ca24f3c41a6244cbd1fd98732"
+    },
+    "improve-animations": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/improve-animations/SKILL.md",
+      "computedHash": "eeb219a407e325b687af88db25771cc3018e3148245604112f5ac6990b6fd79c"
+    },
+    "pick-ui-library": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pick-ui-library/SKILL.md",
+      "computedHash": "f8d4d2cf4677bf54b14f35f62a741add93541bfcb67863315a40164365161b49"
+    },
+    "prototype": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/prototype/SKILL.md",
+      "computedHash": "f246d1f47566481d9207e1aa574bdee5454257d862919a6591283e9af2f57eab"
+    },
+    "review-animations": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/review-animations/SKILL.md",
+      "computedHash": "b9f669af5ae280c19a592a94611520335a81de25c88f225bf60ae4b2d66c8c7c"
+    },
+    "write-swift": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/write-swift/SKILL.md",
+      "computedHash": "ccbb74cac81765fcf2912ceba8d188fddbd75393ecb808aa1a4f6f58d9c2c828"
+    },
+    "web-design-engineer": {
+      "source": "ConardLi/garden-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-engineer/SKILL.md",
+      "computedHash": "00633aa430281e9921c35bb181ab233879d2a21e999d605fc330258a54e26df1"
+    },
+    "build-awwwards-quality-sites": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 1,
+      "skillPath": "skills/build-awwwards-quality-sites/SKILL.md",
+      "installedAt": "2026-08-25T05:17:31.558Z"
+    },
+    "cinematic-gsap-lenis-motion-system": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 1,
+      "skillPath": "skills/cinematic-gsap-lenis-motion-system/SKILL.md",
+      "installedAt": "2026-08-25T05:17:33.716Z"
+    },
+    "liquid-metal-border": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 1,
+      "skillPath": "skills/liquid-metal-border/SKILL.md",
+      "installedAt": "2026-08-25T05:17:34.859Z"
+    },
+    "editorial-tech": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 1,
+      "skillPath": "skills/editorial-tech/SKILL.md",
+      "installedAt": "2026-08-25T05:17:39.249Z"
+    },
+    "beautiful-shadows": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 1,
+      "skillPath": "skills/beautiful-shadows/SKILL.md",
+      "installedAt": "2026-08-25T05:17:42.445Z"
+    },
+    "progressive-blur": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 1,
+      "skillPath": "skills/progressive-blur/SKILL.md",
+      "installedAt": "2026-08-25T05:18:04.708Z"
+    },
+    "cobejs": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 1,
+      "skillPath": "skills/cobejs/SKILL.md",
+      "installedAt": "2026-08-25T05:18:07.212Z"
+    },
+    "design-first-ui-prompting": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "ui",
+      "tier": 1,
+      "skillPath": "skills/design-first-ui-prompting/SKILL.md",
+      "installedAt": "2026-08-25T05:18:10.330Z"
+    },
+    "glass-dark-ui": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/glass-dark-ui/SKILL.md",
+      "installedAt": "2026-08-25T05:18:12.541Z"
+    },
+    "dither-background": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/dither-background/SKILL.md",
+      "installedAt": "2026-08-25T05:18:15.366Z"
+    },
+    "mesh-gradient-dark-blue-clean": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/mesh-gradient-dark-blue-clean/SKILL.md",
+      "installedAt": "2026-08-25T05:18:20.957Z"
+    },
+    "solar-duotone-bold": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/solar-duotone-bold/SKILL.md",
+      "installedAt": "2026-08-25T05:18:27.758Z"
+    },
+    "clean-minimal-beige-light-mode": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/clean-minimal-beige-light-mode/SKILL.md",
+      "installedAt": "2026-08-25T05:18:38.831Z"
+    },
+    "high-contrast-skeuomorphic-clean": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/high-contrast-skeuomorphic-clean/SKILL.md",
+      "installedAt": "2026-08-25T05:18:48.460Z"
+    },
+    "add-shader-cursor-trail": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/add-shader-cursor-trail/SKILL.md",
+      "installedAt": "2026-08-25T05:18:52.104Z"
+    },
+    "shaders-cursor-ripples": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/shaders-cursor-ripples/SKILL.md",
+      "installedAt": "2026-08-25T05:18:54.245Z"
+    },
+    "matterjs": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/matterjs/SKILL.md",
+      "installedAt": "2026-08-25T05:18:56.208Z"
+    },
+    "css-border-gradient": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/css-border-gradient/SKILL.md",
+      "installedAt": "2026-08-25T05:19:03.268Z"
+    },
+    "beam-glow-states": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/beam-glow-states/SKILL.md",
+      "installedAt": "2026-08-25T05:19:05.221Z"
+    },
+    "staggered-word-reveal": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "web-design",
+      "tier": 2,
+      "skillPath": "skills/staggered-word-reveal/SKILL.md",
+      "installedAt": "2026-08-25T05:19:07.922Z"
+    },
+    "video-to-superprompt": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "codex",
+      "tier": 3,
+      "skillPath": "skills/video-to-superprompt/SKILL.md",
+      "installedAt": "2026-08-25T05:19:11.948Z"
+    },
+    "html-to-interaction-prompts": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "codex",
+      "tier": 3,
+      "skillPath": "skills/html-to-interaction-prompts/SKILL.md",
+      "installedAt": "2026-08-25T05:19:16.896Z"
+    },
+    "daily-ui-inspiration-capture": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "codex",
+      "tier": 3,
+      "skillPath": "skills/daily-ui-inspiration-capture/SKILL.md",
+      "installedAt": "2026-08-25T05:19:20.080Z"
+    },
+    "web-technique-to-skill": {
+      "source": "MengTo/Skills",
+      "sourceType": "github",
+      "category": "codex",
+      "tier": 3,
+      "skillPath": "skills/web-technique-to-skill/SKILL.md",
+      "installedAt": "2026-08-25T05:19:24.195Z"
+    },
+    "ingest-design-skills": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/ingest-design-skills/SKILL.md",
+      "installedAt": "2026-08-25T05:24:11.496Z"
+    },
+    "better-accessibility": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/better-accessibility/SKILL.md",
+      "installedAt": "2026-08-25T05:32:38.361Z",
+      "tier": 4
+    },
+    "better-colors": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/better-colors/SKILL.md",
+      "installedAt": "2026-08-25T05:32:38.362Z",
+      "tier": 4
+    },
+    "better-interface": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/better-interface/SKILL.md",
+      "installedAt": "2026-08-25T05:32:38.362Z",
+      "tier": 4
+    },
+    "better-layout": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/better-layout/SKILL.md",
+      "installedAt": "2026-08-25T05:32:38.363Z",
+      "tier": 4
+    },
+    "better-typography": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/better-typography/SKILL.md",
+      "installedAt": "2026-08-25T05:32:38.363Z",
+      "tier": 4
+    },
+    "better-ui": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/better-ui/SKILL.md",
+      "installedAt": "2026-08-25T05:32:38.363Z",
+      "tier": 4
+    },
+    "better-writing": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/better-writing/SKILL.md",
+      "installedAt": "2026-08-25T05:32:38.363Z",
+      "tier": 4
+    },
+    "break": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/break/SKILL.md",
+      "installedAt": "2026-08-25T05:32:38.363Z",
+      "tier": 4
+    },
+    "explain-interface": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/explain-interface/SKILL.md",
+      "installedAt": "2026-08-25T05:32:38.365Z",
+      "tier": 4
+    },
+    "interface-review": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/interface-review/SKILL.md",
+      "installedAt": "2026-08-25T05:32:38.366Z",
+      "tier": 4
+    },
+    "variant": {
+      "source": "jakubkrehel/skills",
+      "sourceType": "github",
+      "skillPath": "skills/variant/SKILL.md",
+      "installedAt": "2026-08-25T05:32:38.367Z",
+      "tier": 4
+    },
+    "ideagram": {
+      "source": "codeswithroh/tastemaker",
+      "sourceType": "github",
+      "skillPath": "skills/ideagram/SKILL.md",
+      "installedAt": "2026-08-25T06:11:30.504Z",
+      "tier": 4
+    },
+    "tastemaker": {
+      "source": "codeswithroh/tastemaker",
+      "sourceType": "github",
+      "skillPath": "skills/tastemaker/SKILL.md",
+      "installedAt": "2026-08-25T06:11:30.506Z",
+      "tier": 4
+    },
+    "a-b-test-design": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/a-b-test-design/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.806Z"
+    },
+    "accessibility-test-plan": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/accessibility-test-plan/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.807Z"
+    },
+    "aesthetic-usability": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/aesthetic-usability/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.807Z"
+    },
+    "affinity-diagram": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/affinity-diagram/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.807Z"
+    },
+    "business-design": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/business-design/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.811Z"
+    },
+    "card-sort-analysis": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/card-sort-analysis/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.811Z"
+    },
+    "case-study": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/case-study/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.811Z"
+    },
+    "click-test-plan": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/click-test-plan/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.812Z"
+    },
+    "competitive-analysis": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/competitive-analysis/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.812Z"
+    },
+    "component-spec": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/component-spec/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.812Z"
+    },
+    "content-strategy": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/content-strategy/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.813Z"
+    },
+    "conversational-ux": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/conversational-ux/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.813Z"
+    },
+    "data-visualization": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/data-visualization/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.813Z"
+    },
+    "design-brief": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-brief/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.813Z"
+    },
+    "design-critique": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-critique/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.813Z"
+    },
+    "design-debt-audit": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-debt-audit/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.813Z"
+    },
+    "design-impact-reporting": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-impact-reporting/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.814Z"
+    },
+    "design-negotiation": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-negotiation/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.814Z"
+    },
+    "design-principles": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/design-principles/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.814Z"
+    },
+    "design-rationale": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-rationale/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.814Z"
+    },
+    "design-review-process": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-review-process/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.814Z"
+    },
+    "design-sprint-plan": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-sprint-plan/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.814Z"
+    },
+    "design-system-adoption": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-system-adoption/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.814Z"
+    },
+    "design-system-governance": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-system-governance/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.814Z"
+    },
+    "design-token": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-token/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.815Z"
+    },
+    "design-token-audit": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/design-token-audit/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.815Z"
+    },
+    "diary-study-plan": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/diary-study-plan/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.815Z"
+    },
+    "documentation-template": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/documentation-template/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.815Z"
+    },
+    "doherty-threshold": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/doherty-threshold/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.815Z"
+    },
+    "empathy-map": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/empathy-map/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.816Z"
+    },
+    "error-handling-ux": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/error-handling-ux/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.817Z"
+    },
+    "experience-map": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/experience-map/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.817Z"
+    },
+    "fitts-law": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/fitts-law/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.817Z"
+    },
+    "form-design": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/form-design/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.818Z"
+    },
+    "gesture-patterns": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gesture-patterns/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.818Z"
+    },
+    "handoff-spec": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/handoff-spec/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.819Z"
+    },
+    "hicks-law": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/hicks-law/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.819Z"
+    },
+    "illustration-style": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/illustration-style/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.820Z"
+    },
+    "information-architecture": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/information-architecture/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.820Z"
+    },
+    "interfaces-that-feel": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/interfaces-that-feel/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.820Z"
+    },
+    "interview-script": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/interview-script/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.821Z"
+    },
+    "jakobs-law": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/jakobs-law/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.821Z"
+    },
+    "jobs-to-be-done": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/jobs-to-be-done/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.821Z"
+    },
+    "journey-map": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/journey-map/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.822Z"
+    },
+    "law-of-closure": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/law-of-closure/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.822Z"
+    },
+    "law-of-common-region": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/law-of-common-region/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.822Z"
+    },
+    "law-of-continuity": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/law-of-continuity/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.823Z"
+    },
+    "law-of-figure-ground": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/law-of-figure-ground/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.823Z"
+    },
+    "law-of-proximity": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/law-of-proximity/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.823Z"
+    },
+    "law-of-similarity": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/law-of-similarity/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.823Z"
+    },
+    "localization-design": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/localization-design/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.824Z"
+    },
+    "metrics-definition": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/metrics-definition/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.824Z"
+    },
+    "millers-law": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/millers-law/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.824Z"
+    },
+    "naming-convention": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/naming-convention/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.825Z"
+    },
+    "navigation-patterns": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/navigation-patterns/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.825Z"
+    },
+    "north-star-vision": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/north-star-vision/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.825Z"
+    },
+    "onboarding-design": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/onboarding-design/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.825Z"
+    },
+    "opportunity-framework": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/opportunity-framework/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.825Z"
+    },
+    "pattern-library": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/pattern-library/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.825Z"
+    },
+    "peak-end-rule": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/peak-end-rule/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.825Z"
+    },
+    "platform-conventions": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/platform-conventions/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.826Z"
+    },
+    "presentation-deck": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/presentation-deck/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.826Z"
+    },
+    "research-repository": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/research-repository/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.826Z"
+    },
+    "search-ux": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/search-ux/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.826Z"
+    },
+    "serial-position-effect": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/serial-position-effect/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.826Z"
+    },
+    "service-blueprint": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/service-blueprint/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.826Z"
+    },
+    "stakeholder-alignment": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/stakeholder-alignment/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.827Z"
+    },
+    "state-machine": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/state-machine/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.827Z"
+    },
+    "summarize-interview": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/summarize-interview/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.827Z"
+    },
+    "survey-design": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/survey-design/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.827Z"
+    },
+    "team-workflow": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/team-workflow/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.828Z"
+    },
+    "teslers-law": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/teslers-law/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.828Z"
+    },
+    "test-scenario": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/test-scenario/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.828Z"
+    },
+    "theming-system": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/theming-system/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.828Z"
+    },
+    "usability-test-plan": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/usability-test-plan/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.828Z"
+    },
+    "user-flow-diagram": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/user-flow-diagram/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.828Z"
+    },
+    "user-persona": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/user-persona/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.828Z"
+    },
+    "version-control-strategy": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/version-control-strategy/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.829Z"
+    },
+    "von-restorff-effect": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/von-restorff-effect/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.830Z"
+    },
+    "wireframe-spec": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/wireframe-spec/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.831Z"
+    },
+    "workflow-audit-system": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-audit-system/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.831Z"
+    },
+    "workflow-benchmark": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-benchmark/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.831Z"
+    },
+    "workflow-build-presentation": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-build-presentation/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.831Z"
+    },
+    "workflow-color-palette": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-color-palette/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.831Z"
+    },
+    "workflow-create-component": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-create-component/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.831Z"
+    },
+    "workflow-critique-screen": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-critique-screen/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.831Z"
+    },
+    "workflow-critique-ux": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-critique-ux/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.832Z"
+    },
+    "workflow-design-form": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-design-form/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.832Z"
+    },
+    "workflow-design-interaction": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-design-interaction/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.832Z"
+    },
+    "workflow-design-onboarding": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-design-onboarding/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.832Z"
+    },
+    "workflow-design-screen": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-design-screen/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.832Z"
+    },
+    "workflow-discover": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-discover/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.832Z"
+    },
+    "workflow-error-flow": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-error-flow/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.832Z"
+    },
+    "workflow-evaluate": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-evaluate/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.832Z"
+    },
+    "workflow-experiment": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-experiment/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.832Z"
+    },
+    "workflow-frame-problem": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-frame-problem/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.833Z"
+    },
+    "workflow-handoff": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-handoff/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.833Z"
+    },
+    "workflow-interview": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-interview/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.833Z"
+    },
+    "workflow-map-states": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-map-states/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.833Z"
+    },
+    "workflow-plan-sprint": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-plan-sprint/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.833Z"
+    },
+    "workflow-platform-audit": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-platform-audit/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.833Z"
+    },
+    "workflow-prototype-plan": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-prototype-plan/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.833Z"
+    },
+    "workflow-responsive-audit": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-responsive-audit/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.833Z"
+    },
+    "workflow-setup-workflow": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-setup-workflow/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.833Z"
+    },
+    "workflow-strategize": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-strategize/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.833Z"
+    },
+    "workflow-synthesize": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-synthesize/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.834Z"
+    },
+    "workflow-test-plan": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-test-plan/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.834Z"
+    },
+    "workflow-tokenize": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-tokenize/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.834Z"
+    },
+    "workflow-type-system": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-type-system/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.834Z"
+    },
+    "workflow-write-case-study": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-write-case-study/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.834Z"
+    },
+    "workflow-write-rationale": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/workflow-write-rationale/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.834Z"
+    },
+    "zeigarnik-effect": {
+      "source": "Owl-Listener/designer-skills",
+      "sourceType": "github",
+      "skillPath": "skills/zeigarnik-effect/SKILL.md",
+      "installedAt": "2026-08-25T06:23:00.834Z"
+    },
+    "behavioral-ux-effects": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/behavioral-ux-effects/SKILL.md",
+      "installedAt": "2026-08-25T06:48:20.299Z"
+    },
+    "cognitive-ux-laws": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/cognitive-ux-laws/SKILL.md",
+      "installedAt": "2026-08-25T06:48:20.302Z"
+    },
+    "gestalt-principles": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/gestalt-principles/SKILL.md",
+      "installedAt": "2026-08-25T06:48:20.306Z"
+    },
+    "shader-cursor-effects": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/shader-cursor-effects/SKILL.md",
+      "installedAt": "2026-08-25T06:48:20.311Z"
+    },
+    "user-interviews": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/user-interviews/SKILL.md",
+      "installedAt": "2026-08-25T06:48:20.312Z"
+    },
+    "design-os": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/design-os/SKILL.md",
+      "installedAt": "2026-08-25T07:21:40.520Z"
+    },
+    "gsap-scrolltrigger": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-scrolltrigger/SKILL.md",
+      "installedAt": "2026-08-25T08:00:41.540Z"
+    },
+    "gsap-timeline": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-timeline/SKILL.md",
+      "installedAt": "2026-08-25T08:00:41.541Z"
+    },
+    "mobile-app-ui-design": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/mobile-app-ui-design/SKILL.md",
+      "installedAt": "2026-08-25T08:00:41.543Z"
+    },
+    "sound-design-ux": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/sound-design-ux/SKILL.md",
+      "installedAt": "2026-08-25T08:00:41.545Z"
+    },
+    "tailwind-4-docs": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/tailwind-4-docs/SKILL.md",
+      "installedAt": "2026-08-25T08:00:41.546Z"
+    },
+    "threejs-interaction": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-interaction/SKILL.md",
+      "installedAt": "2026-08-25T08:00:41.546Z"
+    },
+    "threejs-postprocessing": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-postprocessing/SKILL.md",
+      "installedAt": "2026-08-25T08:00:41.546Z"
+    },
+    "threejs-shaders": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-shaders/SKILL.md",
+      "installedAt": "2026-08-25T08:00:41.546Z"
+    },
+    "visual-regression-gate": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/visual-regression-gate/SKILL.md",
+      "installedAt": "2026-08-25T08:00:41.547Z"
+    },
+    "flagship-project-init": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/flagship-project-init/SKILL.md",
+      "installedAt": "2026-08-26T05:50:21.409Z"
+    },
+    "vibesec": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/vibesec/SKILL.md",
+      "installedAt": "2026-08-26T06:01:47.607Z"
+    }
+  }
+}

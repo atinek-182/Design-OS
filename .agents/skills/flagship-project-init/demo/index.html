@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flagship Project Init: 24-Chat Interactive Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #07090e;
+      --surface: #0f141f;
+      --elevated: #161e30;
+      --border: rgba(255, 255, 255, 0.08);
+      --border-active: #3b82f6;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-glow: rgba(56, 189, 248, 0.15);
+      --green: #10b981;
+      --gold: #f59e0b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 2.5rem;
+      overflow-x: hidden;
+    }
+    header {
+      max-width: 1200px;
+      margin: 0 auto 2.5rem;
+      width: 100%;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    h1 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.75rem;
+      background: linear-gradient(135deg, #ffffff 40%, var(--muted) 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p.lead {
+      color: var(--muted);
+      font-size: 1.1rem;
+      max-width: 720px;
+      line-height: 1.6;
+    }
+    .resume-box {
+      margin-top: 1.5rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .resume-code {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--accent);
+      font-size: 0.95rem;
+    }
+    .copy-btn {
+      background: var(--accent);
+      color: #07090e;
+      border: none;
+      font-weight: 700;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+    .copy-btn:active { transform: scale(0.96); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .wave-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      position: relative;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    .wave-card:hover {
+      border-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-2px);
+    }
+    .wave-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.75rem;
+    }
+    .wave-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .phase-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+    .phase-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--elevated);
+      padding: 0.6rem 0.85rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+    }
+    .phase-name {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .phase-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--accent);
+      background: rgba(56, 189, 248, 0.1);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+    }
+    .status-pill {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.5rem;
+      border-radius: 999px;
+    }
+    .status-pill.active {
+      background: rgba(245, 158, 11, 0.2);
+      color: var(--gold);
+    }
+    .status-pill.pending {
+      background: rgba(148, 163, 184, 0.1);
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">[SYSTEM] ANTIGRAVITY DESIGN OS: MASTER WORKFLOW</div>
+    <h1>24-Chat Digital Flagship Engine</h1>
+    <p class="lead">Autonomous, multi-session scaffolding system with Socratic intra-phase discovery (/grill-me), pre-write adversarial stress-testing (/roast), hard blast-radius gatekeeping, and zero command memorization.</p>
+    <div class="resume-box">
+      <div>
+        <div style="font-size: 0.8rem; color: var(--muted); margin-bottom: 0.25rem;">Universal Single-Anchor Resume Directive:</div>
+        <div class="resume-code" id="resumeCode">Resume project at projects/Websites/[project-name]. Read RESUME.md, run vibesec pre-flight, and execute the active phase.</div>
+      </div>
+      <button class="copy-btn" type="button" id="copyPromptBtn">Copy Prompt</button>
+    </div>
+  </header>
+
+  <main class="grid">
+    <div class="wave-card">
+      <div class="wave-header">
+        <div class="wave-title">Wave 1: Strategic Discovery</div>
+        <span class="status-pill active">Chats 01-04</span>
+      </div>
+      <ul class="phase-list">
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">1.1</span> Problem &amp; Value Prop</span><span class="status-pill active">Active</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">1.2</span> Personas &amp; Mental Models</span><span class="status-pill pending">Chat 02</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">1.3</span> Competitive Moats &amp; KPIs</span><span class="status-pill pending">Chat 03</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">1.4</span> Tech Stack &amp; Standards</span><span class="status-pill pending">Chat 04</span></li>
+      </ul>
+    </div>
+
+    <div class="wave-card">
+      <div class="wave-header">
+        <div class="wave-title">Wave 2: Mood Lock</div>
+        <span class="status-pill pending">Chats 05-06</span>
+      </div>
+      <ul class="phase-list">
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">2.1</span> Reference Deconstruction</span><span class="status-pill pending">Chat 05</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">2.3</span> Style-Lock Contract</span><span class="status-pill pending">Chat 06</span></li>
+      </ul>
+    </div>
+
+    <div class="wave-card">
+      <div class="wave-header">
+        <div class="wave-title">Wave 3: Architecture &amp; Spatial</div>
+        <span class="status-pill pending">Chats 07-08</span>
+      </div>
+      <ul class="phase-list">
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">3.1</span> Content Strategy &amp; Sitemap</span><span class="status-pill pending">Chat 07</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">3.4</span> Spatial Wireframing &amp; Rhythm</span><span class="status-pill pending">Chat 08</span></li>
+      </ul>
+    </div>
+
+    <div class="wave-card">
+      <div class="wave-header">
+        <div class="wave-title">Wave 4: Mathematical Tokens</div>
+        <span class="status-pill pending">Chats 09-10</span>
+      </div>
+      <ul class="phase-list">
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">4.1</span> OKLCH Contrast Matrix</span><span class="status-pill pending">Chat 09</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">4.3</span> Fluid Typography Scales</span><span class="status-pill pending">Chat 10</span></li>
+      </ul>
+    </div>
+
+    <div class="wave-card">
+      <div class="wave-header">
+        <div class="wave-title">Wave 5: Macrostructure &amp; Surfaces</div>
+        <span class="status-pill pending">Chats 11-14</span>
+      </div>
+      <ul class="phase-list">
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">5.1</span> Obys Grid &amp; Layout</span><span class="status-pill pending">Chat 11</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">5.4</span> UI Component Manifest</span><span class="status-pill pending">Chat 12</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">6.1</span> Elevation &amp; Borders</span><span class="status-pill pending">Chat 13</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">6.3</span> Shaders &amp; Noise Canvas</span><span class="status-pill pending">Chat 14</span></li>
+      </ul>
+    </div>
+
+    <div class="wave-card">
+      <div class="wave-header">
+        <div class="wave-title">Wave 6: Motion, Physics &amp; Assets</div>
+        <span class="status-pill pending">Chats 15-20</span>
+      </div>
+      <ul class="phase-list">
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">7.1</span> Atomic Components</span><span class="status-pill pending">Chat 15</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">7.3</span> Form UX &amp; Feedback</span><span class="status-pill pending">Chat 16</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">8.1</span> Lenis &amp; Scrollytelling</span><span class="status-pill pending">Chat 17</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">8.3</span> Kinetic Typo Reveals</span><span class="status-pill pending">Chat 18</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">8.4</span> WebGL FX &amp; Canvas</span><span class="status-pill pending">Chat 19</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">9.1</span> Sanitized Vectors &amp; CC0</span><span class="status-pill pending">Chat 20</span></li>
+      </ul>
+    </div>
+
+    <div class="wave-card">
+      <div class="wave-header">
+        <div class="wave-title">Wave 7: Edge Hardening &amp; Handoff</div>
+        <span class="status-pill pending">Chats 21-24</span>
+      </div>
+      <ul class="phase-list">
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">10.1</span> Destructive 320px Stress</span><span class="status-pill pending">Chat 21</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">11.1</span> Playwright 5-Viewport QA</span><span class="status-pill pending">Chat 22</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">11.3</span> Anti-Slop AST Audit</span><span class="status-pill pending">Chat 23</span></li>
+        <li class="phase-item"><span class="phase-name"><span class="phase-tag">12.1</span> Technical SEO &amp; Sign-off</span><span class="status-pill pending">Chat 24</span></li>
+      </ul>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      var copyBtn = document.getElementById('copyPromptBtn');
+      var resumeCode = document.getElementById('resumeCode');
+      if (copyBtn && resumeCode) {
+        copyBtn.addEventListener('click', function () {
+          navigator.clipboard.writeText(resumeCode.innerText.trim()).then(function () {
+            var originalText = copyBtn.innerText;
+            copyBtn.innerText = 'Copied!';
+            setTimeout(function () {
+              copyBtn.innerText = originalText;
+            }, 2000);
+          }).catch(function (err) {
+            console.error('Failed to copy: ', err);
+          });
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
