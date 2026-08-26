@@ -74,3 +74,6 @@ pnpm-debug.log*
 **/secrets.json
 **/credentials.json
 **/service-account*.json
+
+# Projects
+projects/
