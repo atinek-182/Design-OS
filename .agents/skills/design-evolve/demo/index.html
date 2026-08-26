@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Evolve: Meta-Learning & Synchronous Git OS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #07090e;
+      --surface: #0f141f;
+      --elevated: #161e30;
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --green: #10b981;
+      --amber: #f59e0b;
+      --purple: #a855f7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      padding: 2.5rem;
+    }
+    .container { max-width: 1000px; margin: 0 auto; }
+    .badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--accent);
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #ffffff 40%, var(--muted) 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p.subtitle {
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+    }
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .pill {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+    }
+    .pill-green { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+    .pill-accent { background: rgba(56, 189, 248, 0.15); color: var(--accent); }
+    .pill-purple { background: rgba(168, 85, 247, 0.15); color: var(--purple); }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.88rem; color: var(--muted); }
+    .step-item { display: flex; align-items: center; gap: 0.5rem; }
+    .step-marker { font-family: 'JetBrains Mono', monospace; color: var(--accent); font-weight: 700; }
+    .action-bar {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .cmd-text { font-family: 'JetBrains Mono', monospace; color: var(--accent); font-size: 0.95rem; }
+    .btn {
+      background: var(--accent);
+      color: #07090e;
+      border: none;
+      font-weight: 700;
+      padding: 0.55rem 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">[META-LEARNING OS]</div>
+    <h1>Design Evolve Dashboard</h1>
+    <p class="subtitle">Autonomous retrospective mining, multi-tier living rule compounding, and race-free synchronous git operations.</p>
+
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">
+          <span>Tier 1: Active Project</span>
+          <span class="pill pill-green">[PASS]</span>
+        </div>
+        <ul class="step-list">
+          <li class="step-item"><span class="step-marker">-></span> Patches active project tokens &amp; context</li>
+          <li class="step-item"><span class="step-marker">-></span> Resolves live compile warnings</li>
+          <li class="step-item"><span class="step-marker">-></span> Updates progress tracker &amp; specs</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          <span>Tier 2: Originating Skills</span>
+          <span class="pill pill-accent">[PROTECTED]</span>
+        </div>
+        <ul class="step-list">
+          <li class="step-item"><span class="step-marker">-></span> Surgically updates skill templates</li>
+          <li class="step-item"><span class="step-marker">-></span> Eliminates regression at source</li>
+          <li class="step-item"><span class="step-marker">-></span> Preserves verified invariants</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          <span>Tier 3: Global Design OS</span>
+          <span class="pill pill-purple">[COMPOUNDED]</span>
+        </div>
+        <ul class="step-list">
+          <li class="step-item"><span class="step-marker">-></span> Absolute Zero-Emoji Mandate</li>
+          <li class="step-item"><span class="step-marker">-></span> Mandatory VibeSec Pre-flight</li>
+          <li class="step-item"><span class="step-marker">-></span> Synchronous Git sequence lock</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="action-bar">
+      <div>
+        <div style="font-size: 0.8rem; color: var(--muted); margin-bottom: 0.25rem;">Universal Post-Session Command:</div>
+        <div class="cmd-text" id="evolveCmd">python d:/Design-OS/.agents/skills/design-evolve/scripts/git_sync.py --message "[EVOLVE]: Checkpoint session learnings"</div>
+      </div>
+      <button class="btn" type="button" id="copyCmdBtn">Copy Command</button>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var copyBtn = document.getElementById('copyCmdBtn');
+      var cmdText = document.getElementById('evolveCmd');
+      if (copyBtn && cmdText) {
+        copyBtn.addEventListener('click', function () {
+          navigator.clipboard.writeText(cmdText.innerText.trim()).then(function () {
+            var original = copyBtn.innerText;
+            copyBtn.innerText = 'Copied!';
+            setTimeout(function () { copyBtn.innerText = original; }, 2000);
+          });
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

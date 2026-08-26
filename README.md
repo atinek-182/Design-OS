@@ -2,7 +2,7 @@
 
 > **The Universal Design System, Interaction Engineering & Prompt Architecture Toolkit for AI Coding Agents (Gemini 3.7 Flash, Codex, Claude).**
 
-This repository is an extensible **Design OS** containing **133 production-grade skills**, interactive visual demos, prompt cards, and reverse-engineering workflows. It bridges **Emil Kowalski's micro-physics & Apple polish** with **Meng To's Awwwards-level macro art direction, GSAP/Lenis motion, and WebGL shaders**.
+This repository is an extensible **Design OS** containing **134 production-grade skills**, interactive visual demos, prompt cards, and reverse-engineering workflows. It bridges **Emil Kowalski's micro-physics & Apple polish** with **Meng To's Awwwards-level macro art direction, GSAP/Lenis motion, and WebGL shaders**.
 
 ---
 
@@ -23,7 +23,7 @@ node scripts/sync-skills-catalog.mjs
 
 ---
 
-## 📚 Skill Catalog (133 Skills)
+## 📚 Skill Catalog (134 Skills)
 
 ### Tier 1: Core Architectural Powerhouses (8)
 
@@ -190,12 +190,13 @@ node scripts/sync-skills-catalog.mjs
 | [`workflow-write-case-study`](.agents/skills/workflow-write-case-study/SKILL.md) | [⚡ Demo](.agents/skills/workflow-write-case-study/demo/index.html) | [📄 Prompt](.agents/skills/workflow-write-case-study/demo/PROMPT.md) | Use when build a portfolio case study end to end — project framing, process narrative, outcomes, and visuals. |
 | [`workflow-write-rationale`](.agents/skills/workflow-write-rationale/SKILL.md) | [⚡ Demo](.agents/skills/workflow-write-rationale/demo/index.html) | [📄 Prompt](.agents/skills/workflow-write-rationale/demo/PROMPT.md) | Use when write design rationale for a set of decisions, linking each to user needs, business goals, and principles. |
 
-### Other / Uncategorized (18)
+### Other / Uncategorized (19)
 
 | Skill | Demo | Prompt Card | Description |
 | :--- | :---: | :---: | :--- |
 | [`behavioral-ux-effects`](.agents/skills/behavioral-ux-effects/SKILL.md) | [⚡ Demo](.agents/skills/behavioral-ux-effects/demo/index.html) | [📄 Prompt](.agents/skills/behavioral-ux-effects/demo/PROMPT.md) | Use when applying behavioral UX effects — Peak-End Rule (memorable flow conclusions), Zeigarnik Effect (task completion hooks & draft retention), Serial Position Effect (primacy/recency list ordering), and Von Restorff Effect (visual isolation of primary actions). |
 | [`cognitive-ux-laws`](.agents/skills/cognitive-ux-laws/SKILL.md) | [⚡ Demo](.agents/skills/cognitive-ux-laws/demo/index.html) | [📄 Prompt](.agents/skills/cognitive-ux-laws/demo/PROMPT.md) | Use when applying foundational cognitive UX laws — Fittss Law (target sizing/reachability), Hicks Law (decision latency/choice reduction), Millers Law (working memory chunking), Teslers Law (conservation of complexity), and Doherty Threshold (sub-400ms feedback). |
+| [`design-evolve`](.agents/skills/design-evolve/SKILL.md) | [⚡ Demo](.agents/skills/design-evolve/demo/index.html) | [📄 Prompt](.agents/skills/design-evolve/demo/PROMPT.md) | Use when closing a session, conducting a post-mortem retrospective, analyzing errors from a conversation transcript, hardening rules against regressions, synchronizing git commits, or when the user says /design-evolve, /reflect-and-harden, /session-retro, evolve the system, or learn from this session. Mines conversation transcripts for errors and user corrections, runs an adversarial root-cause roast, synthesizes living rules across Project, Skill, and Global Design OS layers, and executes deterministic synchronous git synchronization. |
 | [`design-os`](.agents/skills/design-os/SKILL.md) | [⚡ Demo](.agents/skills/design-os/demo/index.html) | [📄 Prompt](.agents/skills/design-os/demo/PROMPT.md) | Use when executing the master 10-stage autonomous design engineering operating system, building high-end web interfaces, running multi-archetype Socratic discovery with 3 visual approaches per question, scaffolding 7-file context, ingesting multi-modal references into reference/MANIFEST.md, or resuming cross-session state with zero loss. Invokable directly via /design-os. |
 | [`design-principles`](.agents/skills/design-principles/SKILL.md) | [⚡ Demo](.agents/skills/design-principles/demo/index.html) | [📄 Prompt](.agents/skills/design-principles/demo/PROMPT.md) | Use when define actionable principles that resolve trade-offs when the team disagrees. Use when the same decisions keep getting relitigated. For a single projects framing, use `design-brief`. |
 | [`flagship-project-init`](.agents/skills/flagship-project-init/SKILL.md) | [⚡ Demo](.agents/skills/flagship-project-init/demo/index.html) | [📄 Prompt](.agents/skills/flagship-project-init/demo/PROMPT.md) | Master entrypoint skill for scaffolding and orchestrating Awwwards-tier digital flagships and websites in Antigravity Design OS. Establishes the 8-file context foundation, project-specific GEMINI.md contract, single-anchor RESUME.md, live DESIGN_MAP.mermaid, and an editable 24-chat prompt library with strict blast-radius isolation, intra-phase /grill-me and /roast loops, mandatory vibesec pre-flights, zero emojis, and zero command memorization. Use whenever starting a new website, landing page, portfolio, or web application, or when the user says create a website, build a flagship site, or /flagship-project-init. |

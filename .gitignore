@@ -1,33 +1,50 @@
 # Dependencies
 node_modules/
+**/node_modules/
 .pnp
 .pnp.js
 
 # Python Cache & Virtual Environments
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 .venv/
 venv/
 ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Testing & Visual QA Artefacts
 .screenshots/
 .playwright-cli/
 coverage/
 *.lcov
+test-results/
+playwright-report/
+blob-report/
 
 # Production Builds & Temp Caches
 dist/
+**/dist/
 build/
+**/build/
 out/
+**/out/
 .next/
+**/.next/
+.turbo/
+**/.turbo/
 .wrangler/
 scratch/
 
 # OS & Editor Files
 .DS_Store
+**/.DS_Store
 Thumbs.db
+ehthumbs.db
+desktop.ini
 .idea/
 .vscode/
 *.suo
@@ -36,9 +53,24 @@ Thumbs.db
 *.sln
 *.sw?
 
-# Environment Variables & Secrets
+# Logs & Working Artefacts
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment Variables & Secrets (VibeSec Protocol)
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+**/*.cert
+**/*.crt
+**/secrets.json
+**/credentials.json
+**/service-account*.json

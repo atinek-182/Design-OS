@@ -1141,6 +1141,12 @@
       "sourceType": "github",
       "skillPath": "skills/vibesec/SKILL.md",
       "installedAt": "2026-08-26T06:01:47.607Z"
+    },
+    "design-evolve": {
+      "source": "local",
+      "sourceType": "github",
+      "skillPath": "skills/design-evolve/SKILL.md",
+      "installedAt": "2026-08-26T06:46:14.587Z"
     }
   }
 }
