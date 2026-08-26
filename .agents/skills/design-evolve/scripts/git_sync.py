@@ -111,11 +111,15 @@ def main():
     parser = argparse.ArgumentParser(description="Synchronous git add, commit, and push engine.")
     parser.add_argument("--message", "-m", default="Continuous evolution checkpoint and multi-tier hardening", help="Commit message")
     parser.add_argument("--no-push", action="store_true", help="Skip git push origin")
+    parser.add_argument("--repo-dir", default=None, help="Target repository directory (defaults to repo root)")
     args = parser.parse_args()
 
-    repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
-    if not os.path.exists(os.path.join(repo_root, ".git")):
-        repo_root = "d:/Design-OS"
+    if args.repo_dir:
+        repo_root = os.path.abspath(args.repo_dir)
+    else:
+        repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", ".."))
+        if not os.path.exists(os.path.join(repo_root, ".git")):
+            repo_root = "d:/Design-OS"
 
     sync_git(args.message, repo_root=repo_root, push=not args.no_push)
 
