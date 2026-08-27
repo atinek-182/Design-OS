@@ -11,6 +11,7 @@ import json
 import re
 import subprocess
 import argparse
+import fnmatch
 
 if sys.platform == "win32":
     try:
@@ -81,12 +82,20 @@ def check_blast_radius(project_dir: str, allowed_paths: list) -> tuple:
                 if mf.startswith(prefix) and "/" not in mf[len(prefix)+1:]:
                     is_allowed = True
                     break
-            elif mf == ap or mf.endswith(ap):
+            elif mf == ap or mf.endswith(ap) or fnmatch.fnmatch(mf, ap):
                 is_allowed = True
                 break
         
-        # Always allow progress tracker and specs
-        if mf.startswith("specs/") or mf == "context/6-progress-tracker.md" or mf == "RESUME.md" or mf == "NEXT_CHAT_PROMPT.md" or mf == ".design-lock.json":
+        # Always allow progress tracker, specs, design map, and phase gatekeeper itself
+        if (
+            mf.startswith("specs/")
+            or mf == "context/6-progress-tracker.md"
+            or mf == "RESUME.md"
+            or mf == "NEXT_CHAT_PROMPT.md"
+            or mf == ".design-lock.json"
+            or mf == "docs/DESIGN_MAP.mermaid"
+            or mf == "scripts/phase_gate.py"
+        ):
             is_allowed = True
 
         if not is_allowed:
