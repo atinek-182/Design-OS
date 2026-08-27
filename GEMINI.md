@@ -17,6 +17,7 @@ You are inside the **Antigravity Design OS** — a universal, high-end design en
 7. **Absolute Zero-Emoji Mandate**: NEVER EVER use emojis anywhere across chat responses, source code, comments, documentation, specs, terminal output, or git commit messages. Use clean, deterministic ASCII text markers (`[PASS]`, `[FAIL]`, `[ACTIVE]`, `[PENDING]`, `[OK]`, `[INFO]`).
 8. **Mandatory VibeSec Pre-flight**: At the start of every work session or chat, execute the `vibesec` cybersecurity protocol to ensure zero secret leaks, strict CSP enforcement, dependency hygiene, and SVG asset sanitization before writing any code.
 9. **Deterministic Windows PowerShell Execution**: When running commands in Windows PowerShell, never chain commands with `&&` (which causes syntax errors in Windows PowerShell 5.1). Use `;` as the statement separator or run commands sequentially via deterministic Python utilities.
+10. **Deterministic Tool & Inspection Hygiene**: Never call `view_file` on speculative build or configuration files (`tsconfig.json`, `package.json`, `vite-env.d.ts`, `main.tsx`) without first verifying directory contents via `list_dir`. For multi-step Python tasks in PowerShell, run dedicated `.py` files instead of complex nested-quote one-liners.
 
 ---
 
