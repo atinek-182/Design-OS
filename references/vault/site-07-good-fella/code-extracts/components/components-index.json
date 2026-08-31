@@ -1,0 +1,702 @@
+[
+  {
+    "name": "Misc_GridContainer_01",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container h-full",
+    "width": 1904,
+    "height": 0
+  },
+  {
+    "name": "Misc_GridLayout_02",
+    "category": "misc",
+    "file": "misc/Misc_GridLayout_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-layout h-full",
+    "width": 1904,
+    "height": 0
+  },
+  {
+    "name": "Nav_Fixed_01",
+    "category": "nav",
+    "file": "nav/Nav_Fixed_01.tsx",
+    "tag": "header",
+    "id": "",
+    "className": "fixed inset-x-0 top-0 z-[9999] flex flex-col gap-8 pt-16 !bg-transparent transition-colors duration-300 ease-out",
+    "width": 1904,
+    "height": 6417
+  },
+  {
+    "name": "Misc_GridContainer_03",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container transition-[padding,background-color,color] duration-500 ease-out bg-transparent",
+    "width": 1904,
+    "height": 1559
+  },
+  {
+    "name": "Cards_Grid_01",
+    "category": "cards",
+    "file": "cards/Cards_Grid_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid grid-cols-2 items-center lg:grid-cols-3",
+    "width": 1904,
+    "height": 1559
+  },
+  {
+    "name": "Misc_GridContainer_04",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container",
+    "width": 1904,
+    "height": 4858
+  },
+  {
+    "name": "Misc_Grid_05",
+    "category": "misc",
+    "file": "misc/Misc_Grid_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid bg-surface transition-colors duration-300",
+    "width": 1904,
+    "height": 4858
+  },
+  {
+    "name": "Misc_GridLayout_06",
+    "category": "misc",
+    "file": "misc/Misc_GridLayout_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-layout gap-y-32",
+    "width": 1904,
+    "height": 4858
+  },
+  {
+    "name": "Nav_GridSpan12_02",
+    "category": "nav",
+    "file": "nav/Nav_GridSpan12_02.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-4 relative flex flex-col items-start gap-4",
+    "width": 1904,
+    "height": 90
+  },
+  {
+    "name": "Misc_GridSpan12_07",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-2 lg:grid-start-5 flex flex-col gap-24",
+    "width": 1904,
+    "height": 244
+  },
+  {
+    "name": "Misc_GridSpan5_08",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan5_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-5 grid-start-8 hidden gap-16 opacity-0 lg:flex",
+    "width": 1904,
+    "height": 4492
+  },
+  {
+    "name": "Sections_Relative_01",
+    "category": "sections",
+    "file": "sections/Sections_Relative_01.tsx",
+    "tag": "main",
+    "id": "",
+    "className": "relative z-[1]",
+    "width": 1904,
+    "height": 67100
+  },
+  {
+    "name": "Sections_Relative_02",
+    "category": "sections",
+    "file": "sections/Sections_Relative_02.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "relative min-h-svh overflow-hidden bg-background pt-0 pb-0",
+    "width": 1904,
+    "height": 5095
+  },
+  {
+    "name": "Misc_GridContainer_09",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container relative min-h-svh pt-52",
+    "width": 1904,
+    "height": 5095
+  },
+  {
+    "name": "Misc_GridLayout_10",
+    "category": "misc",
+    "file": "misc/Misc_GridLayout_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-layout min-h-[calc(100svh-52px)]",
+    "width": 1904,
+    "height": 5095
+  },
+  {
+    "name": "Cards_GridSpan12_02",
+    "category": "cards",
+    "file": "cards/Cards_GridSpan12_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-7 pointer-events-none relative z-10 flex grid-rows-[1fr_auto] flex-col items-start justify-between pb-16 lg:pb-32",
+    "width": 1904,
+    "height": 4067
+  },
+  {
+    "name": "Misc_GridSpan12_11",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_11.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-8 flex flex-col justify-start gap-24 pt-24 lg:mt-auto lg:mb-auto lg:justify-center lg:gap-32 lg:pt-0",
+    "width": 1904,
+    "height": 4036
+  },
+  {
+    "name": "Cards_GridSpan12_03",
+    "category": "cards",
+    "file": "cards/Cards_GridSpan12_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-7 pointer-events-auto mt-32 flex flex-col items-center gap-16 text-center lg:mt-0 lg:flex-row lg:items-center lg:text-left",
+    "width": 1904,
+    "height": 31
+  },
+  {
+    "name": "Cards_LgGridSpan5_04",
+    "category": "cards",
+    "file": "cards/Cards_LgGridSpan5_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "lg:grid-span-5 absolute top-[35%] right-0 bottom-0 w-9/10 items-center justify-center overflow-hidden lg:relative lg:inset-auto lg:flex lg:w-auto",
+    "width": 1904,
+    "height": 1028
+  },
+  {
+    "name": "3d_Canvas_01",
+    "category": "3d",
+    "file": "3d/3d_Canvas_01.tsx",
+    "tag": "canvas",
+    "id": "",
+    "className": "",
+    "width": 764,
+    "height": 1028
+  },
+  {
+    "name": "Sections_BgBackground_03",
+    "category": "sections",
+    "file": "sections/Sections_BgBackground_03.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "bg-background pt-64 lg:pt-128 pb-64 lg:pb-128",
+    "width": 1904,
+    "height": 2257
+  },
+  {
+    "name": "Misc_GridContainer_12",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container",
+    "width": 1904,
+    "height": 2257
+  },
+  {
+    "name": "Misc_GridLayout_13",
+    "category": "misc",
+    "file": "misc/Misc_GridLayout_13.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-layout",
+    "width": 1904,
+    "height": 2257
+  },
+  {
+    "name": "Misc_GridSpan12_14",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_14.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12",
+    "width": 1904,
+    "height": 2257
+  },
+  {
+    "name": "Misc_Relative_15",
+    "category": "misc",
+    "file": "misc/Misc_Relative_15.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "relative grid gap-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ",
+    "width": 1904,
+    "height": 2257
+  },
+  {
+    "name": "Sections_BgBackground_04",
+    "category": "sections",
+    "file": "sections/Sections_BgBackground_04.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "bg-background pt-64 lg:pt-128 pb-64 lg:pb-128",
+    "width": 1904,
+    "height": 18673
+  },
+  {
+    "name": "Misc_GridContainer_16",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_16.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container",
+    "width": 1904,
+    "height": 9327
+  },
+  {
+    "name": "Misc_GridLayout_17",
+    "category": "misc",
+    "file": "misc/Misc_GridLayout_17.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-layout",
+    "width": 1904,
+    "height": 9327
+  },
+  {
+    "name": "Misc_GridStart3_18",
+    "category": "misc",
+    "file": "misc/Misc_GridStart3_18.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-start-3 grid-span-8 grid-subgrid",
+    "width": 1904,
+    "height": 9327
+  },
+  {
+    "name": "Cards_GridSpan8_05",
+    "category": "cards",
+    "file": "cards/Cards_GridSpan8_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-8 mb-64 flex items-end justify-between",
+    "width": 1904,
+    "height": 65
+  },
+  {
+    "name": "Misc_GridSpan8_19",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan8_19.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-8 flex",
+    "width": 1904,
+    "height": 9262
+  },
+  {
+    "name": "Misc_GridContainer_20",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_20.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container py-64 lg:hidden",
+    "width": 1904,
+    "height": 9327
+  },
+  {
+    "name": "Sections_BgBackground_05",
+    "category": "sections",
+    "file": "sections/Sections_BgBackground_05.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "bg-background pt-64 lg:pt-128 pb-64 lg:pb-128",
+    "width": 1904,
+    "height": 34201
+  },
+  {
+    "name": "Misc_GridContainer_21",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_21.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container",
+    "width": 1904,
+    "height": 21391
+  },
+  {
+    "name": "Misc_GridLayout_22",
+    "category": "misc",
+    "file": "misc/Misc_GridLayout_22.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-layout",
+    "width": 1904,
+    "height": 21391
+  },
+  {
+    "name": "Misc_GridSpan3_23",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan3_23.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-3",
+    "width": 1904,
+    "height": 12501
+  },
+  {
+    "name": "Nav_Sticky_03",
+    "category": "nav",
+    "file": "nav/Nav_Sticky_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "sticky top-header flex h-[calc(100vh-var(--site-header-height))] flex-col justify-between py-32 align-start",
+    "width": 1904,
+    "height": 12501
+  },
+  {
+    "name": "Nav_Flex_04",
+    "category": "nav",
+    "file": "nav/Nav_Flex_04.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "flex flex-col items-start gap-8",
+    "width": 1904,
+    "height": 8586
+  },
+  {
+    "name": "Misc_GridSpan8_24",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan8_24.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-8 grid-start-5 flex flex-col gap-64 py-32",
+    "width": 1904,
+    "height": 8890
+  },
+  {
+    "name": "Misc_GridContainer_25",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_25.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container py-32 lg:hidden",
+    "width": 1904,
+    "height": 12791
+  },
+  {
+    "name": "Sections_BgBackground_06",
+    "category": "sections",
+    "file": "sections/Sections_BgBackground_06.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "bg-background pt-64 lg:pt-128 pb-64 lg:pb-128",
+    "width": 1904,
+    "height": 548
+  },
+  {
+    "name": "Misc_GridContainer_26",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_26.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container",
+    "width": 1904,
+    "height": 548
+  },
+  {
+    "name": "Misc_GridLayout_27",
+    "category": "misc",
+    "file": "misc/Misc_GridLayout_27.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-layout mb-48 lg:mb-64",
+    "width": 1904,
+    "height": 83
+  },
+  {
+    "name": "Cards_GridSpan12_06",
+    "category": "cards",
+    "file": "cards/Cards_GridSpan12_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": " grid-span-12 flex flex-col gap-16 lg:flex-row lg:items-end lg:justify-between",
+    "width": 1904,
+    "height": 65
+  },
+  {
+    "name": "Cards_GridSpan12_07",
+    "category": "cards",
+    "file": "cards/Cards_GridSpan12_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": " grid-span-12 mt-32 flex items-center gap-8",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Misc_GridLayout_28",
+    "category": "misc",
+    "file": "misc/Misc_GridLayout_28.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-layout",
+    "width": 1904,
+    "height": 446
+  },
+  {
+    "name": "Misc_GridSpan12_29",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_29.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 md:grid-span-6 lg:grid-span-4",
+    "width": 1904,
+    "height": 59
+  },
+  {
+    "name": "Misc_GridSpan12_30",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_30.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 md:grid-span-6 lg:grid-span-4",
+    "width": 1904,
+    "height": 59
+  },
+  {
+    "name": "Misc_GridSpan12_31",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_31.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 md:grid-span-6 lg:grid-span-4",
+    "width": 1904,
+    "height": 59
+  },
+  {
+    "name": "Misc_GridSpan12_32",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_32.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 md:grid-span-6 lg:grid-span-4",
+    "width": 1904,
+    "height": 59
+  },
+  {
+    "name": "Misc_GridSpan12_33",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_33.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 md:grid-span-6 lg:grid-span-4",
+    "width": 1904,
+    "height": 59
+  },
+  {
+    "name": "Misc_GridSpan12_34",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_34.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 md:grid-span-6 lg:grid-span-4",
+    "width": 1904,
+    "height": 59
+  },
+  {
+    "name": "Sections_BgBackground_07",
+    "category": "sections",
+    "file": "sections/Sections_BgBackground_07.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "bg-background py-64 lg:py-96",
+    "width": 1904,
+    "height": 3362
+  },
+  {
+    "name": "Misc_GridContainer_35",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_35.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container",
+    "width": 1904,
+    "height": 3362
+  },
+  {
+    "name": "Misc_GridLayout_36",
+    "category": "misc",
+    "file": "misc/Misc_GridLayout_36.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-layout",
+    "width": 1904,
+    "height": 3362
+  },
+  {
+    "name": "Nav_GridSpan12_05",
+    "category": "nav",
+    "file": "nav/Nav_GridSpan12_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-4 sticky top-0 z-10 -mx-(--site-grid-margin) bg-background px-(--site-grid-margin) pt-header pb-32 lg:top-header lg:z-auto lg:mx-0 lg:bg-transparent lg:px-0 lg:pt-32",
+    "width": 1904,
+    "height": 27
+  },
+  {
+    "name": "Misc_GridSpan12_37",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_37.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-6 lg:grid-start-6 mt-48 lg:mt-0",
+    "width": 1904,
+    "height": 3315
+  },
+  {
+    "name": "Sections_Pt64_08",
+    "category": "sections",
+    "file": "sections/Sections_Pt64_08.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "pt-64 lg:pt-128 pb-64 lg:pb-128 bg-background",
+    "width": 1904,
+    "height": 2864
+  },
+  {
+    "name": "Misc_GridContainer_38",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_38.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container",
+    "width": 1904,
+    "height": 2864
+  },
+  {
+    "name": "Misc_GridLayout_39",
+    "category": "misc",
+    "file": "misc/Misc_GridLayout_39.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-layout gap-y-48",
+    "width": 1904,
+    "height": 2864
+  },
+  {
+    "name": "Misc_GridSpan12_40",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_40.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-6 lg:grid-start-1 ",
+    "width": 1904,
+    "height": 2451
+  },
+  {
+    "name": "Misc_GridSpan12_41",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_41.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-4 lg:grid-start-8 ",
+    "width": 1904,
+    "height": 392
+  },
+  {
+    "name": "Footers_Relative_01",
+    "category": "footers",
+    "file": "footers/Footers_Relative_01.tsx",
+    "tag": "footer",
+    "id": "",
+    "className": "relative h-auto min-h-svh overflow-hidden bg-background pt-48 lg:h-svh",
+    "width": 1904,
+    "height": 2847
+  },
+  {
+    "name": "3d_Canvas_02",
+    "category": "3d",
+    "file": "3d/3d_Canvas_02.tsx",
+    "tag": "canvas",
+    "id": "",
+    "className": "",
+    "width": 960,
+    "height": 945
+  },
+  {
+    "name": "Misc_GridContainer_42",
+    "category": "misc",
+    "file": "misc/Misc_GridContainer_42.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-container pointer-events-none relative z-30 flex h-full flex-col",
+    "width": 1904,
+    "height": 941
+  },
+  {
+    "name": "Misc_GridLayout_43",
+    "category": "misc",
+    "file": "misc/Misc_GridLayout_43.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-layout !gap-y-48 lg:gap-y-0",
+    "width": 1904,
+    "height": 537
+  },
+  {
+    "name": "Misc_GridSpan12_44",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_44.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-3 lg:grid-start-1 pointer-events-auto flex flex-col gap-16",
+    "width": 1904,
+    "height": 303
+  },
+  {
+    "name": "Interactive_Flex_01",
+    "category": "interactive",
+    "file": "interactive/Interactive_Flex_01.tsx",
+    "tag": "form",
+    "id": "",
+    "className": "flex flex-col gap-6",
+    "width": 1904,
+    "height": 201
+  },
+  {
+    "name": "Misc_GridSpan12_45",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_45.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-2 lg:grid-start-6 pointer-events-auto",
+    "width": 1904,
+    "height": 90
+  },
+  {
+    "name": "Misc_GridSpan12_46",
+    "category": "misc",
+    "file": "misc/Misc_GridSpan12_46.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid-span-12 lg:grid-span-3 lg:grid-start-10 pointer-events-auto flex flex-col gap-16",
+    "width": 1904,
+    "height": 112
+  }
+]

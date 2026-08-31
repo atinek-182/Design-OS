@@ -1,0 +1,19 @@
+import React from 'react';
+
+/**
+ * Component: Misc_ClientsStatementsCmsListWrapper_08
+ * Target Site: ashley-brooke-cs
+ * Category: misc
+ * Tag: <div> | ID: "" | Class: "clients_statements_cms_list_wrapper w-dyn-list"
+ * Dimensions: 701px x 16px
+ */
+export const Misc_ClientsStatementsCmsListWrapper_08: React.FC = () => {
+  return (
+    <div className="component-container-misc">
+      {/* --- Raw Extracted DOM Structure --- */}
+      <div className="clients_statements_cms_list_wrapper w-dyn-list"><div role="list" className="clients_statements_cms_list w-dyn-items"><div data-clients-statement="Gilead" role="listitem" className="clients_statements_cms_list_item w-dyn-item" style="translate: none; rotate: none; scale: none; transform: translate(25%, 0%) scale(0.75, 0.75); opacity: 0;"><p className="clients_statements_paragraph">Campaigns that made healthcare human again.</p></div><div data-clients-statement="Hulu" role="listitem" className="clients_statements_cms_list_item w-dyn-item" style="translate: none; rotate: none; scale: none; transform: translate(25%, 0%) scale(0.75, 0.75); opacity: 0;"><p className="clients_statements_paragraph">Launch moments that jumped off the timeline and into culture.</p></div><div data-clients-statement="Warner" role="listitem" className="clients_statements_cms_list_item w-dyn-item" style="translate: none; rotate: none; scale: none; transform: translate(25%, 0%) scale(0.75, 0.75); opacity: 0;"><p className="clients_statements_paragraph">A 100-year celebration turned into a cultural roar.</p></div><div data-clients-statement="Spotify" role="listitem" className="clients_statements_cms_list_item w-dyn-item" style="translate: none; rotate: none; scale: none; transform: translate(25%, 0%) scale(0.75, 0.75); opacity: 0;"><p className="clients_statements_paragraph">Playlists and fans pulled into one louder conversation.</p></div><div data-clients-statement="Sony" role="listitem" className="clients_statements_cms_list_item w-dyn-item" style="translate: none; rotate: none; scale: none; transform: translate(25%, 0%) scale(0.75, 0.75); opacity: 0;"><p className="clients_statements_paragraph">Campaigns designed to move faster than the algo.</p></div><div data-clients-statement="Coachella" role="listitem" className="clients_statements_cms_list_item w-dyn-item" style="translate: none; rotate: none; scale: none; transform: translate(25%, 0%) scale(0.75, 0.75); opacity: 0;"><p className="clients_statements_paragraph">A desert reimagined as a brand curators’ playground.</p></div><div data-clients-statement="Art Basel" role="listitem" className="clients_statements_cms_list_item w-dyn-item" style="translate: none; rotate: none; scale: none; transform: translate(25%, 0%) scale(0.75, 0.75); opacity: 0;"><p className="clients_statements_paragraph">Immersive experiences rooted in the magic of art and creativity.</p></div><div data-clients-statement="Fendi" role="listitem" className="clients_statements_cms_list_item w-dyn-item" style="translate: none; rotate: none; scale: none; transform: translate(25%, 0%) scale(0.75, 0.75); opacity: 0;"><p className="clients_statements_paragraph">Cultural stories that strut beyond the runway.</p></div><div data-clients-statement="Meta" role="listitem" className="clients_statements_cms_list_item w-dyn-item" style="translate: none; rotate: none; scale: none; transform: translate(25%, 0%) scale(0.75, 0.75); opacity: 0;"><p className="clients_statements_paragraph">Shifting brands from empty metrics to meaningful communities.</p></div><div data-clients-statement="Google" role="listitem" className="clients_statements_cms_list_item w-dyn-item" style="translate: none; rotate: none; scale: none; transform: translate(25%, 0%) scale(0.75, 0.75); opacity: 0;"><p className="clients_statements_paragraph">Innovation translated into a story people could touch.</p></div></div></div>
+    </div>
+  );
+};
+
+export default Misc_ClientsStatementsCmsListWrapper_08;

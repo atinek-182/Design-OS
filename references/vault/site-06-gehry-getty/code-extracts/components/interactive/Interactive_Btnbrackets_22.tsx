@@ -1,0 +1,19 @@
+import React from 'react';
+
+/**
+ * Component: Interactive_Btnbrackets_22
+ * Target Site: gehry-getty
+ * Category: interactive
+ * Tag: <button> | ID: "" | Class: "btnBrackets captionBigText active"
+ * Dimensions: 200px x 19px
+ */
+export const Interactive_Btnbrackets_22: React.FC = () => {
+  return (
+    <div className="component-container-interactive">
+      {/* --- Raw Extracted DOM Structure --- */}
+      <button className="btnBrackets captionBigText active" aria-hidden="true" data-v-6dd4239d="" data-v-90378a29="" style="opacity: 1;"><span className="leftBracket" data-v-90378a29="">[</span><!--[--><svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="none" data-v-6dd4239d=""><path stroke="#000" strokeWidth="1.1" d="m1 6.404 2.5-2.5 2.5-2.5m0 0H3m3 0V4.36"></path></svg><!--]--><span className="text" data-v-90378a29=""><span className="textFlip" data-v-90378a29="" data-v-fb96adea="">  <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">V</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">e</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">w</div> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">f</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">u</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">l</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">l</div> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">c</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">l</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">l</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">e</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">c</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">t</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">i</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">o</div><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(0px, 0%);" className="chars">n</div></span></span><span className="rightBracket" data-v-90378a29="">]</span></button>
+    </div>
+  );
+};
+
+export default Interactive_Btnbrackets_22;

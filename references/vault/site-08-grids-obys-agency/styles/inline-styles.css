@@ -1,0 +1,4448 @@
+body, html { cursor: url(https://www.dropbox.com/s/p74mm3b6jrq3xh4/cursor1.png?raw=1), auto; }
+
+/* --- INLINE STYLE --- */
+
+.used-fonts-test h1.paragraph-1,
+.rmwidget.text div h1.paragraph-1,
+.used-fonts-test p.paragraph-1,
+.rmwidget.text div p.paragraph-1 {
+	font-family: Nobel;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	letter-spacing: 0px;
+	line-height: 60px;
+	text-align: start;
+	text-decoration: none;
+	text-transform: none;
+	color: rgb(34,34,34);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.used-fonts-test h2.paragraph-2,
+.rmwidget.text div h2.paragraph-2,
+.used-fonts-test p.paragraph-2,
+.rmwidget.text div p.paragraph-2 {
+	font-family: Georgia;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	letter-spacing: 0px;
+	line-height: 30px;
+	text-align: start;
+	text-decoration: none;
+	text-transform: none;
+	color: rgb(34,34,34);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.used-fonts-test h2.paragraph-3,
+.rmwidget.text div h2.paragraph-3,
+.used-fonts-test p.paragraph-3,
+.rmwidget.text div p.paragraph-3 {
+	font-family: Georgia;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 23px;
+	text-align: start;
+	text-decoration: none;
+	text-transform: none;
+	color: rgb(34,34,34);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.used-fonts-test h2.paragraph-4,
+.rmwidget.text div h2.paragraph-4,
+.used-fonts-test p.paragraph-4,
+.rmwidget.text div p.paragraph-4 {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 18px;
+	text-align: start;
+	text-decoration: none;
+	text-transform: none;
+	color: rgba(34,34,34, 0.5);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+
+
+/* --- INLINE STYLE --- */
+
+.rmwidget.text div a.link-1 {
+	text-decoration: none;
+	color: rgb(0,120,255);
+	padding-bottom: 1px;
+	background: linear-gradient(to right, rgb(0,120,255) 0%, rgb(0,120,255) 100%);
+	background-size: 1px 1px;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+}
+
+.rmwidget.text div a.hovered.link-1 {
+	text-decoration: none;
+	color: rgb(0,120,255);
+	background: none;
+}
+
+.rmwidget.text div a.link-1 * {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+
+
+/* --- INLINE STYLE --- */
+
+
+@font-face {
+  font-weight: 400;
+  font-family: 'custom_40538';
+  font-style: normal;
+  src: url("https://c-p.rmcdn.net/custom-fonts/font-1576fb79-8af8-4c78-af70-3504e94db2b0.woff") format('woff');
+}
+
+/* --- INLINE STYLE --- */
+
+ html, body { width: 100%; height: 100%; } body { margin: 0; padding: 0; font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif; color: #282828; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-font-smoothing: antialiased; } * ::selection { background-color: #A2A2A2; } a, button, label, div, span, input, *:hover { -webkit-tap-highlight-color: rgba(0,0,0,0); } h1, h2, h3, h4, h5 { margin: 0; } 
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_197_1 {
+	0%, 86.36363636363636% {transform: rotate(-7deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {transform: rotate(0deg) scale(1); opacity: 1; offset-distance: 420px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_198_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_199_1 {
+	0%, 86.66666666666667% {transform: rotate(-7deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {transform: rotate(0deg) scale(1); opacity: 1; offset-distance: 420px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_200_1 {
+	0%, 86.95652173913044% {transform: rotate(-7deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {transform: rotate(0deg) scale(1); opacity: 1; offset-distance: 420px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_201_1 {
+	0%, 87.2340425531915% {transform: rotate(-7deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {transform: rotate(0deg) scale(1); opacity: 1; offset-distance: 420px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_202_1 {
+	0%, 87.50000000000001% {transform: rotate(-7deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {transform: rotate(0deg) scale(1); opacity: 1; offset-distance: 420px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_203_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_204_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_205_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_206_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_207_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_208_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_209_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_210_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_211_1 {
+	0%, 93.02325581395348% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_212_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_213_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_214_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_215_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_216_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_217_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_218_1 {
+	0%, 93.02325581395348% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_219_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_220_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_221_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_222_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_223_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_224_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_225_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_226_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_227_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_228_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_229_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_230_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_231_1 {
+	0%, 47.61904761904761% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	61.904761904761905%, 66.66666666666667% {opacity: 1; offset-distance: 69.375px; animation-timing-function: ease-out}
+	80.95238095238095%, 85.71428571428572% {opacity: 1; offset-distance: 69.375px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 69.375px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_232_1 {
+	0%, 47.61904761904761% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	61.904761904761905%, 66.66666666666667% {opacity: 1; offset-distance: 69.375px; animation-timing-function: ease-out}
+	80.95238095238095%, 85.71428571428572% {opacity: 1; offset-distance: 69.375px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 69.375px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_233_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_234_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_235_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_236_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_237_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_238_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_239_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_240_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_241_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_242_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_243_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	0.024993751562109475%, 95.00124968757811% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_244_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	0.24875621890547264%, 99.75124378109453% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_245_1 {
+	0%, 29.154518950437318% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	37.48438150770512%, 99.95835068721367% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_246_1 {
+	0%, 75.7346258709482% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	81.79339594062405%, 99.96970614965161% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_247_1 {
+	0%, 82.92682926829269% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	87.8048780487805%, 95.12195121951221% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_248_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_249_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_250_1 {
+	0%, 97.72727272727273% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_251_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_252_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	27.272727272727277%, 36.36363636363637% {opacity: 1; offset-distance: 455.625px; animation-timing-function: ease-out}
+	63.63636363636365%, 72.72727272727273% {opacity: 1; offset-distance: 1149.375px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 1875px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_253_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	27.272727272727277%, 36.36363636363637% {opacity: 1; offset-distance: 455.625px; animation-timing-function: ease-out}
+	63.63636363636365%, 72.72727272727273% {opacity: 1; offset-distance: 1149.375px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 1875px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_254_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_255_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_256_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_257_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_258_1 {
+	0%, 99.97500624843788% {opacity: 0; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_259_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_260_1 {
+	0%, 99.97500624843788% {opacity: 0; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_261_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_262_1 {
+	0%, 99.97500624843788% {opacity: 0; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 0.6; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_263_1 {
+	0% {opacity: 0.6; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 0.3; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_264_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_265_1 {
+	0%, 99.97500624843788% {opacity: 0; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_266_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_267_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_268_1 {
+	0%, 99.97500624843788% {opacity: 0; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_269_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_270_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_271_1 {
+	0%, 93.02325581395348% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_272_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_273_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_274_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_275_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_276_1 {
+	0%, 99.97500624843788% {opacity: 0; offset-distance: 0px; animation-timing-function: ease-in-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_277_1 {
+	0% {transform: rotate(0deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	26.66666666666667%, 35.555555555555564% {transform: rotate(180deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	62.222222222222236%, 71.11111111111113% {transform: rotate(360deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	97.7777777777778% {transform: rotate(540deg) scale(2.01); opacity: 1; offset-distance: 783.1778713197916px; animation-timing-function: linear}
+	100% {transform: rotate(540deg) scale(2.01); opacity: 0; offset-distance: 783.1778713197916px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_278_1 {
+	0%, 58.81488016468166% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	76.45934421408616% {opacity: 1; offset-distance: 60px; animation-timing-function: ease-out}
+	76.47404793412733%, 82.3555359505955% {opacity: 0; offset-distance: 60px; animation-timing-function: ease-out}
+	100% {opacity: 0; offset-distance: 60px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_279_1 {
+	0%, 58.81488016468166% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	76.45934421408616% {opacity: 1; offset-distance: 60px; animation-timing-function: ease-out}
+	76.47404793412733%, 82.3555359505955% {opacity: 0; offset-distance: 60px; animation-timing-function: ease-out}
+	100% {opacity: 0; offset-distance: 60px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_280_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_281_1 {
+	0%, 58.81488016468166% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	76.45934421408616% {opacity: 1; offset-distance: 20.625px; animation-timing-function: ease-out}
+	76.47404793412733%, 82.3555359505955% {opacity: 0; offset-distance: 20.625px; animation-timing-function: ease-out}
+	100% {opacity: 0; offset-distance: 20.625px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_282_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_283_1 {
+	0%, 58.81488016468166% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	76.45934421408616% {opacity: 1; offset-distance: 20.625px; animation-timing-function: ease-out}
+	76.47404793412733%, 82.3555359505955% {opacity: 0; offset-distance: 20.625px; animation-timing-function: ease-out}
+	100% {opacity: 0; offset-distance: 20.625px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_284_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_285_1 {
+	0%, 42.00000000000001% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	68%, 72.00000000000001% {opacity: 1; offset-distance: 2250px; animation-timing-function: ease-out}
+	84.00000000000001%, 88.00000000000001% {opacity: 1; offset-distance: 2250px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 2250px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_286_1 {
+	0%, 42.00000000000001% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	68%, 72.00000000000001% {opacity: 1; offset-distance: 2250px; animation-timing-function: ease-out}
+	84.00000000000001%, 88.00000000000001% {opacity: 1; offset-distance: 2250px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 2250px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_287_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_288_1 {
+	0%, 60.59687926071806% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	75.74609907589758% {opacity: 1; offset-distance: 61.875px; animation-timing-function: ease-out}
+	75.76124829571276%, 81.82093622178456% {opacity: 0; offset-distance: 61.875px; animation-timing-function: ease-out}
+	100% {opacity: 0; offset-distance: 61.875px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_289_1 {
+	0%, 60.59687926071806% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	75.74609907589758% {opacity: 1; offset-distance: 61.875px; animation-timing-function: ease-out}
+	75.76124829571276%, 81.82093622178456% {opacity: 0; offset-distance: 61.875px; animation-timing-function: ease-out}
+	100% {opacity: 0; offset-distance: 61.875px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_290_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_291_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_292_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_293_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_294_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_295_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_296_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_297_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_298_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_299_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_300_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_301_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_302_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_303_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_304_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_305_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_306_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_307_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_308_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_309_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_310_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_311_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_312_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_313_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_314_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_315_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_316_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_317_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_318_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_319_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_320_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_321_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_322_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_323_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_324_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 56.25px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_325_1 {
+	0%, 23.61111111111111% {transform: rotate(0deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	44.44444444444444% {transform: rotate(360deg) scale(1); opacity: 1; offset-distance: 3426.4843954846783px; animation-timing-function: linear}
+	65.27777777777777%, 79.16666666666666% {transform: rotate(720deg) scale(1); opacity: 1; offset-distance: 4079.0274975093644px; animation-timing-function: linear}
+	100% {transform: rotate(1080deg) scale(1); opacity: 1; offset-distance: 7541.033103007426px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_326_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_327_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_328_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_329_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_330_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_331_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_332_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_333_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_334_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_335_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_336_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_337_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_338_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_339_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_340_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_341_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_342_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_343_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_344_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_345_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_346_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_347_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_348_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_349_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_350_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_351_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_352_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_353_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_354_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_355_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_356_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_357_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_358_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_359_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_360_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_361_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_362_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_363_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_364_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_365_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_366_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_367_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_368_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_369_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_370_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_371_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_372_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_373_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_374_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_375_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_376_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_377_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_378_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_379_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_380_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_381_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_382_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_383_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_384_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_385_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_386_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_387_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_388_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_389_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_390_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_391_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_392_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_393_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_394_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_395_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_396_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_397_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_398_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_399_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_400_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_401_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_402_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_403_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_404_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_405_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_406_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_407_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_408_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_409_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_410_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_411_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_412_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_413_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_414_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_415_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_416_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_417_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_418_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_419_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_420_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_421_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_422_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_423_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_424_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_425_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_426_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_427_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_428_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_429_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_430_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_431_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_432_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_433_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_434_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_435_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_436_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_437_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_438_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_439_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_440_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_441_1 {
+	0%, 38.88888888888889% {transform: rotate(0deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	55.55555555555556% {transform: rotate(360deg) scale(1); opacity: 1; offset-distance: 3518.8015648974865px; animation-timing-function: linear}
+	72.22222222222221%, 83.33333333333333% {transform: rotate(720deg) scale(1); opacity: 1; offset-distance: 5200.676564897487px; animation-timing-function: linear}
+	100% {transform: rotate(1080deg) scale(1); opacity: 1; offset-distance: 8864.68036240166px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_442_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_443_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_444_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_445_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_446_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_447_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_448_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_449_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_450_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_451_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_452_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_453_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_454_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_455_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_456_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_457_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_458_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_459_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_460_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_461_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_462_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_463_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_464_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_465_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_466_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_467_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_468_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_469_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_470_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_471_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_472_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_473_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_474_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_475_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_476_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_477_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_478_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_479_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_480_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_481_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_482_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_483_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_484_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_485_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_486_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_487_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_488_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_489_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_490_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_491_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_492_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_493_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_494_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_495_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_496_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_497_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_498_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_499_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_500_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_501_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_502_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_503_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_504_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_505_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_506_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_507_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_508_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_509_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_510_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_511_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_512_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_513_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_514_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_515_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_516_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_517_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_518_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_519_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_520_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_521_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_522_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_523_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_524_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_525_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_526_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_527_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_528_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_529_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_530_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_531_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_532_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_533_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_1_1 {
+	0%, 23.61111111111111% {transform: rotate(0deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	44.44444444444444% {transform: rotate(360deg) scale(1); opacity: 1; offset-distance: 3426.4843954846783px; animation-timing-function: linear}
+	65.27777777777777%, 79.16666666666666% {transform: rotate(720deg) scale(1); opacity: 1; offset-distance: 4079.0274975093644px; animation-timing-function: linear}
+	100% {transform: rotate(1080deg) scale(1); opacity: 1; offset-distance: 7541.033103007426px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_2_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_3_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_4_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_5_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_6_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_7_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_8_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_9_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_10_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_11_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_12_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_13_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_14_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_15_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_16_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_17_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_18_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_19_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_20_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_21_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_22_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_23_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_24_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_25_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_26_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_27_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_28_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_29_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_30_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_31_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_32_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_33_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_34_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_35_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_36_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_37_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_38_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_39_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_40_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_41_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_42_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_43_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_44_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_45_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_46_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_47_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_48_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_49_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_50_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_51_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_52_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_53_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_54_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_55_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_56_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_57_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_58_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_59_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_60_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_61_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_62_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_63_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_64_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_65_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_66_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_67_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_68_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_69_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_70_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_71_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_72_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_73_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_74_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_75_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_76_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_77_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_78_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_79_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_80_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_81_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_82_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_83_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_84_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_85_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_86_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_87_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_88_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_89_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_90_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_91_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_92_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_93_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_94_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_95_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_96_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_97_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_98_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_99_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_100_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_101_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_102_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_103_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0.7; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_104_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_105_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_106_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_107_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_108_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_109_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_110_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_111_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_112_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_113_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_114_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_115_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_116_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_117_1 {
+	0%, 38.88888888888889% {transform: rotate(0deg) scale(1); opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	55.55555555555556% {transform: rotate(360deg) scale(1); opacity: 1; offset-distance: 3518.8015648974865px; animation-timing-function: linear}
+	72.22222222222221%, 83.33333333333333% {transform: rotate(720deg) scale(1); opacity: 1; offset-distance: 5200.676564897487px; animation-timing-function: linear}
+	100% {transform: rotate(1080deg) scale(1); opacity: 1; offset-distance: 8864.68036240166px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_118_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_119_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_120_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_121_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_122_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_123_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_124_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_125_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_126_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_127_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_128_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_129_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_130_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_131_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_132_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_133_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_134_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_135_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_136_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_137_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_138_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_139_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_140_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_141_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_142_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_143_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_144_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_145_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_146_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_147_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_148_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_149_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_150_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_151_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_152_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_153_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_154_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_155_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_156_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_157_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_158_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_159_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_160_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_161_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_162_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_163_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_164_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_165_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_166_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_167_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_168_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_169_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_170_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_171_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_172_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_173_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_174_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_175_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_176_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_177_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_178_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_179_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_180_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_181_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_182_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_183_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_184_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_185_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_186_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_187_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_188_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_189_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_190_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_191_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_192_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_193_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_194_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_195_1 {
+	0% {opacity: 1; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 0; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+@keyframes animation_196_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+
+
+/* --- INLINE STYLE --- */
+
+        .mag .mag-pages-container .container {
+          left: 0px;
+          width: 1920px;
+        }
+        .mag .mag-pages-container .container .page {
+          left: 0px;
+          width: 1920px;
+        }
+            .mag .mag-pages-container .container .page.prev-page {
+              top: -1081px;            }
+            .mag .mag-pages-container .container .page.next-page {
+              top: 1081px;            }
+
+
+/* --- INLINE STYLE --- */
+
+ .align-left { text-align: left !important; } .align-center { text-align: center !important; } .align-right { text-align: right !important; } .align-justify { text-align: justify !important; } .unordered-list-item { padding: 0; margin: 0; list-style-type: none; } .unordered-list-item div[data-offset-key]:before, .unordered-list-item > li:before { white-space: nowrap; content: "•\00a0"; } .ordered-list-item { padding: 0; margin: 0; list-style-type: none; } .ordered-list-item div[data-offset-key]:before, .ordered-list-item > li:before { white-space: nowrap; counter-increment: ordered-key; content: counter(ordered-key)"."; } .link-style-da70d44b-056d-4e15-967c-984c16baf656 { text-decoration: none; padding-bottom: 1px; background: none; color: rgba(1, 1, 1, 1); } .link-style-da70d44b-056d-4e15-967c-984c16baf656 * { color: rgba(1, 1, 1, 1); } .link-style-da70d44b-056d-4e15-967c-984c16baf656 .hover, .link-style-da70d44b-056d-4e15-967c-984c16baf656:hover { text-decoration: none; padding-bottom: 1px; background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%) 0 100%/1px 1px repeat-x; color: rgba(0, 0, 0, 1) !important; } .link-style-da70d44b-056d-4e15-967c-984c16baf656 .hover *, .link-style-da70d44b-056d-4e15-967c-984c16baf656:hover * { color: rgba(0, 0, 0, 1) !important; } .link-style-da70d44b-056d-4e15-967c-984c16baf656.current { text-decoration: none; padding-bottom: 1px; background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%) 0 100%/1px 1px repeat-x; color: rgba(0, 0, 0, 1); } .link-style-da70d44b-056d-4e15-967c-984c16baf656.current * { color: rgba(0, 0, 0, 1); } .unstyled { font-size: 18px; line-height: 26px; font-family: Inter; font-weight: 400; font-style: normal; text-align: align-left; } .default-list-style.edit-mode .editor-block-wrapper { display: flex; } .default-list-style.view-mode { display: flex; } .default-list-style.view-mode:before { display: inline-block; } .unordered-list-item.default-list-style.edit-mode .editor-block-wrapper:before { content: "•\00a0"; display: inline-block; } .unordered-list-item.default-list-style.edit-mode div[data-offset-key]:before { content: "•\00a0"; display: none; } .ordered-list-item.default-list-style.edit-mode .editor-block-wrapper:before { counter-increment: ordered-key; content: counter(ordered-key)"."; display: inline-block; white-space: nowrap; } .ordered-list-item.default-list-style.edit-mode div[data-offset-key]:before { counter-increment: ordered-key; content: counter(ordered-key)"."; display: none; white-space: nowrap; } .unordered-list-item .default-list-style.view-mode:before { content: "•\00a0"; } .paragraph-1 { color: rgba(34, 34, 34, 1); font-family: Nobel; font-size: 48px; font-style: normal; font-weight: 700; line-height: 60px; text-align: left; } .paragraph-2 { color: rgba(34, 34, 34, 1); font-family: Georgia; font-size: 24px; font-style: normal; font-weight: 400; line-height: 30px; text-align: left; } .paragraph-3 { color: rgba(34, 34, 34, 1); font-family: Georgia; font-size: 18px; font-style: normal; font-weight: 400; line-height: 23px; text-align: left; } .paragraph-4 { color: rgba(34, 34, 34, 0.5); font-family: Georgia; font-size: 14px; font-style: italic; font-weight: 400; line-height: 18px; text-align: left; } 

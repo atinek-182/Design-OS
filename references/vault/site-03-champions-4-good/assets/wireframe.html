@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Champions 4 Good - UI/UX Architectural Wireframe Blueprint</title>
+  <style>
+    :root {
+      --bg: #FAFAF8;
+      --card-bg: #FFFFFF;
+      --border: #E8E8E2;
+      --accent: #FF3366;
+      --text: #0A0A0C;
+      --text-muted: #707075;
+      --code-bg: #121215;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 2rem; line-height: 1.5; }
+    .header { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
+    .header h1 { font-size: 2.2rem; color: #000; font-weight: 800; letter-spacing: -0.02em; text-transform: uppercase; }
+    .header p { color: var(--text-muted); font-size: 0.95rem; }
+
+    .grid-layout { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; }
+    .wireframe-stage { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; position: relative; }
+    
+    .comp-block { border: 2px dashed var(--border); border-radius: 6px; padding: 1.25rem; margin-bottom: 1.5rem; background: rgba(0,0,0,0.01); position: relative; }
+    .comp-tag { position: absolute; top: -12px; left: 16px; background: var(--accent); color: #fff; font-size: 0.75rem; font-weight: 800; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    .nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 0.8rem 1rem; background: #fff; border-radius: 6px; border: 1px solid var(--border); }
+    .hero-scene { height: 320px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 2.5rem; border: 1px solid var(--border); border-radius: 6px; background: linear-gradient(135deg, #FFFFFF 0%, #F5F5F0 100%); position: relative; }
+    .hero-scene h2 { font-size: 3.5rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.05; text-transform: uppercase; }
+
+    .flick-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; }
+    .flick-card { border: 1px solid var(--border); border-radius: 6px; padding: 1rem; background: #fff; position: relative; }
+    .card-badge { display: inline-block; background: #000; color: #fff; font-size: 0.7rem; font-weight: 700; padding: 2px 6px; border-radius: 3px; margin-bottom: 0.5rem; }
+
+    .sidebar { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; }
+    .sidebar h3 { font-size: 1.1rem; margin-bottom: 1rem; color: #000; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; text-transform: uppercase; }
+    .spec-item { margin-bottom: 1rem; }
+    .spec-item label { display: block; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .spec-item value { display: block; font-size: 0.95rem; color: var(--text); font-weight: 600; }
+    .code-snippet { background: var(--code-bg); padding: 0.8rem; border-radius: 4px; font-family: monospace; font-size: 0.8rem; color: #e06c75; overflow-x: auto; margin-top: 0.5rem; }
+
+    .studio-badge { display: inline-block; background: var(--accent); color: #fff; padding: 4px 10px; border-radius: 4px; font-weight: 800; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <h1>CHAMPIONS 4 GOOD — TECHNICAL ARCHITECTURAL BLUEPRINT</h1>
+      <span class="studio-badge">AWWWARDS DEVELOPER AWARD</span>
+    </div>
+    <p>Created by Studio Double Play | Flick Cards Physics + Vercel App Engine + Umami Analytics Stack</p>
+  </div>
+
+  <div class="grid-layout">
+    <div class="wireframe-stage">
+      <!-- COMPONENT 1: NAV -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: MISSION NETWORK HEADER NAV</span>
+        <div class="nav-bar">
+          <div style="font-weight: 800; font-size: 1.3rem; letter-spacing: -0.02em;">CHAMPIONS 4 GOOD</div>
+          <div style="display: flex; gap: 1.5rem; align-items: center;">
+            <span style="font-size: 0.85rem; font-weight: 700;">ATHLETES</span>
+            <span style="font-size: 0.85rem; font-weight: 700;">BUSINESS</span>
+            <span style="font-size: 0.85rem; font-weight: 700;">EVENTS</span>
+            <span style="font-size: 0.85rem; background: var(--accent); color: #fff; padding: 6px 16px; border-radius: 4px; font-weight: 800;">JOIN CLUB</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMPONENT 2: HERO SECTION -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: PLAYFUL KINETIC HERO STAGE</span>
+        <div class="hero-scene">
+          <span style="font-size: 0.8rem; letter-spacing: 0.15em; color: var(--accent); font-weight: 800; margin-bottom: 0.5rem;">// NETWORK FOR ATHLETES & INVESTORS</span>
+          <h2>CONNECTING CHAMPIONS FOR SOCIAL IMPACT</h2>
+          <p style="font-size: 0.95rem; color: var(--text-muted); margin-top: 0.8rem; max-width: 540px;">Der Champions for Good Club verbindet Athlet:innen, Unternehmer:innen und Investor:innen in einem einzigartigen Netzwerk.</p>
+        </div>
+      </div>
+
+      <!-- COMPONENT 3: FLICK CARDS PHYSICS GRID -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: FLICK CARDS DRAGGABLE PHYSICS GRID</span>
+        <div class="flick-grid">
+          <div class="flick-card">
+            <span class="card-badge">FREE MEMBERSHIP</span>
+            <strong style="display: block; font-size: 1rem; margin-top: 0.4rem;">ATHLETE TIER</strong>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.3rem;">Zugang zu Business Kontakten & Sponsorings</p>
+          </div>
+          <div class="flick-card" style="border-color: var(--accent);">
+            <span class="card-badge" style="background: var(--accent);">€85 / MO</span>
+            <strong style="display: block; font-size: 1rem; margin-top: 0.4rem;">BOOSTER TIER</strong>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.3rem;">Teilnahme an Club Events für Startups</p>
+          </div>
+          <div class="flick-card">
+            <span class="card-badge">€150 / MO</span>
+            <strong style="display: block; font-size: 1rem; margin-top: 0.4rem;">BUSINESS TIER</strong>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.3rem;">Geschäftschancen & Personal Branding</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECHNICAL SPEC SIDEBAR -->
+    <div class="sidebar">
+      <h3>ENGINEERING SPECIFICATIONS</h3>
+      
+      <div class="spec-item">
+        <label>Design Studio</label>
+        <value>Double Play Studio (champions4good.vercel.app)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Awards Pedigree</label>
+        <value>Awwwards Developer Award (April 2026) + Muzli Pick</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Draggable Physics Engine</label>
+        <value>Flick Cards Canvas ([data-flick-cards-dragger])</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Privacy Analytics</label>
+        <value>Umami Cloud Analytics (cloud.umami.is)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Color Tokens</label>
+        <value>Off-White (#FAFAF8), Impact Pink (#FF3366), Charcoal Black (#0A0A0C)</value>
+        <div class="code-snippet">:root {
+  --color-bg: #FAFAF8;
+  --color-accent: #FF3366;
+}</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

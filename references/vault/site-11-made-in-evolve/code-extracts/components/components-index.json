@@ -1,0 +1,952 @@
+[
+  {
+    "name": "Misc_LoaderGrid_01",
+    "category": "misc",
+    "file": "misc/Misc_LoaderGrid_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "loader__grid",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Misc_LoaderContainer_02",
+    "category": "misc",
+    "file": "misc/Misc_LoaderContainer_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "loader__container",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Sections_App_01",
+    "category": "sections",
+    "file": "sections/Sections_App_01.tsx",
+    "tag": "main",
+    "id": "",
+    "className": "app",
+    "width": 1920,
+    "height": 9357
+  },
+  {
+    "name": "Misc_Grid_03",
+    "category": "misc",
+    "file": "misc/Misc_Grid_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Misc_ColumnGrid_04",
+    "category": "misc",
+    "file": "misc/Misc_ColumnGrid_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "column__grid",
+    "width": 40,
+    "height": 0
+  },
+  {
+    "name": "Nav_WNode87d81950C4e1103362cdD6fd52790f1b52790f1b_01",
+    "category": "nav",
+    "file": "nav/Nav_WNode87d81950C4e1103362cdD6fd52790f1b52790f1b_01.tsx",
+    "tag": "nav",
+    "id": "w-node-_87d81950-c4e1-1033-62cd-d6fd52790f1b-52790f1b",
+    "className": "single__nav",
+    "width": 1920,
+    "height": 78
+  },
+  {
+    "name": "Nav_NavWrapper_02",
+    "category": "nav",
+    "file": "nav/Nav_NavWrapper_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav__wrapper is--single",
+    "width": 1920,
+    "height": 39
+  },
+  {
+    "name": "Nav_WNode87d81950C4e1103362cdD6fd52790f1d52790f1b_03",
+    "category": "nav",
+    "file": "nav/Nav_WNode87d81950C4e1103362cdD6fd52790f1d52790f1b_03.tsx",
+    "tag": "div",
+    "id": "w-node-_87d81950-c4e1-1033-62cd-d6fd52790f1d-52790f1b",
+    "className": "nav__column is--left",
+    "width": 98,
+    "height": 39
+  },
+  {
+    "name": "Nav_NavLogo_04",
+    "category": "nav",
+    "file": "nav/Nav_NavLogo_04.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav__logo w-inline-block",
+    "width": 98,
+    "height": 24
+  },
+  {
+    "name": "Misc_Svg_05",
+    "category": "misc",
+    "file": "misc/Misc_Svg_05.tsx",
+    "tag": "svg",
+    "id": "",
+    "className": "",
+    "width": 98,
+    "height": 24
+  },
+  {
+    "name": "Nav_WNodeCfa15fa2468793bfD04f02eba5e2dabe52790f1b_05",
+    "category": "nav",
+    "file": "nav/Nav_WNodeCfa15fa2468793bfD04f02eba5e2dabe52790f1b_05.tsx",
+    "tag": "div",
+    "id": "w-node-cfa15fa2-4687-93bf-d04f-02eba5e2dabe-52790f1b",
+    "className": "nav__column is--desc",
+    "width": 640,
+    "height": 39
+  },
+  {
+    "name": "Nav_NavDesc_06",
+    "category": "nav",
+    "file": "nav/Nav_NavDesc_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav__desc",
+    "width": 266,
+    "height": 39
+  },
+  {
+    "name": "Nav_WNodeB941b88bFda85a5a3ef1D2799bdeaf8552790f1b_07",
+    "category": "nav",
+    "file": "nav/Nav_WNodeB941b88bFda85a5a3ef1D2799bdeaf8552790f1b_07.tsx",
+    "tag": "div",
+    "id": "w-node-b941b88b-fda8-5a5a-3ef1-d2799bdeaf85-52790f1b",
+    "className": "nav__column is--desc",
+    "width": 600,
+    "height": 27
+  },
+  {
+    "name": "Nav_NavDesc_08",
+    "category": "nav",
+    "file": "nav/Nav_NavDesc_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav__desc",
+    "width": 266,
+    "height": 27
+  },
+  {
+    "name": "Misc_CopyEmailWrapper_06",
+    "category": "misc",
+    "file": "misc/Misc_CopyEmailWrapper_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "copy-email-wrapper",
+    "width": 266,
+    "height": 13
+  },
+  {
+    "name": "Nav_WNode2bba9c05Ed1620e55f87025d081e123d52790f1b_09",
+    "category": "nav",
+    "file": "nav/Nav_WNode2bba9c05Ed1620e55f87025d081e123d52790f1b_09.tsx",
+    "tag": "div",
+    "id": "w-node-_2bba9c05-ed16-20e5-5f87-025d081e123d-52790f1b",
+    "className": "nav__column",
+    "width": 160,
+    "height": 26
+  },
+  {
+    "name": "Nav_NavLanguage_10",
+    "category": "nav",
+    "file": "nav/Nav_NavLanguage_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav__language",
+    "width": 10,
+    "height": 31
+  },
+  {
+    "name": "Nav_WNode87d81950C4e1103362cdD6fd52790f4752790f1b_11",
+    "category": "nav",
+    "file": "nav/Nav_WNode87d81950C4e1103362cdD6fd52790f4752790f1b_11.tsx",
+    "tag": "div",
+    "id": "w-node-_87d81950-c4e1-1033-62cd-d6fd52790f47-52790f1b",
+    "className": "nav__column is--right",
+    "width": 120,
+    "height": 39
+  },
+  {
+    "name": "Nav_Navigation_12",
+    "category": "nav",
+    "file": "nav/Nav_Navigation_12.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "navigation",
+    "width": 120,
+    "height": 20
+  },
+  {
+    "name": "Nav_CenteredNav_13",
+    "category": "nav",
+    "file": "nav/Nav_CenteredNav_13.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "centered-nav",
+    "width": 120,
+    "height": 20
+  },
+  {
+    "name": "Nav_CenteredNavHeader_14",
+    "category": "nav",
+    "file": "nav/Nav_CenteredNavHeader_14.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "centered-nav__header",
+    "width": 120,
+    "height": 20
+  },
+  {
+    "name": "Nav_CenteredNavSubmenuWrap_15",
+    "category": "nav",
+    "file": "nav/Nav_CenteredNavSubmenuWrap_15.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "centered-nav__submenu-wrap",
+    "width": 120,
+    "height": 0
+  },
+  {
+    "name": "Nav_CenteredNavSubmenu_16",
+    "category": "nav",
+    "file": "nav/Nav_CenteredNavSubmenu_16.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "centered-nav__submenu",
+    "width": 120,
+    "height": 110
+  },
+  {
+    "name": "Nav_SubmenuRow_17",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuRow_17.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "submenu__row w-inline-block",
+    "width": 120,
+    "height": 20
+  },
+  {
+    "name": "Nav_SubmenuContent_18",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuContent_18.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "submenu__content",
+    "width": 113,
+    "height": 13
+  },
+  {
+    "name": "Nav_SubmenuRow_19",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuRow_19.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "submenu__row w-inline-block",
+    "width": 120,
+    "height": 20
+  },
+  {
+    "name": "Nav_SubmenuContent_20",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuContent_20.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "submenu__content",
+    "width": 113,
+    "height": 13
+  },
+  {
+    "name": "Nav_SubmenuRow_21",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuRow_21.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "submenu__row w-inline-block",
+    "width": 120,
+    "height": 20
+  },
+  {
+    "name": "Nav_SubmenuContent_22",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuContent_22.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "submenu__content",
+    "width": 113,
+    "height": 13
+  },
+  {
+    "name": "Nav_SubmenuRow_23",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuRow_23.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "submenu__row w-inline-block",
+    "width": 120,
+    "height": 20
+  },
+  {
+    "name": "Nav_SubmenuContent_24",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuContent_24.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "submenu__content",
+    "width": 113,
+    "height": 13
+  },
+  {
+    "name": "Nav_SubmenuRow_25",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuRow_25.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "submenu__row w-inline-block",
+    "width": 120,
+    "height": 20
+  },
+  {
+    "name": "Nav_SubmenuContent_26",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuContent_26.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "submenu__content",
+    "width": 113,
+    "height": 13
+  },
+  {
+    "name": "Sections_Section_02",
+    "category": "sections",
+    "file": "sections/Sections_Section_02.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "section",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Nav_Section_27",
+    "category": "nav",
+    "file": "nav/Nav_Section_27.tsx",
+    "tag": "header",
+    "id": "",
+    "className": "section",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Hero_SectionHero_01",
+    "category": "hero",
+    "file": "hero/Hero_SectionHero_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "section__hero",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Hero_HeroHeadingWrap_02",
+    "category": "hero",
+    "file": "hero/Hero_HeroHeadingWrap_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "hero__heading-wrap",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Interactive_SliderWrap_01",
+    "category": "interactive",
+    "file": "interactive/Interactive_SliderWrap_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "slider_wrap",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Interactive_SliderCmsWrap_02",
+    "category": "interactive",
+    "file": "interactive/Interactive_SliderCmsWrap_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "slider_cms_wrap w-dyn-list",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Cards_SliderCmsList_01",
+    "category": "cards",
+    "file": "cards/Cards_SliderCmsList_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "slider_cms_list w-dyn-items",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Cards_SliderCmsItem_02",
+    "category": "cards",
+    "file": "cards/Cards_SliderCmsItem_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "slider_cms_item w-dyn-item",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Interactive_SliderCmsImg_03",
+    "category": "interactive",
+    "file": "interactive/Interactive_SliderCmsImg_03.tsx",
+    "tag": "img",
+    "id": "",
+    "className": "slider_cms_img",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Cards_SliderCmsItem_03",
+    "category": "cards",
+    "file": "cards/Cards_SliderCmsItem_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "slider_cms_item w-dyn-item",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Interactive_SliderCmsImg_04",
+    "category": "interactive",
+    "file": "interactive/Interactive_SliderCmsImg_04.tsx",
+    "tag": "img",
+    "id": "",
+    "className": "slider_cms_img",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Hero_HeroOverlay_03",
+    "category": "hero",
+    "file": "hero/Hero_HeroOverlay_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "hero__overlay",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Hero_HeroTop_04",
+    "category": "hero",
+    "file": "hero/Hero_HeroTop_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "hero__top is--home",
+    "width": 1920,
+    "height": 324
+  },
+  {
+    "name": "Hero_Line_05",
+    "category": "hero",
+    "file": "hero/Hero_Line_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "line is--hero",
+    "width": 1920,
+    "height": 1
+  },
+  {
+    "name": "Hero_HeroHeading_06",
+    "category": "hero",
+    "file": "hero/Hero_HeroHeading_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "hero__heading",
+    "width": 1920,
+    "height": 756
+  },
+  {
+    "name": "Sections_Section_03",
+    "category": "sections",
+    "file": "sections/Sections_Section_03.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "section",
+    "width": 1920,
+    "height": 796
+  },
+  {
+    "name": "Sections_Section_04",
+    "category": "sections",
+    "file": "sections/Sections_Section_04.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "section is--services",
+    "width": 1920,
+    "height": 796
+  },
+  {
+    "name": "Interactive_ProjectsCtaWrap_05",
+    "category": "interactive",
+    "file": "interactive/Interactive_ProjectsCtaWrap_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "projects__cta-wrap",
+    "width": 196,
+    "height": 53
+  },
+  {
+    "name": "Misc_ProjectRowListWrapper_07",
+    "category": "misc",
+    "file": "misc/Misc_ProjectRowListWrapper_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "project__row-list-wrapper is--desk w-dyn-list",
+    "width": 1920,
+    "height": 511
+  },
+  {
+    "name": "Sections_Section_05",
+    "category": "sections",
+    "file": "sections/Sections_Section_05.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "section",
+    "width": 1920,
+    "height": 863
+  },
+  {
+    "name": "Interactive_WNodeD1a7e0cc15af3229101fF394c28c031060bc7691_06",
+    "category": "interactive",
+    "file": "interactive/Interactive_WNodeD1a7e0cc15af3229101fF394c28c031060bc7691_06.tsx",
+    "tag": "div",
+    "id": "w-node-d1a7e0cc-15af-3229-101f-f394c28c0310-60bc7691",
+    "className": "ss__bottom-bottom ss__cta-container",
+    "width": 1920,
+    "height": 336
+  },
+  {
+    "name": "Interactive_WNodeE6e889aa1442A08aB28c9c54211340f260bc7691_07",
+    "category": "interactive",
+    "file": "interactive/Interactive_WNodeE6e889aa1442A08aB28c9c54211340f260bc7691_07.tsx",
+    "tag": "div",
+    "id": "w-node-e6e889aa-1442-a08a-b28c-9c54211340f2-60bc7691",
+    "className": "ss__bottom-cta",
+    "width": 240,
+    "height": 336
+  },
+  {
+    "name": "Interactive_BottomCtaTop_08",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaTop_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom-cta-top",
+    "width": 212,
+    "height": 31
+  },
+  {
+    "name": "Interactive_BottomCtaTag_09",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaTag_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom-cta__tag",
+    "width": 21,
+    "height": 31
+  },
+  {
+    "name": "Interactive_BottomCtaList_10",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaList_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom__cta-list",
+    "width": 212,
+    "height": 105
+  },
+  {
+    "name": "Interactive_WNode9ce63dccD32e71d572e2B195689719e860bc7691_11",
+    "category": "interactive",
+    "file": "interactive/Interactive_WNode9ce63dccD32e71d572e2B195689719e860bc7691_11.tsx",
+    "tag": "div",
+    "id": "w-node-_9ce63dcc-d32e-71d5-72e2-b195689719e8-60bc7691",
+    "className": "ss__bottom-cta",
+    "width": 240,
+    "height": 336
+  },
+  {
+    "name": "Interactive_BottomCtaTop_12",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaTop_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom-cta-top",
+    "width": 212,
+    "height": 31
+  },
+  {
+    "name": "Interactive_BottomCtaTag_13",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaTag_13.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom-cta__tag",
+    "width": 21,
+    "height": 31
+  },
+  {
+    "name": "Interactive_BottomCtaList_14",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaList_14.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom__cta-list",
+    "width": 212,
+    "height": 105
+  },
+  {
+    "name": "Interactive_WNode554892daFb33Cf6f0afb961f7e4d0ae860bc7691_15",
+    "category": "interactive",
+    "file": "interactive/Interactive_WNode554892daFb33Cf6f0afb961f7e4d0ae860bc7691_15.tsx",
+    "tag": "div",
+    "id": "w-node-_554892da-fb33-cf6f-0afb-961f7e4d0ae8-60bc7691",
+    "className": "ss__bottom-cta",
+    "width": 240,
+    "height": 336
+  },
+  {
+    "name": "Interactive_BottomCtaTop_16",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaTop_16.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom-cta-top",
+    "width": 212,
+    "height": 31
+  },
+  {
+    "name": "Interactive_BottomCtaTag_17",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaTag_17.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom-cta__tag",
+    "width": 20,
+    "height": 31
+  },
+  {
+    "name": "Interactive_BottomCtaList_18",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaList_18.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom__cta-list",
+    "width": 212,
+    "height": 105
+  },
+  {
+    "name": "Interactive_WNode3244d977D1b10c29B19b9c4b3ecf453760bc7691_19",
+    "category": "interactive",
+    "file": "interactive/Interactive_WNode3244d977D1b10c29B19b9c4b3ecf453760bc7691_19.tsx",
+    "tag": "div",
+    "id": "w-node-_3244d977-d1b1-0c29-b19b-9c4b3ecf4537-60bc7691",
+    "className": "ss__bottom-cta",
+    "width": 240,
+    "height": 336
+  },
+  {
+    "name": "Interactive_BottomCtaTop_20",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaTop_20.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom-cta-top",
+    "width": 212,
+    "height": 20
+  },
+  {
+    "name": "Interactive_BottomCtaTag_21",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaTag_21.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom-cta__tag",
+    "width": 21,
+    "height": 20
+  },
+  {
+    "name": "Interactive_BottomCtaList_22",
+    "category": "interactive",
+    "file": "interactive/Interactive_BottomCtaList_22.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bottom__cta-list",
+    "width": 212,
+    "height": 105
+  },
+  {
+    "name": "Sections_Section_06",
+    "category": "sections",
+    "file": "sections/Sections_Section_06.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "section",
+    "width": 1920,
+    "height": 1356
+  },
+  {
+    "name": "Sections_WNode95c4c0a924604eb767ca162b46b7a8ca60bc7691_07",
+    "category": "sections",
+    "file": "sections/Sections_WNode95c4c0a924604eb767ca162b46b7a8ca60bc7691_07.tsx",
+    "tag": "section",
+    "id": "w-node-_95c4c0a9-2460-4eb7-67ca-162b46b7a8ca-60bc7691",
+    "className": "mwg029-3",
+    "width": 1080,
+    "height": 20
+  },
+  {
+    "name": "Sections_WNode95c4c0a924604eb767ca162b46b7a8ce60bc7691_08",
+    "category": "sections",
+    "file": "sections/Sections_WNode95c4c0a924604eb767ca162b46b7a8ce60bc7691_08.tsx",
+    "tag": "section",
+    "id": "w-node-_95c4c0a9-2460-4eb7-67ca-162b46b7a8ce-60bc7691",
+    "className": "showreel__wrap",
+    "width": 1840,
+    "height": 1080
+  },
+  {
+    "name": "Cards_MiniShowreelCard_04",
+    "category": "cards",
+    "file": "cards/Cards_MiniShowreelCard_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "mini-showreel__card",
+    "width": 1120,
+    "height": 630
+  },
+  {
+    "name": "Interactive_BunnyPlayerBigBtn_23",
+    "category": "interactive",
+    "file": "interactive/Interactive_BunnyPlayerBigBtn_23.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bunny-player__big-btn",
+    "width": 70,
+    "height": 28
+  },
+  {
+    "name": "Interactive_BunnyPlayerInterfaceBtns_24",
+    "category": "interactive",
+    "file": "interactive/Interactive_BunnyPlayerInterfaceBtns_24.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "bunny-player__interface-btns",
+    "width": 49,
+    "height": 21
+  },
+  {
+    "name": "Sections_Section_09",
+    "category": "sections",
+    "file": "sections/Sections_Section_09.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "section",
+    "width": 1920,
+    "height": 2022
+  },
+  {
+    "name": "Footers_Footer_01",
+    "category": "footers",
+    "file": "footers/Footers_Footer_01.tsx",
+    "tag": "footer",
+    "id": "",
+    "className": "footer",
+    "width": 1920,
+    "height": 3240
+  },
+  {
+    "name": "3d_ImageSequenceCanvas_01",
+    "category": "3d",
+    "file": "3d/3d_ImageSequenceCanvas_01.tsx",
+    "tag": "canvas",
+    "id": "",
+    "className": "image-sequence__canvas",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Footers_FooterTitleWrap_02",
+    "category": "footers",
+    "file": "footers/Footers_FooterTitleWrap_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__title-wrap",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Footers_FooterTitle_03",
+    "category": "footers",
+    "file": "footers/Footers_FooterTitle_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__title",
+    "width": 1402,
+    "height": 50
+  },
+  {
+    "name": "Footers_FooterInfoWrap_04",
+    "category": "footers",
+    "file": "footers/Footers_FooterInfoWrap_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__info-wrap",
+    "width": 1920,
+    "height": 148
+  },
+  {
+    "name": "Footers_WNodeE2d137f9Ee3c9274Dda18d2779c380b679c380a8_05",
+    "category": "footers",
+    "file": "footers/Footers_WNodeE2d137f9Ee3c9274Dda18d2779c380b679c380a8_05.tsx",
+    "tag": "div",
+    "id": "w-node-e2d137f9-ee3c-9274-dda1-8d2779c380b6-79c380a8",
+    "className": "footer__info-column",
+    "width": 400,
+    "height": 148
+  },
+  {
+    "name": "Footers_FooterText_06",
+    "category": "footers",
+    "file": "footers/Footers_FooterText_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__text is--left",
+    "width": 192,
+    "height": 39
+  },
+  {
+    "name": "Footers_FooterInfoLinks_07",
+    "category": "footers",
+    "file": "footers/Footers_FooterInfoLinks_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__info-links is--press",
+    "width": 118,
+    "height": 15
+  },
+  {
+    "name": "Footers_WNodeE2d137f9Ee3c9274Dda18d2779c380c579c380a8_08",
+    "category": "footers",
+    "file": "footers/Footers_WNodeE2d137f9Ee3c9274Dda18d2779c380c579c380a8_08.tsx",
+    "tag": "div",
+    "id": "w-node-e2d137f9-ee3c-9274-dda1-8d2779c380c5-79c380a8",
+    "className": "footer__info-column",
+    "width": 211,
+    "height": 148
+  },
+  {
+    "name": "Footers_FooterText_09",
+    "category": "footers",
+    "file": "footers/Footers_FooterText_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__text",
+    "width": 211,
+    "height": 39
+  },
+  {
+    "name": "Footers_FooterInfoLinks_10",
+    "category": "footers",
+    "file": "footers/Footers_FooterInfoLinks_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__info-links is--legal",
+    "width": 172,
+    "height": 15
+  },
+  {
+    "name": "Footers_WNodeE2d137f9Ee3c9274Dda18d2779c380cd79c380a8_11",
+    "category": "footers",
+    "file": "footers/Footers_WNodeE2d137f9Ee3c9274Dda18d2779c380cd79c380a8_11.tsx",
+    "tag": "div",
+    "id": "w-node-e2d137f9-ee3c-9274-dda1-8d2779c380cd-79c380a8",
+    "className": "footer__info-column",
+    "width": 211,
+    "height": 148
+  },
+  {
+    "name": "Footers_FooterText_12",
+    "category": "footers",
+    "file": "footers/Footers_FooterText_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__text",
+    "width": 211,
+    "height": 26
+  },
+  {
+    "name": "Footers_FormFooter_13",
+    "category": "footers",
+    "file": "footers/Footers_FormFooter_13.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "form__footer w-form",
+    "width": 190,
+    "height": 81
+  },
+  {
+    "name": "Footers_NewsletterForm_14",
+    "category": "footers",
+    "file": "footers/Footers_NewsletterForm_14.tsx",
+    "tag": "form",
+    "id": "newsletter-form",
+    "className": "footer__newsletter",
+    "width": 190,
+    "height": 81
+  },
+  {
+    "name": "Footers_WNodeE2d137f9Ee3c9274Dda18d2779c380e579c380a8_15",
+    "category": "footers",
+    "file": "footers/Footers_WNodeE2d137f9Ee3c9274Dda18d2779c380e579c380a8_15.tsx",
+    "tag": "div",
+    "id": "w-node-e2d137f9-ee3c-9274-dda1-8d2779c380e5-79c380a8",
+    "className": "footer__info-column",
+    "width": 93,
+    "height": 148
+  },
+  {
+    "name": "Footers_FooterInfoLinks_16",
+    "category": "footers",
+    "file": "footers/Footers_FooterInfoLinks_16.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__info-links is--press",
+    "width": 93,
+    "height": 60
+  },
+  {
+    "name": "Footers_FooterInfoLinks_17",
+    "category": "footers",
+    "file": "footers/Footers_FooterInfoLinks_17.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__info-links is--press",
+    "width": 53,
+    "height": 30
+  }
+]

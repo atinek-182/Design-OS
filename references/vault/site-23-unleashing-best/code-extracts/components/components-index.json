@@ -1,0 +1,1172 @@
+[
+  {
+    "name": "Interactive_BtnMain_01",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMain_01.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn-main link-course fix-els link",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Interactive_BtnMainHold_02",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMainHold_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-main__hold",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Interactive_BtnMailText_03",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMailText_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-mail__text btn-mail__text__static",
+    "width": 108,
+    "height": 14
+  },
+  {
+    "name": "Interactive_BtnMailText_04",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMailText_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-mail__text btn-mail__text__hover",
+    "width": 108,
+    "height": 14
+  },
+  {
+    "name": "Misc_Svg_01",
+    "category": "misc",
+    "file": "misc/Misc_Svg_01.tsx",
+    "tag": "svg",
+    "id": "",
+    "className": "",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Misc_Path_02",
+    "category": "misc",
+    "file": "misc/Misc_Path_02.tsx",
+    "tag": "path",
+    "id": "",
+    "className": "",
+    "width": 216,
+    "height": 59
+  },
+  {
+    "name": "Misc_Path_03",
+    "category": "misc",
+    "file": "misc/Misc_Path_03.tsx",
+    "tag": "path",
+    "id": "",
+    "className": "",
+    "width": 216,
+    "height": 59
+  },
+  {
+    "name": "Modals_BtnMain_01",
+    "category": "modals",
+    "file": "modals/Modals_BtnMain_01.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btn-main trg-modalchap e-curp e-fixed e-flex fix-els",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Interactive_BtnMainHold_05",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMainHold_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-main__hold",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Modals_TrgModalchapCtn_02",
+    "category": "modals",
+    "file": "modals/Modals_TrgModalchapCtn_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "trg-modalchap__ctn e-flex",
+    "width": 129,
+    "height": 15
+  },
+  {
+    "name": "Modals_TrgModalchapSquares_03",
+    "category": "modals",
+    "file": "modals/Modals_TrgModalchapSquares_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "trg-modalchap__squares",
+    "width": 15,
+    "height": 15
+  },
+  {
+    "name": "Modals_TrgModalchapTexts_04",
+    "category": "modals",
+    "file": "modals/Modals_TrgModalchapTexts_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "trg-modalchap__texts e-flex e-rel",
+    "width": 104,
+    "height": 14
+  },
+  {
+    "name": "Interactive_BtnMailText_06",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMailText_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-mail__text btn-mail__text__static",
+    "width": 104,
+    "height": 14
+  },
+  {
+    "name": "Interactive_BtnMailText_07",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMailText_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-mail__text btn-mail__text__hover",
+    "width": 104,
+    "height": 14
+  },
+  {
+    "name": "Misc_Svg_04",
+    "category": "misc",
+    "file": "misc/Misc_Svg_04.tsx",
+    "tag": "svg",
+    "id": "",
+    "className": "",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Nav_NavAbout_01",
+    "category": "nav",
+    "file": "nav/Nav_NavAbout_01.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "nav-about e-fixed no-mobile is-trgtop fix-els",
+    "width": 474,
+    "height": 48
+  },
+  {
+    "name": "Nav_NavAboutHold_02",
+    "category": "nav",
+    "file": "nav/Nav_NavAboutHold_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-about__hold e-rel e-wp e-hp e-flex",
+    "width": 474,
+    "height": 48
+  },
+  {
+    "name": "Nav_NavAboutBg_03",
+    "category": "nav",
+    "file": "nav/Nav_NavAboutBg_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-about__bg e-abs",
+    "width": 150,
+    "height": 31
+  },
+  {
+    "name": "Nav_NavAboutTrgs_04",
+    "category": "nav",
+    "file": "nav/Nav_NavAboutTrgs_04.tsx",
+    "tag": "ul",
+    "id": "",
+    "className": "nav-about__trgs e-rel e-wp e-hp e-flex",
+    "width": 450,
+    "height": 18
+  },
+  {
+    "name": "Nav_NavAboutEach_05",
+    "category": "nav",
+    "file": "nav/Nav_NavAboutEach_05.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "nav-about__each",
+    "width": 150,
+    "height": 18
+  },
+  {
+    "name": "Nav_NavAboutEach_06",
+    "category": "nav",
+    "file": "nav/Nav_NavAboutEach_06.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "nav-about__each",
+    "width": 150,
+    "height": 18
+  },
+  {
+    "name": "Nav_NavAboutEach_07",
+    "category": "nav",
+    "file": "nav/Nav_NavAboutEach_07.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "nav-about__each",
+    "width": 150,
+    "height": 18
+  },
+  {
+    "name": "Modals_ModalChap_05",
+    "category": "modals",
+    "file": "modals/Modals_ModalChap_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap e-wvw e-hvh e-fixed no",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Modals_ModalChapFader_06",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapFader_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap__fader modal-chap__layer",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Modals_ModalChapBgGray_07",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapBgGray_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap__bg-gray modal-chap__layer e-gray",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Modals_ModalChapBgWhite_08",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapBgWhite_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap__bg-white modal-chap__layer e-white",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Modals_ModalChapClose_09",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapClose_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap__close e-curp",
+    "width": 86,
+    "height": 86
+  },
+  {
+    "name": "Modals_ModalChapCloseHold_10",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapCloseHold_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap__close__hold e-rel e-wp e-hp e-flex",
+    "width": 86,
+    "height": 86
+  },
+  {
+    "name": "Modals_ModalChapHold_11",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapHold_11.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap__hold e-rel e-flex-col",
+    "width": 1920,
+    "height": 3200
+  },
+  {
+    "name": "Modals_ModalChapTravel_12",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapTravel_12.tsx",
+    "tag": "ul",
+    "id": "",
+    "className": "modal-chap__travel e-rel",
+    "width": 1920,
+    "height": 3200
+  },
+  {
+    "name": "Modals_ModalChapEach_13",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEach_13.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "modal-chap__each",
+    "width": 1920,
+    "height": 252
+  },
+  {
+    "name": "Modals_ModalChapLink_14",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapLink_14.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "modal-chap__link e-flex",
+    "width": 1676,
+    "height": 170
+  },
+  {
+    "name": "Modals_ModalChapTitle_15",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapTitle_15.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "modal-chap__title",
+    "width": 1676,
+    "height": 170
+  },
+  {
+    "name": "Modals_ModalChapEachHover_16",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEachHover_16.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap__each__hover",
+    "width": 1920,
+    "height": 250
+  },
+  {
+    "name": "Modals_ModalChapEach_17",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEach_17.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "modal-chap__each",
+    "width": 1920,
+    "height": 422
+  },
+  {
+    "name": "Modals_ModalChapLink_18",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapLink_18.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "modal-chap__link e-flex",
+    "width": 1920,
+    "height": 340
+  },
+  {
+    "name": "Modals_ModalChapTitle_19",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapTitle_19.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "modal-chap__title",
+    "width": 1920,
+    "height": 340
+  },
+  {
+    "name": "Modals_ModalChapEachHover_20",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEachHover_20.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap__each__hover",
+    "width": 1920,
+    "height": 420
+  },
+  {
+    "name": "Modals_ModalChapEach_21",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEach_21.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "modal-chap__each",
+    "width": 1920,
+    "height": 422
+  },
+  {
+    "name": "Modals_ModalChapLink_22",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapLink_22.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "modal-chap__link e-flex",
+    "width": 1920,
+    "height": 340
+  },
+  {
+    "name": "Modals_ModalChapTitle_23",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapTitle_23.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "modal-chap__title",
+    "width": 1920,
+    "height": 340
+  },
+  {
+    "name": "Modals_ModalChapEachHover_24",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEachHover_24.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap__each__hover",
+    "width": 1920,
+    "height": 420
+  },
+  {
+    "name": "Modals_ModalChapEach_25",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEach_25.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "modal-chap__each",
+    "width": 1920,
+    "height": 252
+  },
+  {
+    "name": "Modals_ModalChapLink_26",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapLink_26.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "modal-chap__link e-flex",
+    "width": 1718,
+    "height": 170
+  },
+  {
+    "name": "Modals_ModalChapTitle_27",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapTitle_27.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "modal-chap__title",
+    "width": 1718,
+    "height": 170
+  },
+  {
+    "name": "Modals_ModalChapEachHover_28",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEachHover_28.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap__each__hover",
+    "width": 1920,
+    "height": 250
+  },
+  {
+    "name": "Modals_ModalChapEach_29",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEach_29.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "modal-chap__each",
+    "width": 1920,
+    "height": 252
+  },
+  {
+    "name": "Modals_ModalChapLink_30",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapLink_30.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "modal-chap__link e-flex",
+    "width": 1731,
+    "height": 170
+  },
+  {
+    "name": "Modals_ModalChapTitle_31",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapTitle_31.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "modal-chap__title",
+    "width": 1731,
+    "height": 170
+  },
+  {
+    "name": "Modals_ModalChapEachHover_32",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEachHover_32.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "modal-chap__each__hover",
+    "width": 1920,
+    "height": 250
+  },
+  {
+    "name": "Modals_ModalChapEach_33",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEach_33.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "modal-chap__each",
+    "width": 1920,
+    "height": 252
+  },
+  {
+    "name": "Modals_ModalChapLink_34",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapLink_34.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "modal-chap__link e-flex",
+    "width": 1676,
+    "height": 170
+  },
+  {
+    "name": "Modals_ModalChapEach_35",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEach_35.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "modal-chap__each",
+    "width": 1920,
+    "height": 422
+  },
+  {
+    "name": "Modals_ModalChapLink_36",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapLink_36.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "modal-chap__link e-flex",
+    "width": 1920,
+    "height": 340
+  },
+  {
+    "name": "Modals_ModalChapEach_37",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEach_37.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "modal-chap__each",
+    "width": 1920,
+    "height": 422
+  },
+  {
+    "name": "Modals_ModalChapLink_38",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapLink_38.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "modal-chap__link e-flex",
+    "width": 1920,
+    "height": 340
+  },
+  {
+    "name": "Modals_ModalChapEach_39",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEach_39.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "modal-chap__each",
+    "width": 1920,
+    "height": 252
+  },
+  {
+    "name": "Modals_ModalChapLink_40",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapLink_40.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "modal-chap__link e-flex",
+    "width": 1718,
+    "height": 170
+  },
+  {
+    "name": "Modals_ModalChapEach_41",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapEach_41.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "modal-chap__each",
+    "width": 1920,
+    "height": 252
+  },
+  {
+    "name": "Modals_ModalChapLink_42",
+    "category": "modals",
+    "file": "modals/Modals_ModalChapLink_42.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "modal-chap__link e-flex",
+    "width": 1731,
+    "height": 170
+  },
+  {
+    "name": "Interactive_IntroBtn_08",
+    "category": "interactive",
+    "file": "interactive/Interactive_IntroBtn_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "intro__btn",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Interactive_BtnMain_09",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMain_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-main e-rel",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Interactive_BtnMainHold_10",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMainHold_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-main__hold",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Interactive_BtnMailText_11",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMailText_11.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-mail__text btn-mail__text__static t-black",
+    "width": 108,
+    "height": 14
+  },
+  {
+    "name": "Interactive_BtnMailText_12",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMailText_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-mail__text btn-mail__text__hover t-black",
+    "width": 108,
+    "height": 14
+  },
+  {
+    "name": "Misc_Svg_05",
+    "category": "misc",
+    "file": "misc/Misc_Svg_05.tsx",
+    "tag": "svg",
+    "id": "",
+    "className": "",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Misc_Path_06",
+    "category": "misc",
+    "file": "misc/Misc_Path_06.tsx",
+    "tag": "path",
+    "id": "",
+    "className": "",
+    "width": 216,
+    "height": 59
+  },
+  {
+    "name": "Misc_Path_07",
+    "category": "misc",
+    "file": "misc/Misc_Path_07.tsx",
+    "tag": "path",
+    "id": "",
+    "className": "",
+    "width": 216,
+    "height": 59
+  },
+  {
+    "name": "3d_Webgl_01",
+    "category": "3d",
+    "file": "3d/3d_Webgl_01.tsx",
+    "tag": "canvas",
+    "id": "",
+    "className": "webgl e-fixed",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Interactive_SplashButton_13",
+    "category": "interactive",
+    "file": "interactive/Interactive_SplashButton_13.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "splash__button btn-main",
+    "width": 260,
+    "height": 66
+  },
+  {
+    "name": "Interactive_BtnMainHold_14",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMainHold_14.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-main__hold",
+    "width": 260,
+    "height": 66
+  },
+  {
+    "name": "Interactive_BtnMailText_15",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMailText_15.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-mail__text btn-mail__text__static",
+    "width": 138,
+    "height": 14
+  },
+  {
+    "name": "Interactive_BtnMailText_16",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMailText_16.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-mail__text btn-mail__text__hover",
+    "width": 138,
+    "height": 14
+  },
+  {
+    "name": "Interactive_SliderIndex_17",
+    "category": "interactive",
+    "file": "interactive/Interactive_SliderIndex_17.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "slider-index e-abs e-wvw e-hvh",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Interactive_SliderIndexHold_18",
+    "category": "interactive",
+    "file": "interactive/Interactive_SliderIndexHold_18.tsx",
+    "tag": "ul",
+    "id": "",
+    "className": "slider-index__hold e-rel e-wp e-hp",
+    "width": 5280,
+    "height": 1080
+  },
+  {
+    "name": "Cards_ChapterCard_01",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCard_01.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "chapter-card",
+    "width": 960,
+    "height": 1080
+  },
+  {
+    "name": "Cards_ChapterCardIllust_02",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardIllust_02.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "chapter-card__illust",
+    "width": 520,
+    "height": 520
+  },
+  {
+    "name": "Cards_ChapterCardStroke_03",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardStroke_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__stroke",
+    "width": 520,
+    "height": 520
+  },
+  {
+    "name": "Cards_ChapterCardCirc_04",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardCirc_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__circ",
+    "width": 468,
+    "height": 468
+  },
+  {
+    "name": "Cards_ChapterCardRender_05",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardRender_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__render",
+    "width": 520,
+    "height": 520
+  },
+  {
+    "name": "Cards_ChapterCardTexts_06",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardTexts_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__texts",
+    "width": 711,
+    "height": 187
+  },
+  {
+    "name": "Cards_ChapterCardIndex_07",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardIndex_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__index",
+    "width": 87,
+    "height": 18
+  },
+  {
+    "name": "Cards_ChapterCardTitle_08",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardTitle_08.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "chapter-card__title wrap",
+    "width": 711,
+    "height": 99
+  },
+  {
+    "name": "Interactive_BtnMain_19",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMain_19.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn-main link",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Interactive_BtnMainHold_20",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMainHold_20.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-main__hold",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Interactive_BtnMailText_21",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMailText_21.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-mail__text btn-mail__text__static",
+    "width": 99,
+    "height": 14
+  },
+  {
+    "name": "Interactive_BtnMailText_22",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMailText_22.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-mail__text btn-mail__text__hover",
+    "width": 99,
+    "height": 14
+  },
+  {
+    "name": "Cards_ChapterCard_09",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCard_09.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "chapter-card",
+    "width": 960,
+    "height": 1080
+  },
+  {
+    "name": "Cards_ChapterCardIllust_10",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardIllust_10.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "chapter-card__illust",
+    "width": 520,
+    "height": 520
+  },
+  {
+    "name": "Cards_ChapterCardRender_11",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardRender_11.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__render",
+    "width": 520,
+    "height": 520
+  },
+  {
+    "name": "Cards_ChapterCardTexts_12",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardTexts_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__texts",
+    "width": 960,
+    "height": 286
+  },
+  {
+    "name": "Cards_ChapterCardIndex_13",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardIndex_13.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__index",
+    "width": 87,
+    "height": 18
+  },
+  {
+    "name": "Cards_ChapterCardTitle_14",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardTitle_14.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "chapter-card__title wrap",
+    "width": 960,
+    "height": 198
+  },
+  {
+    "name": "Interactive_BtnMain_23",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMain_23.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn-main link",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Cards_ChapterCard_15",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCard_15.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "chapter-card",
+    "width": 960,
+    "height": 1080
+  },
+  {
+    "name": "Cards_ChapterCardIllust_16",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardIllust_16.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "chapter-card__illust",
+    "width": 520,
+    "height": 520
+  },
+  {
+    "name": "Cards_ChapterCardRender_17",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardRender_17.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__render",
+    "width": 520,
+    "height": 520
+  },
+  {
+    "name": "Cards_ChapterCardTexts_18",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardTexts_18.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__texts",
+    "width": 960,
+    "height": 286
+  },
+  {
+    "name": "Cards_ChapterCardIndex_19",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardIndex_19.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__index",
+    "width": 87,
+    "height": 18
+  },
+  {
+    "name": "Cards_ChapterCardTitle_20",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardTitle_20.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "chapter-card__title wrap",
+    "width": 960,
+    "height": 198
+  },
+  {
+    "name": "Interactive_BtnMain_24",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMain_24.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn-main link",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Cards_ChapterCard_21",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCard_21.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "chapter-card",
+    "width": 960,
+    "height": 1080
+  },
+  {
+    "name": "Cards_ChapterCardIllust_22",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardIllust_22.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "chapter-card__illust",
+    "width": 520,
+    "height": 520
+  },
+  {
+    "name": "Cards_ChapterCardRender_23",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardRender_23.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__render",
+    "width": 520,
+    "height": 520
+  },
+  {
+    "name": "Cards_ChapterCardTexts_24",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardTexts_24.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__texts",
+    "width": 782,
+    "height": 187
+  },
+  {
+    "name": "Cards_ChapterCardIndex_25",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardIndex_25.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__index",
+    "width": 87,
+    "height": 18
+  },
+  {
+    "name": "Cards_ChapterCardTitle_26",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardTitle_26.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "chapter-card__title wrap",
+    "width": 782,
+    "height": 99
+  },
+  {
+    "name": "Interactive_BtnMain_25",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMain_25.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn-main link",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Cards_ChapterCard_27",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCard_27.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "chapter-card",
+    "width": 960,
+    "height": 1080
+  },
+  {
+    "name": "Cards_ChapterCardIllust_28",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardIllust_28.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "chapter-card__illust",
+    "width": 520,
+    "height": 520
+  },
+  {
+    "name": "Cards_ChapterCardRender_29",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardRender_29.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__render",
+    "width": 520,
+    "height": 520
+  },
+  {
+    "name": "Cards_ChapterCardTexts_30",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardTexts_30.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__texts",
+    "width": 782,
+    "height": 187
+  },
+  {
+    "name": "Cards_ChapterCardIndex_31",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardIndex_31.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapter-card__index",
+    "width": 87,
+    "height": 18
+  },
+  {
+    "name": "Cards_ChapterCardTitle_32",
+    "category": "cards",
+    "file": "cards/Cards_ChapterCardTitle_32.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "chapter-card__title wrap",
+    "width": 782,
+    "height": 99
+  },
+  {
+    "name": "Interactive_BtnMain_26",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMain_26.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn-main link",
+    "width": 220,
+    "height": 60
+  },
+  {
+    "name": "Interactive_BtnMoveslider_27",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMoveslider_27.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btn-moveslider prev-slider",
+    "width": 90,
+    "height": 270
+  },
+  {
+    "name": "Interactive_BtnMoveslider_28",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnMoveslider_28.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btn-moveslider next-slider",
+    "width": 90,
+    "height": 270
+  }
+]

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Line Studio — Hyper-Detailed Kinetic Wireframe Blueprint</title>
+<style>
+  :root {
+    --wf-bg: #dddee2;
+    --wf-surface: #f8f8f8;
+    --wf-border: #9498a1;
+    --wf-dark: #0b0b0b;
+    --wf-red: #ff391e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: "DenimWeb", -apple-system, BlinkMacSystemFont, sans-serif; }
+  body { background-color: var(--wf-bg); color: var(--wf-dark); padding: 40px 20px; line-height: 1.4; }
+  .blueprint-wrapper { max-width: 1400px; margin: 0 auto; background: var(--wf-surface); border: 2px solid var(--wf-border); border-radius: 12px; overflow: hidden; }
+
+  .wf-header { background: var(--wf-red); color: #fff; padding: 18px 32px; display: flex; justify-content: space-between; align-items: center; }
+  .wf-section { padding: 40px 32px; border-bottom: 2px dashed var(--wf-border); position: relative; }
+  .spec-tag { position: absolute; top: 12px; right: 16px; font-size: 10px; font-weight: 700; background: var(--wf-dark); color: #fff; padding: 3px 8px; border-radius: 3px; }
+
+  .wf-nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; border: 2px solid var(--wf-dark); background: #fff; border-radius: 8px; }
+  .wf-logo { font-size: 24px; font-weight: 900; letter-spacing: -1px; }
+
+  .wf-[#ffedd6]-ticker { display: flex; flex-direction: column; gap: 16px; margin-top: 16px; }
+  .wf-[#ffedd6]-card { border: 2px solid var(--wf-dark); padding: 24px; border-radius: 8px; background: #fff; display: flex; justify-content: space-between; align-items: center; relative; overflow: hidden; }
+
+  .tech-note { background: #fef2f2; border: 1.5px solid var(--wf-red); padding: 12px 16px; border-radius: 6px; font-size: 11px; color: var(--wf-red); margin-top: 16px; font-family: monospace; }
+</style>
+</head>
+<body>
+<div class="blueprint-wrapper">
+  <div class="wf-header">
+    <div style="font-size: 16px; font-weight: 800; letter-spacing: 1px;">THE LINE STUDIO LONDON — HYPER-DETAILED KINETIC WIREFRAME</div>
+    <div style="font-size: 11px; background: #000; color: #fff; padding: 4px 10px; font-weight: bold; border-radius: 3px;">NUXT.JS SSR & LENIS INERTIA SCROLL</div>
+  </div>
+
+  <!-- HEADER -->
+  <div class="wf-section">
+    <div class="spec-tag">COMPONENT: KINETIC NAV & STATUS</div>
+    <div class="wf-nav-bar">
+      <div class="wf-logo">THE LINE <span style="color: var(--wf-red);">●</span></div>
+      <div style="font-size: 12px; font-weight: bold; color: var(--wf-dark);">LONDON <span style="color: var(--wf-red);">●</span> hello@thelinestudio.com</div>
+      <div style="display: flex; gap: 20px; font-size: 12px; font-weight: bold;">
+        <span style="color: var(--wf-red);">WORK ●</span>
+        <span>ABOUT</span>
+        <span>ENTERTAINMENT</span>
+        <span>PODCAST</span>
+        <span>CONTACT</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOWCASE TICKER -->
+  <div class="wf-section">
+    <div class="spec-tag">COMPONENT: FEATURED SHOWCASE TICKER</div>
+    <div style="font-size: 18px; font-weight: 800; margin-bottom: 12px;">FEATURED ANIMATION SHOWCASE (ELECTRIC RED ACETATE MULTIPLY)</div>
+
+    <div class="wf-[#ffedd6]-ticker">
+      <div class="wf-[#ffedd6]-card">
+        <div>
+          <span style="font-size: 11px; font-weight: bold; color: var(--wf-red);">[01]</span>
+          <h2 style="font-size: 32px; font-weight: 900;">GORILLAZ — CRACKERS ISLAND</h2>
+          <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">PARLOPHONE RECORDS • MUSIC VIDEO / 2D ANIMATION</p>
+        </div>
+        <div style="font-size: 12px; font-weight: bold;">VIEW CASE STUDY →</div>
+      </div>
+
+      <div class="wf-[#ffedd6]-card">
+        <div>
+          <span style="font-size: 11px; font-weight: bold; color: var(--wf-red);">[02]</span>
+          <h2 style="font-size: 32px; font-weight: 900;">RIOT GAMES — LEAGUE OF LEGENDS CINEMATIC</h2>
+          <p style="font-size: 12px; opacity: 0.7; margin-top: 4px;">RIOT GAMES • GAME TRAILER / 3D ANIME</p>
+        </div>
+        <div style="font-size: 12px; font-weight: bold;">VIEW CASE STUDY →</div>
+      </div>
+    </div>
+
+    <div class="tech-note">
+      <strong>TECHNICAL ANNOTATION:</strong> Hovering project cards activates .acetate background with mix-blend-mode: multiply (#FF391E). Page navigation triggers 3D card tilt animation (transform: translateY(-25lvh) rotate(4deg)).
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

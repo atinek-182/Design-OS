@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unleashing Best - UI/UX Architectural Wireframe Blueprint</title>
+  <style>
+    :root {
+      --bg: #0D0F12;
+      --card-bg: #161920;
+      --border: #2A2F3D;
+      --accent: #35705B;
+      --accent-soft: #D6E2DE;
+      --text: #F1F3F5;
+      --text-muted: #8A92A6;
+      --code-bg: #090B0E;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 2rem; line-height: 1.5; }
+    .header { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
+    .header h1 { font-size: 2rem; color: var(--accent-soft); }
+    .header p { color: var(--text-muted); font-size: 0.95rem; }
+
+    .grid-layout { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; }
+    .wireframe-stage { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; position: relative; }
+    
+    .comp-block { border: 2px dashed var(--border); border-radius: 6px; padding: 1.25rem; margin-bottom: 1.5rem; background: rgba(255,255,255,0.015); position: relative; }
+    .comp-tag { position: absolute; top: -12px; left: 16px; background: var(--accent); color: #fff; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    .nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 0.8rem 1rem; background: rgba(0,0,0,0.3); border-radius: 6px; }
+    .hero-scene { height: 280px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; border: 1px solid var(--border); border-radius: 6px; background: radial-gradient(circle, rgba(53,112,91,0.15) 0%, rgba(0,0,0,0.4) 100%); }
+    .hero-scene h2 { font-size: 2.4rem; letter-spacing: -0.02em; font-family: Georgia, serif; }
+
+    .chapter-slider { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; }
+    .chap-card { border: 1px solid var(--border); border-radius: 6px; padding: 1rem; text-align: center; background: rgba(0,0,0,0.2); }
+    .lottie-box { width: 80px; height: 80px; border-radius: 50%; border: 1px solid var(--accent); margin: 0 auto 0.8rem; display: flex; align-items: center; justify-content: center; color: var(--accent-soft); font-size: 0.75rem; }
+
+    .sidebar { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; }
+    .sidebar h3 { font-size: 1.1rem; margin-bottom: 1rem; color: var(--accent-soft); border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+    .spec-item { margin-bottom: 1rem; }
+    .spec-item label { display: block; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .spec-item value { display: block; font-size: 0.95rem; color: var(--text); font-weight: 500; }
+    .code-snippet { background: var(--code-bg); padding: 0.8rem; border-radius: 4px; font-family: monospace; font-size: 0.8rem; color: #61afef; overflow-x: auto; margin-top: 0.5rem; border: 1px solid rgba(255,255,255,0.05); }
+
+    .audio-widget { position: fixed; bottom: 2rem; right: 2rem; width: 60px; height: 60px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(0,0,0,0.5); border: 2px solid var(--accent-soft); }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Unleashing Best — Technical Architectural Blueprint</h1>
+    <p>Creative direction by Victor Work | Nuxt.js SSR + GSAP Storytelling + Theme Color Engine</p>
+  </div>
+
+  <div class="grid-layout">
+    <div class="wireframe-stage">
+      <!-- COMPONENT 1: NAV -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: HEADER / FIXED NAVIGATION SYSTEM</span>
+        <div class="nav-bar">
+          <div style="font-weight: 800; font-size: 1.1rem; letter-spacing: 0.05em;">UNLEASHING BEST</div>
+          <div style="display: flex; gap: 1rem; align-items: center;">
+            <span style="font-size: 0.85rem; color: var(--text-muted);">ABOUT</span>
+            <span style="font-size: 0.85rem; background: var(--accent); padding: 4px 12px; border-radius: 20px; color: #fff;">GET COURSE</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMPONENT 2: KINETIC HERO STORYTELLING SCENE -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: SCENE 1-7 KINETIC TYPOGRAPHY HERO</span>
+        <div class="hero-scene">
+          <span style="font-size: 0.8rem; letter-spacing: 0.2em; color: var(--accent-soft); margin-bottom: 0.5rem;">CHAPTER 01 / STORY SCENE</span>
+          <h2>UNLEASHING YOUR BEST VERSION</h2>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem; max-width: 450px;">A masterclass digital experience helping high performers reach goals without burn-out.</p>
+        </div>
+      </div>
+
+      <!-- COMPONENT 3: CHAPTER SLIDER -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: INTERACTIVE CHAPTER SLIDER (LOTTIE + DRAG)</span>
+        <div class="chapter-slider">
+          <div class="chap-card">
+            <div class="lottie-box">LOTTIE 01</div>
+            <strong style="font-size: 0.9rem;">01 / MINDSET</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Cognitive rewiring</p>
+          </div>
+          <div class="chap-card" style="border-color: var(--accent);">
+            <div class="lottie-box" style="background: var(--accent); color: #fff;">LOTTIE 02</div>
+            <strong style="font-size: 0.9rem;">02 / ENERGY</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Physical optimization</p>
+          </div>
+          <div class="chap-card">
+            <div class="lottie-box">LOTTIE 03</div>
+            <strong style="font-size: 0.9rem;">03 / SYSTEM</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Habit engineering</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECHNICAL SPEC SIDEBAR -->
+    <div class="sidebar">
+      <h3>ENGINEERING SPECIFICATIONS</h3>
+      
+      <div class="spec-item">
+        <label>Framework Stack</label>
+        <value>Nuxt.js (Vue.js SSR), GSAP 3, Lottie, WebGL Canvas</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Typography Hierarchy</label>
+        <value>GrifinitoL Medium (Serif Display), Helvetica Bold / Regular</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Dynamic Theme Engine</label>
+        <value>7 HSL/Hex Palette Shifts via CSS Variables</value>
+        <div class="code-snippet">:root {
+  --colorS: #35705B;
+  --bg: #D6E2DE;
+}</div>
+      </div>
+
+      <div class="spec-item">
+        <label>Animation Engine</label>
+        <value>GSAP Timeline Scene Scrubbing & SplitText</value>
+      </div>
+    </div>
+  </div>
+
+  <div class="audio-widget" title="Ambient Sound Engine">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+      <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+    </svg>
+  </div>
+</body>
+</html>

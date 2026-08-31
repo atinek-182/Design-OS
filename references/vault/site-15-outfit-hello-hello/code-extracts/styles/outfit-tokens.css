@@ -1,0 +1,32 @@
+/* Outfit Hello Hello — Tailwind CSS v4 & Theme Tokens */
+@layer theme {
+  :root {
+    --color-cream: #EDE4DD;
+    --color-red: #FF0001;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+
+    --font-haas: "Neue Haas Grotesk Text Pro", -apple-system, sans-serif;
+  }
+}
+
+body[data-theme="red"] {
+  background-color: var(--color-cream);
+  color: var(--color-black);
+  font-family: var(--font-haas);
+  -webkit-font-smoothing: antialiased;
+}
+
+.bg-red-accent {
+  background-color: var(--color-red);
+}
+
+.text-red-accent {
+  color: var(--color-red);
+}
+
+.font-haas-bold {
+  font-family: var(--font-haas);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}

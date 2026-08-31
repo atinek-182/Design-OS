@@ -1,0 +1,20 @@
+import React from 'react';
+
+/**
+ * Component: Cards_TCardInner_57
+ * Target Site: jasmine-gunarto
+ * Category: cards
+ * Tag: <div> | ID: "" | Class: "t-card-inner"
+ * Dimensions: 357px x 133px
+ */
+export const Cards_TCardInner_57: React.FC = () => {
+  return (
+    <div className="component-container-cards">
+      {/* --- Raw Extracted DOM Structure --- */}
+      <div className="t-card-inner"><h3 className="t-card-title"><div className="t-card-number">
+02</div><div className="t-card-link" href="https://jasminegunarto.com/pea/"><div> <div style="position: relative; display: inline-block;">P</div><div style="position: relative; display: inline-block;">e</div><div style="position: relative; display: inline-block;">a</div></div><div> <div style="position: relative; display: inline-block;">P</div><div style="position: relative; display: inline-block;">e</div><div style="position: relative; display: inline-block;">a</div></div></div></h3></div>
+    </div>
+  );
+};
+
+export default Cards_TCardInner_57;

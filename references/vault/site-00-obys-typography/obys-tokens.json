@@ -1,0 +1,67 @@
+{
+  "site_name": "Obys Agency \u2014 Typography Principles",
+  "url": "https://typographyprinciples.obys.agency/",
+  "archetype": "Obys Pure Typography & Spatial Rhythm",
+  "typography_rules": {
+    "golden_ratio": 1.618,
+    "display_hero": {
+      "font_family": "Nobel / Syne / Monument Extended",
+      "fluid_clamp": "clamp(2.75rem, 6.5vw + 1.25rem, 7.5rem)",
+      "letter_spacing": "-0.04em",
+      "line_height": "0.92",
+      "font_weight": 700
+    },
+    "h1_title": {
+      "font_family": "Nobel / Clash Display",
+      "fluid_clamp": "clamp(2.0rem, 4.0vw + 0.75rem, 4.5rem)",
+      "letter_spacing": "-0.03em",
+      "line_height": "1.0",
+      "font_weight": 700
+    },
+    "h2_subhead": {
+      "font_family": "Georgia / PP Editorial New / Saol",
+      "fluid_clamp": "clamp(1.25rem, 2.0vw + 0.5rem, 2.25rem)",
+      "letter_spacing": "-0.01em",
+      "line_height": "1.25",
+      "font_weight": 400
+    },
+    "body_editorial": {
+      "font_family": "Helvetica Neue / General Sans / Inter",
+      "fluid_clamp": "clamp(0.95rem, 0.4vw + 0.85rem, 1.15rem)",
+      "line_height": "1.55",
+      "measure": "45ch - 65ch",
+      "font_weight": 400
+    },
+    "hud_mono_caption": {
+      "font_family": "JetBrains Mono / Space Mono",
+      "fluid_clamp": "clamp(0.7rem, 0.3vw + 0.6rem, 0.85rem)",
+      "letter_spacing": "+0.20em",
+      "text_transform": "uppercase",
+      "line_height": "1.2",
+      "font_weight": 500
+    }
+  },
+  "spatial_grid": {
+    "desktop_padding": "140px",
+    "laptop_padding": "100px",
+    "tablet_padding": "60px",
+    "mobile_padding": "30px",
+    "column_gutter": "20px",
+    "columns_desktop": 12,
+    "columns_laptop": 10,
+    "columns_tablet": 8,
+    "columns_mobile": 4
+  },
+  "color_palette_oklch": {
+    "background": {
+      "canvas_pure": "oklch(0.08 0.01 260)",
+      "surface_subtle": "oklch(0.12 0.02 260)"
+    },
+    "text": {
+      "primary_light": "oklch(0.98 0.005 85)",
+      "secondary_muted": "oklch(0.60 0.02 260)",
+      "accent_signal": "oklch(0.65 0.24 30)"
+    },
+    "contrast_ratio": "16.4:1 (WCAG AAA Pass)"
+  }
+}

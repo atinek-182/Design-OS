@@ -1,0 +1,532 @@
+[
+  {
+    "name": "3d_Canvas_01",
+    "category": "3d",
+    "file": "3d/3d_Canvas_01.tsx",
+    "tag": "canvas",
+    "id": "canvas",
+    "className": "",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Sections_SectionInner_01",
+    "category": "sections",
+    "file": "sections/Sections_SectionInner_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "section__inner o-container",
+    "width": 1904,
+    "height": 295
+  },
+  {
+    "name": "Sections_SectionInner_02",
+    "category": "sections",
+    "file": "sections/Sections_SectionInner_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "section__inner o-container",
+    "width": 1904,
+    "height": 516
+  },
+  {
+    "name": "Sections_SectionInner_03",
+    "category": "sections",
+    "file": "sections/Sections_SectionInner_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "section__inner o-container",
+    "width": 1904,
+    "height": 3988
+  },
+  {
+    "name": "Misc_WearableGalleryThumbsWrapper_01",
+    "category": "misc",
+    "file": "misc/Misc_WearableGalleryThumbsWrapper_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "wearable-gallery-thumbs-wrapper is-left desktop-only",
+    "width": 1904,
+    "height": 0
+  },
+  {
+    "name": "Misc_WearableGalleryThumbsMoveContainer_02",
+    "category": "misc",
+    "file": "misc/Misc_WearableGalleryThumbsMoveContainer_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "wearable-gallery-thumbs-move-container",
+    "width": 1904,
+    "height": 0
+  },
+  {
+    "name": "Misc_WearableGalleryThumbsWrapper_03",
+    "category": "misc",
+    "file": "misc/Misc_WearableGalleryThumbsWrapper_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "wearable-gallery-thumbs-wrapper is-right desktop-only",
+    "width": 1904,
+    "height": 0
+  },
+  {
+    "name": "3d_WearableMainCanvas_02",
+    "category": "3d",
+    "file": "3d/3d_WearableMainCanvas_02.tsx",
+    "tag": "canvas",
+    "id": "wearable-main-canvas",
+    "className": "",
+    "width": 300,
+    "height": 150
+  },
+  {
+    "name": "Interactive_Btn_01",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btn_01.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btn is-orange",
+    "width": 47,
+    "height": 21
+  },
+  {
+    "name": "Sections_SectionInner_04",
+    "category": "sections",
+    "file": "sections/Sections_SectionInner_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "section__inner o-container",
+    "width": 1904,
+    "height": 8814
+  },
+  {
+    "name": "3d_FeaturesCurveCanvas_03",
+    "category": "3d",
+    "file": "3d/3d_FeaturesCurveCanvas_03.tsx",
+    "tag": "canvas",
+    "id": "features-curve-canvas",
+    "className": "",
+    "width": 300,
+    "height": 150
+  },
+  {
+    "name": "Interactive_FeaturesTemperatureSliderText_02",
+    "category": "interactive",
+    "file": "interactive/Interactive_FeaturesTemperatureSliderText_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "features-temperature-slider__text",
+    "width": 1904,
+    "height": 36
+  },
+  {
+    "name": "Interactive_FeaturesTemperatureSliderText_03",
+    "category": "interactive",
+    "file": "interactive/Interactive_FeaturesTemperatureSliderText_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "features-temperature-slider__text",
+    "width": 1904,
+    "height": 36
+  },
+  {
+    "name": "Interactive_FeaturesTemperatureSliderText_04",
+    "category": "interactive",
+    "file": "interactive/Interactive_FeaturesTemperatureSliderText_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "features-temperature-slider__text",
+    "width": 1904,
+    "height": 36
+  },
+  {
+    "name": "Sections_SectionInner_05",
+    "category": "sections",
+    "file": "sections/Sections_SectionInner_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "section__inner o-container",
+    "width": 1904,
+    "height": 190
+  },
+  {
+    "name": "Interactive_EncryptionFieldFlipBtn_05",
+    "category": "interactive",
+    "file": "interactive/Interactive_EncryptionFieldFlipBtn_05.tsx",
+    "tag": "button",
+    "id": "encryption-field-flip-btn",
+    "className": "btn is-flipper",
+    "width": 223,
+    "height": 21
+  },
+  {
+    "name": "Sections_SectionInner_06",
+    "category": "sections",
+    "file": "sections/Sections_SectionInner_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "section__inner o-container",
+    "width": 1904,
+    "height": 645
+  },
+  {
+    "name": "Sections_SectionInner_07",
+    "category": "sections",
+    "file": "sections/Sections_SectionInner_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "section__inner o-container",
+    "width": 1904,
+    "height": 1699
+  },
+  {
+    "name": "Misc_SustainabilityItems_04",
+    "category": "misc",
+    "file": "misc/Misc_SustainabilityItems_04.tsx",
+    "tag": "div",
+    "id": "sustainability-items",
+    "className": "o-grid",
+    "width": 1904,
+    "height": 1501
+  },
+  {
+    "name": "3d_SustainabilityRiveCanvasHarvesting_04",
+    "category": "3d",
+    "file": "3d/3d_SustainabilityRiveCanvasHarvesting_04.tsx",
+    "tag": "canvas",
+    "id": "sustainability-rive-canvas-harvesting",
+    "className": "",
+    "width": 660,
+    "height": 660
+  },
+  {
+    "name": "3d_SustainabilityRiveCanvasText_05",
+    "category": "3d",
+    "file": "3d/3d_SustainabilityRiveCanvasText_05.tsx",
+    "tag": "canvas",
+    "id": "sustainability-rive-canvas-text",
+    "className": "",
+    "width": 429,
+    "height": 429
+  },
+  {
+    "name": "Sections_SectionInner_08",
+    "category": "sections",
+    "file": "sections/Sections_SectionInner_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "section__inner o-container",
+    "width": 1904,
+    "height": 3310
+  },
+  {
+    "name": "Cards_TestimoniesTableItemImageWrapper_01",
+    "category": "cards",
+    "file": "cards/Cards_TestimoniesTableItemImageWrapper_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "testimonies-table-item-image-wrapper",
+    "width": 1904,
+    "height": 484
+  },
+  {
+    "name": "Cards_TestimoniesTableItemImageWrapper_02",
+    "category": "cards",
+    "file": "cards/Cards_TestimoniesTableItemImageWrapper_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "testimonies-table-item-image-wrapper",
+    "width": 1904,
+    "height": 484
+  },
+  {
+    "name": "Cards_TestimoniesTableItemImageWrapper_03",
+    "category": "cards",
+    "file": "cards/Cards_TestimoniesTableItemImageWrapper_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "testimonies-table-item-image-wrapper",
+    "width": 1904,
+    "height": 484
+  },
+  {
+    "name": "Cards_TestimoniesTableItemImageWrapper_04",
+    "category": "cards",
+    "file": "cards/Cards_TestimoniesTableItemImageWrapper_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "testimonies-table-item-image-wrapper",
+    "width": 1904,
+    "height": 484
+  },
+  {
+    "name": "Cards_TestimoniesTableItemImageWrapper_05",
+    "category": "cards",
+    "file": "cards/Cards_TestimoniesTableItemImageWrapper_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "testimonies-table-item-image-wrapper",
+    "width": 1904,
+    "height": 484
+  },
+  {
+    "name": "Sections_SectionInner_09",
+    "category": "sections",
+    "file": "sections/Sections_SectionInner_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "section__inner o-container",
+    "width": 1904,
+    "height": 6784
+  },
+  {
+    "name": "Hero_ProductHeroOptionOryzo_01",
+    "category": "hero",
+    "file": "hero/Hero_ProductHeroOptionOryzo_01.tsx",
+    "tag": "button",
+    "id": "product-hero-option-oryzo",
+    "className": "product-hero-option-item btn is-large is-dark is-active is-flipper",
+    "width": 63,
+    "height": 21
+  },
+  {
+    "name": "Hero_ProductHeroOptionOryzoPro_02",
+    "category": "hero",
+    "file": "hero/Hero_ProductHeroOptionOryzoPro_02.tsx",
+    "tag": "button",
+    "id": "product-hero-option-oryzo-pro",
+    "className": "product-hero-option-item btn is-large is-dark is-flipper",
+    "width": 88,
+    "height": 21
+  },
+  {
+    "name": "Hero_ProductHeroOptionOryzoProMax_03",
+    "category": "hero",
+    "file": "hero/Hero_ProductHeroOptionOryzoProMax_03.tsx",
+    "tag": "button",
+    "id": "product-hero-option-oryzo-pro-max",
+    "className": "product-hero-option-item btn is-large is-dark is-flipper",
+    "width": 117,
+    "height": 21
+  },
+  {
+    "name": "Interactive_Btn_06",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btn_06.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn is-dark is-flipper",
+    "width": 1904,
+    "height": 35
+  },
+  {
+    "name": "Interactive_Btn_07",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btn_07.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn is-dark is-flipper",
+    "width": 1904,
+    "height": 35
+  },
+  {
+    "name": "Interactive_Btn_08",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btn_08.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn is-dark is-flipper",
+    "width": 1904,
+    "height": 35
+  },
+  {
+    "name": "Sections_SectionInner_10",
+    "category": "sections",
+    "file": "sections/Sections_SectionInner_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "section__inner o-container o-grid",
+    "width": 1904,
+    "height": 1879
+  },
+  {
+    "name": "Interactive_FooterLusionLink_09",
+    "category": "interactive",
+    "file": "interactive/Interactive_FooterLusionLink_09.tsx",
+    "tag": "a",
+    "id": "footer-lusion-link",
+    "className": "btn is-dark is-flipper",
+    "width": 58,
+    "height": 17
+  },
+  {
+    "name": "Footers_FooterNewsletterLabel_01",
+    "category": "footers",
+    "file": "footers/Footers_FooterNewsletterLabel_01.tsx",
+    "tag": "label",
+    "id": "footer-newsletter-label",
+    "className": "footer-item-caption sub2",
+    "width": 215,
+    "height": 17
+  },
+  {
+    "name": "Interactive_FooterNewsletterForm_10",
+    "category": "interactive",
+    "file": "interactive/Interactive_FooterNewsletterForm_10.tsx",
+    "tag": "form",
+    "id": "footer-newsletter-form",
+    "className": "",
+    "width": 1904,
+    "height": 33
+  },
+  {
+    "name": "Footers_Contact_02",
+    "category": "footers",
+    "file": "footers/Footers_Contact_02.tsx",
+    "tag": "div",
+    "id": "contact",
+    "className": "footer-item",
+    "width": 1904,
+    "height": 36
+  },
+  {
+    "name": "Footers_FooterItemCaption_03",
+    "category": "footers",
+    "file": "footers/Footers_FooterItemCaption_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer-item-caption sub2",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Footers_FooterItemLink_04",
+    "category": "footers",
+    "file": "footers/Footers_FooterItemLink_04.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "footer-item-link is-flipper",
+    "width": 127,
+    "height": 17
+  },
+  {
+    "name": "Footers_FooterItem_05",
+    "category": "footers",
+    "file": "footers/Footers_FooterItem_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer-item",
+    "width": 1904,
+    "height": 36
+  },
+  {
+    "name": "Footers_FooterItemCaption_06",
+    "category": "footers",
+    "file": "footers/Footers_FooterItemCaption_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer-item-caption sub2",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Footers_FooterItemLink_07",
+    "category": "footers",
+    "file": "footers/Footers_FooterItemLink_07.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "footer-item-link is-flipper",
+    "width": 105,
+    "height": 17
+  },
+  {
+    "name": "Footers_FooterItemLink_08",
+    "category": "footers",
+    "file": "footers/Footers_FooterItemLink_08.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "footer-item-link",
+    "width": 12,
+    "height": 17
+  },
+  {
+    "name": "Footers_FooterItemLink_09",
+    "category": "footers",
+    "file": "footers/Footers_FooterItemLink_09.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "footer-item-link is-flipper",
+    "width": 64,
+    "height": 17
+  },
+  {
+    "name": "Footers_FooterItemLink_10",
+    "category": "footers",
+    "file": "footers/Footers_FooterItemLink_10.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "footer-item-link is-flipper",
+    "width": 58,
+    "height": 17
+  },
+  {
+    "name": "Footers_FooterItemLink_11",
+    "category": "footers",
+    "file": "footers/Footers_FooterItemLink_11.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "footer-item-link is-flipper",
+    "width": 130,
+    "height": 17
+  },
+  {
+    "name": "Footers_FooterItemLink_12",
+    "category": "footers",
+    "file": "footers/Footers_FooterItemLink_12.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "footer-item-link is-flipper",
+    "width": 94,
+    "height": 17
+  },
+  {
+    "name": "Nav_SiteHeader_01",
+    "category": "nav",
+    "file": "nav/Nav_SiteHeader_01.tsx",
+    "tag": "header",
+    "id": "site-header",
+    "className": "link-header",
+    "width": 1904,
+    "height": 675
+  },
+  {
+    "name": "Nav_SiteHeaderNav_02",
+    "category": "nav",
+    "file": "nav/Nav_SiteHeaderNav_02.tsx",
+    "tag": "nav",
+    "id": "site-header-nav",
+    "className": "desktop-only",
+    "width": 1904,
+    "height": 72
+  },
+  {
+    "name": "Footers_SiteFooter_13",
+    "category": "footers",
+    "file": "footers/Footers_SiteFooter_13.tsx",
+    "tag": "footer",
+    "id": "site-footer",
+    "className": "",
+    "width": 1904,
+    "height": 4277
+  },
+  {
+    "name": "3d_PreloaderCanvas_06",
+    "category": "3d",
+    "file": "3d/3d_PreloaderCanvas_06.tsx",
+    "tag": "canvas",
+    "id": "preloader-canvas",
+    "className": "",
+    "width": 1920,
+    "height": 1080
+  }
+]

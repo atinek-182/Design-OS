@@ -1,0 +1,28 @@
+/* Off Menu Design — Design Tokens & Next.js Turbopack Architecture Styles */
+:root {
+  /* Color Palette */
+  --color-background: #000000;
+  --color-foreground: #FFFFFF;
+  --color-card-bg: #0C0C0E;
+  --color-border: #1F1F24;
+  --color-accent: #3B82F6;
+  --color-muted: #71717A;
+
+  /* Typography */
+  --font-sans: "Inter", -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.cursor-none {
+  cursor: none;
+}
+
+.mix-blend-difference {
+  mix-blend-mode: difference;
+}

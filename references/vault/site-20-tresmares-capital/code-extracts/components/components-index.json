@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Nav_Header_01",
+    "category": "nav",
+    "file": "nav/Nav_Header_01.tsx",
+    "tag": "header",
+    "id": "header",
+    "className": "header",
+    "width": 1920,
+    "height": 96
+  },
+  {
+    "name": "Misc_Container_01",
+    "category": "misc",
+    "file": "misc/Misc_Container_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "container --wide",
+    "width": 1920,
+    "height": 96
+  },
+  {
+    "name": "Nav_MenuHeaderIngles_02",
+    "category": "nav",
+    "file": "nav/Nav_MenuHeaderIngles_02.tsx",
+    "tag": "ul",
+    "id": "menu-header-ingles",
+    "className": "menu menu-header",
+    "width": 687,
+    "height": 96
+  },
+  {
+    "name": "Nav_MenuItem1704_03",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1704_03.tsx",
+    "tag": "li",
+    "id": "menu-item-1704",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1704",
+    "width": 50,
+    "height": 96
+  },
+  {
+    "name": "Nav_MenuItem1705_04",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1705_04.tsx",
+    "tag": "li",
+    "id": "menu-item-1705",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1705",
+    "width": 180,
+    "height": 96
+  },
+  {
+    "name": "Nav_SubMenu_05",
+    "category": "nav",
+    "file": "nav/Nav_SubMenu_05.tsx",
+    "tag": "ul",
+    "id": "",
+    "className": "sub-menu",
+    "width": 1939,
+    "height": 383
+  },
+  {
+    "name": "Nav_MenuItem1706_06",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1706_06.tsx",
+    "tag": "li",
+    "id": "menu-item-1706",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1706",
+    "width": 470,
+    "height": 368
+  },
+  {
+    "name": "Nav_SubmenuItem_07",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuItem_07.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "submenu-item",
+    "width": 470,
+    "height": 368
+  },
+  {
+    "name": "Nav_MenuIcon_08",
+    "category": "nav",
+    "file": "nav/Nav_MenuIcon_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menu-icon --private-equity",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "name": "Nav_MenuItem1707_09",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1707_09.tsx",
+    "tag": "li",
+    "id": "menu-item-1707",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1707",
+    "width": 470,
+    "height": 368
+  },
+  {
+    "name": "Nav_SubmenuItem_10",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuItem_10.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "submenu-item",
+    "width": 470,
+    "height": 368
+  },
+  {
+    "name": "Nav_MenuIcon_11",
+    "category": "nav",
+    "file": "nav/Nav_MenuIcon_11.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menu-icon --direct-lending",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "name": "Nav_MenuItem1708_12",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1708_12.tsx",
+    "tag": "li",
+    "id": "menu-item-1708",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1708",
+    "width": 470,
+    "height": 368
+  },
+  {
+    "name": "Nav_SubmenuItem_13",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuItem_13.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "submenu-item",
+    "width": 470,
+    "height": 368
+  },
+  {
+    "name": "Nav_MenuIcon_14",
+    "category": "nav",
+    "file": "nav/Nav_MenuIcon_14.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menu-icon --fund-of-funds",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "name": "Nav_MenuItem1709_15",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1709_15.tsx",
+    "tag": "li",
+    "id": "menu-item-1709",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1709",
+    "width": 470,
+    "height": 368
+  },
+  {
+    "name": "Nav_SubmenuItem_16",
+    "category": "nav",
+    "file": "nav/Nav_SubmenuItem_16.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "submenu-item",
+    "width": 470,
+    "height": 368
+  },
+  {
+    "name": "Nav_MenuIcon_17",
+    "category": "nav",
+    "file": "nav/Nav_MenuIcon_17.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menu-icon --fund-financing",
+    "width": 128,
+    "height": 128
+  },
+  {
+    "name": "Nav_MenuItem1710_18",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1710_18.tsx",
+    "tag": "li",
+    "id": "menu-item-1710",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1710",
+    "width": 69,
+    "height": 96
+  },
+  {
+    "name": "Nav_MenuItem1711_19",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1711_19.tsx",
+    "tag": "li",
+    "id": "menu-item-1711",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1711",
+    "width": 46,
+    "height": 96
+  },
+  {
+    "name": "Nav_MenuItem1713_20",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1713_20.tsx",
+    "tag": "li",
+    "id": "menu-item-1713",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1713",
+    "width": 77,
+    "height": 96
+  },
+  {
+    "name": "Nav_MenuItem1714_21",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1714_21.tsx",
+    "tag": "li",
+    "id": "menu-item-1714",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1714",
+    "width": 65,
+    "height": 96
+  },
+  {
+    "name": "Sections_Main_01",
+    "category": "sections",
+    "file": "sections/Sections_Main_01.tsx",
+    "tag": "main",
+    "id": "main",
+    "className": "main",
+    "width": 1920,
+    "height": 14091
+  },
+  {
+    "name": "3d_Canvas_01",
+    "category": "3d",
+    "file": "3d/3d_Canvas_01.tsx",
+    "tag": "canvas",
+    "id": "",
+    "className": "",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Hero_Component_01",
+    "category": "hero",
+    "file": "hero/Hero_Component_01.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "component component--herofulltext",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Misc_Container_02",
+    "category": "misc",
+    "file": "misc/Misc_Container_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "container --full",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Sections_Component_02",
+    "category": "sections",
+    "file": "sections/Sections_Component_02.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "component component--textblocklarge center",
+    "width": 1920,
+    "height": 724
+  },
+  {
+    "name": "Misc_Container_03",
+    "category": "misc",
+    "file": "misc/Misc_Container_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "container --full",
+    "width": 1920,
+    "height": 276
+  },
+  {
+    "name": "Sections_Component_03",
+    "category": "sections",
+    "file": "sections/Sections_Component_03.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "component component--gridnumbers vertical",
+    "width": 1920,
+    "height": 1888
+  },
+  {
+    "name": "Misc_Container_04",
+    "category": "misc",
+    "file": "misc/Misc_Container_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "container --xsmall",
+    "width": 1344,
+    "height": 1632
+  },
+  {
+    "name": "Sections_Component_04",
+    "category": "sections",
+    "file": "sections/Sections_Component_04.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "component component--textblocklarge center",
+    "width": 1920,
+    "height": 793
+  },
+  {
+    "name": "Misc_Container_05",
+    "category": "misc",
+    "file": "misc/Misc_Container_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "container --full",
+    "width": 1920,
+    "height": 345
+  },
+  {
+    "name": "Scrolly_Component_01",
+    "category": "scrolly",
+    "file": "scrolly/Scrolly_Component_01.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "component component--contentscrollcenter",
+    "width": 1920,
+    "height": 4320
+  },
+  {
+    "name": "Misc_Container_06",
+    "category": "misc",
+    "file": "misc/Misc_Container_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "container --full",
+    "width": 1920,
+    "height": 4320
+  },
+  {
+    "name": "Misc_MorphingsSvg_07",
+    "category": "misc",
+    "file": "misc/Misc_MorphingsSvg_07.tsx",
+    "tag": "div",
+    "id": "morphings-svg",
+    "className": "svg-container",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Sections_Component_05",
+    "category": "sections",
+    "file": "sections/Sections_Component_05.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "component component--map",
+    "width": 1920,
+    "height": 2577
+  },
+  {
+    "name": "Misc_Container_08",
+    "category": "misc",
+    "file": "misc/Misc_Container_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "container --full",
+    "width": 1920,
+    "height": 2001
+  },
+  {
+    "name": "Misc_CircleContainer_09",
+    "category": "misc",
+    "file": "misc/Misc_CircleContainer_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "circle-container",
+    "width": 1920,
+    "height": 760
+  },
+  {
+    "name": "Sections_Component_06",
+    "category": "sections",
+    "file": "sections/Sections_Component_06.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "component component--teams",
+    "width": 1920,
+    "height": 1477
+  },
+  {
+    "name": "Misc_Container_10",
+    "category": "misc",
+    "file": "misc/Misc_Container_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "container --full",
+    "width": 1900,
+    "height": 1213
+  },
+  {
+    "name": "Cards_CardTeam_01",
+    "category": "cards",
+    "file": "cards/Cards_CardTeam_01.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "card-team --large --magnet",
+    "width": 424,
+    "height": 717
+  },
+  {
+    "name": "Cards_CardTeam_02",
+    "category": "cards",
+    "file": "cards/Cards_CardTeam_02.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "card-team --large --magnet",
+    "width": 424,
+    "height": 717
+  },
+  {
+    "name": "Cards_CardTeam_03",
+    "category": "cards",
+    "file": "cards/Cards_CardTeam_03.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "card-team --large --magnet",
+    "width": 424,
+    "height": 717
+  },
+  {
+    "name": "Cards_CardTeam_04",
+    "category": "cards",
+    "file": "cards/Cards_CardTeam_04.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "card-team --large --magnet",
+    "width": 424,
+    "height": 717
+  },
+  {
+    "name": "Cards_CardTeam_05",
+    "category": "cards",
+    "file": "cards/Cards_CardTeam_05.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "card-team --large --magnet",
+    "width": 424,
+    "height": 717
+  },
+  {
+    "name": "Cards_CardTeam_06",
+    "category": "cards",
+    "file": "cards/Cards_CardTeam_06.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "card-team --large --magnet",
+    "width": 424,
+    "height": 717
+  },
+  {
+    "name": "Cards_CardTeam_07",
+    "category": "cards",
+    "file": "cards/Cards_CardTeam_07.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "card-team --large --magnet",
+    "width": 424,
+    "height": 717
+  },
+  {
+    "name": "Cards_CardTeam_08",
+    "category": "cards",
+    "file": "cards/Cards_CardTeam_08.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "card-team --large --magnet",
+    "width": 424,
+    "height": 717
+  },
+  {
+    "name": "Footers_Footer_01",
+    "category": "footers",
+    "file": "footers/Footers_Footer_01.tsx",
+    "tag": "footer",
+    "id": "footer",
+    "className": "footer",
+    "width": 1920,
+    "height": 1232
+  },
+  {
+    "name": "Misc_Container_11",
+    "category": "misc",
+    "file": "misc/Misc_Container_11.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "container --full",
+    "width": 1920,
+    "height": 960
+  },
+  {
+    "name": "Misc_Carousel_12",
+    "category": "misc",
+    "file": "misc/Misc_Carousel_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "carousel",
+    "width": 2304,
+    "height": 192
+  },
+  {
+    "name": "Nav_MenuSocialIngles_22",
+    "category": "nav",
+    "file": "nav/Nav_MenuSocialIngles_22.tsx",
+    "tag": "ul",
+    "id": "menu-social-ingles",
+    "className": "menu menu-social",
+    "width": 160,
+    "height": 48
+  },
+  {
+    "name": "Nav_MenuItem1715_23",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1715_23.tsx",
+    "tag": "li",
+    "id": "menu-item-1715",
+    "className": "menu-item menu-item-type-custom menu-item-object-custom menu-item-1715",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "name": "Nav_MenuItem1716_24",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1716_24.tsx",
+    "tag": "li",
+    "id": "menu-item-1716",
+    "className": "menu-item menu-item-type-custom menu-item-object-custom menu-item-1716",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "name": "Nav_MenuLegalIngles_25",
+    "category": "nav",
+    "file": "nav/Nav_MenuLegalIngles_25.tsx",
+    "tag": "ul",
+    "id": "menu-legal-ingles",
+    "className": "menu menu-legal",
+    "width": 803,
+    "height": 17
+  },
+  {
+    "name": "Nav_MenuItem1717_26",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1717_26.tsx",
+    "tag": "li",
+    "id": "menu-item-1717",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1717",
+    "width": 79,
+    "height": 17
+  },
+  {
+    "name": "Nav_MenuItem1718_27",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1718_27.tsx",
+    "tag": "li",
+    "id": "menu-item-1718",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1718",
+    "width": 88,
+    "height": 17
+  },
+  {
+    "name": "Nav_MenuItem1719_28",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1719_28.tsx",
+    "tag": "li",
+    "id": "menu-item-1719",
+    "className": "menu-item menu-item-type-post_type menu-item-object-page menu-item-1719",
+    "width": 93,
+    "height": 17
+  },
+  {
+    "name": "Nav_MenuItem1720_29",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1720_29.tsx",
+    "tag": "li",
+    "id": "menu-item-1720",
+    "className": "menu-item menu-item-type-custom menu-item-object-custom menu-item-1720",
+    "width": 148,
+    "height": 17
+  },
+  {
+    "name": "Nav_MenuItem1721_30",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem1721_30.tsx",
+    "tag": "li",
+    "id": "menu-item-1721",
+    "className": "menu-item menu-item-type-custom menu-item-object-custom menu-item-1721",
+    "width": 140,
+    "height": 17
+  }
+]

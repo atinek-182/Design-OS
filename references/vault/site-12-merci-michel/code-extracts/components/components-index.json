@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Nav_Navigation_01",
+    "category": "nav",
+    "file": "nav/Nav_Navigation_01.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "navigation",
+    "width": 1890,
+    "height": 0
+  },
+  {
+    "name": "Misc_PreloaderLogoWrapper_01",
+    "category": "misc",
+    "file": "misc/Misc_PreloaderLogoWrapper_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "preloader__logo-wrapper",
+    "width": 400,
+    "height": 90
+  },
+  {
+    "name": "Nav_Header_02",
+    "category": "nav",
+    "file": "nav/Nav_Header_02.tsx",
+    "tag": "header",
+    "id": "header",
+    "className": "",
+    "width": 1830,
+    "height": 60
+  },
+  {
+    "name": "Nav_WrapperMenu_03",
+    "category": "nav",
+    "file": "nav/Nav_WrapperMenu_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "wrapper-menu",
+    "width": 1830,
+    "height": 0
+  },
+  {
+    "name": "Misc_WrapperLine_02",
+    "category": "misc",
+    "file": "misc/Misc_WrapperLine_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "wrapper-line",
+    "width": 1830,
+    "height": 0
+  },
+  {
+    "name": "Misc_WrapperLine_03",
+    "category": "misc",
+    "file": "misc/Misc_WrapperLine_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "wrapper-line",
+    "width": 1830,
+    "height": 0
+  },
+  {
+    "name": "Misc_WrapperLine_04",
+    "category": "misc",
+    "file": "misc/Misc_WrapperLine_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "wrapper-line",
+    "width": 1830,
+    "height": 0
+  },
+  {
+    "name": "Misc_WrapperClose_05",
+    "category": "misc",
+    "file": "misc/Misc_WrapperClose_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "wrapper-close",
+    "width": 1830,
+    "height": 0
+  },
+  {
+    "name": "Misc_WrapperLine_06",
+    "category": "misc",
+    "file": "misc/Misc_WrapperLine_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "wrapper-line",
+    "width": 1830,
+    "height": 0
+  },
+  {
+    "name": "Misc_WrapperLine_07",
+    "category": "misc",
+    "file": "misc/Misc_WrapperLine_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "wrapper-line",
+    "width": 1830,
+    "height": 0
+  },
+  {
+    "name": "Misc_WrapperList_08",
+    "category": "misc",
+    "file": "misc/Misc_WrapperList_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "wrapper-list",
+    "width": 1830,
+    "height": 0
+  },
+  {
+    "name": "Nav_HeaderItem_04",
+    "category": "nav",
+    "file": "nav/Nav_HeaderItem_04.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "header__item",
+    "width": 77,
+    "height": 35
+  },
+  {
+    "name": "Nav_HeaderItem_05",
+    "category": "nav",
+    "file": "nav/Nav_HeaderItem_05.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "header__item",
+    "width": 85,
+    "height": 35
+  },
+  {
+    "name": "Nav_HeaderItem_06",
+    "category": "nav",
+    "file": "nav/Nav_HeaderItem_06.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "header__item",
+    "width": 53,
+    "height": 35
+  },
+  {
+    "name": "Nav_HeaderItem_07",
+    "category": "nav",
+    "file": "nav/Nav_HeaderItem_07.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "header__item",
+    "width": 61,
+    "height": 35
+  },
+  {
+    "name": "Nav_HeaderLogo_08",
+    "category": "nav",
+    "file": "nav/Nav_HeaderLogo_08.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "header__logo spritesheet animation-in",
+    "width": 60,
+    "height": 90
+  },
+  {
+    "name": "Interactive_FilterBtn_01",
+    "category": "interactive",
+    "file": "interactive/Interactive_FilterBtn_01.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "filter__btn",
+    "width": 20,
+    "height": 20
+  },
+  {
+    "name": "Interactive_FilterBtn_02",
+    "category": "interactive",
+    "file": "interactive/Interactive_FilterBtn_02.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "filter__btn",
+    "width": 42,
+    "height": 20
+  },
+  {
+    "name": "Interactive_FilterBtnNumber_03",
+    "category": "interactive",
+    "file": "interactive/Interactive_FilterBtnNumber_03.tsx",
+    "tag": "sup",
+    "id": "",
+    "className": "filter__btn-number",
+    "width": 0,
+    "height": 7
+  },
+  {
+    "name": "Interactive_FilterBtn_04",
+    "category": "interactive",
+    "file": "interactive/Interactive_FilterBtn_04.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "filter__btn",
+    "width": 81,
+    "height": 20
+  },
+  {
+    "name": "Interactive_FilterBtn_05",
+    "category": "interactive",
+    "file": "interactive/Interactive_FilterBtn_05.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "filter__btn",
+    "width": 81,
+    "height": 20
+  },
+  {
+    "name": "Interactive_FilterBtn_06",
+    "category": "interactive",
+    "file": "interactive/Interactive_FilterBtn_06.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "filter__btn",
+    "width": 49,
+    "height": 20
+  },
+  {
+    "name": "Interactive_FilterBtn_07",
+    "category": "interactive",
+    "file": "interactive/Interactive_FilterBtn_07.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "filter__btn",
+    "width": 87,
+    "height": 20
+  },
+  {
+    "name": "Footers_Footer_01",
+    "category": "footers",
+    "file": "footers/Footers_Footer_01.tsx",
+    "tag": "footer",
+    "id": "footer",
+    "className": "",
+    "width": 1830,
+    "height": 11
+  },
+  {
+    "name": "Footers_FooterYear_02",
+    "category": "footers",
+    "file": "footers/Footers_FooterYear_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__year",
+    "width": 73,
+    "height": 11
+  },
+  {
+    "name": "Footers_FooterYearCurrent_03",
+    "category": "footers",
+    "file": "footers/Footers_FooterYearCurrent_03.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "footer__year__current",
+    "width": 33,
+    "height": 11
+  },
+  {
+    "name": "Footers_FooterInfo_04",
+    "category": "footers",
+    "file": "footers/Footers_FooterInfo_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__info",
+    "width": 41,
+    "height": 11
+  },
+  {
+    "name": "Footers_FooterButtons_05",
+    "category": "footers",
+    "file": "footers/Footers_FooterButtons_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__buttons",
+    "width": 70,
+    "height": 0
+  },
+  {
+    "name": "Footers_FooterButtonsPrevious_06",
+    "category": "footers",
+    "file": "footers/Footers_FooterButtonsPrevious_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__buttons__previous",
+    "width": 30,
+    "height": 30
+  },
+  {
+    "name": "Footers_FooterButtonsNext_07",
+    "category": "footers",
+    "file": "footers/Footers_FooterButtonsNext_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__buttons__next",
+    "width": 30,
+    "height": 30
+  },
+  {
+    "name": "Footers_FooterSide_08",
+    "category": "footers",
+    "file": "footers/Footers_FooterSide_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__side",
+    "width": 11,
+    "height": 0
+  },
+  {
+    "name": "Footers_FooterProgressContainer_09",
+    "category": "footers",
+    "file": "footers/Footers_FooterProgressContainer_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__progress-container footer__progress-container--hide",
+    "width": 0,
+    "height": 1
+  },
+  {
+    "name": "Footers_FooterProgressBar_10",
+    "category": "footers",
+    "file": "footers/Footers_FooterProgressBar_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__progress-bar",
+    "width": 0,
+    "height": 31
+  },
+  {
+    "name": "Footers_FooterProgressBarLine_11",
+    "category": "footers",
+    "file": "footers/Footers_FooterProgressBarLine_11.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "footer__progress-bar-line",
+    "width": 0,
+    "height": 1
+  },
+  {
+    "name": "3d_WebglCanvas_01",
+    "category": "3d",
+    "file": "3d/3d_WebglCanvas_01.tsx",
+    "tag": "canvas",
+    "id": "",
+    "className": "webgl-canvas",
+    "width": 1920,
+    "height": 1080
+  }
+]

@@ -1,0 +1,24 @@
+/* Follow Art — Design Tokens & Vide Infra Engine Styles */
+:root {
+  /* Color Palette */
+  --color-background: #0000FF;
+  --color-foreground: #FFFFFF;
+  --color-card-bg: #000000;
+  --color-border: #3333FF;
+  --color-accent: #FFFFFF;
+  --color-muted: #A3A3FF;
+
+  /* Typography */
+  --font-heading: "HeadingNow", "Hardbop", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-heading);
+  -webkit-font-smoothing: antialiased;
+}
+
+.promo-header--expanded {
+  color: var(--color-background);
+}

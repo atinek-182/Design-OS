@@ -1,0 +1,1532 @@
+[
+  {
+    "name": "Nav_MobileMenuInner_01",
+    "category": "nav",
+    "file": "nav/Nav_MobileMenuInner_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "mobile-menu-inner flex flex-col items-center justify-between gap-20 min-h-full w-full pb-20 px-6 pt-40",
+    "width": 1904,
+    "height": 296
+  },
+  {
+    "name": "Nav_MenuWrapper_02",
+    "category": "nav",
+    "file": "nav/Nav_MenuWrapper_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menu-wrapper",
+    "width": 1904,
+    "height": 72
+  },
+  {
+    "name": "Nav_MenuItem_03",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem_03.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menu-item",
+    "width": 1864,
+    "height": 18
+  },
+  {
+    "name": "Nav_Menu_04",
+    "category": "nav",
+    "file": "nav/Nav_Menu_04.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "menu block uppercase text-white ",
+    "width": 70,
+    "height": 17
+  },
+  {
+    "name": "Nav_NavLink_05",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_05.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 70,
+    "height": 17
+  },
+  {
+    "name": "Nav_MenuItem_06",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem_06.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menu-item",
+    "width": 1864,
+    "height": 18
+  },
+  {
+    "name": "Nav_Menu_07",
+    "category": "nav",
+    "file": "nav/Nav_Menu_07.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "menu block uppercase text-white ",
+    "width": 109,
+    "height": 17
+  },
+  {
+    "name": "Nav_NavLink_08",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_08.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 109,
+    "height": 17
+  },
+  {
+    "name": "Nav_MenuItem_09",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem_09.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menu-item",
+    "width": 1864,
+    "height": 18
+  },
+  {
+    "name": "Nav_Menu_10",
+    "category": "nav",
+    "file": "nav/Nav_Menu_10.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "menu block uppercase text-white ",
+    "width": 80,
+    "height": 17
+  },
+  {
+    "name": "Nav_NavLink_11",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_11.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 80,
+    "height": 17
+  },
+  {
+    "name": "Nav_MenuItem_12",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem_12.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menu-item",
+    "width": 1864,
+    "height": 18
+  },
+  {
+    "name": "Nav_Menu_13",
+    "category": "nav",
+    "file": "nav/Nav_Menu_13.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "menu block uppercase text-white ",
+    "width": 100,
+    "height": 17
+  },
+  {
+    "name": "Nav_NavLink_14",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_14.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 100,
+    "height": 17
+  },
+  {
+    "name": "Nav_Relative_15",
+    "category": "nav",
+    "file": "nav/Nav_Relative_15.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "relative line-plus-block grid grid-cols-12 gap-x-6 header-menu-line w-full",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Nav_NavLink_16",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_16.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 233,
+    "height": 17
+  },
+  {
+    "name": "Nav_NavLink_17",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_17.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 226,
+    "height": 17
+  },
+  {
+    "name": "Nav_NavLink_18",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_18.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 366,
+    "height": 17
+  },
+  {
+    "name": "Nav_MenuWrapper_19",
+    "category": "nav",
+    "file": "nav/Nav_MenuWrapper_19.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menu-wrapper invisible fixed top-0 right-0 z-40 h-full w-full justify-end p-4 opacity-0 hidden md:flex pointer-events-none",
+    "width": 1904,
+    "height": 381
+  },
+  {
+    "name": "Nav_Desktopmenuref_20",
+    "category": "nav",
+    "file": "nav/Nav_Desktopmenuref_20.tsx",
+    "tag": "div",
+    "id": "desktopMenuRef",
+    "className": "menu-block relative z-5 flex w-full max-w-110 items-start overflow-y-auto overscroll-contain max-h-full rounded-lg bg-white text-dark-font pointer-events-auto border-cream border",
+    "width": 1725,
+    "height": 402
+  },
+  {
+    "name": "Nav_DesktopMenuInner_21",
+    "category": "nav",
+    "file": "nav/Nav_DesktopMenuInner_21.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "desktop-menu-inner flex flex-col min-h-full w-full justify-between pt-20 pb-10 px-8 gap-20",
+    "width": 1725,
+    "height": 402
+  },
+  {
+    "name": "Nav_Flex_22",
+    "category": "nav",
+    "file": "nav/Nav_Flex_22.tsx",
+    "tag": "ul",
+    "id": "",
+    "className": "flex flex-col gap-2 items-start w-full group/menu",
+    "width": 1715,
+    "height": 125
+  },
+  {
+    "name": "Nav_MenuItem_23",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem_23.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menu-item flex justify-between items-center w-full",
+    "width": 1677,
+    "height": 75
+  },
+  {
+    "name": "Nav_NavLink_24",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_24.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none h3 transition-all duration-300 block\n                          ",
+    "width": 64,
+    "height": 17
+  },
+  {
+    "name": "Nav_MenuArrow_25",
+    "category": "nav",
+    "file": "nav/Nav_MenuArrow_25.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "menu-arrow opacity-0 translate-x-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300 ease-in-out will-change-[transform,opacity] delay-300 pt-1.5",
+    "width": 10,
+    "height": 16
+  },
+  {
+    "name": "Nav_MenuItem_26",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem_26.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menu-item flex justify-between items-center w-full",
+    "width": 1677,
+    "height": 75
+  },
+  {
+    "name": "Nav_NavLink_27",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_27.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none h3 transition-all duration-300 block\n                          ",
+    "width": 98,
+    "height": 19
+  },
+  {
+    "name": "Nav_MenuItem_28",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem_28.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menu-item flex justify-between items-center w-full",
+    "width": 1677,
+    "height": 75
+  },
+  {
+    "name": "Nav_NavLink_29",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_29.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none h3 transition-all duration-300 block\n                          ",
+    "width": 73,
+    "height": 18
+  },
+  {
+    "name": "Nav_MenuItem_30",
+    "category": "nav",
+    "file": "nav/Nav_MenuItem_30.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menu-item flex justify-between items-center w-full",
+    "width": 1677,
+    "height": 75
+  },
+  {
+    "name": "Nav_NavLink_31",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_31.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none h3 transition-all duration-300 block\n                          ",
+    "width": 90,
+    "height": 18
+  },
+  {
+    "name": "Nav_NavLink_32",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_32.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none text-dark-font!",
+    "width": 210,
+    "height": 23
+  },
+  {
+    "name": "Nav_NavLink_33",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_33.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none text-dark-font!",
+    "width": 204,
+    "height": 22
+  },
+  {
+    "name": "Misc_Grid_01",
+    "category": "misc",
+    "file": "misc/Misc_Grid_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid grid-cols-2 gap-x-6 gap-y-1 text-sm font-medium w-full",
+    "width": 1716,
+    "height": 168
+  },
+  {
+    "name": "Nav_NavLink_34",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_34.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none text-dark-font!",
+    "width": 105,
+    "height": 19
+  },
+  {
+    "name": "Nav_NavLink_35",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_35.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none text-dark-font!",
+    "width": 112,
+    "height": 19
+  },
+  {
+    "name": "Nav_NavLink_36",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_36.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none text-dark-font!",
+    "width": 103,
+    "height": 19
+  },
+  {
+    "name": "Nav_NavLink_37",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_37.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none text-dark-font!",
+    "width": 116,
+    "height": 19
+  },
+  {
+    "name": "Nav_Nav_38",
+    "category": "nav",
+    "file": "nav/Nav_Nav_38.tsx",
+    "tag": "header",
+    "id": "nav",
+    "className": "site-header fixed top-0 left-0 w-full z-99 flex justify-between items-center py-6 md:py-10 transition-all duration-300 ease-in-out mix-blend-difference",
+    "width": 1904,
+    "height": 92
+  },
+  {
+    "name": "Cards_TrContainer_01",
+    "category": "cards",
+    "file": "cards/Cards_TrContainer_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "tr__container w-full flex items-center justify-between px-4 md:px-8 mx-auto",
+    "width": 1904,
+    "height": 92
+  },
+  {
+    "name": "Nav_NavLink_39",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_39.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none text-[#000000]!",
+    "width": 106,
+    "height": 17
+  },
+  {
+    "name": "Nav_NavLink_40",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_40.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 75,
+    "height": 17
+  },
+  {
+    "name": "Nav_MenuToggle_41",
+    "category": "nav",
+    "file": "nav/Nav_MenuToggle_41.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menu-toggle relative flex items-center md:hidden cursor-pointer z-50 rounded-full border transition-all duration-300 border-white hover:border-white/60",
+    "width": 1904,
+    "height": 32
+  },
+  {
+    "name": "Nav_NavHumburger_42",
+    "category": "nav",
+    "file": "nav/Nav_NavHumburger_42.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav__humburger relative z-30 flex h-8 max-h-8 min-w-12 items-center justify-center text-white",
+    "width": 1904,
+    "height": 32
+  },
+  {
+    "name": "Sections_Relative_01",
+    "category": "sections",
+    "file": "sections/Sections_Relative_01.tsx",
+    "tag": "main",
+    "id": "",
+    "className": "relative z-1 overflow-x-clip",
+    "width": 1904,
+    "height": 29753
+  },
+  {
+    "name": "Hero_HeroSection_01",
+    "category": "hero",
+    "file": "hero/Hero_HeroSection_01.tsx",
+    "tag": "div",
+    "id": "hero-section",
+    "className": "bg-[#0C0C0C] overflow-hidden relative hero-section",
+    "width": 1904,
+    "height": 3815
+  },
+  {
+    "name": "3d_Canvas_01",
+    "category": "3d",
+    "file": "3d/3d_Canvas_01.tsx",
+    "tag": "canvas",
+    "id": "",
+    "className": "",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Sections_MainBanner_02",
+    "category": "sections",
+    "file": "sections/Sections_MainBanner_02.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "main-banner relative min-h-dvh pt-25 lg:pt-30 pb-14 flex w-full ",
+    "width": 1904,
+    "height": 334
+  },
+  {
+    "name": "Misc_TrContainer_02",
+    "category": "misc",
+    "file": "misc/Misc_TrContainer_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "tr__container relative flex flex-col justify-between w-full gap-10",
+    "width": 1904,
+    "height": 334
+  },
+  {
+    "name": "Misc_Grid_03",
+    "category": "misc",
+    "file": "misc/Misc_Grid_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid grid-cols-12 gap-6 mb-10 w-full -ml-1 md:-ml-1.5",
+    "width": 1904,
+    "height": 132
+  },
+  {
+    "name": "Misc_WordsWrapper_04",
+    "category": "misc",
+    "file": "misc/Misc_WordsWrapper_04.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "words-wrapper inline-block",
+    "width": 1904,
+    "height": 37
+  },
+  {
+    "name": "Misc_ButtonWrapper_05",
+    "category": "misc",
+    "file": "misc/Misc_ButtonWrapper_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "button_wrapper relative w-50 uppercase transition-opacity duration-300 hover:opacity-95",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Cards_Btn_02",
+    "category": "cards",
+    "file": "cards/Cards_Btn_02.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn button-text relative flex w-full min-h-10 cursor-pointer items-center overflow-hidden no-underline px-[calc(var(--pad-x)*1.2)]",
+    "width": 111,
+    "height": 17
+  },
+  {
+    "name": "Misc_BannerTextBlock_06",
+    "category": "misc",
+    "file": "misc/Misc_BannerTextBlock_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "banner-text-block grid grid-cols-12 gap-10 w-full",
+    "width": 1904,
+    "height": 162
+  },
+  {
+    "name": "Sections_HomeAbout_03",
+    "category": "sections",
+    "file": "sections/Sections_HomeAbout_03.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "home-about  relative z-3 pt-20 lg:pt-37.5 pb-20 min-h-dvh flex flex-col justify-center",
+    "width": 1904,
+    "height": 225
+  },
+  {
+    "name": "Misc_TrContainer_07",
+    "category": "misc",
+    "file": "misc/Misc_TrContainer_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "tr__container relative w-full",
+    "width": 1904,
+    "height": 225
+  },
+  {
+    "name": "Misc_AboutTitleBlock_08",
+    "category": "misc",
+    "file": "misc/Misc_AboutTitleBlock_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "about-title-block grid grid-cols-12 gap-6",
+    "width": 1904,
+    "height": 65
+  },
+  {
+    "name": "Misc_Relative_09",
+    "category": "misc",
+    "file": "misc/Misc_Relative_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "relative line-plus-block grid grid-cols-12 gap-x-6 mt-20 lg:mt-25 mb-20 lg:mb-20",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Misc_AboutSubtitleBlock_10",
+    "category": "misc",
+    "file": "misc/Misc_AboutSubtitleBlock_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "about-subtitle-block grid grid-cols-12 gap-6",
+    "width": 1904,
+    "height": 122
+  },
+  {
+    "name": "Misc_ButtonWrapper_11",
+    "category": "misc",
+    "file": "misc/Misc_ButtonWrapper_11.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "button_wrapper relative w-50 uppercase transition-opacity duration-300 hover:opacity-95",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Cards_Btn_03",
+    "category": "cards",
+    "file": "cards/Cards_Btn_03.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn button-text relative flex w-full min-h-10 cursor-pointer items-center overflow-hidden no-underline px-[calc(var(--pad-x)*1.2)]",
+    "width": 111,
+    "height": 17
+  },
+  {
+    "name": "Sections_VisionSection_04",
+    "category": "sections",
+    "file": "sections/Sections_VisionSection_04.tsx",
+    "tag": "section",
+    "id": "vision-section",
+    "className": "relative min-h-dvh h-dvh lg:h-auto lg:min-h-dvh overflow-visible ",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Misc_TrContainer_12",
+    "category": "misc",
+    "file": "misc/Misc_TrContainer_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "tr__container w-full grid grid-cols-12 gap-x-6",
+    "width": 1920,
+    "height": 36
+  },
+  {
+    "name": "Misc_Relative_13",
+    "category": "misc",
+    "file": "misc/Misc_Relative_13.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "relative overflow-hidden w-full marquee-wrapper  ",
+    "width": 1920,
+    "height": 176
+  },
+  {
+    "name": "Misc_TrContainer_14",
+    "category": "misc",
+    "file": "misc/Misc_TrContainer_14.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "tr__container w-full grid grid-cols-12 gap-x-6 pb-10",
+    "width": 1920,
+    "height": 21
+  },
+  {
+    "name": "Misc_StripesContainer_15",
+    "category": "misc",
+    "file": "misc/Misc_StripesContainer_15.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "stripes-container absolute inset-0 pointer-events-none flex flex-col w-full h-dvh z-30",
+    "width": 1920,
+    "height": 1
+  },
+  {
+    "name": "Sections_KeyfactsSection_05",
+    "category": "sections",
+    "file": "sections/Sections_KeyfactsSection_05.tsx",
+    "tag": "section",
+    "id": "keyfacts-section",
+    "className": "pt-25 pb-20 lg:pb-40 bg-[linear-gradient(0deg,#FFFFFF_0%,#D2D2D2_100%)] relative z-20 min-h-dvh max-md:overflow-hidden",
+    "width": 1904,
+    "height": 1466
+  },
+  {
+    "name": "Misc_TrContainer_16",
+    "category": "misc",
+    "file": "misc/Misc_TrContainer_16.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "tr__container",
+    "width": 1904,
+    "height": 1448
+  },
+  {
+    "name": "Cards_KeyCardList_04",
+    "category": "cards",
+    "file": "cards/Cards_KeyCardList_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "key-card-list perspective-[1400] flex gap-6 justify-start md:justify-center md:flex-wrap lg:flex-nowrap transform-3d max-lg:px-[8.66vw] ",
+    "width": 1904,
+    "height": 791
+  },
+  {
+    "name": "Cards_FeaturedCard_05",
+    "category": "cards",
+    "file": "cards/Cards_FeaturedCard_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "featured-card shrink-0 w-[85vw] md:w-[380px] lg:w-full max-w-99 max-md:h-[50svh] max-md:max-h-110 max-md:min-h-[300px] md:h-122 rounded-lg bg-black text-light-font overflow-hidden relative  transition-colors duration-500 will-change-transform backface-hidden transform-3d",
+    "width": 1904,
+    "height": 11
+  },
+  {
+    "name": "Cards_ProjectCard_06",
+    "category": "cards",
+    "file": "cards/Cards_ProjectCard_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "project-card relative shrink-0 w-[85vw] md:w-[380px] lg:w-full max-w-99 max-md:h-[50svh] max-md:max-h-110 max-md:min-h-[300px] md:h-122 rounded-lg bg-cream p-8 lg:p-10 flex flex-col justify-between overflow-hidden   transition-colors duration-500 text-center will-change-transform backface-hidden transform-3d",
+    "width": 1904,
+    "height": 5
+  },
+  {
+    "name": "Cards_TeamCard_07",
+    "category": "cards",
+    "file": "cards/Cards_TeamCard_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "team-card shrink-0 w-[85vw] md:w-[380px] lg:w-full max-w-99 max-md:h-[50svh] max-md:max-h-110 max-md:min-h-[300px] md:h-122 rounded-lg bg-[#2F3135] text-light-font overflow-hidden relative  transition-colors duration-500 will-change-transform backface-hidden transform-3d",
+    "width": 1904,
+    "height": 11
+  },
+  {
+    "name": "Misc_Relative_17",
+    "category": "misc",
+    "file": "misc/Misc_Relative_17.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "relative overflow-hidden w-full marquee-wrapper  -mx-10 block w-auto! lg:hidden",
+    "width": 1904,
+    "height": 270
+  },
+  {
+    "name": "Misc_JsKfLineWrap_18",
+    "category": "misc",
+    "file": "misc/Misc_JsKfLineWrap_18.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-kf-line-wrap tr__container absolute bottom-0 max-md:translate-y-0 translate-y-1/2 left-0 right-0 z-0 max-md:px-4",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Misc_Relative_19",
+    "category": "misc",
+    "file": "misc/Misc_Relative_19.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "relative line-plus-block grid grid-cols-12 gap-x-6 ",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Cards_Flex_08",
+    "category": "cards",
+    "file": "cards/Cards_Flex_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "flex flex-col md:flex-row h-auto md:h-dvh flex-nowrap items-center will-change-transform @container w-full",
+    "width": 1920,
+    "height": 522
+  },
+  {
+    "name": "Misc_ButtonWrapper_20",
+    "category": "misc",
+    "file": "misc/Misc_ButtonWrapper_20.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "button_wrapper relative w-50 uppercase transition-opacity duration-300 hover:opacity-95",
+    "width": 1920,
+    "height": 18
+  },
+  {
+    "name": "Cards_Btn_09",
+    "category": "cards",
+    "file": "cards/Cards_Btn_09.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn button-text relative flex w-full min-h-10 cursor-pointer items-center overflow-hidden no-underline px-[calc(var(--pad-x)*1.2)]",
+    "width": 126,
+    "height": 17
+  },
+  {
+    "name": "Cards_JsWorkCard_10",
+    "category": "cards",
+    "file": "cards/Cards_JsWorkCard_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-work-card relative flex w-[calc(100%-3rem)] md:w-[50%] md:max-w-[50cqw] shrink-0 min-w-0 h-auto py-0 md:h-full items-center pointer-events-none md:bg-[linear-gradient(0deg,#D2D2D2_0%,#FFFFFF_100%)]",
+    "width": 1920,
+    "height": 93
+  },
+  {
+    "name": "Cards_JsCardLine_11",
+    "category": "cards",
+    "file": "cards/Cards_JsCardLine_11.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-card-line hidden md:block absolute left-0 top-1/2 -translate-y-1/2 h-dvh w-px bg-grey-line/15 origin-top",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Cards_JsCardLineHorizontal_12",
+    "category": "cards",
+    "file": "cards/Cards_JsCardLineHorizontal_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-card-line-horizontal block md:hidden absolute left-0 bottom-0 w-full h-px bg-grey-line/15 origin-left",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Cards_JsWorkCardInner_13",
+    "category": "cards",
+    "file": "cards/Cards_JsWorkCardInner_13.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-work-card-inner w-full will-change-transform px-0 md:px-20",
+    "width": 1920,
+    "height": 93
+  },
+  {
+    "name": "Misc_ButtonWrapper_21",
+    "category": "misc",
+    "file": "misc/Misc_ButtonWrapper_21.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "button_wrapper relative w-50 uppercase transition-opacity duration-300 hover:opacity-95",
+    "width": 1920,
+    "height": 18
+  },
+  {
+    "name": "Cards_Btn_14",
+    "category": "cards",
+    "file": "cards/Cards_Btn_14.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn button-text relative flex w-full min-h-10 cursor-pointer items-center overflow-hidden no-underline px-[calc(var(--pad-x)*1.2)]",
+    "width": 119,
+    "height": 17
+  },
+  {
+    "name": "Cards_JsWorkCard_15",
+    "category": "cards",
+    "file": "cards/Cards_JsWorkCard_15.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-work-card relative flex w-[calc(100%-3rem)] md:w-[50%] md:max-w-[50cqw] shrink-0 min-w-0 h-auto py-0 md:h-full items-center pointer-events-none md:bg-[linear-gradient(0deg,#D2D2D2_0%,#FFFFFF_100%)]",
+    "width": 1920,
+    "height": 93
+  },
+  {
+    "name": "Cards_JsCardLine_16",
+    "category": "cards",
+    "file": "cards/Cards_JsCardLine_16.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-card-line hidden md:block absolute left-0 top-1/2 -translate-y-1/2 h-dvh w-px bg-grey-line/15 origin-top",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Cards_JsWorkCardInner_17",
+    "category": "cards",
+    "file": "cards/Cards_JsWorkCardInner_17.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-work-card-inner w-full will-change-transform px-0 md:px-20",
+    "width": 1920,
+    "height": 93
+  },
+  {
+    "name": "Misc_ButtonWrapper_22",
+    "category": "misc",
+    "file": "misc/Misc_ButtonWrapper_22.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "button_wrapper relative w-50 uppercase transition-opacity duration-300 hover:opacity-95",
+    "width": 1920,
+    "height": 18
+  },
+  {
+    "name": "Cards_Btn_18",
+    "category": "cards",
+    "file": "cards/Cards_Btn_18.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn button-text relative flex w-full min-h-10 cursor-pointer items-center overflow-hidden no-underline px-[calc(var(--pad-x)*1.2)]",
+    "width": 119,
+    "height": 17
+  },
+  {
+    "name": "Cards_JsWorkCard_19",
+    "category": "cards",
+    "file": "cards/Cards_JsWorkCard_19.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-work-card relative flex w-[calc(100%-3rem)] md:w-[50%] md:max-w-[50cqw] shrink-0 min-w-0 h-auto py-0 md:h-full items-center pointer-events-none md:bg-[linear-gradient(0deg,#D2D2D2_0%,#FFFFFF_100%)]",
+    "width": 1920,
+    "height": 93
+  },
+  {
+    "name": "Cards_JsWorkCardInner_20",
+    "category": "cards",
+    "file": "cards/Cards_JsWorkCardInner_20.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-work-card-inner w-full will-change-transform px-0 md:px-20",
+    "width": 1920,
+    "height": 93
+  },
+  {
+    "name": "Misc_ButtonWrapper_23",
+    "category": "misc",
+    "file": "misc/Misc_ButtonWrapper_23.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "button_wrapper relative w-50 uppercase transition-opacity duration-300 hover:opacity-95",
+    "width": 1920,
+    "height": 18
+  },
+  {
+    "name": "Cards_Btn_21",
+    "category": "cards",
+    "file": "cards/Cards_Btn_21.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn button-text relative flex w-full min-h-10 cursor-pointer items-center overflow-hidden no-underline px-[calc(var(--pad-x)*1.2)]",
+    "width": 119,
+    "height": 17
+  },
+  {
+    "name": "Cards_JsWorkCard_22",
+    "category": "cards",
+    "file": "cards/Cards_JsWorkCard_22.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-work-card relative flex w-[calc(100%-3rem)] md:w-[50%] md:max-w-[50cqw] shrink-0 min-w-0 h-auto md:h-full items-center pointer-events-none md:min-h-dvh py-40 md:py-16 md:bg-[linear-gradient(0deg,#D2D2D2_0%,#FFFFFF_100%)]",
+    "width": 1920,
+    "height": 77
+  },
+  {
+    "name": "Cards_JsWorkCardInner_23",
+    "category": "cards",
+    "file": "cards/Cards_JsWorkCardInner_23.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "js-work-card-inner w-full will-change-transform px-0 md:px-10 lg:px-16 xl:px-20",
+    "width": 1920,
+    "height": 59
+  },
+  {
+    "name": "Sections_TrionnServices_06",
+    "category": "sections",
+    "file": "sections/Sections_TrionnServices_06.tsx",
+    "tag": "section",
+    "id": "trionn-services",
+    "className": "relative min-h-dvh h-full min-h-0 w-full",
+    "width": 1920,
+    "height": 3577
+  },
+  {
+    "name": "Cards_SvcCard_24",
+    "category": "cards",
+    "file": "cards/Cards_SvcCard_24.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "svc-card z-10 absolute top-0 left-0 will-change-[transform,opacity] transform-3d lg:p-6",
+    "width": 538,
+    "height": 346
+  },
+  {
+    "name": "Cards_CardInner_25",
+    "category": "cards",
+    "file": "cards/Cards_CardInner_25.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-inner pointer-events-auto bg-[#000]/60 lg:bg-[#000]/20 border-0 rounded-lg p-10 h-full flex flex-col justify-between overflow-hidden relative backdrop-blur-md min-h-fit md:min-h-79",
+    "width": 538,
+    "height": 635
+  },
+  {
+    "name": "Cards_CardTop_26",
+    "category": "cards",
+    "file": "cards/Cards_CardTop_26.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-top relative z-10 flex justify-between items-start gap-6",
+    "width": 538,
+    "height": 583
+  },
+  {
+    "name": "Misc_Svg_24",
+    "category": "misc",
+    "file": "misc/Misc_Svg_24.tsx",
+    "tag": "svg",
+    "id": "",
+    "className": "",
+    "width": 538,
+    "height": 538
+  },
+  {
+    "name": "Cards_SvcCard_27",
+    "category": "cards",
+    "file": "cards/Cards_SvcCard_27.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "svc-card z-10 absolute top-0 left-0 will-change-[transform,opacity] transform-3d lg:p-6",
+    "width": 538,
+    "height": 346
+  },
+  {
+    "name": "Cards_CardInner_28",
+    "category": "cards",
+    "file": "cards/Cards_CardInner_28.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-inner pointer-events-auto bg-[#000]/60 lg:bg-[#000]/20 border-0 rounded-lg p-10 h-full flex flex-col justify-between overflow-hidden relative backdrop-blur-md min-h-fit md:min-h-79",
+    "width": 538,
+    "height": 635
+  },
+  {
+    "name": "Cards_CardTop_29",
+    "category": "cards",
+    "file": "cards/Cards_CardTop_29.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-top relative z-10 flex justify-between items-start gap-6",
+    "width": 538,
+    "height": 583
+  },
+  {
+    "name": "Misc_Svg_25",
+    "category": "misc",
+    "file": "misc/Misc_Svg_25.tsx",
+    "tag": "svg",
+    "id": "",
+    "className": "",
+    "width": 538,
+    "height": 538
+  },
+  {
+    "name": "Cards_SvcCard_30",
+    "category": "cards",
+    "file": "cards/Cards_SvcCard_30.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "svc-card z-10 absolute top-0 left-0 will-change-[transform,opacity] transform-3d lg:p-6",
+    "width": 538,
+    "height": 346
+  },
+  {
+    "name": "Cards_CardInner_31",
+    "category": "cards",
+    "file": "cards/Cards_CardInner_31.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-inner pointer-events-auto bg-[#000]/60 lg:bg-[#000]/20 border-0 rounded-lg p-10 h-full flex flex-col justify-between overflow-hidden relative backdrop-blur-md min-h-fit md:min-h-79",
+    "width": 538,
+    "height": 635
+  },
+  {
+    "name": "Cards_CardTop_32",
+    "category": "cards",
+    "file": "cards/Cards_CardTop_32.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-top relative z-10 flex justify-between items-start gap-6",
+    "width": 538,
+    "height": 583
+  },
+  {
+    "name": "Misc_Svg_26",
+    "category": "misc",
+    "file": "misc/Misc_Svg_26.tsx",
+    "tag": "svg",
+    "id": "",
+    "className": "",
+    "width": 538,
+    "height": 538
+  },
+  {
+    "name": "Cards_SvcCard_33",
+    "category": "cards",
+    "file": "cards/Cards_SvcCard_33.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "svc-card absolute z-10 top-0 left-0 will-change-[transform,opacity] transform-3d lg:p-6",
+    "width": 538,
+    "height": 346
+  },
+  {
+    "name": "Cards_CardInner_34",
+    "category": "cards",
+    "file": "cards/Cards_CardInner_34.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-inner pointer-events-auto bg-[#000]/60 lg:bg-[#000]/20 border-0 rounded-lg p-10 h-full flex flex-col justify-between overflow-hidden relative backdrop-blur-md min-h-fit md:min-h-79",
+    "width": 538,
+    "height": 635
+  },
+  {
+    "name": "Cards_CardTop_35",
+    "category": "cards",
+    "file": "cards/Cards_CardTop_35.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-top relative z-10 flex justify-between items-start gap-6",
+    "width": 538,
+    "height": 583
+  },
+  {
+    "name": "Misc_Svg_27",
+    "category": "misc",
+    "file": "misc/Misc_Svg_27.tsx",
+    "tag": "svg",
+    "id": "",
+    "className": "",
+    "width": 538,
+    "height": 538
+  },
+  {
+    "name": "Cards_SvcCard_36",
+    "category": "cards",
+    "file": "cards/Cards_SvcCard_36.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "svc-card absolute z-10 top-0 left-0 will-change-[transform,opacity] transform-3d lg:p-6",
+    "width": 538,
+    "height": 346
+  },
+  {
+    "name": "Cards_CardInner_37",
+    "category": "cards",
+    "file": "cards/Cards_CardInner_37.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-inner pointer-events-auto bg-[#000]/60 lg:bg-[#000]/20 border-0 rounded-lg p-10 h-full flex flex-col justify-between overflow-hidden relative backdrop-blur-md min-h-fit md:min-h-79",
+    "width": 538,
+    "height": 635
+  },
+  {
+    "name": "Cards_CardTop_38",
+    "category": "cards",
+    "file": "cards/Cards_CardTop_38.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-top relative z-10 flex justify-between items-start gap-6",
+    "width": 538,
+    "height": 583
+  },
+  {
+    "name": "Misc_Svg_28",
+    "category": "misc",
+    "file": "misc/Misc_Svg_28.tsx",
+    "tag": "svg",
+    "id": "",
+    "className": "",
+    "width": 538,
+    "height": 538
+  },
+  {
+    "name": "Cards_SvcCard_39",
+    "category": "cards",
+    "file": "cards/Cards_SvcCard_39.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "svc-card absolute z-10 top-0 left-0 will-change-[transform,opacity] transform-3d lg:p-6",
+    "width": 538,
+    "height": 346
+  },
+  {
+    "name": "Cards_CardInner_40",
+    "category": "cards",
+    "file": "cards/Cards_CardInner_40.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-inner pointer-events-auto bg-[#000]/60 lg:bg-[#000]/20 border-0 rounded-lg p-10 h-full flex flex-col justify-between overflow-hidden relative backdrop-blur-md min-h-fit md:min-h-79",
+    "width": 538,
+    "height": 635
+  },
+  {
+    "name": "Cards_CardTop_41",
+    "category": "cards",
+    "file": "cards/Cards_CardTop_41.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "card-top relative z-10 flex justify-between items-start gap-6",
+    "width": 538,
+    "height": 583
+  },
+  {
+    "name": "Misc_Svg_29",
+    "category": "misc",
+    "file": "misc/Misc_Svg_29.tsx",
+    "tag": "svg",
+    "id": "",
+    "className": "",
+    "width": 538,
+    "height": 538
+  },
+  {
+    "name": "Cards_TrContainer_42",
+    "category": "cards",
+    "file": "cards/Cards_TrContainer_42.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "tr__container relative flex h-full flex-col items-center justify-between pt-40 lg:pt-30 pb-20 z-30",
+    "width": 1920,
+    "height": 150
+  },
+  {
+    "name": "Misc_ButtonWrapper_30",
+    "category": "misc",
+    "file": "misc/Misc_ButtonWrapper_30.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "button_wrapper relative w-50 uppercase transition-opacity duration-300 hover:opacity-95 relative z-20",
+    "width": 1920,
+    "height": 18
+  },
+  {
+    "name": "Cards_Btn_43",
+    "category": "cards",
+    "file": "cards/Cards_Btn_43.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn button-text relative flex w-full min-h-10 cursor-pointer items-center overflow-hidden no-underline px-[calc(var(--pad-x)*1.2)]",
+    "width": 107,
+    "height": 17
+  },
+  {
+    "name": "Sections_Testimonials_07",
+    "category": "sections",
+    "file": "sections/Sections_Testimonials_07.tsx",
+    "tag": "section",
+    "id": "testimonials",
+    "className": "relative z-20 min-h-dvh bg-[linear-gradient(0deg,#C3C3C3_0%,#FFFFFF_100%)] overflow-hidden",
+    "width": 1904,
+    "height": 1733
+  },
+  {
+    "name": "Misc_TrContainer_31",
+    "category": "misc",
+    "file": "misc/Misc_TrContainer_31.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "tr__container min-h-dvh py-20 lg:py-37.5",
+    "width": 1904,
+    "height": 1715
+  },
+  {
+    "name": "Misc_Grid_32",
+    "category": "misc",
+    "file": "misc/Misc_Grid_32.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid grid-cols-12 gap-6",
+    "width": 1904,
+    "height": 101
+  },
+  {
+    "name": "Misc_Grid_33",
+    "category": "misc",
+    "file": "misc/Misc_Grid_33.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid grid-cols-12 gap-6",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Misc_Relative_34",
+    "category": "misc",
+    "file": "misc/Misc_Relative_34.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "relative line-plus-block grid grid-cols-12 gap-x-6 my-10 lg:my-20 col-span-12 lg:col-span-10! lg:col-start-2!",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Misc_WFull_35",
+    "category": "misc",
+    "file": "misc/Misc_WFull_35.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "w-full relative grid grid-cols-12 gap-6 ",
+    "width": 1904,
+    "height": 1580
+  },
+  {
+    "name": "Misc_SwiperWrapper_36",
+    "category": "misc",
+    "file": "misc/Misc_SwiperWrapper_36.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "swiper-wrapper",
+    "width": 1904,
+    "height": 1469
+  },
+  {
+    "name": "Nav_NavLink_43",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_43.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 159,
+    "height": 15
+  },
+  {
+    "name": "Misc_ButtonWrapper_37",
+    "category": "misc",
+    "file": "misc/Misc_ButtonWrapper_37.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "button_wrapper relative w-50 uppercase transition-opacity duration-300 hover:opacity-95",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Cards_Btn_44",
+    "category": "cards",
+    "file": "cards/Cards_Btn_44.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn button-text relative flex w-full min-h-10 cursor-pointer items-center overflow-hidden no-underline px-[calc(var(--pad-x)*1.2)]",
+    "width": 120,
+    "height": 17
+  },
+  {
+    "name": "Misc_TrContainer_38",
+    "category": "misc",
+    "file": "misc/Misc_TrContainer_38.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "tr__container z-0",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Misc_Relative_39",
+    "category": "misc",
+    "file": "misc/Misc_Relative_39.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "relative line-plus-block grid grid-cols-12 gap-x-6 ",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "3d_Absolute_02",
+    "category": "3d",
+    "file": "3d/3d_Absolute_02.tsx",
+    "tag": "canvas",
+    "id": "",
+    "className": "absolute inset-0 w-full h-full pointer-events-none z-1",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Cards_TrContainer_45",
+    "category": "cards",
+    "file": "cards/Cards_TrContainer_45.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "tr__container w-full h-full flex items-center flex-col justify-between text-dark-font",
+    "width": 1920,
+    "height": 238
+  },
+  {
+    "name": "Misc_ButtonWrapper_40",
+    "category": "misc",
+    "file": "misc/Misc_ButtonWrapper_40.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "button_wrapper relative w-50 uppercase transition-opacity duration-300 hover:opacity-95 relative z-5",
+    "width": 1920,
+    "height": 18
+  },
+  {
+    "name": "Cards_Btn_46",
+    "category": "cards",
+    "file": "cards/Cards_Btn_46.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn button-text relative flex w-full min-h-10 cursor-pointer items-center overflow-hidden no-underline px-[calc(var(--pad-x)*1.2)]",
+    "width": 135,
+    "height": 17
+  },
+  {
+    "name": "Nav_NavLink_44",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_44.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 89,
+    "height": 15
+  },
+  {
+    "name": "Nav_NavLink_45",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_45.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 82,
+    "height": 15
+  },
+  {
+    "name": "Footers_SiteFooter_01",
+    "category": "footers",
+    "file": "footers/Footers_SiteFooter_01.tsx",
+    "tag": "footer",
+    "id": "site-footer",
+    "className": "site-footer relative z-2 flex min-h-dvh flex-col overflow-hidden bg-[#040508] text-light-font",
+    "width": 1904,
+    "height": 2025
+  },
+  {
+    "name": "3d_Block_03",
+    "category": "3d",
+    "file": "3d/3d_Block_03.tsx",
+    "tag": "canvas",
+    "id": "",
+    "className": "block h-full w-full",
+    "width": 1904,
+    "height": 1079
+  },
+  {
+    "name": "Misc_TrContainer_41",
+    "category": "misc",
+    "file": "misc/Misc_TrContainer_41.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "tr__container flex w-full flex-col pt-25 pb-6 md:pb-20 md:pt-37.5",
+    "width": 1904,
+    "height": 440
+  },
+  {
+    "name": "Misc_Grid_42",
+    "category": "misc",
+    "file": "misc/Misc_Grid_42.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid w-full grid-cols-12 gap-10 md:gap-x-12 lg:gap-y-0 lg:mb-20",
+    "width": 1904,
+    "height": 148
+  },
+  {
+    "name": "Misc_ButtonWrapper_43",
+    "category": "misc",
+    "file": "misc/Misc_ButtonWrapper_43.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "button_wrapper relative w-50 uppercase transition-opacity duration-300 hover:opacity-95 min-w-63",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Cards_Btn_47",
+    "category": "cards",
+    "file": "cards/Cards_Btn_47.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn button-text relative flex w-full min-h-10 cursor-pointer items-center overflow-hidden no-underline px-[calc(var(--pad-x)*1.2)]",
+    "width": 147,
+    "height": 17
+  },
+  {
+    "name": "Misc_Grid_44",
+    "category": "misc",
+    "file": "misc/Misc_Grid_44.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid w-full grid-cols-12 gap-10 lg:gap-x-12 lg:gap-y-0 my-auto",
+    "width": 1904,
+    "height": 292
+  },
+  {
+    "name": "Footers_Title_02",
+    "category": "footers",
+    "file": "footers/Footers_Title_02.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "title footer-sound-icon hidden md:block",
+    "width": 1904,
+    "height": 18
+  },
+  {
+    "name": "Nav_NavLink_46",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_46.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 116,
+    "height": 17
+  },
+  {
+    "name": "Nav_NavLink_47",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_47.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 124,
+    "height": 17
+  },
+  {
+    "name": "Nav_NavLink_48",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_48.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 114,
+    "height": 17
+  },
+  {
+    "name": "Nav_NavLink_49",
+    "category": "nav",
+    "file": "nav/Nav_NavLink_49.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "nav-link relative inline-flex cursor-pointer leading-none overflow-visible select-none ",
+    "width": 128,
+    "height": 17
+  }
+]

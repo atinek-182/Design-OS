@@ -1,0 +1,19 @@
+import React from 'react';
+
+/**
+ * Component: Misc_TTitleContainer_04
+ * Target Site: jasmine-gunarto
+ * Category: misc
+ * Tag: <div> | ID: "" | Class: "t-title-container"
+ * Dimensions: 1920px x 295px
+ */
+export const Misc_TTitleContainer_04: React.FC = () => {
+  return (
+    <div className="component-container-misc">
+      {/* --- Raw Extracted DOM Structure --- */}
+      <div className="t-title-container"><div className="t-box t-title t-title-1"><div className="t-line" style="position: relative; display: block; text-align: start; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">C</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">U</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">R</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">A</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">T</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">E</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">D</div></div></div></div><div className="t-box t-title t-title-2"><div className="t-line" style="position: relative; display: block; text-align: start; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">P</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">R</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">O</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">J</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">E</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">C</div></div><div style="position: relative; display: inline-block; overflow: clip;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform: translate(-100%, 0%);">T</div></div></div></div></div>
+    </div>
+  );
+};
+
+export default Misc_TTitleContainer_04;

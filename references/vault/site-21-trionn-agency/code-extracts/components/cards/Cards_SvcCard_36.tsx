@@ -1,0 +1,19 @@
+import React from 'react';
+
+/**
+ * Component: Cards_SvcCard_36
+ * Target Site: trionn-agency
+ * Category: cards
+ * Tag: <div> | ID: "" | Class: "svc-card absolute z-10 top-0 left-0 will-change-[transform,opacity] transform-3d lg:p-6"
+ * Dimensions: 538px x 346px
+ */
+export const Cards_SvcCard_36: React.FC = () => {
+  return (
+    <div className="component-container-cards">
+      {/* --- Raw Extracted DOM Structure --- */}
+      <div className="svc-card absolute z-10 top-0 left-0 will-change-[transform,opacity] transform-3d lg:p-6" style="width: 538px; height: 346px; translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 0;"><div className="w-full relative"><div className="card-inner pointer-events-auto bg-[#000]/60 lg:bg-[#000]/20 border-0 rounded-lg p-10 h-full flex flex-col justify-between overflow-hidden relative backdrop-blur-md min-h-fit md:min-h-79"><div className="card-top relative z-10 flex justify-between items-start gap-6"><h3 className="text-white m-0 max-w-50">WordPress Development</h3><svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" className="card-svg-icon shrink-0 w-16 lg:w-25 h-16 lg:h-25"><path className="svg-path" fill="none" stroke="#d8d8d8" stroke-miterlimit="10" d="M47.9,25c0,2.3,0,4.1,0,5.3-.2,4.8-1.9,8.8-5.1,12.1-10,10.2-27.1,5.3-30.2-8.5-2.1-9.1,3.2-18.1,12.3-21,1.7-.5,4.7-.8,9.1-.8,5.8,0,15.2,0,26.1,0M53.7,25c0,2.5,0,4.4,0,5.5,0,3.2-.7,6.3-2.1,9.3-3,6.4-7.9,10.7-14.5,12.8-4.9,1.5-9.7,1.5-14.5-.1C6.5,47,1,27.1,12.3,14.3c3.3-3.7,7.4-6.2,12.4-7.4,1.9-.4,5.2-.7,10.1-.6,7.2,0,16.2,0,25.2,0M36.4,25c0,1,0,2.1,0,3.4,0,3-.4,5.3-3,6.9-3.7,2.4-8.3.4-9.5-3.7-.5-1.9-.2-3.7,1.1-5.4,2-2.7,4.4-2.6,8.1-2.6,12.4,0,21.1,0,26.1,0,.2,0,.3.1.3.3,0,3,.2,6,0,8.6-.9,9.5-5.4,16.9-13.4,22.2-12.7,8.4-30.1,5.2-39.3-6.9C-6.7,30.3,3.1,5.1,24.8,1.1c1.8-.3,5.2-.5,10.1-.5,4.2,0,13.3,0,25,0M42.1,25c0,1.2,0,2.8,0,5,0,5-3,9.4-7.7,11.3-7.6,3-16-2.3-16.5-10.5-.2-3.3.8-6.2,2.9-8.6,1.6-1.8,3.5-3.1,5.7-3.7,1.3-.4,3.5-.6,6.5-.6,11.4,0,21,0,27,0" style="vector-effect: non-scaling-stroke; stroke-dashoffset: 0.001; stroke-dasharray: 0px, 999999px;"></path></svg></div><p className="text-light-font relative z-10 m-0 small max-w-88 md:max-w-78 2xl:max-w-80 4xl:max-w-75 mt-10">WordPress development focused on performance, clarity, and experiences that convert visitors into loyal users.</p></div></div></div>
+    </div>
+  );
+};
+
+export default Cards_SvcCard_36;

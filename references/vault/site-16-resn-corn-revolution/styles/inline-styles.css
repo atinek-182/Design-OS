@@ -1,0 +1,1942 @@
+.truste_caIcon_display {display: block !important;}
+
+/* --- INLINE STYLE --- */
+
+.truste_cursor_pointer {cursor: pointer;}.truste_border_none {border: none;}
+
+/* --- INLINE STYLE --- */
+
+.ta-display-none { display: none; }
+
+/* --- INLINE STYLE --- */
+
+
+            html, body {
+                background-color: #000;
+            }
+
+            .unsupported {
+                z-index: 1;
+
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
+
+            .unsupported a {
+                color: #fff;
+            }
+
+            .unsupported::before {
+                content: '';
+                display: inline-block;
+                vertical-align: middle;
+                width: 0;
+                height: 100%;
+                margin-right: -0.3em;
+            }
+
+            .unsupported__bg {
+                z-index: -1;
+
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+
+                background-color: #001d11;
+                background-image: linear-gradient(45deg, #00322e 0%, transparent 40%, transparent 60%, #013110);
+            }
+
+            .unsupported__inner {
+                width: 100%;
+                display: inline-block;
+                vertical-align: middle;
+                position: relative;
+
+                text-align: center;
+            }
+
+            .unsupported__logo {
+                top: 6rem;
+                left: 50%;
+                position: absolute;
+                margin-left: -10rem;
+
+                width: 20rem;
+                height: 4rem;
+
+                fill: white;
+            }
+
+            .unsupported__title {
+                margin-bottom: 5rem;
+            }
+
+            h2 {
+                font-family: Arial;
+                color: white;
+                font-size: 18px;
+            }
+        
+
+/* --- INLINE STYLE --- */
+
+/*
+    Document styles should be generic, element based rules that are considered
+    fixed between projects. They apply to all elements within the DOM and should
+    be overwritten by more specific rules in module stylesheets where necessary.
+
+    Consider these additional "reset" or "normalize" rules.
+*/
+* {
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+input,
+textarea {
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text; }
+
+html {
+  box-sizing: border-box; }
+  html *, html *::before, html *::after {
+    box-sizing: inherit; }
+
+html {
+  font-size: 10px; }
+
+body {
+  margin: 0; }
+
+hr {
+  margin: 0;
+  border: none;
+  display: block; }
+
+img {
+  display: block; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  margin: 0; }
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+blockquote {
+  padding: 0;
+  margin: 0; }
+
+cite {
+  font-style: normal; }
+
+form {
+  margin: 0; }
+
+select,
+textarea,
+input {
+  margin: 0;
+  font-size: inherit;
+  box-shadow: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+  select:focus,
+  textarea:focus,
+  input:focus {
+    outline: none; }
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  text-transform: inherit; }
+
+a {
+  cursor: pointer;
+  text-decoration: none; }
+
+/*
+    Place your @font-face imports in this file
+    ---
+    e.g:
+
+    @font-face {
+        font-family: 'Helvetica Neue Thin';
+        src: url('/fonts/helvetica_neue_thin.eot');
+        src: url('/fonts/helvetica_neue_thin.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/helvetica_neue_thin.woff') format('woff'),
+            url('/fonts/helvetica_neue_thin.ttf') format('truetype'),
+            url('/fonts/helvetica_neue_thin3.svg') format('svg');
+    }
+*/
+@font-face {
+  font-family: 'Gilroy';
+  src: url("https://d1hl9u9k5hiqxp.cloudfront.net/fonts/Gilroy/3714E1_B_0.woff2") format("woff"), url("https://d1hl9u9k5hiqxp.cloudfront.net/fonts/Gilroy/3714E1_B_0.woff") format("woff"), url("https://d1hl9u9k5hiqxp.cloudfront.net/fonts/Gilroy/3714E1_B_0.ttf") format("ttf");
+  font-weight: 200; }
+
+@font-face {
+  font-family: 'Manifold-CF-Extra-Bold';
+  src: url("https://d1hl9u9k5hiqxp.cloudfront.net/fonts/Manifold/manifold-cf-extra-bold.woff2") format("woff"), url("https://d1hl9u9k5hiqxp.cloudfront.net/fonts/Manifold/manifold-cf-extra-bold.woff") format("woff"), url("https://d1hl9u9k5hiqxp.cloudfront.net/fonts/Manifold/manifold-cf-extra-bold.ttf") format("ttf");
+  font-weight: 400; }
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+html {
+  background: black; }
+  @media only screen and (max-width: 599px) {
+    html {
+      font-size: 0.92593vw; } }
+  @media only screen and (min-width: 600px) {
+    html {
+      font-size: 0.52083vw; } }
+  @media only screen and (min-width: 1920px) {
+    html.desktop, html.tablet {
+      font-size: 10px; } }
+
+body {
+  background: black;
+  color: white;
+  line-height: 1.5;
+  font-family: "Gilroy", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.02em;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  @media only screen and (max-width: 599px) {
+    body {
+      font-size: 4rem; } }
+  @media only screen and (min-width: 600px) {
+    body {
+      font-size: 2rem; } }
+  body[cursor="grab"] {
+    cursor: move;
+    cursor: grab;
+    cursor: -webkit-grab; }
+    body[cursor="grab"]:active {
+      cursor: grabbing;
+      cursor: -webkit-grabbing; }
+  body[cursor="pointer"] {
+    cursor: pointer; }
+
+html, body {
+  overscroll-behavior-y: contain; }
+
+svg {
+  fill: currentColor; }
+
+.root {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed; }
+
+.sectionBase {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8rem; }
+
+.sectionBase__half {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.title {
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Manifold-CF-Extra-Bold", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.02em; }
+  @media only screen and (max-width: 599px) {
+    .title {
+      font-size: 12.5rem; } }
+  @media only screen and (min-width: 600px) {
+    .title {
+      font-size: 10rem; } }
+
+.title2 {
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Manifold-CF-Extra-Bold", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.02em; }
+  @media only screen and (max-width: 599px) {
+    .title2 {
+      font-size: 11rem; } }
+  @media only screen and (min-width: 600px) {
+    .title2 {
+      font-size: 10rem; } }
+
+.title3 {
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Manifold-CF-Extra-Bold", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.02em; }
+  @media only screen and (max-width: 599px) {
+    .title3 {
+      font-size: 9rem; } }
+  @media only screen and (min-width: 600px) {
+    .title3 {
+      font-size: 9rem; } }
+
+.subText {
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Gilroy", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.05em; }
+  @media only screen and (max-width: 599px) {
+    .subText {
+      font-size: 2.5rem; } }
+  @media only screen and (min-width: 600px) {
+    .subText {
+      font-size: 2rem; } }
+
+.subText2 {
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Gilroy", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.05em; }
+  @media only screen and (max-width: 599px) {
+    .subText2 {
+      font-size: 2.5rem; } }
+  @media only screen and (min-width: 600px) {
+    .subText2 {
+      font-size: 1.2rem; } }
+
+.body {
+  line-height: 1.5;
+  font-family: "Gilroy", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.02em; }
+  @media only screen and (max-width: 599px) {
+    .body {
+      font-size: 4rem; } }
+  @media only screen and (min-width: 600px) {
+    .body {
+      font-size: 2rem; } }
+  .body > a {
+    font-weight: bold;
+    text-decoration: underline; }
+
+.bottomCta {
+  left: 50%;
+  bottom: 6.8vh;
+  position: absolute;
+  transform: translateX(-50%);
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Gilroy", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.05em; }
+  @media only screen and (max-width: 599px) {
+    .bottomCta {
+      font-size: 2.5rem; } }
+  @media only screen and (min-width: 600px) {
+    .bottomCta {
+      font-size: 2rem; } }
+
+.btnMain {
+  width: 100%;
+  display: block;
+  padding: 0 6rem;
+  position: relative;
+  flex: 0 0 auto;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Manifold-CF-Extra-Bold", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0em; }
+  @media only screen and (max-width: 599px) {
+    .btnMain {
+      font-size: 5rem; } }
+  @media only screen and (min-width: 600px) {
+    .btnMain {
+      font-size: 2rem; } }
+  .mobile .btnMain {
+    height: 16rem; }
+  .desktop .btnMain, .tablet .btnMain {
+    height: 8rem; }
+
+.btnMain__border {
+  border: solid 1px white;
+  border-radius: 0.6rem;
+  opacity: 0.3;
+  transition: opacity 300ms;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  .btnMain:active .btnMain__border, .btnMain:focus .btnMain__border, .btnMain:hover .btnMain__border {
+    opacity: 1; }
+
+.btnBack {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  will-change: transform;
+  text-transform: uppercase; }
+
+.btnBack__arrow {
+  stroke: currentColor;
+  stroke-width: 2;
+  opacity: 0.3;
+  transition: opacity 500ms; }
+  .mobile .btnBack__arrow {
+    width: 12rem;
+    height: 5.6rem; }
+  .desktop .btnBack__arrow, .tablet .btnBack__arrow {
+    width: 6rem;
+    height: 2.8rem; }
+  .btnBack:active .btnBack__arrow, .btnBack:focus .btnBack__arrow, .btnBack:hover .btnBack__arrow {
+    opacity: 1; }
+
+.linkExternal {
+  display: inline-block;
+  position: relative;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Manifold-CF-Extra-Bold", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0em; }
+  @media only screen and (max-width: 599px) {
+    .linkExternal {
+      font-size: 5rem; } }
+  @media only screen and (min-width: 600px) {
+    .linkExternal {
+      font-size: 2rem; } }
+  .linkExternal:before {
+    content: '';
+    top: -2rem;
+    left: -2rem;
+    bottom: -2rem;
+    right: -2rem;
+    position: absolute; }
+
+.linkExternal__underline {
+  top: calc(100% + 2rem);
+  left: 0;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.3;
+  transition: opacity 500ms; }
+  .linkExternal:active .linkExternal__underline, .linkExternal:focus .linkExternal__underline, .linkExternal:hover .linkExternal__underline {
+    opacity: 1; }
+
+.inputBox {
+  width: 100%;
+  display: block;
+  position: relative; }
+  .mobile .inputBox {
+    height: 16rem; }
+  .desktop .inputBox, .tablet .inputBox {
+    height: 8rem; }
+  .inputBox.hasError .inputBox__border {
+    border: solid 2px #f00; }
+
+.inputBox__input {
+  color: white;
+  border: none;
+  padding: 0 6rem;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Manifold-CF-Extra-Bold", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0em;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  @media only screen and (max-width: 599px) {
+    .inputBox__input {
+      font-size: 5rem; } }
+  @media only screen and (min-width: 600px) {
+    .inputBox__input {
+      font-size: 2rem; } }
+  .inputBox__input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.6); }
+  .inputBox__input::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.6); }
+  .inputBox__input::placeholder {
+    color: rgba(255, 255, 255, 0.6); }
+  .inputBox__input:active::-webkit-input-placeholder, .inputBox__input:focus::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.3); }
+  .inputBox__input:active::-ms-input-placeholder, .inputBox__input:focus::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.3); }
+  .inputBox__input:active::placeholder, .inputBox__input:focus::placeholder {
+    color: rgba(255, 255, 255, 0.3); }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:active {
+  transition: background-color color 5000s ease-in-out 0s;
+  transition-delay: 5000s; }
+
+.inputBox__border {
+  border: solid 1px white;
+  border-radius: 0.6rem;
+  pointer-events: none;
+  opacity: 0.7;
+  transition: opacity 500ms;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+  .inputBox__input:focus + .inputBox__border, .inputBox__input:valid + .inputBox__border, .inputBox__input:hover + .inputBox__border, .inputBox.isActive .inputBox__border {
+    opacity: 1; }
+
+.inputCheckbox {
+  color: white;
+  border: solid 1px white;
+  border-radius: 0.6rem;
+  background-color: transparent;
+  opacity: 0.1; }
+  .inputCheckbox:checked {
+    opacity: 1; }
+  .mobile .inputCheckbox {
+    width: 8rem;
+    height: 8rem; }
+  .desktop .inputCheckbox, .tablet .inputCheckbox {
+    width: 4rem;
+    height: 4rem; }
+
+.inputBox,
+.inputCheckbox {
+  flex: 0 0 auto; }
+  .inputBox:focus,
+  .inputCheckbox:focus {
+    border-color: white;
+    opacity: 0.3; }
+  .inputBox.is-error,
+  .inputCheckbox.is-error {
+    border-color: #f00; }
+
+#teconsent img {
+  height: 35px;
+  width: auto;
+  opacity: 70%; }
+  #teconsent img:hover {
+    opacity: 100%; }
+
+@media only screen and (max-width: 450px) {
+  #teconsent img {
+    height: 20px; } }
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+
+
+/* --- INLINE STYLE --- */
+
+.dg ul{list-style:none;margin:0;padding:0;width:100%;clear:both}.dg.ac{position:fixed;top:0;left:0;right:0;height:0;z-index:0}.dg:not(.ac) .main{overflow:hidden}.dg.main{-webkit-transition:opacity .1s linear;-o-transition:opacity .1s linear;-moz-transition:opacity .1s linear;transition:opacity .1s linear}.dg.main.taller-than-window{overflow-y:auto}.dg.main.taller-than-window .close-button{opacity:1;margin-top:-1px;border-top:1px solid #2c2c2c}.dg.main ul.closed .close-button{opacity:1 !important}.dg.main:hover .close-button,.dg.main .close-button.drag{opacity:1}.dg.main .close-button{-webkit-transition:opacity .1s linear;-o-transition:opacity .1s linear;-moz-transition:opacity .1s linear;transition:opacity .1s linear;border:0;line-height:19px;height:20px;cursor:pointer;text-align:center;background-color:#000}.dg.main .close-button.close-top{position:relative}.dg.main .close-button.close-bottom{position:absolute}.dg.main .close-button:hover{background-color:#111}.dg.a{float:right;margin-right:15px;overflow-y:visible}.dg.a.has-save>ul.close-top{margin-top:0}.dg.a.has-save>ul.close-bottom{margin-top:27px}.dg.a.has-save>ul.closed{margin-top:0}.dg.a .save-row{top:0;z-index:1002}.dg.a .save-row.close-top{position:relative}.dg.a .save-row.close-bottom{position:fixed}.dg li{-webkit-transition:height .1s ease-out;-o-transition:height .1s ease-out;-moz-transition:height .1s ease-out;transition:height .1s ease-out;-webkit-transition:overflow .1s linear;-o-transition:overflow .1s linear;-moz-transition:overflow .1s linear;transition:overflow .1s linear}.dg li:not(.folder){cursor:auto;height:27px;line-height:27px;padding:0 4px 0 5px}.dg li.folder{padding:0;border-left:4px solid rgba(0,0,0,0)}.dg li.title{cursor:pointer;margin-left:-4px}.dg .closed li:not(.title),.dg .closed ul li,.dg .closed ul li>*{height:0;overflow:hidden;border:0}.dg .cr{clear:both;padding-left:3px;height:27px;overflow:hidden}.dg .property-name{cursor:default;float:left;clear:left;width:40%;overflow:hidden;text-overflow:ellipsis}.dg .c{float:left;width:60%;position:relative}.dg .c input[type=text]{border:0;margin-top:4px;padding:3px;width:100%;float:right}.dg .has-slider input[type=text]{width:30%;margin-left:0}.dg .slider{float:left;width:66%;margin-left:-5px;margin-right:0;height:19px;margin-top:4px}.dg .slider-fg{height:100%}.dg .c input[type=checkbox]{margin-top:7px}.dg .c select{margin-top:5px}.dg .cr.function,.dg .cr.function .property-name,.dg .cr.function *,.dg .cr.boolean,.dg .cr.boolean *{cursor:pointer}.dg .cr.color{overflow:visible}.dg .selector{display:none;position:absolute;margin-left:-9px;margin-top:23px;z-index:10}.dg .c:hover .selector,.dg .selector.drag{display:block}.dg li.save-row{padding:0}.dg li.save-row .button{display:inline-block;padding:0px 6px}.dg.dialogue{background-color:#222;width:460px;padding:15px;font-size:13px;line-height:15px}#dg-new-constructor{padding:10px;color:#222;font-family:Monaco, monospace;font-size:10px;border:0;resize:none;box-shadow:inset 1px 1px 1px #888;word-wrap:break-word;margin:12px 0;display:block;width:440px;overflow-y:scroll;height:100px;position:relative}#dg-local-explain{display:none;font-size:11px;line-height:17px;border-radius:3px;background-color:#333;padding:8px;margin-top:10px}#dg-local-explain code{font-size:10px}#dat-gui-save-locally{display:none}.dg{color:#eee;font:11px 'Lucida Grande', sans-serif;text-shadow:0 -1px 0 #111}.dg.main::-webkit-scrollbar{width:5px;background:#1a1a1a}.dg.main::-webkit-scrollbar-corner{height:0;display:none}.dg.main::-webkit-scrollbar-thumb{border-radius:5px;background:#676767}.dg li:not(.folder){background:#1a1a1a;border-bottom:1px solid #2c2c2c}.dg li.save-row{line-height:25px;background:#dad5cb;border:0}.dg li.save-row select{margin-left:5px;width:108px}.dg li.save-row .button{margin-left:5px;margin-top:1px;border-radius:2px;font-size:9px;line-height:7px;padding:4px 4px 5px 4px;background:#c5bdad;color:#fff;text-shadow:0 1px 0 #b0a58f;box-shadow:0 -1px 0 #b0a58f;cursor:pointer}.dg li.save-row .button.gears{background:#c5bdad url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAYAAAB/9ZQ7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQJJREFUeNpiYKAU/P//PwGIC/ApCABiBSAW+I8AClAcgKxQ4T9hoMAEUrxx2QSGN6+egDX+/vWT4e7N82AMYoPAx/evwWoYoSYbACX2s7KxCxzcsezDh3evFoDEBYTEEqycggWAzA9AuUSQQgeYPa9fPv6/YWm/Acx5IPb7ty/fw+QZblw67vDs8R0YHyQhgObx+yAJkBqmG5dPPDh1aPOGR/eugW0G4vlIoTIfyFcA+QekhhHJhPdQxbiAIguMBTQZrPD7108M6roWYDFQiIAAv6Aow/1bFwXgis+f2LUAynwoIaNcz8XNx3Dl7MEJUDGQpx9gtQ8YCueB+D26OECAAQDadt7e46D42QAAAABJRU5ErkJggg==) 2px 1px no-repeat;height:7px;width:8px}.dg li.save-row .button:hover{background-color:#bab19e;box-shadow:0 -1px 0 #b0a58f}.dg li.folder{border-bottom:0}.dg li.title{padding-left:16px;background:#000 url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlI+hKgFxoCgAOw==) 6px 10px no-repeat;cursor:pointer;border-bottom:1px solid rgba(255,255,255,0.2)}.dg .closed li.title{background-image:url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlGIWqMCbWAEAOw==)}.dg .cr.boolean{border-left:3px solid #806787}.dg .cr.color{border-left:3px solid}.dg .cr.function{border-left:3px solid #e61d5f}.dg .cr.number{border-left:3px solid #2FA1D6}.dg .cr.number input[type=text]{color:#2FA1D6}.dg .cr.string{border-left:3px solid #1ed36f}.dg .cr.string input[type=text]{color:#1ed36f}.dg .cr.function:hover,.dg .cr.boolean:hover{background:#111}.dg .c input[type=text]{background:#303030;outline:none}.dg .c input[type=text]:hover{background:#3c3c3c}.dg .c input[type=text]:focus{background:#494949;color:#fff}.dg .c .slider{background:#303030;cursor:ew-resize}.dg .c .slider-fg{background:#2FA1D6;max-width:100%}.dg .c .slider:hover{background:#3c3c3c}.dg .c .slider:hover .slider-fg{background:#44abda}
+
+
+/* --- INLINE STYLE --- */
+
+.dg ul{list-style:none;margin:0;padding:0;width:100%;clear:both}.dg.ac{position:fixed;top:0;left:0;right:0;height:0;z-index:0}.dg:not(.ac) .main{overflow:hidden}.dg.main{-webkit-transition:opacity .1s linear;-o-transition:opacity .1s linear;-moz-transition:opacity .1s linear;transition:opacity .1s linear}.dg.main.taller-than-window{overflow-y:auto}.dg.main.taller-than-window .close-button{opacity:1;margin-top:-1px;border-top:1px solid #2c2c2c}.dg.main ul.closed .close-button{opacity:1 !important}.dg.main:hover .close-button,.dg.main .close-button.drag{opacity:1}.dg.main .close-button{-webkit-transition:opacity .1s linear;-o-transition:opacity .1s linear;-moz-transition:opacity .1s linear;transition:opacity .1s linear;border:0;line-height:19px;height:20px;cursor:pointer;text-align:center;background-color:#000}.dg.main .close-button.close-top{position:relative}.dg.main .close-button.close-bottom{position:absolute}.dg.main .close-button:hover{background-color:#111}.dg.a{float:right;margin-right:15px;overflow-y:visible}.dg.a.has-save>ul.close-top{margin-top:0}.dg.a.has-save>ul.close-bottom{margin-top:27px}.dg.a.has-save>ul.closed{margin-top:0}.dg.a .save-row{top:0;z-index:1002}.dg.a .save-row.close-top{position:relative}.dg.a .save-row.close-bottom{position:fixed}.dg li{-webkit-transition:height .1s ease-out;-o-transition:height .1s ease-out;-moz-transition:height .1s ease-out;transition:height .1s ease-out;-webkit-transition:overflow .1s linear;-o-transition:overflow .1s linear;-moz-transition:overflow .1s linear;transition:overflow .1s linear}.dg li:not(.folder){cursor:auto;height:27px;line-height:27px;padding:0 4px 0 5px}.dg li.folder{padding:0;border-left:4px solid rgba(0,0,0,0)}.dg li.title{cursor:pointer;margin-left:-4px}.dg .closed li:not(.title),.dg .closed ul li,.dg .closed ul li>*{height:0;overflow:hidden;border:0}.dg .cr{clear:both;padding-left:3px;height:27px;overflow:hidden}.dg .property-name{cursor:default;float:left;clear:left;width:40%;overflow:hidden;text-overflow:ellipsis}.dg .c{float:left;width:60%;position:relative}.dg .c input[type=text]{border:0;margin-top:4px;padding:3px;width:100%;float:right}.dg .has-slider input[type=text]{width:30%;margin-left:0}.dg .slider{float:left;width:66%;margin-left:-5px;margin-right:0;height:19px;margin-top:4px}.dg .slider-fg{height:100%}.dg .c input[type=checkbox]{margin-top:7px}.dg .c select{margin-top:5px}.dg .cr.function,.dg .cr.function .property-name,.dg .cr.function *,.dg .cr.boolean,.dg .cr.boolean *{cursor:pointer}.dg .cr.color{overflow:visible}.dg .selector{display:none;position:absolute;margin-left:-9px;margin-top:23px;z-index:10}.dg .c:hover .selector,.dg .selector.drag{display:block}.dg li.save-row{padding:0}.dg li.save-row .button{display:inline-block;padding:0px 6px}.dg.dialogue{background-color:#222;width:460px;padding:15px;font-size:13px;line-height:15px}#dg-new-constructor{padding:10px;color:#222;font-family:Monaco, monospace;font-size:10px;border:0;resize:none;box-shadow:inset 1px 1px 1px #888;word-wrap:break-word;margin:12px 0;display:block;width:440px;overflow-y:scroll;height:100px;position:relative}#dg-local-explain{display:none;font-size:11px;line-height:17px;border-radius:3px;background-color:#333;padding:8px;margin-top:10px}#dg-local-explain code{font-size:10px}#dat-gui-save-locally{display:none}.dg{color:#eee;font:11px 'Lucida Grande', sans-serif;text-shadow:0 -1px 0 #111}.dg.main::-webkit-scrollbar{width:5px;background:#1a1a1a}.dg.main::-webkit-scrollbar-corner{height:0;display:none}.dg.main::-webkit-scrollbar-thumb{border-radius:5px;background:#676767}.dg li:not(.folder){background:#1a1a1a;border-bottom:1px solid #2c2c2c}.dg li.save-row{line-height:25px;background:#dad5cb;border:0}.dg li.save-row select{margin-left:5px;width:108px}.dg li.save-row .button{margin-left:5px;margin-top:1px;border-radius:2px;font-size:9px;line-height:7px;padding:4px 4px 5px 4px;background:#c5bdad;color:#fff;text-shadow:0 1px 0 #b0a58f;box-shadow:0 -1px 0 #b0a58f;cursor:pointer}.dg li.save-row .button.gears{background:#c5bdad url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAYAAAB/9ZQ7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQJJREFUeNpiYKAU/P//PwGIC/ApCABiBSAW+I8AClAcgKxQ4T9hoMAEUrxx2QSGN6+egDX+/vWT4e7N82AMYoPAx/evwWoYoSYbACX2s7KxCxzcsezDh3evFoDEBYTEEqycggWAzA9AuUSQQgeYPa9fPv6/YWm/Acx5IPb7ty/fw+QZblw67vDs8R0YHyQhgObx+yAJkBqmG5dPPDh1aPOGR/eugW0G4vlIoTIfyFcA+QekhhHJhPdQxbiAIguMBTQZrPD7108M6roWYDFQiIAAv6Aow/1bFwXgis+f2LUAynwoIaNcz8XNx3Dl7MEJUDGQpx9gtQ8YCueB+D26OECAAQDadt7e46D42QAAAABJRU5ErkJggg==) 2px 1px no-repeat;height:7px;width:8px}.dg li.save-row .button:hover{background-color:#bab19e;box-shadow:0 -1px 0 #b0a58f}.dg li.folder{border-bottom:0}.dg li.title{padding-left:16px;background:#000 url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlI+hKgFxoCgAOw==) 6px 10px no-repeat;cursor:pointer;border-bottom:1px solid rgba(255,255,255,0.2)}.dg .closed li.title{background-image:url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlGIWqMCbWAEAOw==)}.dg .cr.boolean{border-left:3px solid #806787}.dg .cr.color{border-left:3px solid}.dg .cr.function{border-left:3px solid #e61d5f}.dg .cr.number{border-left:3px solid #2FA1D6}.dg .cr.number input[type=text]{color:#2FA1D6}.dg .cr.string{border-left:3px solid #1ed36f}.dg .cr.string input[type=text]{color:#1ed36f}.dg .cr.function:hover,.dg .cr.boolean:hover{background:#111}.dg .c input[type=text]{background:#303030;outline:none}.dg .c input[type=text]:hover{background:#3c3c3c}.dg .c input[type=text]:focus{background:#494949;color:#fff}.dg .c .slider{background:#303030;cursor:ew-resize}.dg .c .slider-fg{background:#2FA1D6;max-width:100%}.dg .c .slider:hover{background:#3c3c3c}.dg .c .slider:hover .slider-fg{background:#44abda}
+
+
+/* --- INLINE STYLE --- */
+
+.dg li:not(.folder) {
+  height: 20px;
+  line-height: 20px;
+  font-size: 11px;
+  text-transform: none; }
+
+.dg .cr.number input[type='text'] {
+  color: white;
+  background: transparent; }
+
+.dg .property-name {
+  font-size: 10px;
+  color: #666; }
+
+.dg .c select {
+  background: transparent;
+  border: 0;
+  color: white;
+  width: 100%; }
+
+
+/* --- INLINE STYLE --- */
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+.preloader {
+  position: absolute;
+  visibility: hidden;
+  height: 100%;
+  width: 100vw; }
+
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20vw; }
+  .logo-container svg {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .logo-container svg .r {
+      fill: rgba(255, 255, 255, 0.5); }
+    .logo-container svg.out {
+      stroke: rgba(255, 255, 255, 0.2);
+      fill: none;
+      stroke-width: 1.4px; }
+    .logo-container svg.animated {
+      stroke: white;
+      opacity: .68;
+      fill: none;
+      stroke-width: 1.4px; }
+    .logo-container svg.fill {
+      fill: white;
+      opacity: 0; }
+  html.mobile .logo-container {
+    width: 60vw; }
+
+.progress-container {
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 25vw;
+  text-align: center; }
+  .progress-container p.progress {
+    font-family: "Manifold-CF-Extra-Bold", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size: 4rem;
+    text-align: center;
+    opacity: 1;
+    padding-bottom: 1rem; }
+  .progress-container p.label {
+    font-family: "Gilroy", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    opacity: 1; }
+  html.mobile .progress-container {
+    width: 100vw; }
+    html.mobile .progress-container p.progress {
+      font-size: 6rem;
+      padding-bottom: 1.5rem; }
+    html.mobile .progress-container p.label {
+      font-size: 3rem; }
+
+
+/* --- INLINE STYLE --- */
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+
+
+/* --- INLINE STYLE --- */
+
+.store {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 260px;
+  z-index: 30;
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+  font-family: 'Lucida Console', Monaco, monospace !important;
+  letter-spacing: 0;
+  background: black;
+  padding: 10px;
+  opacity: 0.9;
+  text-transform: none;
+  font-weight: bold; }
+
+.store-item .label,
+.store-item .dashes {
+  opacity: 0.5; }
+
+.store-item.computed .value {
+  opacity: 0.5; }
+
+
+/* --- INLINE STYLE --- */
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+.logo {
+  position: absolute;
+  fill: white;
+  cursor: pointer; }
+  .mobile .logo {
+    top: 7rem;
+    left: 50%;
+    margin-left: -16rem;
+    width: 32rem;
+    height: 6rem; }
+  .desktop .logo, .tablet .logo {
+    top: 5.5vh;
+    left: 8.3vw;
+    width: 14.5rem;
+    height: 2.7rem; }
+
+.logo__icon {
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+
+/* --- INLINE STYLE --- */
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+.menuBtn {
+  z-index: 300;
+  position: fixed;
+  overflow: hidden; }
+  .menuBtn:before {
+    content: '';
+    top: -4rem;
+    left: -4rem;
+    bottom: -4rem;
+    right: -4rem;
+    position: absolute; }
+  .mobile .menuBtn {
+    top: 8rem;
+    left: 8rem;
+    width: 7.5rem;
+    height: 4rem; }
+  .desktop .menuBtn, .tablet .menuBtn {
+    top: calc(5.5vh + 0.5rem);
+    left: 3.1vw;
+    width: 3.2rem;
+    height: 1.8rem;
+    cursor: pointer; }
+
+.menuBtn__line {
+  top: 50%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  transform-origin: left center; }
+
+
+/* --- INLINE STYLE --- */
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+.menu {
+  z-index: 200; }
+  .mobile .menu {
+    text-align: center;
+    padding: 4rem 10rem 10rem;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    top: 21rem;
+    bottom: 0;
+    height: auto; }
+  .desktop .menu,
+  .tablet .menu {
+    flex-direction: row;
+    padding: 5.5vh 8.3vw; }
+
+.menu__left {
+  align-items: flex-start; }
+
+.menu__right {
+  align-items: center; }
+
+.menu__header {
+  font-weight: bold;
+  letter-spacing: 0.1em; }
+  .desktop .menu__header,
+  .tablet .menu__header {
+    margin-bottom: 4.5rem; }
+
+.mobile .menu__navList {
+  margin: 12rem 0; }
+
+.mobile .menu__navListItem:not(:last-child) {
+  margin-bottom: 2.6vh; }
+
+.desktop .menu__navListItem:not(:last-child),
+.tablet .menu__navListItem:not(:last-child) {
+  margin-bottom: 5vh; }
+
+.menu__navSubtitle {
+  transition: opacity 500ms;
+  opacity: 0.3;
+  letter-spacing: 0.1em; }
+  .mobile .menu__navSubtitle {
+    margin-bottom: 2rem; }
+  .desktop .menu__navSubtitle,
+  .tablet .menu__navSubtitle {
+    margin-bottom: 1rem; }
+  .menu__navListItem:active .menu__navSubtitle,
+  .menu__navListItem:focus .menu__navSubtitle,
+  .menu__navListItem:hover .menu__navSubtitle {
+    opacity: 1; }
+
+.menu__navTitle {
+  cursor: pointer; }
+  .mobile .menu__navTitle {
+    white-space: nowrap; }
+
+.menu__buttons {
+  text-align: center; }
+  .mobile .menu__buttons {
+    width: 100%;
+    margin: 12rem 0; }
+  .desktop .menu__buttons,
+  .tablet .menu__buttons {
+    width: 48rem; }
+  .menu__buttons > .btnMain {
+    margin-bottom: 4rem; }
+    .menu__buttons > .btnMain:not(:first-child) {
+      margin-top: 2rem; }
+  .menu__buttons > .linkExternal {
+    margin: 4.2vh 0; }
+
+.menu__cortevaLogo {
+  width: 30rem;
+  height: 6rem;
+  margin: 8rem auto 0;
+  display: block; }
+  .desktop .menu__cortevaLogo,
+  .tablet .menu__cortevaLogo {
+    display: none; }
+
+.menu__footer {
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  .mobile .menu__footer {
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  .desktop .menu__footer,
+  .tablet .menu__footer {
+    left: 8.3vw;
+    bottom: 5.5vh;
+    position: absolute; }
+
+.menu__footerLink {
+  padding: 2.5rem 0;
+  opacity: 0.8;
+  transition: opacity 500ms;
+  text-align: left; }
+  .desktop .menu__footerLink,
+  .tablet .menu__footerLink {
+    margin-right: 5rem; }
+  .menu__footerLink:active, .menu__footerLink:focus, .menu__footerLink:hover {
+    opacity: 1; }
+
+.menu__social {
+  display: flex; }
+
+.menu__socialItem {
+  position: relative; }
+  .mobile .menu__socialItem {
+    width: 5rem;
+    height: 5rem; }
+    .mobile .menu__socialItem:not(:last-child) {
+      margin-right: 5rem; }
+  .desktop .menu__socialItem,
+  .tablet .menu__socialItem {
+    width: 1.5rem;
+    height: 1.5rem; }
+    .desktop .menu__socialItem:not(:last-child),
+    .tablet .menu__socialItem:not(:last-child) {
+      margin-right: 2.5rem; }
+    .desktop .menu__socialItem:before,
+    .tablet .menu__socialItem:before {
+      content: '';
+      top: -1.5rem;
+      left: -1.5rem;
+      bottom: -1.5rem;
+      right: -1.5rem;
+      position: absolute; }
+
+.menu__socialItemIcon {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+  display: block; }
+
+.menu__socialItemLink {
+  top: -2rem;
+  left: -2rem;
+  bottom: -2rem;
+  right: -2rem;
+  position: absolute; }
+
+
+/* --- INLINE STYLE --- */
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+.signup {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+.signup__response {
+  display: none; }
+
+.desktop .signup__main,
+.tablet .signup__main, .desktop
+.signup__response,
+.tablet
+.signup__response {
+  flex-direction: row;
+  padding: 5.5vh 8.3vw; }
+
+.mobile .signup__main, .mobile
+.signup__response {
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  overflow: auto;
+  justify-content: flex-start;
+  -webkit-overflow-scrolling: touch;
+  top: 21rem;
+  bottom: 0;
+  height: auto; }
+
+.mobile .signup__response {
+  margin-top: 50rem;
+  justify-content: flex-center; }
+
+.mobile .signup__back {
+  margin-bottom: 6rem; }
+
+.desktop .signup__back,
+.tablet .signup__back {
+  margin-bottom: 2rem; }
+
+.desktop .signup__title,
+.tablet .signup__title {
+  width: 60rem;
+  align-self: flex-start; }
+
+.signup__body {
+  margin: 5rem 0; }
+  .desktop .signup__body,
+  .tablet .signup__body {
+    width: 60rem;
+    align-self: flex-start; }
+
+.signup__spinner {
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  margin-top: -30px;
+  opacity: 0;
+  pointer-events: none; }
+  .mobile .signup__spinner {
+    margin-top: 50px; }
+
+.signup__spinnerInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://d1hl9u9k5hiqxp.cloudfront.net/images/spinner.png");
+  background-size: 60px 60px;
+  animation: rotating 1.5s linear infinite; }
+
+.mobile .signup__form {
+  width: 100%; }
+
+.desktop .signup__form,
+.tablet .signup__form {
+  width: 48rem; }
+
+.mobile .signup__text {
+  margin: 6rem 0;
+  font-size: 2.7rem; }
+
+.desktop .signup__text,
+.tablet .signup__text {
+  margin: 4rem 0;
+  font-size: 1.4rem; }
+
+.signup__text > a {
+  font-weight: bold;
+  text-decoration: underline; }
+
+.signup__input {
+  margin-bottom: 2rem; }
+
+.signup__terms {
+  display: flex;
+  position: relative; }
+  .mobile .signup__terms {
+    margin: 6rem 0; }
+  .desktop .signup__terms,
+  .tablet .signup__terms {
+    margin: 4rem 0; }
+
+.signup__checkbox {
+  opacity: 0; }
+  .mobile .signup__checkbox {
+    margin-right: 6rem; }
+  .desktop .signup__checkbox,
+  .tablet .signup__checkbox {
+    margin-right: 3rem; }
+
+.signup__sudoCheckbox {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  opacity: 0.1;
+  pointer-events: none;
+  color: white;
+  border: solid 1px white;
+  border-radius: 0.6rem;
+  background-color: transparent; }
+  .mobile .signup__sudoCheckbox {
+    width: 8rem;
+    height: 8rem; }
+  .desktop .signup__sudoCheckbox,
+  .tablet .signup__sudoCheckbox {
+    width: 4rem;
+    height: 4rem; }
+  .signup__checkbox:checked ~ .signup__sudoCheckbox {
+    opacity: 1; }
+
+.signup__checkbox:checked ~ .signup__sudoCheckbox .signup__checkboxTick {
+  opacity: 1; }
+
+.signup__checkboxTick {
+  fill: white;
+  opacity: 0;
+  margin: auto; }
+  .mobile .signup__checkboxTick {
+    width: 2.4rem;
+    height: 2.2rem; }
+  .desktop .signup__checkboxTick,
+  .tablet .signup__checkboxTick {
+    width: 1.2rem;
+    height: 1.1rem; }
+
+.inputCheckbox:checked ~ .signup__label .signup__labelText {
+  opacity: 1; }
+
+.mobile .signup__label {
+  font-size: 2.7rem; }
+
+.desktop .signup__label,
+.tablet .signup__label {
+  font-size: 1.4rem; }
+
+.signup__labelText {
+  opacity: 0.1; }
+
+.signup__termsLink {
+  position: relative;
+  margin-left: 1rem;
+  opacity: 0.4; }
+  .signup__termsLink:before {
+    content: '';
+    top: calc(100% + 1rem);
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: white; }
+
+
+/* --- INLINE STYLE --- */
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+@keyframes rotating {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.contact {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+.mobile .contact__main, .mobile .contact__find {
+  top: 21rem;
+  bottom: 0;
+  height: auto;
+  overflow: hidden;
+  padding: 0 8rem; }
+
+.desktop .contact__main, .tablet .contact__main, .desktop .contact__find, .tablet .contact__find {
+  flex-direction: row;
+  padding: 5.5vh 8.3vw; }
+
+.contact__find {
+  display: none; }
+
+.contact__formMain {
+  width: 100%; }
+
+.mobile .contact__backMain {
+  margin-bottom: 6rem; }
+
+.desktop .contact__backMain, .tablet .contact__backMain {
+  margin-bottom: 2rem; }
+
+.contact__backResult {
+  margin-bottom: 9rem; }
+  .contact__backResult .btnBack__arrow {
+    margin-right: 3rem; }
+
+.contact__buttons {
+  position: relative; }
+  .mobile .contact__buttons {
+    width: 100%; }
+  .desktop .contact__buttons, .tablet .contact__buttons {
+    width: 48rem; }
+
+.contact__spinner {
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  margin-top: -30px;
+  opacity: 0;
+  pointer-events: none; }
+  .mobile .contact__spinner {
+    margin-top: 50px; }
+
+.contact__spinnerInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://d1hl9u9k5hiqxp.cloudfront.net/images/spinner.png");
+  background-size: 60px 60px;
+  animation: rotating 1.5s linear infinite; }
+
+.contact__title {
+  width: 100%; }
+
+.contact__role {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+  opacity: 0.3; }
+
+.mobile .contact__body {
+  margin: 9rem 0; }
+
+.desktop .contact__body, .tablet .contact__body {
+  margin: 6rem 0;
+  width: 60rem;
+  align-self: flex-start; }
+
+.contact__noResults {
+  position: absolute;
+  color: rgba(255, 255, 255, 0);
+  transition: 0.5s color; }
+  .mobile .contact__noResults {
+    margin-top: 60rem; }
+  .desktop .contact__noResults {
+    margin: 3rem 0; }
+  .contact__noResults.isVisible {
+    color: white; }
+
+.contact__input, .inputBox {
+  margin-bottom: 2rem; }
+
+
+/* --- INLINE STYLE --- */
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+.mobile .legal__inner {
+  left: 0;
+  top: 21rem;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding: 16rem 8rem;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; }
+
+.desktop .legal__inner, .tablet .legal__inner {
+  width: 110rem; }
+
+.legal__cortevaLogo {
+  display: block; }
+  .mobile .legal__cortevaLogo {
+    margin: 0 auto 7rem;
+    width: 46.2rem;
+    height: 10rem; }
+  .desktop .legal__cortevaLogo, .tablet .legal__cortevaLogo {
+    width: 25rem;
+    height: 4.8rem;
+    margin-bottom: 8rem; }
+
+.mobile .legal__copy {
+  margin: 2.5rem 0;
+  font-size: 3rem;
+  text-align: center; }
+
+.desktop .legal__copy, .tablet .legal__copy {
+  font-size: 1.3rem;
+  margin: 2.5rem 0; }
+
+.legal__logos {
+  display: flex;
+  align-items: center;
+  margin-top: 8rem; }
+  .mobile .legal__logos {
+    justify-content: center; }
+
+.legal__logo {
+  margin-right: 3rem;
+  will-change: opacity; }
+
+.legal__logosA {
+  width: 15rem;
+  height: 3.2rem; }
+
+.legal__logosB {
+  width: 6.2rem;
+  height: 6.4rem; }
+
+.legal__logosC {
+  width: 5.2rem;
+  height: 5.8rem; }
+
+.legal__logosD {
+  width: 12rem;
+  height: 4rem; }
+
+.legal__logosE {
+  width: 8rem;
+  height: 4rem; }
+
+.legal__logosF {
+  width: 7rem;
+  height: 4.4rem; }
+
+.legal__logosG {
+  width: 5.8rem;
+  height: 6.2rem; }
+
+
+/* --- INLINE STYLE --- */
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+.rotateOverlay {
+  z-index: 400;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: none; }
+  .mobile.landscape .rotateOverlay {
+    display: flex; }
+  .tablet.portrait .rotateOverlay {
+    display: flex; }
+
+.rotateOverlay__bg {
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #001d11;
+  background-image: linear-gradient(45deg, #00322E 0%, transparent 40%, transparent 60%, #013110); }
+
+.rotateOverlay__icon {
+  width: 20vw; }
+
+.rotateOverlay__copy {
+  font-size: 2.2vw;
+  margin-top: 5vw; }
+
+
+/* --- INLINE STYLE --- */
+
+.kernel__hotspotCta {
+  left: 50%;
+  bottom: 3vh;
+  position: absolute;
+  transform: translateX(-50%);
+  text-transform: uppercase; }
+
+
+/* --- INLINE STYLE --- */
+
+/*
+    These mixins apply styles only when within the specified breakpoint
+    ---
+    1. Predefined breakpoints
+    2. Custom breakpoints for width
+    3. Custom breakpoints for height
+*/
+/*
+    1. Predefined breakpoints:
+    ---
+    USAGE:
+    @mixin breakpoint( desktop-1680, {
+        background: red;
+    });
+*/
+/*
+    2. Custom breakpoints for width:
+    ---
+    USAGE:
+    @mixin breakpoint-width( $bp-desktop-1280-min, $bp-desktop-1920-min, {
+        background: red;
+    });
+
+    @mixin breakpoint-width-min( 1280px, {
+        background: green;
+    });
+
+    @mixin breakpoint-width-max( $bp-desktop-1440-max, {
+        background: blue;
+    });
+*/
+/*
+    3. Custom breakpoints for height:
+    ---
+    USAGE:
+    @mixin breakpoint-height( 600px, 700px, {
+        background: red;
+    });
+
+    @mixin breakpoint-height-min( 1000px, {
+        background: green;
+    });
+
+    @mixin breakpoint-height-max( 600px, {
+        background: blue;
+    });
+*/
+.cortevaLogo {
+  position: absolute;
+  fill: white; }
+  .mobile .cortevaLogo {
+    display: none !important; }
+  .desktop .cortevaLogo, .tablet .cortevaLogo {
+    top: 5.5vh;
+    right: 8.3vw;
+    width: 14.5rem;
+    height: 2.7rem; }
+
+.cortevaLogo__icon {
+  width: 100%;
+  height: 100%;
+  display: block; }

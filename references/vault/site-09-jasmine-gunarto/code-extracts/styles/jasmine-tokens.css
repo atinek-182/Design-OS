@@ -1,0 +1,29 @@
+/* Jasmine Gunarto — Design Tokens & Block Component Styles */
+:root {
+  /* Color Palette */
+  --cl-page-preloader-bg: #090909;
+  --cl-page-preloader-tx: #EBEAE4;
+  --cl-page-footer: #341C09;
+  --cl-card-bg: #141414;
+  --cl-border: #222222;
+  --cl-text-muted: #888888;
+
+  /* Typography */
+  --font-serif: Georgia, serif;
+  --font-sans: "Manrope", -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--cl-page-preloader-bg);
+  color: var(--cl-page-preloader-tx);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}

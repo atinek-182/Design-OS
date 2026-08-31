@@ -1,0 +1,27 @@
+/* Detroit Paris — Design Tokens & Osmo Architecture Styles */
+:root {
+  /* Color Palette */
+  --color-background: #050505;
+  --color-foreground: #FFFFFF;
+  --color-card-bg: #0E0E10;
+  --color-border: #1E1E22;
+  --color-muted: #888888;
+
+  /* Typography */
+  --font-sans: "Barlow", -apple-system, sans-serif;
+}
+
+html {
+  font-size: calc(0rem + 1vw);
+}
+
+@media screen and (min-width: 1750px) {
+  html { font-size: 17.5px; }
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}

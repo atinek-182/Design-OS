@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Active Theory — Creative Technology Studio Architectural Wireframe Blueprint</title>
+<style>
+  :root {
+    --wf-bg: #050608;
+    --wf-surface: #0e1117;
+    --wf-card: #161b26;
+    --wf-border: #283144;
+    --wf-text: #f8fafc;
+    --wf-sub: #94a3b8;
+    --wf-accent: #38bdf8;
+    --wf-magenta: #e056fd;
+    --wf-grid: rgba(56, 189, 248, 0.1);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; }
+  body { background-color: var(--wf-bg); color: var(--wf-text); padding: 40px 20px; line-height: 1.5; }
+  .blueprint-wrapper { max-width: 1400px; margin: 0 auto; background: var(--wf-surface); border: 2px solid var(--wf-border); border-radius: 16px; box-shadow: 0 25px 50px rgba(0,0,0,0.7); overflow: hidden; position: relative; }
+  
+  .grid-overlay { position: absolute; inset: 0; background-size: 24px 24px; background-image: linear-gradient(to right, var(--wf-grid) 1px, transparent 1px), linear-gradient(to bottom, var(--wf-grid) 1px, transparent 1px); pointer-events: none; z-index: 0; }
+  .content { position: relative; z-index: 1; }
+
+  .wf-header { background: #020304; color: #fff; padding: 20px 36px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--wf-border); }
+  .wf-title { font-size: 18px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--wf-accent); }
+  .wf-meta { font-size: 11px; background: var(--wf-magenta); color: #fff; padding: 5px 14px; border-radius: 6px; font-weight: 800; }
+
+  .wf-section { padding: 48px 36px; border-bottom: 2px dashed var(--wf-border); position: relative; }
+  .spec-tag { position: absolute; top: 16px; right: 24px; font-size: 10px; font-weight: 800; background: #1b2230; color: var(--wf-accent); padding: 4px 10px; border-radius: 4px; border: 1px solid var(--wf-border); text-transform: uppercase; }
+
+  .wf-nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 18px 28px; border: 2px solid var(--wf-border); background: var(--wf-card); border-radius: 10px; }
+  .wf-logo { font-size: 22px; font-weight: 900; letter-spacing: 4px; color: #fff; }
+  .wf-menu-list { display: flex; gap: 32px; font-size: 12px; font-weight: 800; text-transform: uppercase; color: var(--wf-sub); }
+  .wf-menu-item.active { color: var(--wf-accent); border-bottom: 2px solid var(--wf-accent); padding-bottom: 2px; }
+
+  .wf-hero-container { border: 2px solid var(--wf-border); border-radius: 12px; background: var(--wf-card); padding: 48px; margin-top: 20px; position: relative; }
+  .wf-hero-headline { font-size: 52px; font-weight: 900; line-height: 1.1; margin-bottom: 20px; background: linear-gradient(135deg, #fff 0%, var(--wf-accent) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .wf-hero-sub { font-size: 16px; color: var(--wf-sub); max-width: 720px; margin-bottom: 32px; }
+  
+  .wf-stage-box { height: 280px; border: 2px dashed var(--wf-accent); background: rgba(56, 189, 248, 0.08); border-radius: 8px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: var(--wf-accent); font-weight: 700; margin-bottom: 24px; }
+  .wf-stage-label { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; }
+
+  .bento-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 20px; }
+  .bento-card { background: var(--wf-card); border: 2px solid var(--wf-border); border-radius: 12px; padding: 28px; position: relative; }
+  .bento-card.wide { grid-column: span 2; }
+  .card-title { font-size: 20px; font-weight: 800; margin-bottom: 12px; color: #fff; }
+  .card-desc { font-size: 13px; color: var(--wf-sub); margin-bottom: 20px; }
+
+  .wf-footer { background: #020304; padding: 48px 36px; border-top: 2px solid var(--wf-border); text-align: center; }
+  .footer-title { font-size: 36px; font-weight: 900; color: #fff; margin-bottom: 16px; }
+</style>
+</head>
+<body>
+<div class="blueprint-wrapper">
+  <div class="grid-overlay"></div>
+  <div class="content">
+    <div class="wf-header">
+      <div class="wf-title">ACTIVE THEORY — ARCHITECTURAL BLUEPRINT</div>
+      <div class="wf-meta">AWWWARDS AGENCY OF THE YEAR WINNER</div>
+    </div>
+
+    <!-- Section 1: HUD Nav -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: HYDRA ENGINE HUD NAV & CITY SWITCHER</div>
+      <div class="wf-nav-bar">
+        <div class="wf-logo">ACTIVE THEORY</div>
+        <div class="wf-menu-list">
+          <div class="wf-menu-item active">Projects</div>
+          <div class="wf-menu-item">Capabilities</div>
+          <div class="wf-menu-item">Hydra Engine</div>
+          <div class="wf-menu-item">LA / AMS</div>
+          <div class="wf-menu-item" style="color: var(--wf-magenta);">Contact</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2: 3D Hero -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: HYDRA WEBGL 3D CANVAS & PARTICLE FIELD</div>
+      <div class="wf-hero-container">
+        <div class="wf-stage-box">
+          <div class="wf-stage-label">Hydra WebGL Engine 3D Particle Noise Stage</div>
+          <div>Custom Shader Pipeline · Low-CPU High-Throughput Raymarching · WebXR Ready</div>
+        </div>
+        <h1 class="wf-hero-headline">CREATIVE TECHNOLOGY STUDIO BUILDING THE NEXT GENERATION OF DIGITAL EXPERIENCES</h1>
+        <p class="wf-hero-sub">We build award-winning 3D WebGL sites, interactive physical installations, and WebXR applications using our proprietary Hydra framework.</p>
+      </div>
+    </div>
+
+    <!-- Section 3: Bento Grid -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: FEATURED 3D CASE STUDIES</div>
+      <div class="bento-grid">
+        <div class="bento-card wide">
+          <div class="spec-tag">PROJECT 01 (FEATURED)</div>
+          <div class="card-title">WebXR Interactive Metaverse</div>
+          <div class="card-desc">Real-time multiplayer WebGL experience powered by Hydra engine and WebAudio API.</div>
+        </div>
+        <div class="bento-card">
+          <div class="spec-tag">PROJECT 02</div>
+          <div class="card-title">Hydra GUI Framework</div>
+          <div class="card-desc">In-house node visualizer and 3D shader composition toolset.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4: Footer -->
+    <div class="wf-footer">
+      <div class="footer-title">TALK@ACTIVETHEORY.NET</div>
+      <p style="color: var(--wf-sub); font-size: 14px;">Los Angeles · Amsterdam · Global Remote Studio</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

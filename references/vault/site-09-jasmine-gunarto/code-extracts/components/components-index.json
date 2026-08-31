@@ -1,0 +1,1382 @@
+[
+  {
+    "name": "Nav_MainHeader_01",
+    "category": "nav",
+    "file": "nav/Nav_MainHeader_01.tsx",
+    "tag": "header",
+    "id": "",
+    "className": "main-header",
+    "width": 1920,
+    "height": 47
+  },
+  {
+    "name": "Nav_MainHeaderInner_02",
+    "category": "nav",
+    "file": "nav/Nav_MainHeaderInner_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "main-header-inner",
+    "width": 1857,
+    "height": 28
+  },
+  {
+    "name": "Nav_Nav_03",
+    "category": "nav",
+    "file": "nav/Nav_Nav_03.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "",
+    "width": 357,
+    "height": 28
+  },
+  {
+    "name": "Nav_NavItemOuter_04",
+    "category": "nav",
+    "file": "nav/Nav_NavItemOuter_04.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item__outer",
+    "width": 70,
+    "height": 28
+  },
+  {
+    "name": "Nav_NavItem_05",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-item",
+    "width": 45,
+    "height": 15
+  },
+  {
+    "name": "Nav_NavItemOuter_06",
+    "category": "nav",
+    "file": "nav/Nav_NavItemOuter_06.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item__outer",
+    "width": 82,
+    "height": 28
+  },
+  {
+    "name": "Nav_NavItem_07",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-item",
+    "width": 56,
+    "height": 15
+  },
+  {
+    "name": "Nav_NavItemOuter_08",
+    "category": "nav",
+    "file": "nav/Nav_NavItemOuter_08.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item__outer",
+    "width": 75,
+    "height": 28
+  },
+  {
+    "name": "Nav_NavItem_09",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-item",
+    "width": 49,
+    "height": 15
+  },
+  {
+    "name": "Nav_NavItemOuter_10",
+    "category": "nav",
+    "file": "nav/Nav_NavItemOuter_10.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item__outer",
+    "width": 77,
+    "height": 28
+  },
+  {
+    "name": "Nav_NavItem_11",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_11.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-item",
+    "width": 52,
+    "height": 15
+  },
+  {
+    "name": "Misc_TBox_01",
+    "category": "misc",
+    "file": "misc/Misc_TBox_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-box caption-container",
+    "width": 2160,
+    "height": 1080
+  },
+  {
+    "name": "Misc_TTitleContainer_02",
+    "category": "misc",
+    "file": "misc/Misc_TTitleContainer_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-title-container",
+    "width": 2160,
+    "height": 1080
+  },
+  {
+    "name": "Misc_TBox_03",
+    "category": "misc",
+    "file": "misc/Misc_TBox_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-box caption-container",
+    "width": 1920,
+    "height": 49
+  },
+  {
+    "name": "Misc_TTitleContainer_04",
+    "category": "misc",
+    "file": "misc/Misc_TTitleContainer_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-title-container",
+    "width": 1920,
+    "height": 295
+  },
+  {
+    "name": "Modals_PopupSlider_01",
+    "category": "modals",
+    "file": "modals/Modals_PopupSlider_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "popup-slider",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Modals_PopupSliderInner_02",
+    "category": "modals",
+    "file": "modals/Modals_PopupSliderInner_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "popup-slider__inner",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Interactive_BtnClose_01",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnClose_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-close",
+    "width": 30,
+    "height": 30
+  },
+  {
+    "name": "Nav_SlideNavigationContainer_12",
+    "category": "nav",
+    "file": "nav/Nav_SlideNavigationContainer_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "slide-navigation-container",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Nav_SlideNavigation_13",
+    "category": "nav",
+    "file": "nav/Nav_SlideNavigation_13.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "slide-navigation slide-navigation__prev",
+    "width": 46,
+    "height": 20
+  },
+  {
+    "name": "Nav_SlideNavigation_14",
+    "category": "nav",
+    "file": "nav/Nav_SlideNavigation_14.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "slide-navigation slide-navigation__next",
+    "width": 47,
+    "height": 20
+  },
+  {
+    "name": "Cards_Embla_01",
+    "category": "cards",
+    "file": "cards/Cards_Embla_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "embla slide-item-container",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Cards_EmblaContainer_02",
+    "category": "cards",
+    "file": "cards/Cards_EmblaContainer_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "embla__container slide-item-container__inner",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Misc_MainContentWrapper_05",
+    "category": "misc",
+    "file": "misc/Misc_MainContentWrapper_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "main-content-wrapper lenis",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Sections_Main_01",
+    "category": "sections",
+    "file": "sections/Sections_Main_01.tsx",
+    "tag": "main",
+    "id": "",
+    "className": "",
+    "width": 1920,
+    "height": 12702
+  },
+  {
+    "name": "Hero_WpBlockAppBlockSectionHeroBanner_01",
+    "category": "hero",
+    "file": "hero/Hero_WpBlockAppBlockSectionHeroBanner_01.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "wp-block-app-block-section-hero-banner section-hero-banner undefined",
+    "width": 1920,
+    "height": 4724
+  },
+  {
+    "name": "Misc_TCrWrapper_06",
+    "category": "misc",
+    "file": "misc/Misc_TCrWrapper_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-cr-wrapper",
+    "width": 1920,
+    "height": 1105
+  },
+  {
+    "name": "Misc_Hg1Wrapper_07",
+    "category": "misc",
+    "file": "misc/Misc_Hg1Wrapper_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "hg-1-wrapper",
+    "width": 1920,
+    "height": 284
+  },
+  {
+    "name": "Misc_MediaCaptionContainerWrapper_08",
+    "category": "misc",
+    "file": "misc/Misc_MediaCaptionContainerWrapper_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "media-caption-container-wrapper",
+    "width": 622,
+    "height": 27
+  },
+  {
+    "name": "Misc_MediaCaptionContainer_09",
+    "category": "misc",
+    "file": "misc/Misc_MediaCaptionContainer_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "media-caption-container",
+    "width": 622,
+    "height": 27
+  },
+  {
+    "name": "Misc_MediaWrapper_10",
+    "category": "misc",
+    "file": "misc/Misc_MediaWrapper_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "media-wrapper",
+    "width": 622,
+    "height": 392
+  },
+  {
+    "name": "Misc_Heading2ContainerWrapper_11",
+    "category": "misc",
+    "file": "misc/Misc_Heading2ContainerWrapper_11.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "heading-2-container-wrapper",
+    "width": 1844,
+    "height": 278
+  },
+  {
+    "name": "Misc_Heading2Container_12",
+    "category": "misc",
+    "file": "misc/Misc_Heading2Container_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "heading-2-container",
+    "width": 1844,
+    "height": 392
+  },
+  {
+    "name": "Scrolly_TBox_01",
+    "category": "scrolly",
+    "file": "scrolly/Scrolly_TBox_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-box scroll-indicator-wrapper",
+    "width": 115,
+    "height": 23
+  },
+  {
+    "name": "Sections_WpBlockAppBlockSectionHomeIntro_02",
+    "category": "sections",
+    "file": "sections/Sections_WpBlockAppBlockSectionHomeIntro_02.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "wp-block-app-block-section-home-intro section-home-intro",
+    "width": 1920,
+    "height": 1831
+  },
+  {
+    "name": "Misc_TCaptionWrapper_13",
+    "category": "misc",
+    "file": "misc/Misc_TCaptionWrapper_13.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-caption-wrapper",
+    "width": 150,
+    "height": 211
+  },
+  {
+    "name": "Misc_TCaptionWrapper_14",
+    "category": "misc",
+    "file": "misc/Misc_TCaptionWrapper_14.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-caption-wrapper",
+    "width": 258,
+    "height": 211
+  },
+  {
+    "name": "Sections_WpBlockAppBlockSectionFeaturedWorks_03",
+    "category": "sections",
+    "file": "sections/Sections_WpBlockAppBlockSectionFeaturedWorks_03.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "wp-block-app-block-section-featured-works section-featured-works",
+    "width": 1920,
+    "height": 3265
+  },
+  {
+    "name": "Misc_TBox_15",
+    "category": "misc",
+    "file": "misc/Misc_TBox_15.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-box works-wrapper",
+    "width": 1920,
+    "height": 2250
+  },
+  {
+    "name": "Sections_ListWork_04",
+    "category": "sections",
+    "file": "sections/Sections_ListWork_04.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "list-work",
+    "width": 1844,
+    "height": 2250
+  },
+  {
+    "name": "Cards_TCardContainer_03",
+    "category": "cards",
+    "file": "cards/Cards_TCardContainer_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-container",
+    "width": 1844,
+    "height": 2250
+  },
+  {
+    "name": "Cards_TCard_04",
+    "category": "cards",
+    "file": "cards/Cards_TCard_04.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "t-card",
+    "width": 1844,
+    "height": 711
+  },
+  {
+    "name": "Cards_TCardInner_05",
+    "category": "cards",
+    "file": "cards/Cards_TCardInner_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-inner",
+    "width": 1844,
+    "height": 711
+  },
+  {
+    "name": "Cards_TCardMediaWrapper_06",
+    "category": "cards",
+    "file": "cards/Cards_TCardMediaWrapper_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-media-wrapper",
+    "width": 1905,
+    "height": 735
+  },
+  {
+    "name": "Cards_TCardHoverMediaWrapper_07",
+    "category": "cards",
+    "file": "cards/Cards_TCardHoverMediaWrapper_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-hover-media-wrapper",
+    "width": 1905,
+    "height": 1078
+  },
+  {
+    "name": "Cards_TCardHoverMedia_08",
+    "category": "cards",
+    "file": "cards/Cards_TCardHoverMedia_08.tsx",
+    "tag": "video",
+    "id": "",
+    "className": "t-card-hover-media",
+    "width": 1905,
+    "height": 1078
+  },
+  {
+    "name": "Cards_TCardFeaturedImageWrapper_09",
+    "category": "cards",
+    "file": "cards/Cards_TCardFeaturedImageWrapper_09.tsx",
+    "tag": "picture",
+    "id": "",
+    "className": "t-card-featured-image-wrapper",
+    "width": 1905,
+    "height": 1078
+  },
+  {
+    "name": "Cards_TCardFeaturedImage_10",
+    "category": "cards",
+    "file": "cards/Cards_TCardFeaturedImage_10.tsx",
+    "tag": "img",
+    "id": "",
+    "className": "t-card-featured-image",
+    "width": 1905,
+    "height": 1078
+  },
+  {
+    "name": "Cards_TCardIntro_11",
+    "category": "cards",
+    "file": "cards/Cards_TCardIntro_11.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-intro",
+    "width": 1844,
+    "height": 94
+  },
+  {
+    "name": "Cards_TCardNumber_12",
+    "category": "cards",
+    "file": "cards/Cards_TCardNumber_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-number",
+    "width": 47,
+    "height": 34
+  },
+  {
+    "name": "Cards_TCardTitle_13",
+    "category": "cards",
+    "file": "cards/Cards_TCardTitle_13.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "t-card-title",
+    "width": 202,
+    "height": 27
+  },
+  {
+    "name": "Cards_TCardTags_14",
+    "category": "cards",
+    "file": "cards/Cards_TCardTags_14.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-tags",
+    "width": 346,
+    "height": 27
+  },
+  {
+    "name": "Cards_TCardTerm_15",
+    "category": "cards",
+    "file": "cards/Cards_TCardTerm_15.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-term",
+    "width": 114,
+    "height": 27
+  },
+  {
+    "name": "Cards_TCardTermName_16",
+    "category": "cards",
+    "file": "cards/Cards_TCardTermName_16.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-term-name",
+    "width": 89,
+    "height": 18
+  },
+  {
+    "name": "Cards_TCardTerm_17",
+    "category": "cards",
+    "file": "cards/Cards_TCardTerm_17.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-term",
+    "width": 95,
+    "height": 27
+  },
+  {
+    "name": "Cards_TCardTermName_18",
+    "category": "cards",
+    "file": "cards/Cards_TCardTermName_18.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-term-name",
+    "width": 69,
+    "height": 18
+  },
+  {
+    "name": "Cards_TCardTerm_19",
+    "category": "cards",
+    "file": "cards/Cards_TCardTerm_19.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-term",
+    "width": 99,
+    "height": 27
+  },
+  {
+    "name": "Cards_TCardTermName_20",
+    "category": "cards",
+    "file": "cards/Cards_TCardTermName_20.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-term-name",
+    "width": 74,
+    "height": 18
+  },
+  {
+    "name": "Cards_TCard_21",
+    "category": "cards",
+    "file": "cards/Cards_TCard_21.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "t-card",
+    "width": 891,
+    "height": 711
+  },
+  {
+    "name": "Cards_TCardInner_22",
+    "category": "cards",
+    "file": "cards/Cards_TCardInner_22.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-inner",
+    "width": 891,
+    "height": 711
+  },
+  {
+    "name": "Cards_TCardMediaWrapper_23",
+    "category": "cards",
+    "file": "cards/Cards_TCardMediaWrapper_23.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-media-wrapper",
+    "width": 921,
+    "height": 735
+  },
+  {
+    "name": "Cards_TCardHoverMediaWrapper_24",
+    "category": "cards",
+    "file": "cards/Cards_TCardHoverMediaWrapper_24.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-hover-media-wrapper",
+    "width": 921,
+    "height": 735
+  },
+  {
+    "name": "Cards_TCardFeaturedImageWrapper_25",
+    "category": "cards",
+    "file": "cards/Cards_TCardFeaturedImageWrapper_25.tsx",
+    "tag": "picture",
+    "id": "",
+    "className": "t-card-featured-image-wrapper",
+    "width": 921,
+    "height": 735
+  },
+  {
+    "name": "Cards_TCardFeaturedImage_26",
+    "category": "cards",
+    "file": "cards/Cards_TCardFeaturedImage_26.tsx",
+    "tag": "img",
+    "id": "",
+    "className": "t-card-featured-image",
+    "width": 921,
+    "height": 735
+  },
+  {
+    "name": "Cards_TCardIntro_27",
+    "category": "cards",
+    "file": "cards/Cards_TCardIntro_27.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-intro",
+    "width": 891,
+    "height": 94
+  },
+  {
+    "name": "Cards_TCardNumber_28",
+    "category": "cards",
+    "file": "cards/Cards_TCardNumber_28.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-number",
+    "width": 47,
+    "height": 34
+  },
+  {
+    "name": "Cards_TCardTitle_29",
+    "category": "cards",
+    "file": "cards/Cards_TCardTitle_29.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "t-card-title",
+    "width": 76,
+    "height": 27
+  },
+  {
+    "name": "Cards_TCardTags_30",
+    "category": "cards",
+    "file": "cards/Cards_TCardTags_30.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-tags",
+    "width": 412,
+    "height": 27
+  },
+  {
+    "name": "Cards_TCardTerm_31",
+    "category": "cards",
+    "file": "cards/Cards_TCardTerm_31.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-term",
+    "width": 165,
+    "height": 27
+  },
+  {
+    "name": "Cards_TCardTermName_32",
+    "category": "cards",
+    "file": "cards/Cards_TCardTermName_32.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-term-name",
+    "width": 139,
+    "height": 18
+  },
+  {
+    "name": "Cards_TCard_33",
+    "category": "cards",
+    "file": "cards/Cards_TCard_33.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "t-card",
+    "width": 891,
+    "height": 711
+  },
+  {
+    "name": "Cards_TCardInner_34",
+    "category": "cards",
+    "file": "cards/Cards_TCardInner_34.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-inner",
+    "width": 891,
+    "height": 711
+  },
+  {
+    "name": "Cards_TCardMediaWrapper_35",
+    "category": "cards",
+    "file": "cards/Cards_TCardMediaWrapper_35.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-media-wrapper",
+    "width": 921,
+    "height": 735
+  },
+  {
+    "name": "Cards_TCardHoverMediaWrapper_36",
+    "category": "cards",
+    "file": "cards/Cards_TCardHoverMediaWrapper_36.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-hover-media-wrapper",
+    "width": 921,
+    "height": 735
+  },
+  {
+    "name": "Cards_TCardHoverMedia_37",
+    "category": "cards",
+    "file": "cards/Cards_TCardHoverMedia_37.tsx",
+    "tag": "video",
+    "id": "",
+    "className": "t-card-hover-media",
+    "width": 921,
+    "height": 735
+  },
+  {
+    "name": "Cards_TCardFeaturedImageWrapper_38",
+    "category": "cards",
+    "file": "cards/Cards_TCardFeaturedImageWrapper_38.tsx",
+    "tag": "picture",
+    "id": "",
+    "className": "t-card-featured-image-wrapper",
+    "width": 921,
+    "height": 735
+  },
+  {
+    "name": "Cards_TCardFeaturedImage_39",
+    "category": "cards",
+    "file": "cards/Cards_TCardFeaturedImage_39.tsx",
+    "tag": "img",
+    "id": "",
+    "className": "t-card-featured-image",
+    "width": 921,
+    "height": 735
+  },
+  {
+    "name": "Cards_TCardIntro_40",
+    "category": "cards",
+    "file": "cards/Cards_TCardIntro_40.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-intro",
+    "width": 891,
+    "height": 94
+  },
+  {
+    "name": "Cards_TCardNumber_41",
+    "category": "cards",
+    "file": "cards/Cards_TCardNumber_41.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-number",
+    "width": 47,
+    "height": 34
+  },
+  {
+    "name": "Cards_TCardTitle_42",
+    "category": "cards",
+    "file": "cards/Cards_TCardTitle_42.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "t-card-title",
+    "width": 175,
+    "height": 27
+  },
+  {
+    "name": "Cards_TCard_43",
+    "category": "cards",
+    "file": "cards/Cards_TCard_43.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "t-card",
+    "width": 1844,
+    "height": 711
+  },
+  {
+    "name": "Cards_TCardInner_44",
+    "category": "cards",
+    "file": "cards/Cards_TCardInner_44.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-inner",
+    "width": 1844,
+    "height": 711
+  },
+  {
+    "name": "Cards_TCardMediaWrapper_45",
+    "category": "cards",
+    "file": "cards/Cards_TCardMediaWrapper_45.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-media-wrapper",
+    "width": 1905,
+    "height": 735
+  },
+  {
+    "name": "Cards_TCardFeaturedImageWrapper_46",
+    "category": "cards",
+    "file": "cards/Cards_TCardFeaturedImageWrapper_46.tsx",
+    "tag": "picture",
+    "id": "",
+    "className": "t-card-featured-image-wrapper",
+    "width": 1905,
+    "height": 1078
+  },
+  {
+    "name": "Cards_TCardFeaturedImage_47",
+    "category": "cards",
+    "file": "cards/Cards_TCardFeaturedImage_47.tsx",
+    "tag": "img",
+    "id": "",
+    "className": "t-card-featured-image",
+    "width": 1905,
+    "height": 1078
+  },
+  {
+    "name": "Cards_TCardIntro_48",
+    "category": "cards",
+    "file": "cards/Cards_TCardIntro_48.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-intro",
+    "width": 1844,
+    "height": 94
+  },
+  {
+    "name": "Cards_TCardNumber_49",
+    "category": "cards",
+    "file": "cards/Cards_TCardNumber_49.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-number",
+    "width": 47,
+    "height": 34
+  },
+  {
+    "name": "Cards_TCardTitle_50",
+    "category": "cards",
+    "file": "cards/Cards_TCardTitle_50.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "t-card-title",
+    "width": 165,
+    "height": 27
+  },
+  {
+    "name": "Interactive_TBox_02",
+    "category": "interactive",
+    "file": "interactive/Interactive_TBox_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-box bottom-cta",
+    "width": 1920,
+    "height": 241
+  },
+  {
+    "name": "Interactive_CtaWrapper_03",
+    "category": "interactive",
+    "file": "interactive/Interactive_CtaWrapper_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "cta-wrapper",
+    "width": 607,
+    "height": 241
+  },
+  {
+    "name": "Interactive_BtnCta_04",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnCta_04.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn-cta solid undefined magnet",
+    "width": 607,
+    "height": 241
+  },
+  {
+    "name": "Interactive_BtnCtaInner_05",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnCtaInner_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-cta-inner",
+    "width": 353,
+    "height": 114
+  },
+  {
+    "name": "Interactive_BtnCtaText_06",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnCtaText_06.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "btn-cta-text",
+    "width": 220,
+    "height": 30
+  },
+  {
+    "name": "Sections_WpBlockAppBlockSectionBreak_05",
+    "category": "sections",
+    "file": "sections/Sections_WpBlockAppBlockSectionBreak_05.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "wp-block-app-block-section-break section-break",
+    "width": 1920,
+    "height": 2882
+  },
+  {
+    "name": "Misc_ILineWrapper_16",
+    "category": "misc",
+    "file": "misc/Misc_ILineWrapper_16.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "i-line-wrapper",
+    "width": 1920,
+    "height": 77
+  },
+  {
+    "name": "Misc_TBox_17",
+    "category": "misc",
+    "file": "misc/Misc_TBox_17.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-box breaks-wrapper",
+    "width": 1920,
+    "height": 1009
+  },
+  {
+    "name": "Sections_ListBreak_06",
+    "category": "sections",
+    "file": "sections/Sections_ListBreak_06.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "list-break",
+    "width": 1920,
+    "height": 819
+  },
+  {
+    "name": "Cards_TCardContainer_51",
+    "category": "cards",
+    "file": "cards/Cards_TCardContainer_51.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-container",
+    "width": 1920,
+    "height": 819
+  },
+  {
+    "name": "Cards_TCard_52",
+    "category": "cards",
+    "file": "cards/Cards_TCard_52.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card",
+    "width": 1741,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardInner_53",
+    "category": "cards",
+    "file": "cards/Cards_TCardInner_53.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-inner",
+    "width": 1741,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardTitle_54",
+    "category": "cards",
+    "file": "cards/Cards_TCardTitle_54.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "t-card-title",
+    "width": 1741,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardLink_55",
+    "category": "cards",
+    "file": "cards/Cards_TCardLink_55.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-link",
+    "width": 1741,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCard_56",
+    "category": "cards",
+    "file": "cards/Cards_TCard_56.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card",
+    "width": 357,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardInner_57",
+    "category": "cards",
+    "file": "cards/Cards_TCardInner_57.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-inner",
+    "width": 357,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardTitle_58",
+    "category": "cards",
+    "file": "cards/Cards_TCardTitle_58.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "t-card-title",
+    "width": 357,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardLink_59",
+    "category": "cards",
+    "file": "cards/Cards_TCardLink_59.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-link",
+    "width": 357,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCard_60",
+    "category": "cards",
+    "file": "cards/Cards_TCard_60.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card",
+    "width": 1511,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardInner_61",
+    "category": "cards",
+    "file": "cards/Cards_TCardInner_61.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-inner",
+    "width": 1511,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardTitle_62",
+    "category": "cards",
+    "file": "cards/Cards_TCardTitle_62.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "t-card-title",
+    "width": 1511,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardLink_63",
+    "category": "cards",
+    "file": "cards/Cards_TCardLink_63.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-link",
+    "width": 1511,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCard_64",
+    "category": "cards",
+    "file": "cards/Cards_TCard_64.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card",
+    "width": 1403,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardInner_65",
+    "category": "cards",
+    "file": "cards/Cards_TCardInner_65.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-inner",
+    "width": 1403,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardTitle_66",
+    "category": "cards",
+    "file": "cards/Cards_TCardTitle_66.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "t-card-title",
+    "width": 1403,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardLink_67",
+    "category": "cards",
+    "file": "cards/Cards_TCardLink_67.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-link",
+    "width": 1403,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCard_68",
+    "category": "cards",
+    "file": "cards/Cards_TCard_68.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card",
+    "width": 1140,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardInner_69",
+    "category": "cards",
+    "file": "cards/Cards_TCardInner_69.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-inner",
+    "width": 1140,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardTitle_70",
+    "category": "cards",
+    "file": "cards/Cards_TCardTitle_70.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "t-card-title",
+    "width": 1140,
+    "height": 133
+  },
+  {
+    "name": "Cards_TCardNumber_71",
+    "category": "cards",
+    "file": "cards/Cards_TCardNumber_71.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-number",
+    "width": 31,
+    "height": 30
+  },
+  {
+    "name": "Cards_TCardLink_72",
+    "category": "cards",
+    "file": "cards/Cards_TCardLink_72.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-card-link",
+    "width": 1140,
+    "height": 133
+  },
+  {
+    "name": "Interactive_TBox_07",
+    "category": "interactive",
+    "file": "interactive/Interactive_TBox_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-box bottom-cta",
+    "width": 1920,
+    "height": 241
+  },
+  {
+    "name": "Interactive_CtaWrapper_08",
+    "category": "interactive",
+    "file": "interactive/Interactive_CtaWrapper_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "cta-wrapper",
+    "width": 480,
+    "height": 241
+  },
+  {
+    "name": "Interactive_BtnCta_09",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnCta_09.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "btn-cta solid undefined magnet",
+    "width": 480,
+    "height": 241
+  },
+  {
+    "name": "Interactive_BtnCtaInner_10",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnCtaInner_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btn-cta-inner",
+    "width": 353,
+    "height": 114
+  },
+  {
+    "name": "Interactive_BtnCtaText_11",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnCtaText_11.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "btn-cta-text magnet",
+    "width": 220,
+    "height": 30
+  },
+  {
+    "name": "Footers_MainFooter_01",
+    "category": "footers",
+    "file": "footers/Footers_MainFooter_01.tsx",
+    "tag": "footer",
+    "id": "",
+    "className": "main-footer",
+    "width": 1920,
+    "height": 732
+  },
+  {
+    "name": "Nav_TBox_15",
+    "category": "nav",
+    "file": "nav/Nav_TBox_15.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-box navigations",
+    "width": 1920,
+    "height": 183
+  },
+  {
+    "name": "Misc_SocialContainer_18",
+    "category": "misc",
+    "file": "misc/Misc_SocialContainer_18.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "social-container",
+    "width": 184,
+    "height": 183
+  },
+  {
+    "name": "Nav_NavItem_16",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_16.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item",
+    "width": 184,
+    "height": 30
+  },
+  {
+    "name": "Nav_NavItem_17",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_17.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item",
+    "width": 142,
+    "height": 30
+  },
+  {
+    "name": "Nav_NavItem_18",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_18.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item",
+    "width": 147,
+    "height": 30
+  },
+  {
+    "name": "Nav_NavItem_19",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_19.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item",
+    "width": 93,
+    "height": 30
+  },
+  {
+    "name": "Nav_NavContainer_20",
+    "category": "nav",
+    "file": "nav/Nav_NavContainer_20.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "nav-container",
+    "width": 115,
+    "height": 183
+  },
+  {
+    "name": "Nav_NavItem_21",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_21.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item",
+    "width": 91,
+    "height": 30
+  },
+  {
+    "name": "Nav_NavItem_22",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_22.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item",
+    "width": 115,
+    "height": 30
+  },
+  {
+    "name": "Nav_NavItem_23",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_23.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item",
+    "width": 101,
+    "height": 30
+  },
+  {
+    "name": "Nav_NavItem_24",
+    "category": "nav",
+    "file": "nav/Nav_NavItem_24.tsx",
+    "tag": "a",
+    "id": "",
+    "className": "nav-item",
+    "width": 106,
+    "height": 30
+  },
+  {
+    "name": "Misc_MarqueeContainer_19",
+    "category": "misc",
+    "file": "misc/Misc_MarqueeContainer_19.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "marquee-container",
+    "width": 7640,
+    "height": 315
+  },
+  {
+    "name": "Footers_TBox_02",
+    "category": "footers",
+    "file": "footers/Footers_TBox_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "t-box footer-metadata",
+    "width": 1844,
+    "height": 35
+  }
+]

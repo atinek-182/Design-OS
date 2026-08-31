@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detroit Paris - UI/UX Architectural Wireframe Blueprint</title>
+  <style>
+    :root {
+      --bg: #050505;
+      --card-bg: #0E0E10;
+      --border: #1E1E22;
+      --accent: #E5E5E5;
+      --text: #FFFFFF;
+      --text-muted: #888888;
+      --code-bg: #020202;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Barlow', -apple-system, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 2rem; line-height: 1.5; }
+    .header { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
+    .header h1 { font-size: 2.2rem; color: #fff; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
+    .header p { color: var(--text-muted); font-size: 0.95rem; }
+
+    .grid-layout { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; }
+    .wireframe-stage { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; position: relative; }
+    
+    .comp-block { border: 2px dashed var(--border); border-radius: 6px; padding: 1.25rem; margin-bottom: 1.5rem; background: rgba(255,255,255,0.015); position: relative; }
+    .comp-tag { position: absolute; top: -12px; left: 16px; background: #fff; color: #000; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    .nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 0.8rem 1rem; background: rgba(0,0,0,0.5); border-radius: 6px; }
+    .hero-scene { height: 320px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 2.5rem; border: 1px solid var(--border); border-radius: 6px; background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(5,5,5,0.9) 100%); position: relative; }
+    .hero-scene h2 { font-size: 3.5rem; font-weight: 700; letter-spacing: -0.02em; line-height: 1.05; text-transform: uppercase; }
+
+    .works-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; }
+    .work-card { border: 1px solid var(--border); border-radius: 6px; padding: 1rem; background: rgba(0,0,0,0.3); }
+    .video-box { width: 100%; height: 140px; background: #16161A; border-radius: 4px; margin-bottom: 0.8rem; display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-size: 0.75rem; }
+
+    .sidebar { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; }
+    .sidebar h3 { font-size: 1.1rem; margin-bottom: 1rem; color: #fff; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; text-transform: uppercase; }
+    .spec-item { margin-bottom: 1rem; }
+    .spec-item label { display: block; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .spec-item value { display: block; font-size: 0.95rem; color: var(--text); font-weight: 500; }
+    .code-snippet { background: var(--code-bg); padding: 0.8rem; border-radius: 4px; font-family: monospace; font-size: 0.8rem; color: #61afef; overflow-x: auto; margin-top: 0.5rem; border: 1px solid rgba(255,255,255,0.05); }
+
+    .studio-badge { display: inline-block; background: #fff; color: #000; padding: 4px 10px; border-radius: 4px; font-weight: 700; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <h1>DETROIT PARIS — TECHNICAL ARCHITECTURAL BLUEPRINT</h1>
+      <span class="studio-badge">AWWWARDS SOTD WINNER</span>
+    </div>
+    <p>Awwwards SOTD + CSS Design Awards Winner | HLS 4K Streaming Video Pipeline + Barlow Font + Osmo Architecture</p>
+  </div>
+
+  <div class="grid-layout">
+    <div class="wireframe-stage">
+      <!-- COMPONENT 1: NAV -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: LUXURY BRAND HEADER NAVIGATION</span>
+        <div class="nav-bar">
+          <div style="font-weight: 700; font-size: 1.4rem; letter-spacing: 0.1em;">DETROIT</div>
+          <div style="display: flex; gap: 1.5rem; align-items: center;">
+            <span style="font-size: 0.85rem; color: var(--text-muted);">ARTISTS</span>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">WORK</span>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">TALENT</span>
+            <span style="font-size: 0.85rem; background: #fff; color: #000; padding: 4px 14px; border-radius: 4px; font-weight: 700;">CONTACT</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMPONENT 2: HERO SECTION -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: LUXURY AI PRODUCTION HERO STAGE</span>
+        <div class="hero-scene">
+          <span style="font-size: 0.8rem; letter-spacing: 0.2em; color: var(--text-muted); font-weight: 700; margin-bottom: 0.5rem;">AI PRODUCTION HOUSE // PARIS</span>
+          <h2>CRAFTING VISUAL CULTURE FOR LUXURY BRANDS</h2>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.8rem; max-width: 520px;">Merging generative AI, CGI, and high-fashion art direction for international haute couture campaigns.</p>
+        </div>
+      </div>
+
+      <!-- COMPONENT 3: WORKS MASONRY GRID -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: HLS STREAMING WORKS MASONRY GRID</span>
+        <div class="works-grid">
+          <div class="work-card">
+            <div class="video-box">HLS 4K LOOP 01</div>
+            <strong style="font-size: 0.85rem; text-transform: uppercase;">HAUTE COUTURE FILM</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">AI Imagery & CGI</p>
+          </div>
+          <div class="work-card" style="border-color: #fff;">
+            <div class="video-box" style="background: rgba(255,255,255,0.1); color: #fff;">HLS 4K LOOP 02</div>
+            <strong style="font-size: 0.85rem; text-transform: uppercase;">PARIS FASHION CAMPAIGN</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Generative Visuals</p>
+          </div>
+          <div class="work-card">
+            <div class="video-box">HLS 4K LOOP 03</div>
+            <strong style="font-size: 0.85rem; text-transform: uppercase;">EDITORIAL STILLS</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Spatial Art Direction</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECHNICAL SPEC SIDEBAR -->
+    <div class="sidebar">
+      <h3>ENGINEERING SPECIFICATIONS</h3>
+      
+      <div class="spec-item">
+        <label>Studio Identity</label>
+        <value>Detroit Paris (Luxury AI Production Studio)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Awards Pedigree</label>
+        <value>Awwwards Site of the Day (SOTD, April 27 2026) + CSS Design Awards</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Video Streaming Pipeline</label>
+        <value>HLS.js 1.6.11 (4K adaptive bitrate background streaming)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Typography Hierarchy</label>
+        <value>Barlow Google Font (weights 300, 400, 500, 600, 700)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Color Tokens</label>
+        <value>Pure Dark (#050505), Charcoal Surface (#0E0E10), High Contrast White (#FFFFFF)</value>
+        <div class="code-snippet">:root {
+  --color-bg: #050505;
+  --color-text: #FFFFFF;
+}</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

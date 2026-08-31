@@ -1,0 +1,20 @@
+import React from 'react';
+
+/**
+ * Component: Nav_NavItemOuter_10
+ * Target Site: jasmine-gunarto
+ * Category: nav
+ * Tag: <a> | ID: "" | Class: "nav-item__outer"
+ * Dimensions: 77px x 28px
+ */
+export const Nav_NavItemOuter_10: React.FC = () => {
+  return (
+    <div className="component-container-nav">
+      {/* --- Raw Extracted DOM Structure --- */}
+      <a className="nav-item__outer" href="https://jasminegunarto.com/about/" data-transition-type="about"><div className="nav-item"><div>About</div><div>About</div></div>
+</a>
+    </div>
+  );
+};
+
+export default Nav_NavItemOuter_10;

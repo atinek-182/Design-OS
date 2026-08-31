@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resn — Pioneer Corn Revolutionized Architectural Wireframe Blueprint</title>
+<style>
+  :root {
+    --wf-bg: #070a06;
+    --wf-surface: #10170d;
+    --wf-card: #192415;
+    --wf-border: #2d3f26;
+    --wf-text: #f0fdf4;
+    --wf-sub: #86efac;
+    --wf-accent: #22c55e;
+    --wf-gold: #eab308;
+    --wf-grid: rgba(34, 197, 94, 0.1);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; }
+  body { background-color: var(--wf-bg); color: var(--wf-text); padding: 40px 20px; line-height: 1.5; }
+  .blueprint-wrapper { max-width: 1400px; margin: 0 auto; background: var(--wf-surface); border: 2px solid var(--wf-border); border-radius: 16px; box-shadow: 0 25px 50px rgba(0,0,0,0.6); overflow: hidden; position: relative; }
+  
+  .grid-overlay { position: absolute; inset: 0; background-size: 24px 24px; background-image: linear-gradient(to right, var(--wf-grid) 1px, transparent 1px), linear-gradient(to bottom, var(--wf-grid) 1px, transparent 1px); pointer-events: none; z-index: 0; }
+  .content { position: relative; z-index: 1; }
+
+  .wf-header { background: #040703; color: #fff; padding: 20px 36px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--wf-border); }
+  .wf-title { font-size: 18px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--wf-gold); }
+  .wf-meta { font-size: 11px; background: var(--wf-accent); color: #000; padding: 5px 14px; border-radius: 6px; font-weight: 800; }
+
+  .wf-section { padding: 48px 36px; border-bottom: 2px dashed var(--wf-border); position: relative; }
+  .spec-tag { position: absolute; top: 16px; right: 24px; font-size: 10px; font-weight: 800; background: #162412; color: var(--wf-gold); padding: 4px 10px; border-radius: 4px; border: 1px solid var(--wf-border); text-transform: uppercase; }
+
+  .wf-nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 18px 28px; border: 2px solid var(--wf-border); background: var(--wf-card); border-radius: 10px; }
+  .wf-logo { font-size: 22px; font-weight: 900; letter-spacing: 4px; color: var(--wf-gold); }
+  .wf-menu-list { display: flex; gap: 32px; font-size: 12px; font-weight: 800; text-transform: uppercase; color: var(--wf-sub); }
+  .wf-menu-item.active { color: var(--wf-gold); border-bottom: 2px solid var(--wf-gold); padding-bottom: 2px; }
+
+  .wf-hero-container { border: 2px solid var(--wf-border); border-radius: 12px; background: var(--wf-card); padding: 48px; margin-top: 20px; position: relative; }
+  .wf-hero-headline { font-size: 52px; font-weight: 900; line-height: 1.1; margin-bottom: 20px; background: linear-gradient(135deg, #fff 0%, var(--wf-gold) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .wf-hero-sub { font-size: 16px; color: var(--wf-sub); max-width: 720px; margin-bottom: 32px; }
+  
+  .wf-stage-box { height: 280px; border: 2px dashed var(--wf-accent); background: rgba(34, 197, 94, 0.08); border-radius: 8px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: var(--wf-gold); font-weight: 700; margin-bottom: 24px; }
+  .wf-stage-label { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; }
+
+  .bento-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 20px; }
+  .bento-card { background: var(--wf-card); border: 2px solid var(--wf-border); border-radius: 12px; padding: 28px; position: relative; }
+  .bento-card.wide { grid-column: span 2; }
+  .card-title { font-size: 20px; font-weight: 800; margin-bottom: 12px; color: var(--wf-gold); }
+  .card-desc { font-size: 13px; color: var(--wf-sub); margin-bottom: 20px; }
+
+  .wf-footer { background: #040703; padding: 48px 36px; border-top: 2px solid var(--wf-border); text-align: center; }
+  .footer-title { font-size: 36px; font-weight: 900; color: #fff; margin-bottom: 16px; }
+</style>
+</head>
+<body>
+<div class="blueprint-wrapper">
+  <div class="grid-overlay"></div>
+  <div class="content">
+    <div class="wf-header">
+      <div class="wf-title">RESN — PIONEER CORN REVOLUTIONIZED</div>
+      <div class="wf-meta">AWWWARDS SITE OF THE YEAR WINNER</div>
+    </div>
+
+    <!-- Section 1: HUD Nav -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: HUD NAV & SOUNDSCAPE CONTROL</div>
+      <div class="wf-nav-bar">
+        <div class="wf-logo">RESN × PIONEER</div>
+        <div class="wf-menu-list">
+          <div class="wf-menu-item active">01 The Seed</div>
+          <div class="wf-menu-item">02 Biotech Lab</div>
+          <div class="wf-menu-item">03 Hybrid Vigor</div>
+          <div class="wf-menu-item">04 Harvest</div>
+          <div class="wf-menu-item" style="color: var(--wf-accent);">🔊 Sound: ON</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2: 3D Hero -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: INFINITE SCROLL 3D CGI STAGE</div>
+      <div class="wf-hero-container">
+        <div class="wf-stage-box">
+          <div class="wf-stage-label">Three.js / WebGL Infinite 3D Seed-to-Harvest Canvas</div>
+          <div>Real-time CGI Grain Mesh · Raymarched Particle Noise · Camera Interpolation Scrub</div>
+        </div>
+        <h1 class="wf-hero-headline">CORN REVOLUTIONIZED: THE SCIENCE OF HYBRID VIGOR</h1>
+        <p class="wf-hero-sub">An immersive, infinite vertical scroll journey through the advanced agricultural technology and genetics powering global crop yield.</p>
+      </div>
+    </div>
+
+    <!-- Section 3: Bento Grid -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: SCROLL-TRIGGERED DATA CARDS</div>
+      <div class="bento-grid">
+        <div class="bento-card wide">
+          <div class="spec-tag">STORY CHAPTER 01</div>
+          <div class="card-title">Genomic Precision Selection</div>
+          <div class="card-desc">Interactive 3D particle visualization of plant DNA mapping and yield optimization algorithms.</div>
+        </div>
+        <div class="bento-card">
+          <div class="spec-tag">STORY CHAPTER 02</div>
+          <div class="card-title">Climate Resilience Test</div>
+          <div class="card-desc">Simulated environmental physics shader responding to user scroll delta.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4: Footer -->
+    <div class="wf-footer">
+      <div class="footer-title">THE FUTURE OF AGRICULTURAL SCIENCE</div>
+      <p style="color: var(--wf-sub); font-size: 14px;">Crafted by Resn × Bader Rutter for Pioneer · Awwwards Site of the Year</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

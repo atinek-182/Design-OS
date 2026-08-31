@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Truck 'n Roll - UI/UX Architectural Wireframe Blueprint</title>
+  <style>
+    :root {
+      --bg: #0E0F12;
+      --card-bg: #15181E;
+      --border: #262B36;
+      --accent: #E53935;
+      --accent-yellow: #FFD54F;
+      --text: #F8F9FA;
+      --text-muted: #8E96A4;
+      --code-bg: #0A0B0E;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 2rem; line-height: 1.5; }
+    .header { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
+    .header h1 { font-size: 2rem; color: var(--accent); font-family: 'Impact', sans-serif; letter-spacing: 0.05em; }
+    .header p { color: var(--text-muted); font-size: 0.95rem; }
+
+    .grid-layout { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; }
+    .wireframe-stage { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; position: relative; }
+    
+    .comp-block { border: 2px dashed var(--border); border-radius: 6px; padding: 1.25rem; margin-bottom: 1.5rem; background: rgba(255,255,255,0.015); position: relative; }
+    .comp-tag { position: absolute; top: -12px; left: 16px; background: var(--accent); color: #fff; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    .nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 0.8rem 1rem; background: rgba(0,0,0,0.4); border-radius: 6px; }
+    .hero-scene { height: 280px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 2rem; border: 1px solid var(--border); border-radius: 6px; background: linear-gradient(135deg, rgba(229,57,53,0.15) 0%, rgba(0,0,0,0.6) 100%); }
+    .hero-scene h2 { font-size: 2.8rem; font-family: 'Impact', sans-serif; letter-spacing: 0.02em; text-transform: uppercase; line-height: 1.1; }
+
+    .rail-slider { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; }
+    .rail-card { border: 1px solid var(--border); border-radius: 6px; padding: 1rem; background: rgba(0,0,0,0.3); }
+    .img-placeholder { width: 100%; height: 100px; background: #1C2029; border-radius: 4px; margin-bottom: 0.8rem; display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-size: 0.75rem; }
+
+    .sidebar { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; }
+    .sidebar h3 { font-size: 1.1rem; margin-bottom: 1rem; color: var(--accent-yellow); border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+    .spec-item { margin-bottom: 1rem; }
+    .spec-item label { display: block; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .spec-item value { display: block; font-size: 0.95rem; color: var(--text); font-weight: 500; }
+    .code-snippet { background: var(--code-bg); padding: 0.8rem; border-radius: 4px; font-family: monospace; font-size: 0.8rem; color: #61afef; overflow-x: auto; margin-top: 0.5rem; border: 1px solid rgba(255,255,255,0.05); }
+
+    .loco-badge { display: inline-block; background: rgba(229,57,53,0.2); color: var(--accent); padding: 4px 10px; border-radius: 4px; font-weight: 700; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <h1>TRUCK 'N ROLL® — TECHNICAL ARCHITECTURAL BLUEPRINT</h1>
+      <span class="loco-badge">LOCOMOTIVE® STUDIO</span>
+    </div>
+    <p>Awwwards Site of the Day Winner | Swup.js SPA + Locomotive Scroll + Custom Rail Slider</p>
+  </div>
+
+  <div class="grid-layout">
+    <div class="wireframe-stage">
+      <!-- COMPONENT 1: NAV -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: STICKY HEADER & NAV SYSTEM</span>
+        <div class="nav-bar">
+          <div style="font-weight: 900; font-size: 1.2rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent);">TRUCK'N ROLL®</div>
+          <div style="display: flex; gap: 1.5rem; align-items: center;">
+            <span style="font-size: 0.85rem; color: var(--text-muted);">SERVICES</span>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">FLEET</span>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">CAREERS</span>
+            <span style="font-size: 0.85rem; background: var(--accent); padding: 4px 14px; border-radius: 4px; color: #fff; font-weight: 700;">CONTACT</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMPONENT 2: HERO SECTION -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: HERO TOUR LOGISTICS BANNER</span>
+        <div class="hero-scene">
+          <span style="font-size: 0.8rem; letter-spacing: 0.2em; color: var(--accent-yellow); font-weight: 700; margin-bottom: 0.5rem;">ENTERTAINMENT LOGISTICS SINC 1992</span>
+          <h2>MOVING THE GEAR BEHIND THE BIGGEST TOURS</h2>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem; max-width: 500px;">Custom tour transport solutions across North America for concert stages, live events, and stadium tours.</p>
+        </div>
+      </div>
+
+      <!-- COMPONENT 3: RAIL SLIDER -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: HORIZONTAL RAIL SLIDER (SWIPER + LENIS)</span>
+        <div class="rail-slider">
+          <div class="rail-card">
+            <div class="img-placeholder">TOUR RIG 01</div>
+            <strong style="font-size: 0.85rem;">STADIUM CONCERT LOGISTICS</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">53ft Air-Ride Trailers</p>
+          </div>
+          <div class="rail-card" style="border-color: var(--accent);">
+            <div class="img-placeholder" style="background: rgba(229,57,53,0.2); color: #fff;">FLEET 02</div>
+            <strong style="font-size: 0.85rem;">KENWORTH T680 FLEET</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Custom Tour Decals</p>
+          </div>
+          <div class="rail-card">
+            <div class="img-placeholder">LOGISTICS 03</div>
+            <strong style="font-size: 0.85rem;">CROSS-BORDER FREIGHT</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">USA / Canada Express</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECHNICAL SPEC SIDEBAR -->
+    <div class="sidebar">
+      <h3>ENGINEERING SPECIFICATIONS</h3>
+      
+      <div class="spec-item">
+        <label>Agency & Studio</label>
+        <value>Locomotive® (Montreal, QC)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Awards Pedigree</label>
+        <value>Awwwards Site of the Day (SOTD) + Developer Award</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Frontend Stack</label>
+        <value>Swup.js (SPA transitions), Lenis / Locomotive Scroll, Vite, TypeScript</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Typography Hierarchy</label>
+        <value>Druk Condensed (Bold Headers), GT America (Body), Space Mono (Labels)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Color Tokens</label>
+        <value>Dark Mode Matte Black (#0E0F12), Tour Crimson Red (#E53935), Caution Yellow (#FFD54F)</value>
+        <div class="code-snippet">:root {
+  --color-bg: #0E0F12;
+  --color-accent: #E53935;
+}</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

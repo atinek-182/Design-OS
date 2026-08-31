@@ -1,0 +1,81 @@
+/* ==========================================================================
+   THE SHIFT TOKYO DESIGN SYSTEM TOKENS & TYPOGRAPHY
+   Target: The Shift Tokyo (https://theshift.tokyo/en/)
+   ========================================================================== */
+
+:root {
+  /* Grid Unit Ratio */
+  --gw: 4.16666667vw; /* 100vw / 24 columns */
+  
+  /* Color Tokens (Dark Theme Default) */
+  --col-black: rgba(20, 20, 20, 1);
+  --col-font-black: rgba(240, 240, 240, 1);
+  --col-white: rgba(240, 240, 240, 1);
+  --col-l-gray: rgba(230, 230, 230, 1);
+  --col-d-gray: rgba(50, 50, 50, 1);
+  --col-orange: rgba(254, 66, 73, 1); /* Accent Electric Coral #FE4249 */
+  
+  /* Typography Scale */
+  --font-sans: "Everett", "Inter", -apple-system, sans-serif;
+  --font-editorial: "Lausanne", "Georgia", serif;
+  --font-gallery: "Gallery", serif;
+  --font-jp: "YakuHanJP", "Hiragino Kaku Gothic ProN", sans-serif;
+  
+  --text-hero: clamp(3.5rem, 9vw, 9.5rem);
+  --text-h1: clamp(2.5rem, 5vw, 5rem);
+  --text-h2: clamp(1.75rem, 3vw, 3rem);
+  --text-body: clamp(0.95rem, 1.1vw, 1.15rem);
+  --text-meta: clamp(0.75rem, 0.8vw, 0.875rem);
+  
+  /* Motion Easing */
+  --ease-shift: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Light Theme Override */
+[data-theme="light"]:root {
+  --col-black: rgba(245, 245, 245, 1);
+  --col-font-black: rgba(20, 20, 20, 1);
+  --col-white: rgba(10, 10, 10, 1);
+  --col-l-gray: rgba(50, 50, 50, 1);
+  --col-d-gray: rgba(230, 230, 230, 1);
+}
+
+body {
+  background-color: var(--col-black);
+  color: var(--col-font-black);
+  font-family: var(--font-sans);
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Kinetic Split Character Flip Container */
+.flip-c {
+  overflow: hidden;
+}
+
+.flip-c .char {
+  display: inline-block;
+  transition: transform 0.6s var(--ease-shift), opacity 0.6s ease;
+}
+
+/* Custom Interactive Cursor Circle */
+.shift-cursor {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--col-orange);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
+  z-index: 9999;
+}
+
+.shift-cursor.hover-thumb {
+  width: 64px;
+  height: 64px;
+  background-color: rgba(254, 66, 73, 0.85);
+  mix-blend-mode: difference;
+}

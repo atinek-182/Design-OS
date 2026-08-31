@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sondaven Resort — Hyper-Detailed Architectural Wireframe Blueprint</title>
+<style>
+  :root {
+    --wf-bg: #eef0f4;
+    --wf-surface: #ffffff;
+    --wf-border: #717680;
+    --wf-dark: #18191c;
+    --wf-accent: #2b5c8f;
+    --wf-orange: #d97706;
+    --wf-grid: rgba(43, 92, 143, 0.08);
+    --wf-note: #475569;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; }
+  body { background-color: var(--wf-bg); color: var(--wf-dark); padding: 40px 20px; line-height: 1.4; }
+  .blueprint-wrapper { max-width: 1400px; margin: 0 auto; background: var(--wf-surface); border: 2px solid var(--wf-border); border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); overflow: hidden; position: relative; }
+  
+  /* Grid Background Overlay */
+  .grid-overlay { position: absolute; inset: 0; background-size: 20px 20px; background-image: linear-gradient(to right, var(--wf-grid) 1px, transparent 1px), linear-gradient(to bottom, var(--wf-grid) 1px, transparent 1px); pointer-events: none; z-index: 0; }
+  .content { relative; z-index: 1; }
+
+  /* Wireframe Top Header Bar */
+  .wf-header { background: var(--wf-dark); color: #fff; padding: 18px 32px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--wf-border); }
+  .wf-title { font-size: 16px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; }
+  .wf-meta { font-size: 11px; background: var(--wf-accent); color: #fff; padding: 4px 12px; border-radius: 4px; font-weight: 600; }
+
+  /* Navigation Header Component */
+  .wf-section { padding: 40px 32px; border-bottom: 2px dashed var(--wf-border); position: relative; }
+  .spec-tag { position: absolute; top: 12px; right: 16px; font-size: 10px; font-weight: 700; background: #e2e8f0; color: #334155; padding: 3px 8px; border-radius: 3px; border: 1px solid #cbd5e1; }
+  
+  .wf-nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; border: 2px solid var(--wf-border); background: #f8fafc; border-radius: 8px; }
+  .wf-logo { font-size: 20px; font-weight: 900; letter-spacing: 3px; font-family: serif; border-bottom: 2px solid var(--wf-dark); }
+  .wf-menu-list { display: flex; gap: 24px; font-size: 12px; font-weight: 700; text-transform: uppercase; }
+  .wf-menu-item { position: relative; padding: 4px 0; }
+  .wf-menu-item.active::after { content: ""; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: var(--wf-accent); }
+
+  /* Hero Section Wireframe */
+  .wf-hero-container { border: 2px solid var(--wf-border); border-radius: 8px; background: #fff; padding: 32px; margin-top: 16px; }
+  .wf-hero-headline { font-size: 42px; font-weight: 300; font-family: serif; line-height: 1.1; margin-bottom: 16px; color: #0f172a; }
+  .wf-hero-sub { font-size: 15px; color: var(--wf-note); max-width: 650px; margin-bottom: 24px; }
+  .wf-3d-stage { height: 320px; border: 2px dashed var(--wf-accent); background: rgba(43, 92, 143, 0.04); border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; color: var(--wf-accent); text-align: center; }
+
+  /* 2-Column Content Grid */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 16px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 16px; }
+
+  .wf-card { border: 2px solid var(--wf-border); border-radius: 8px; padding: 24px; background: #fff; position: relative; }
+  .wf-card-header { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--wf-dark); border-bottom: 1px solid #e2e8f0; pb: 8px; }
+  .wf-img-box { height: 200px; border: 2px dashed #94a3b8; background: #f1f5f9; border-radius: 6px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; color: #475569; margin-bottom: 16px; }
+  
+  .wf-btn { display: inline-flex; align-items: center; justify-content: center; padding: 10px 24px; border: 2px solid var(--wf-dark); font-size: 12px; font-weight: 700; text-transform: uppercase; border-radius: 20px; background: #fff; cursor: pointer; }
+  .wf-btn-primary { background: var(--wf-dark); color: #fff; }
+
+  /* Technical Annotation Note Box */
+  .tech-note { background: #fffbeb; border: 1.5px solid #f59e0b; padding: 12px 16px; border-radius: 6px; font-size: 11px; color: #92400e; margin-top: 16px; font-family: monospace; }
+</style>
+</head>
+<body>
+<div class="blueprint-wrapper">
+  <div class="grid-overlay"></div>
+  <div class="content">
+
+    <div class="wf-header">
+      <div class="wf-title">SONDAVEN LUXURY RESORT — HYPER-DETAILED WIREFRAME BLUEPRINT</div>
+      <div class="wf-meta">VIEWPORT: 1920x1080 | ARCHETYPE: EDITORIAL LUXURY RESORT</div>
+    </div>
+
+    <!-- 1. HEADER & NAVBAR MECHANICS -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: HEADER / NAV SYSTEM</div>
+      <div class="wf-nav-bar">
+        <div class="wf-logo">SONDAVEN</div>
+        <div class="wf-menu-list">
+          <div class="wf-menu-item active">OVERVIEW</div>
+          <div class="wf-menu-item">VILLAS & SUITES</div>
+          <div class="wf-menu-item">THERMAL SPA</div>
+          <div class="wf-menu-item">GASTRONOMY</div>
+          <div class="wf-menu-item">LOCATION</div>
+        </div>
+        <div style="display:flex; gap:12px; align-items:center;">
+          <span style="font-size:11px; font-weight:bold; color:var(--wf-accent);">EN | RO</span>
+          <div class="wf-btn">BOOK YOUR STAY</div>
+        </div>
+      </div>
+      <div class="tech-note">
+        <strong>TECHNICAL ANNOTATION:</strong> Fixed header with backdrop-filter: blur(12px). Automatically hides on scroll down (threshold &gt; 40px) and reveals on scroll up. Link hover triggersclip-path underline expansion.
+      </div>
+    </div>
+
+    <!-- 2. HERO & 3D CANVAS STAGE -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: HERO SECTION & 3D WEBGL STAGE</div>
+      <div class="wf-hero-container">
+        <div style="font-size: 12px; font-weight: bold; color: var(--wf-accent); letter-spacing: 2px;">CARPATHIAN MOUNTAINS, ROMANIA</div>
+        <h1 class="wf-hero-headline">Architectural Sanctuary Embedded in Mountain Mist</h1>
+        <p class="wf-hero-sub">Experience organic luxury, thermal Carpathian springs, and private heliport access in Europe's most pristine alpine valley.</p>
+
+        <div class="wf-3d-stage">
+          🌐 THREE.JS 3D CLOUD TERRAIN CANVAS STAGE (canvas#canvas)
+          <div style="font-size: 11px; font-weight: normal; color: #64748b; margin-top: 8px;">
+            • GLSL Volumetric Cloud Shader Fragment<br>
+            • Lenis Scroll Inertia Scrubber driving Camera Target Z-Position (0 -> 100)<br>
+            • Ambient Soundscape Visualizer Stream (Carpathian Stream Audio API)
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top: 20px;">
+          <div style="font-size: 12px; font-weight: bold; color: var(--wf-note);">SCROLL TO DISCOVER VILLA COLLECTION ↓</div>
+          <div class="wf-btn wf-btn-primary">EXPLORE RESORT EXPERIENCE</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. SCROLLESTELLING & ACCORDION GRID -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: 2-COLUMN SCROLLESTELLING & ACCORDION</div>
+      <div class="grid-2">
+        <div class="wf-card">
+          <div class="wf-card-header">01. ORGANIC ARCHITECTURE</div>
+          <div class="wf-img-box">
+            🖼️ PARALLAX IMAGE STAGE
+            <span style="font-size: 10px; color: #64748b;">yPercent: -20 -> 20 | GSAP ScrollTrigger Pin</span>
+          </div>
+          <p style="font-size: 13px; color: #334155;">Villas sculpted from local stone, glass, and sustainable cedar wood to minimize environmental impact while maximizing panoramic valley views.</p>
+        </div>
+
+        <div class="wf-card">
+          <div class="wf-card-header">RESORT AMENITIES & SERVICES</div>
+          <div style="display:flex; flex-direction:column; gap:12px; margin-top:16px;">
+            <div style="border: 1px solid var(--wf-border); padding: 14px; border-radius: 6px; display:flex; justify-content:space-between; font-weight:bold; font-size:13px; background:#f8fafc;">
+              <span>01. Carpathian Thermal Springs Spa</span>
+              <span>+</span>
+            </div>
+            <div style="border: 1px solid var(--wf-border); padding: 14px; border-radius: 6px; display:flex; justify-content:space-between; font-weight:bold; font-size:13px; background:#f8fafc;">
+              <span>02. Private Heliport & Concierge Transfers</span>
+              <span>+</span>
+            </div>
+            <div style="border: 1px solid var(--wf-border); padding: 14px; border-radius: 6px; display:flex; justify-content:space-between; font-weight:bold; font-size:13px; background:#f8fafc;">
+              <span>03. Michelin Star Organic Farm-to-Table</span>
+              <span>+</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. SVG PATH SEASON SLIDER -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: DRAG-ALONG-PATH SVG SEASON SLIDER</div>
+      <div class="wf-card">
+        <div class="wf-card-header">02. SEASONAL EXPERIENCE PATHWAYS</div>
+        <div class="wf-img-box" style="height: 180px; background: #fafafa;">
+          ⚡ SVG CURVE INTERACTIVE SLIDER (getPointAtLength Drag Physics)
+          <span style="font-size: 11px; color: #64748b; margin-top: 6px;">Spring Inertia Easing: ease: "elastic.out(1, 0.3)" • Spring Velocity Drag</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. FOOTER & RESERVATION FLIP FORM -->
+    <div class="wf-section" style="background: #0f172a; color: #fff;">
+      <div class="spec-tag" style="background:#334155; color:#fff; border-color:#475569;">COMPONENT: FOOTER & 180° CARD FLIP FORM</div>
+      <div class="grid-3" style="margin-top: 24px;">
+        <div>
+          <div style="font-size: 20px; font-weight: 900; letter-spacing: 2px;">SONDAVEN</div>
+          <p style="font-size: 12px; color: #94a3b8; margin-top: 8px;">Carpathian Alpine Valley<br>Romania • Europe</p>
+        </div>
+        <div>
+          <div style="font-size: 12px; font-weight: bold; color: var(--wf-accent);">RESERVATIONS</div>
+          <p style="font-size: 12px; color: #94a3b8; margin-top: 4px;">stay@sondaven.com<br>+40 (0) 700 123 456</p>
+        </div>
+        <div>
+          <div class="wf-btn" style="background: var(--wf-accent); border-color: var(--wf-accent); color: #fff;">RESERVE VILLA →</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

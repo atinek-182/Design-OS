@@ -1,0 +1,63 @@
+/**
+ * The Line Studio — Design Tokens & Style System
+ * Extracted from entry.CdIUu_Mz.css and index.CVwLeBkz.css
+ */
+
+:root {
+  /* Color Tokens */
+  --bg-primary: #dddee2;
+  --bg-chalk: #f8f8f8;
+  --bg-dark: #0b0b0b;
+  --accent-red: #ff391e;
+  --accent-red-glow: rgba(255, 57, 30, 0.4);
+
+  /* Typography Stack */
+  --font-denim: 'DenimWeb', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Space Mono', monospace;
+
+  /* Font Weights */
+  --fw-light: 300;
+  --fw-regular: 440;
+  --fw-medium: 470;
+  --fw-bold: 500;
+  --fw-black: 800;
+
+  /* Motion Easing */
+  --ease-line: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-card: cubic-bezier(0.44, 0.14, 0.28, 1);
+}
+
+/* Base Body Styles */
+body {
+  background-color: var(--bg-primary);
+  color: var(--bg-dark);
+  font-family: var(--font-denim);
+  font-feature-settings: 'ss03' on;
+  line-height: 1;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Red Acetate Blend Overlay Utility */
+.acetate {
+  background-color: var(--accent-red);
+  inset: 0;
+  mix-blend-mode: multiply;
+  position: absolute;
+}
+
+/* Custom Text Splitter */
+.text-splitter {
+  display: block;
+  opacity: 0;
+}
+.text-splitter--splitted {
+  opacity: 1;
+}
+
+/* Electric Selection Style */
+::selection {
+  background-color: var(--accent-red);
+  color: var(--bg-chalk);
+  text-shadow: none;
+}

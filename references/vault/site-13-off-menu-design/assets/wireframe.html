@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Off Menu Design - UI/UX Architectural Wireframe Blueprint</title>
+  <style>
+    :root {
+      --bg: #000000;
+      --card-bg: #0C0C0E;
+      --border: #1F1F24;
+      --accent: #3B82F6;
+      --text: #FFFFFF;
+      --text-muted: #71717A;
+      --code-bg: #050505;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 2rem; line-height: 1.5; }
+    .header { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
+    .header h1 { font-size: 2.2rem; color: #fff; font-weight: 700; letter-spacing: -0.02em; }
+    .header p { color: var(--text-muted); font-size: 0.95rem; }
+
+    .grid-layout { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; }
+    .wireframe-stage { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; position: relative; }
+    
+    .comp-block { border: 2px dashed var(--border); border-radius: 6px; padding: 1.25rem; margin-bottom: 1.5rem; background: rgba(255,255,255,0.015); position: relative; }
+    .comp-tag { position: absolute; top: -12px; left: 16px; background: var(--accent); color: #fff; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    .nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 0.8rem 1rem; background: rgba(255,255,255,0.03); border-radius: 6px; }
+    .hero-scene { height: 300px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 2rem; border: 1px solid var(--border); border-radius: 6px; background: radial-gradient(circle, rgba(59,130,246,0.1) 0%, rgba(0,0,0,0.9) 80%); position: relative; }
+    .hero-scene h2 { font-size: 2.8rem; font-weight: 700; letter-spacing: -0.03em; max-width: 600px; }
+
+    .orbital-stage { height: 180px; border: 1px solid var(--border); border-radius: 6px; display: flex; align-items: center; justify-content: center; position: relative; background: rgba(0,0,0,0.4); margin-top: 1rem; }
+    .orb-node { width: 44px; height: 44px; border-radius: 50%; background: #27272A; border: 1px solid #3F3F46; position: absolute; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; color: #fff; }
+
+    .chat-widget { position: absolute; bottom: 1.5rem; left: 1.5rem; background: rgba(24,24,27,0.9); border: 1px solid var(--border); border-radius: 30px; padding: 8px 16px; display: flex; align-items: center; gap: 8px; font-size: 0.85rem; }
+
+    .sidebar { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; }
+    .sidebar h3 { font-size: 1.1rem; margin-bottom: 1rem; color: var(--accent); border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+    .spec-item { margin-bottom: 1rem; }
+    .spec-item label { display: block; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .spec-item value { display: block; font-size: 0.95rem; color: var(--text); font-weight: 500; }
+    .code-snippet { background: var(--code-bg); padding: 0.8rem; border-radius: 4px; font-family: monospace; font-size: 0.8rem; color: #61afef; overflow-x: auto; margin-top: 0.5rem; border: 1px solid rgba(255,255,255,0.05); }
+
+    .studio-badge { display: inline-block; background: var(--accent); color: #fff; padding: 4px 10px; border-radius: 4px; font-weight: 700; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <h1>OFF MENU DESIGN — TECHNICAL ARCHITECTURAL BLUEPRINT</h1>
+      <span class="studio-badge">FOUNDER: HUNTER HAMMONDS</span>
+    </div>
+    <p>AI-Native Studio for Agentic Interfaces | Next.js 14+ Turbopack + Framer Motion + Remi AI Assistant</p>
+  </div>
+
+  <div class="grid-layout">
+    <div class="wireframe-stage">
+      <!-- COMPONENT 1: NAV -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: HEADER & LOGO MASK SYSTEM</span>
+        <div class="nav-bar">
+          <div style="font-weight: 800; font-size: 1.3rem; letter-spacing: 0.1em;">OFF MENU</div>
+          <div style="display: flex; gap: 1.5rem; align-items: center;">
+            <span style="font-size: 0.85rem; color: var(--text-muted);">WORK</span>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">SERVICES</span>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">PRICING</span>
+            <span style="font-size: 0.85rem; background: #fff; color: #000; padding: 4px 14px; border-radius: 20px; font-weight: 700;">BOOK A CALL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMPONENT 2: HERO SECTION -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: AGENTIC INTERFACE HERO BANNER</span>
+        <div class="hero-scene">
+          <h2>AI-native studio building brands and web experiences</h2>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.8rem; max-width: 460px;">AI-accelerated exploration meets expert judgment to ship high-growth digital products faster.</p>
+        </div>
+      </div>
+
+      <!-- COMPONENT 3: 3D ORBITAL STAGE -->
+      <div class="comp-block" style="position: relative;">
+        <span class="comp-tag">COMPONENT: 3D ORBITAL PORTFOLIO SPHERE CAROUSEL</span>
+        <div class="orbital-stage">
+          <div class="orb-node" style="top: 20px; left: 120px;">01</div>
+          <div class="orb-node" style="top: 70px; left: 240px; border-color: var(--accent); background: var(--accent);">02</div>
+          <div class="orb-node" style="top: 120px; left: 360px;">03</div>
+          <div class="orb-node" style="top: 40px; left: 480px;">04</div>
+          <span style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase;">[3D SPHERE ORBITAL ROTATION STAGE]</span>
+        </div>
+
+        <!-- REMI AI ASSISTANT WIDGET -->
+        <div class="chat-widget">
+          <span style="width: 10px; height: 10px; border-radius: 50%; background: #22C55E; display: inline-block;"></span>
+          <strong>Remi AI:</strong> "Let's work together"
+        </div>
+      </div>
+    </div>
+
+    <!-- TECHNICAL SPEC SIDEBAR -->
+    <div class="sidebar">
+      <h3>ENGINEERING SPECIFICATIONS</h3>
+      
+      <div class="spec-item">
+        <label>Studio Identity</label>
+        <value>Off Menu (Hunter Hammonds Product Studio)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Design Category</label>
+        <value>AI-Native Agentic Interfaces & Rapid Productized Studio</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Framework & Router</label>
+        <value>Next.js 14+ with Turbopack SSR + Tailwind CSS</value>
+      </div>
+
+      <div class="spec-item">
+        <label>AI Assistant Component</label>
+        <value>Remi AI Chat Widget (#chat-window-position)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Color Tokens</label>
+        <value>Pure Dark (#000000), Surface Charcoal (#0C0C0E), Electric Blue (#3B82F6)</value>
+        <div class="code-snippet">:root {
+  --color-bg: #000000;
+  --color-accent: #3B82F6;
+}</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

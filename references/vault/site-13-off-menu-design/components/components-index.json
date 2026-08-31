@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Nav_Fixed_01",
+    "category": "nav",
+    "file": "nav/Nav_Fixed_01.tsx",
+    "tag": "header",
+    "id": "",
+    "className": "fixed top-0 left-0 right-0 z-50 p-4",
+    "width": 1904,
+    "height": 115
+  },
+  {
+    "name": "Nav_NavContainer_02",
+    "category": "nav",
+    "file": "nav/Nav_NavContainer_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-container absolute right-0 top-1/2 -translate-y-1/2 h-10",
+    "width": 1904,
+    "height": 87
+  },
+  {
+    "name": "Nav_Nav_03",
+    "category": "nav",
+    "file": "nav/Nav_Nav_03.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "nav relative group/nav ",
+    "width": 1904,
+    "height": 87
+  },
+  {
+    "name": "Nav_NavWrapper_04",
+    "category": "nav",
+    "file": "nav/Nav_NavWrapper_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-wrapper relative z-1 flex flex-col",
+    "width": 1904,
+    "height": 87
+  },
+  {
+    "name": "Nav_NavToggleWrapper_05",
+    "category": "nav",
+    "file": "nav/Nav_NavToggleWrapper_05.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-toggle-wrapper flex items-center relative w-full justify-end",
+    "width": 1904,
+    "height": 33
+  },
+  {
+    "name": "Nav_NavToggle_06",
+    "category": "nav",
+    "file": "nav/Nav_NavToggle_06.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "nav-toggle group/nav-toggle relative w-10 h-10 flex items-center justify-center cursor-pointer",
+    "width": 40,
+    "height": 33
+  },
+  {
+    "name": "Nav_NavMenuWrapper_07",
+    "category": "nav",
+    "file": "nav/Nav_NavMenuWrapper_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-menu-wrapper grid overflow-hidden grid-rows-[0fr] opacity-0 blur-xs",
+    "width": 1904,
+    "height": 54
+  },
+  {
+    "name": "Nav_NavMenuInner_08",
+    "category": "nav",
+    "file": "nav/Nav_NavMenuInner_08.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-menu-inner overflow-hidden text-foreground flex flex-col",
+    "width": 1904,
+    "height": 54
+  },
+  {
+    "name": "Nav_NavMenuBg_09",
+    "category": "nav",
+    "file": "nav/Nav_NavMenuBg_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-menu-bg absolute top-0 right-0 z-0 pointer-events-none origin-top-right opacity-0 w-10 h-10",
+    "width": 1904,
+    "height": 0
+  },
+  {
+    "name": "Nav_NavMenuBgInner_10",
+    "category": "nav",
+    "file": "nav/Nav_NavMenuBgInner_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "nav-menu-bg-inner absolute -inset-1.5 rounded-xl bg-background transition-colors duration-200",
+    "width": 1904,
+    "height": 0
+  },
+  {
+    "name": "Sections_MinHScreen_01",
+    "category": "sections",
+    "file": "sections/Sections_MinHScreen_01.tsx",
+    "tag": "main",
+    "id": "",
+    "className": "min-h-screen",
+    "width": 1904,
+    "height": 10800
+  },
+  {
+    "name": "Cards_Work_01",
+    "category": "cards",
+    "file": "cards/Cards_Work_01.tsx",
+    "tag": "section",
+    "id": "work",
+    "className": "sticky top-0 h-screen w-full flex items-end justify-start p-8 bg-background",
+    "width": 1904,
+    "height": 1667
+  },
+  {
+    "name": "Cards_Absolute_02",
+    "category": "cards",
+    "file": "cards/Cards_Absolute_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "absolute inset-0 grid place-items-center",
+    "width": 560,
+    "height": 5637
+  },
+  {
+    "name": "Cards_ChatWindowWrapper_03",
+    "category": "cards",
+    "file": "cards/Cards_ChatWindowWrapper_03.tsx",
+    "tag": "div",
+    "id": "chat-window-wrapper",
+    "className": "relative z-1 grid overflow-hidden place-items-center grid-cols-[0fr] grid-rows-[0fr] visibility-hidden blur-xs",
+    "width": 1904,
+    "height": 277
+  },
+  {
+    "name": "Misc_Grid_01",
+    "category": "misc",
+    "file": "misc/Misc_Grid_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid transition-[grid-template-rows] duration-500 ease-in-out",
+    "width": 1904,
+    "height": 277
+  },
+  {
+    "name": "Misc_Grid_02",
+    "category": "misc",
+    "file": "misc/Misc_Grid_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid transition-[grid-template-rows] duration-500 ease-in-out",
+    "width": 1904,
+    "height": 0
+  },
+  {
+    "name": "Misc_Grid_03",
+    "category": "misc",
+    "file": "misc/Misc_Grid_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid transition-[grid-template-rows] duration-500 ease-in-out",
+    "width": 1904,
+    "height": 0
+  },
+  {
+    "name": "Misc_ChatInputText_04",
+    "category": "misc",
+    "file": "misc/Misc_ChatInputText_04.tsx",
+    "tag": "div",
+    "id": "chat-input-text",
+    "className": "grid overflow-hidden transition-[grid-template-columns] duration-300",
+    "width": 1904,
+    "height": 25
+  }
+]

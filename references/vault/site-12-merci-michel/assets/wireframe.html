@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Merci Michel — Architectural Wireframe Blueprint</title>
+<style>
+  :root {
+    --wf-bg: #0a0b10;
+    --wf-surface: #12141d;
+    --wf-card: #1b1e2b;
+    --wf-border: #2e3346;
+    --wf-text: #f8fafc;
+    --wf-sub: #94a3b8;
+    --wf-accent: #ff3366;
+    --wf-purple: #a855f7;
+    --wf-grid: rgba(255, 51, 102, 0.1);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; }
+  body { background-color: var(--wf-bg); color: var(--wf-text); padding: 40px 20px; line-height: 1.5; }
+  .blueprint-wrapper { max-width: 1400px; margin: 0 auto; background: var(--wf-surface); border: 2px solid var(--wf-border); border-radius: 16px; box-shadow: 0 25px 50px rgba(0,0,0,0.8); overflow: hidden; position: relative; }
+  
+  .grid-overlay { position: absolute; inset: 0; background-size: 24px 24px; background-image: linear-gradient(to right, var(--wf-grid) 1px, transparent 1px), linear-gradient(to bottom, var(--wf-grid) 1px, transparent 1px); pointer-events: none; z-index: 0; }
+  .content { position: relative; z-index: 1; }
+
+  .wf-header { background: #06070a; color: #fff; padding: 20px 36px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--wf-border); }
+  .wf-title { font-size: 18px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--wf-accent); }
+  .wf-meta { font-size: 11px; background: var(--wf-accent); color: #fff; padding: 5px 14px; border-radius: 6px; font-weight: 800; }
+
+  .wf-section { padding: 48px 36px; border-bottom: 2px dashed var(--wf-border); position: relative; }
+  .spec-tag { position: absolute; top: 16px; right: 24px; font-size: 10px; font-weight: 800; background: #232738; color: var(--wf-accent); padding: 4px 10px; border-radius: 4px; border: 1px solid var(--wf-border); text-transform: uppercase; }
+
+  .wf-nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 18px 28px; border: 2px solid var(--wf-border); background: var(--wf-card); border-radius: 10px; }
+  .wf-logo { font-size: 24px; font-weight: 900; letter-spacing: 4px; color: #fff; }
+  .wf-menu-list { display: flex; gap: 32px; font-size: 13px; font-weight: 800; text-transform: uppercase; color: var(--wf-sub); }
+  .wf-menu-item.active { color: var(--wf-accent); border-bottom: 2px solid var(--wf-accent); padding-bottom: 2px; }
+
+  .wf-hero-container { border: 2px solid var(--wf-border); border-radius: 12px; background: var(--wf-card); padding: 48px; margin-top: 20px; position: relative; }
+  .wf-hero-headline { font-size: 52px; font-weight: 900; line-height: 1.1; margin-bottom: 20px; background: linear-gradient(135deg, #fff 0%, var(--wf-purple) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .wf-hero-sub { font-size: 16px; color: var(--wf-sub); max-width: 720px; margin-bottom: 32px; }
+  
+  .wf-stage-box { height: 260px; border: 2px dashed var(--wf-accent); background: rgba(255, 51, 102, 0.08); border-radius: 8px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: var(--wf-accent); font-weight: 700; margin-bottom: 24px; }
+  .wf-stage-label { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; }
+
+  .bento-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 20px; }
+  .bento-card { background: var(--wf-card); border: 2px solid var(--wf-border); border-radius: 12px; padding: 28px; position: relative; }
+  .bento-card.wide { grid-column: span 2; }
+  .card-title { font-size: 20px; font-weight: 800; margin-bottom: 12px; color: #fff; }
+  .card-desc { font-size: 13px; color: var(--wf-sub); margin-bottom: 20px; }
+
+  .wf-footer { background: #06070a; padding: 48px 36px; border-top: 2px solid var(--wf-border); text-align: center; }
+  .footer-title { font-size: 36px; font-weight: 900; color: #fff; margin-bottom: 16px; }
+</style>
+</head>
+<body>
+<div class="blueprint-wrapper">
+  <div class="grid-overlay"></div>
+  <div class="content">
+    <div class="wf-header">
+      <div class="wf-title">MERCI MICHEL — ARCHITECTURAL BLUEPRINT</div>
+      <div class="wf-meta">2 SOTY · 6 SOTM · 41 SOTD WINNER</div>
+    </div>
+
+    <!-- Section 1: Nav -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: HUD NAV & AUDIO CONTROL</div>
+      <div class="wf-nav-bar">
+        <div class="wf-logo">MERCI MICHEL</div>
+        <div class="wf-menu-list">
+          <div class="wf-menu-item active">Work</div>
+          <div class="wf-menu-item">Studio</div>
+          <div class="wf-menu-item">Lab</div>
+          <div class="wf-menu-item">Contact</div>
+          <div class="wf-menu-item" style="color: var(--wf-accent);">🔊 Sound: ON</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2: Hero -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: HERO & 3D WEBGL INTERACTIVE CANVAS</div>
+      <div class="wf-hero-container">
+        <div class="wf-stage-box">
+          <div class="wf-stage-label">Three.js / WebGL Gamified Interactive 3D Stage</div>
+          <div>Interactive Particle Field · Custom GLSL Noise Shaders · WebAudio Engine</div>
+        </div>
+        <h1 class="wf-hero-headline">DIGITAL PRODUCTION & GAMIFICATION STUDIO CRAFTING HIGH-CRAFT EXPERIENCES</h1>
+        <p class="wf-hero-sub">Paris-based digital studio specializing in WebGL games, interactive brand campaigns, and high-performance WebXR platforms.</p>
+      </div>
+    </div>
+
+    <!-- Section 3: Bento Grid -->
+    <div class="wf-section">
+      <div class="spec-tag">COMPONENT: GAMIFIED CASE STUDIES GRID</div>
+      <div class="bento-grid">
+        <div class="bento-card wide">
+          <div class="spec-tag">PROJECT 01 (SOTM WINNER)</div>
+          <div class="card-title">Lacoste Polo Factory & KODE Club</div>
+          <div class="card-desc">Gamified 3D virtual environment with character physics and audio soundscapes.</div>
+        </div>
+        <div class="bento-card">
+          <div class="spec-tag">PROJECT 02</div>
+          <div class="card-title">Cdiscount Jumping Max</div>
+          <div class="card-desc">Real-time WebGL arcade game with dynamic GLSL shader distortion.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4: Footer -->
+    <div class="wf-footer">
+      <div class="footer-title">CONTACT@MERCI-MICHEL.COM</div>
+      <p style="color: var(--wf-sub); font-size: 14px;">Paris, France · Global Digital Production Studio</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

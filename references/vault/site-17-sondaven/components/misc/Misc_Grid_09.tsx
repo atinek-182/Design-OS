@@ -1,0 +1,21 @@
+import React from 'react';
+
+/**
+ * Component: Misc_Grid_09
+ * Target Site: sondaven
+ * Category: misc
+ * Tag: <div> | ID: "" | Class: "grid _10-columns"
+ * Dimensions: 1557px x 53px
+ */
+export const Misc_Grid_09: React.FC = () => {
+  return (
+    <div className="component-container-misc">
+      {/* --- Raw Extracted DOM Structure --- */}
+      <div data-intro="ctn" className="grid _10-columns"><div id="w-node-_6ccd605a-5560-6e26-c7ef-a13e663f6531-a640d032" className="hero-s_content_info-l"><p className="p5 text-dark">Development</p><div className="p6-list"><div className="hero-s_content_info-l_logo"><div className="ico-20"><div className="blago-mark text-dark w-embed"><svg width="100%" height="100%" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.7155 4C15.5744 4 13.2958 4.86124 11.3916 6.85441C10.6348 7.65003 9.99186 8.92139 9.99186 9.09364C9.99186 8.92139 9.36527 7.65003 8.59216 6.85441C6.66354 4.87765 4.40125 4 1.26822 4H1.1543V7.24812C1.56932 7.1907 2.07386 7.16609 2.45634 7.16609C5.39405 7.16609 6.87512 8.49487 7.50171 9.2905C8.28298 10.4388 8.73052 11.9152 8.66542 16H11.3346C11.2695 11.9152 11.7171 10.4388 12.4983 9.2905C13.1168 8.49487 14.5978 7.16609 17.5437 7.16609C17.9343 7.16609 18.4307 7.1907 18.8457 7.24812V4H18.7155Z" fill="currentColor"></path>
+</svg></div></div></div><p className="p5 text-dark">by blago</p></div></div><div id="w-node-fa5e0799-9c3b-5b09-337e-b329c8886b8c-a640d032" className="hero-s_content_info-c b-desk"><h2 className="p5 text-dark a-center mob_a-right"> Design<br />Resort Hotel</h2></div><div id="w-node-_69168170-fa43-c3d7-af45-3a6abe852c06-a640d032" className="hero-s_content_info-r"><p className="p5 text-dark a-right">Yaremche <br />Ivano-Frankivsk</p></div></div>
+    </div>
+  );
+};
+
+export default Misc_Grid_09;

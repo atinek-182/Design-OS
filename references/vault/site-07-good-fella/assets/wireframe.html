@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good Fella - UI/UX Architectural Wireframe Blueprint</title>
+  <style>
+    :root {
+      --bg: #0A0A0A;
+      --card-bg: #141414;
+      --border: #262626;
+      --accent: #FF0000;
+      --text: #FFFFFF;
+      --text-muted: #888888;
+      --code-bg: #050505;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Geist Mono', -apple-system, monospace; }
+    body { background: var(--bg); color: var(--text); padding: 2rem; line-height: 1.5; }
+    .header { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
+    .header h1 { font-size: 2.2rem; color: #fff; font-weight: 700; letter-spacing: -0.02em; text-transform: uppercase; }
+    .header p { color: var(--text-muted); font-size: 0.95rem; }
+
+    .grid-layout { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; }
+    .wireframe-stage { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; position: relative; }
+    
+    .comp-block { border: 2px dashed var(--border); border-radius: 6px; padding: 1.25rem; margin-bottom: 1.5rem; background: rgba(255,255,255,0.015); position: relative; }
+    .comp-tag { position: absolute; top: -12px; left: 16px; background: var(--accent); color: #fff; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    .nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 0.8rem 1rem; background: rgba(10,10,10,0.8); border-radius: 6px; border: 1px solid var(--border); }
+    .hero-scene { height: 320px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 2.5rem; border: 1px solid var(--border); border-radius: 6px; background: linear-gradient(135deg, rgba(255,0,0,0.05) 0%, rgba(10,10,10,0.95) 100%); position: relative; }
+    .hero-scene h2 { font-size: 3.5rem; font-weight: 800; letter-spacing: -0.04em; line-height: 1.05; text-transform: uppercase; }
+
+    .works-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; }
+    .work-card { border: 1px solid var(--border); border-radius: 6px; padding: 1rem; background: #000; }
+    .img-box { width: 100%; height: 140px; background: #1F1F1F; border-radius: 4px; margin-bottom: 0.8rem; display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-size: 0.75rem; font-weight: 700; }
+
+    .sidebar { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; }
+    .sidebar h3 { font-size: 1.1rem; margin-bottom: 1rem; color: #fff; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; text-transform: uppercase; }
+    .spec-item { margin-bottom: 1rem; }
+    .spec-item label { display: block; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .spec-item value { display: block; font-size: 0.95rem; color: var(--text); font-weight: 600; }
+    .code-snippet { background: var(--code-bg); padding: 0.8rem; border-radius: 4px; font-family: monospace; font-size: 0.8rem; color: #e5c07b; overflow-x: auto; margin-top: 0.5rem; }
+
+    .studio-badge { display: inline-block; background: var(--accent); color: #fff; padding: 4px 10px; border-radius: 4px; font-weight: 700; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <h1>GOOD FELLA — TECHNICAL ARCHITECTURAL BLUEPRINT</h1>
+      <span class="studio-badge">AWWWARDS SOTD WINNER</span>
+    </div>
+    <p>Munich Frontend Studio (Julian & Adrian Fella) | Awwwards SOTD + CSSDA WOTD + Next.js 14 Turbopack + Sanity CMS</p>
+  </div>
+
+  <div class="grid-layout">
+    <div class="wireframe-stage">
+      <!-- COMPONENT 1: NAV -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: LANDMARK DIGITAL STUDIO HEADER NAV</span>
+        <div class="nav-bar">
+          <div style="font-weight: 800; font-size: 1.3rem; letter-spacing: -0.03em; color: #fff;">GOOD FELLA</div>
+          <div style="display: flex; gap: 1.5rem; align-items: center;">
+            <span style="font-size: 0.85rem; color: var(--text-muted);">WORK</span>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">PRICING</span>
+            <span style="font-size: 0.85rem; color: var(--text-muted);">ABOUT</span>
+            <span style="font-size: 0.85rem; background: var(--accent); color: #fff; padding: 5px 14px; border-radius: 4px; font-weight: 700;">CONTACT</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMPONENT 2: HERO SECTION -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: DIGITAL LANDMARK HERO STAGE</span>
+        <div class="hero-scene">
+          <span style="font-size: 0.8rem; letter-spacing: 0.2em; color: var(--accent); font-weight: 700; margin-bottom: 0.5rem;">// THE DIGITAL LANDMARK STUDIO</span>
+          <h2>SINGULAR ONLINE EXPRESSION FOR BRANDS</h2>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.8rem; max-width: 540px;">We build bespoke frontend architectures for leading consumer, sports, and entertainment brands.</p>
+        </div>
+      </div>
+
+      <!-- COMPONENT 3: BESPOKE PRODUCTION GRID -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: SANITY CMS BESPOKE PRODUCTION GRID</span>
+        <div class="works-grid">
+          <div class="work-card">
+            <div class="img-box">SANITY CDN 01</div>
+            <strong style="font-size: 0.85rem; text-transform: uppercase;">CONSUMER PLATFORM</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Annnimate Components</p>
+          </div>
+          <div class="work-card" style="border-color: var(--accent);">
+            <div class="img-box" style="background: rgba(255,0,0,0.1); color: #fff;">SANITY CDN 02</div>
+            <strong style="font-size: 0.85rem; text-transform: uppercase;">SPORTS LANDMARK</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Content Architecture</p>
+          </div>
+          <div class="work-card">
+            <div class="img-box">SANITY CDN 03</div>
+            <strong style="font-size: 0.85rem; text-transform: uppercase;">ENTERTAINMENT SHOWCASE</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Next.js Turbopack</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECHNICAL SPEC SIDEBAR -->
+    <div class="sidebar">
+      <h3>ENGINEERING SPECIFICATIONS</h3>
+      
+      <div class="spec-item">
+        <label>Studio Identity</label>
+        <value>Good Fella Studio GmbH (Julian & Adrian Fella)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Awards Pedigree</label>
+        <value>Awwwards Site of the Day (March 18, 2026) + CSSDA WOTD</value>
+      </div>
+
+      <div class="spec-item">
+        <label>CMS & Media Pipeline</label>
+        <value>Sanity CMS + Sanity Image CDN (cdn.sanity.io)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Framework & Compiler</label>
+        <value>Next.js 14+ Turbopack SSR (turbopack-a9293ee6befd07a1.js)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Color Tokens</label>
+        <value>Obsidian Dark (#0A0A0A), Electric Red (#FF0000), Pure White (#FFFFFF)</value>
+        <div class="code-snippet">:root {
+  --color-bg: #0A0A0A;
+  --color-brand: #FF0000;
+}</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

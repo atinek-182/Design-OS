@@ -1,0 +1,29 @@
+/* Champions 4 Good — Design Tokens & Architecture Styles */
+:root {
+  /* Color Palette */
+  --color-background: #FAFAF8;
+  --color-foreground: #0A0A0C;
+  --color-card-bg: #FFFFFF;
+  --color-border: #E8E8E2;
+  --color-accent: #FF3366;
+  --color-muted: #707075;
+
+  /* Typography */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+[data-flick-cards-dragger] {
+  cursor: grab;
+  user-select: none;
+}
+
+[data-flick-cards-dragger]:active {
+  cursor: grabbing;
+}

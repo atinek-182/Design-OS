@@ -1,0 +1,87 @@
+.wf-force-outline-none[tabindex="-1"]:focus{outline:none;}
+
+/* --- INLINE STYLE --- */
+
+[fs-cc="banner"],[fs-cc="manager"],[fs-cc="preferences"],[fs-cc="interaction"]{display:none}
+
+/* --- INLINE STYLE --- */
+
+
+  .global-body {
+    overflow-x: hidden;
+} 
+ 
+
+
+/* --- INLINE STYLE --- */
+
+
+@media screen and (min-width: 992px) {
+  .custom-headline-01 {
+    font-size: clamp(6rem, 22vw, 29rem);
+  }
+}
+
+
+/* --- INLINE STYLE --- */
+
+
+  @media screen and (min-width: 992px) {
+    .custom-headline-01-span {
+      font-size: calc(1.75vw + 1.75vh + 0.2rem);
+    }
+  }
+  
+  
+@media (min-width: 992px) {
+
+  /* XXL */
+  .global-headline-xxl {
+    font-size: clamp(8.5rem, 13vw, 13.75rem);
+    /* 136px → 220px */
+  }
+
+  /* XL */
+  .global-headline-xl {
+    font-size: clamp(7rem, 10.5vw, 11.25rem);
+    /* 112px → 180px */
+  }
+
+  /* L */
+  .global-headline-l {
+    font-size: clamp(3.5rem, 5vw, 5rem);
+    /* 56px → 80px */
+  }
+
+  /* M */
+  .global-headline-m {
+    font-size: clamp(2.75rem, 4vw, 4rem);
+    /* 44px → 64px */
+  }
+
+  /* S */
+  .global-headline-s {
+    font-size: clamp(2rem, 3vw, 3rem);
+    /* 32px → 48px */
+  }
+
+  /* XS */
+  .global-headline-xs {
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    /* 24px → 32px */
+  }
+
+  /* Copy */
+  .copytext {
+    font-size: clamp(0.9, 1.2vw, 1rem);
+    /* 16px → 18px */
+  }
+
+  .copytext-small {
+    font-size: clamp(0.875rem, 1vw, 1rem);
+    /* 14px → 16px */
+  }
+
+}
+
+  

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Follow Art - UI/UX Architectural Wireframe Blueprint</title>
+  <style>
+    :root {
+      --bg: #0000FF;
+      --card-bg: #000000;
+      --border: #3333FF;
+      --accent: #FFFFFF;
+      --text: #FFFFFF;
+      --text-muted: #A3A3FF;
+      --code-bg: #000088;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'HeadingNow', 'Hardbop', -apple-system, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 2rem; line-height: 1.5; }
+    .header { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
+    .header h1 { font-size: 2.2rem; color: #fff; font-weight: 800; letter-spacing: -0.02em; text-transform: uppercase; }
+    .header p { color: var(--text-muted); font-size: 0.95rem; }
+
+    .grid-layout { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; }
+    .wireframe-stage { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; position: relative; }
+    
+    .comp-block { border: 2px dashed var(--border); border-radius: 6px; padding: 1.25rem; margin-bottom: 1.5rem; background: rgba(255,255,255,0.03); position: relative; }
+    .comp-tag { position: absolute; top: -12px; left: 16px; background: #fff; color: #000; font-size: 0.75rem; font-weight: 800; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    .nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 0.8rem 1rem; background: #000; border-radius: 6px; border: 1px solid var(--border); }
+    .hero-scene { height: 320px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 2.5rem; border: 1px solid var(--border); border-radius: 6px; background: linear-gradient(135deg, #0000FF 0%, #000000 100%); position: relative; }
+    .hero-scene h2 { font-size: 3.5rem; font-weight: 800; letter-spacing: -0.04em; line-height: 1.05; text-transform: uppercase; }
+
+    .art-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; }
+    .art-card { border: 1px solid var(--border); border-radius: 6px; padding: 1rem; background: #000; }
+    .card-canvas { width: 100%; height: 140px; background: #000088; border-radius: 4px; margin-bottom: 0.8rem; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.75rem; font-weight: 700; }
+
+    .sidebar { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; }
+    .sidebar h3 { font-size: 1.1rem; margin-bottom: 1rem; color: #fff; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; text-transform: uppercase; }
+    .spec-item { margin-bottom: 1rem; }
+    .spec-item label { display: block; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .spec-item value { display: block; font-size: 0.95rem; color: var(--text); font-weight: 600; }
+    .code-snippet { background: var(--code-bg); padding: 0.8rem; border-radius: 4px; font-family: monospace; font-size: 0.8rem; color: #61afef; overflow-x: auto; margin-top: 0.5rem; }
+
+    .studio-badge { display: inline-block; background: #fff; color: #000; padding: 4px 10px; border-radius: 4px; font-weight: 800; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <h1>FOLLOW.ART — TECHNICAL ARCHITECTURAL BLUEPRINT</h1>
+      <span class="studio-badge">AWWWARDS SOTD + FWA WINNER</span>
+    </div>
+    <p>Created by Vide Infra Studio | Awwwards SOTD (Jan 29, 2026) + FWA of the Day + CSSDA WOTD | 3D WebGL Canvas Engine</p>
+  </div>
+
+  <div class="grid-layout">
+    <div class="wireframe-stage">
+      <!-- COMPONENT 1: NAV -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: ART INFRASTRUCTURE PROMO HEADER</span>
+        <div class="nav-bar">
+          <div style="font-weight: 800; font-size: 1.4rem; letter-spacing: -0.03em;">FOLLOW.ART</div>
+          <div style="display: flex; gap: 1.5rem; align-items: center;">
+            <span style="font-size: 0.85rem; font-weight: 700;">CONNECTORY</span>
+            <span style="font-size: 0.85rem; font-weight: 700;">THE CARD</span>
+            <span style="font-size: 0.85rem; font-weight: 700;">EXHIBITIONS</span>
+            <span style="font-size: 0.85rem; background: #fff; color: #000; padding: 6px 16px; border-radius: 4px; font-weight: 800;">SIGN UP</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMPONENT 2: HERO SECTION -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: REBELLIOUS 3D WEBGL HERO STAGE</span>
+        <div class="hero-scene">
+          <span style="font-size: 0.8rem; letter-spacing: 0.2em; color: var(--text-muted); font-weight: 800; margin-bottom: 0.5rem;">// DIGITAL INFRASTRUCTURE // CURATORS & ARTISTS</span>
+          <h2>INTENTIONAL DISCOVERY FOR CONTEMPORARY ART</h2>
+          <p style="font-size: 0.95rem; color: var(--text-muted); margin-top: 0.8rem; max-width: 540px;">Operates outside traditional institutions and social media algorithms across 100+ countries.</p>
+        </div>
+      </div>
+
+      <!-- COMPONENT 3: ART GALLERY GRID -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: 3D SHADER GALLERY CARD STACK</span>
+        <div class="art-grid">
+          <div class="art-card">
+            <div class="card-canvas">WEBGL CANVAS 01</div>
+            <strong style="font-size: 0.85rem; text-transform: uppercase;">THE CARD DIGITAL PORTFOLIO</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Mobile Wallet & QR</p>
+          </div>
+          <div class="art-card" style="border-color: #fff;">
+            <div class="card-canvas" style="background: #fff; color: #000;">WEBGL CANVAS 02</div>
+            <strong style="font-size: 0.85rem; text-transform: uppercase;">CONNECTORY DIRECTORY</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">100+ Countries Network</p>
+          </div>
+          <div class="art-card">
+            <div class="card-canvas">WEBGL CANVAS 03</div>
+            <strong style="font-size: 0.85rem; text-transform: uppercase;">DIRECT PATRONAGE</strong>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Financial Support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECHNICAL SPEC SIDEBAR -->
+    <div class="sidebar">
+      <h3>ENGINEERING SPECIFICATIONS</h3>
+      
+      <div class="spec-item">
+        <label>Design Studio</label>
+        <value>Vide Infra Studio (videinfra.com)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Awards Pedigree</label>
+        <value>Awwwards SOTD (Jan 29, 2026) + FWA of the Day + CSSDA WOTD</value>
+      </div>
+
+      <div class="spec-item">
+        <label>3D WebGL Shader Pipeline</label>
+        <value>Custom 3D WebGL Shader Engine (ADt8-e4c.js)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Typography Hierarchy</label>
+        <value>HeadingNow & Hardbop Font Stacks</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Color Tokens</label>
+        <value>Electric Cobalt Blue (#0000FF), Obsidian Dark (#000000), Pure White (#FFFFFF)</value>
+        <div class="code-snippet">:root {
+  --color-bg: #0000FF;
+  --color-card: #000000;
+}</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

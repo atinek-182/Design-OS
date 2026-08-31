@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Nav_Header_01",
+    "category": "nav",
+    "file": "nav/Nav_Header_01.tsx",
+    "tag": "nav",
+    "id": "header",
+    "className": "red:text-[oklab(0.73_-0.14_-0.1)] fixed top-0 left-0 z-[3] flex w-full items-center justify-between text-white mix-blend-difference",
+    "width": 1920,
+    "height": 113
+  },
+  {
+    "name": "Nav_MenuFooter_02",
+    "category": "nav",
+    "file": "nav/Nav_MenuFooter_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menu-footer grid grid-cols-8 gap-2",
+    "width": 1866,
+    "height": 50
+  },
+  {
+    "name": "Sections_Page_01",
+    "category": "sections",
+    "file": "sections/Sections_Page_01.tsx",
+    "tag": "main",
+    "id": "page",
+    "className": "",
+    "width": 1920,
+    "height": 4981
+  },
+  {
+    "name": "Hero_HeroContent_01",
+    "category": "hero",
+    "file": "hero/Hero_HeroContent_01.tsx",
+    "tag": "div",
+    "id": "hero-content",
+    "className": "mb-10 grid grid-cols-8 gap-x-6 gap-y-10 text-xs font-bold md:grid-cols-16 md:gap-6",
+    "width": 1866,
+    "height": 90
+  },
+  {
+    "name": "Sections_Mb34_02",
+    "category": "sections",
+    "file": "sections/Sections_Mb34_02.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "mb-34 grid grid-cols-2 gap-4 lg:grid-cols-4 lg:gap-6",
+    "width": 1866,
+    "height": 654
+  },
+  {
+    "name": "Misc_Mb34_01",
+    "category": "misc",
+    "file": "misc/Misc_Mb34_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "mb-34 grid grid-cols-8 gap-6 md:grid-cols-16",
+    "width": 1866,
+    "height": 978
+  },
+  {
+    "name": "Misc_Mb34_02",
+    "category": "misc",
+    "file": "misc/Misc_Mb34_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "mb-34 grid grid-cols-8 gap-6 md:grid-cols-16",
+    "width": 1866,
+    "height": 548
+  },
+  {
+    "name": "Misc_Mb34_03",
+    "category": "misc",
+    "file": "misc/Misc_Mb34_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "mb-34 grid grid-cols-8 gap-6 md:grid-cols-16",
+    "width": 1866,
+    "height": 748
+  },
+  {
+    "name": "Footers_MxAuto_01",
+    "category": "footers",
+    "file": "footers/Footers_MxAuto_01.tsx",
+    "tag": "footer",
+    "id": "",
+    "className": "mx-auto mb-10 px-4 text-sm lg:px-6",
+    "width": 1920,
+    "height": 850
+  },
+  {
+    "name": "Misc_Grid_04",
+    "category": "misc",
+    "file": "misc/Misc_Grid_04.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "grid grid-cols-16 gap-x-6 gap-y-20 font-bold md:gap-6",
+    "width": 1866,
+    "height": 131
+  },
+  {
+    "name": "Sections_Section_03",
+    "category": "sections",
+    "file": "sections/Sections_Section_03.tsx",
+    "tag": "section",
+    "id": "",
+    "className": "",
+    "width": 1920,
+    "height": 0
+  }
+]

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grids by Obys Agency — Visual Wireframe Blueprint & Technical Annotations</title>
+  <style>
+    :root {
+      --bg: #111113;
+      --card-bg: #191a1d;
+      --border: rgba(255, 255, 255, 0.12);
+      --gold: #e6c86e;
+      --red: #e63946;
+      --text: #f7f7f5;
+      --text-muted: #989a9c;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      padding: 40px;
+      line-height: 1.5;
+    }
+
+    /* 12 Column Background Grid Overlay */
+    .grid-bg-overlay {
+      position: fixed;
+      inset: 0;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 20px;
+      padding: 0 40px;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.15;
+    }
+    .grid-bg-col {
+      height: 100%;
+      border-left: 1px dashed var(--gold);
+      border-right: 1px dashed var(--gold);
+    }
+
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .header-banner {
+      border: 1px solid var(--gold);
+      background: rgba(230, 200, 110, 0.05);
+      padding: 24px 32px;
+      border-radius: 16px;
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header-banner h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--gold);
+    }
+
+    .header-banner p {
+      font-family: monospace;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .spec-tag {
+      display: inline-block;
+      font-family: monospace;
+      font-size: 11px;
+      padding: 4px 10px;
+      background: var(--gold);
+      color: #000;
+      font-weight: bold;
+      border-radius: 4px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .section-block {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px;
+      margin-bottom: 40px;
+      position: relative;
+    }
+
+    .annotation-box {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(0,0,0,0.6);
+      border: 1px solid var(--gold);
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 11px;
+      color: var(--gold);
+    }
+
+    .nav-mock {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.02);
+    }
+
+    .hero-mock {
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .hero-mock h2 {
+      font-size: 64px;
+      font-family: Georgia, serif;
+      font-style: italic;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+
+    .hero-mock p {
+      font-size: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+      color: var(--text-muted);
+    }
+
+    .grid-visualizer-mock {
+      height: 340px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 16px;
+      padding: 20px;
+      background: #0d0e10;
+    }
+
+    .mock-col {
+      background: rgba(230, 200, 110, 0.08);
+      border: 1px solid rgba(230, 200, 110, 0.3);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: monospace;
+      font-size: 12px;
+      color: var(--gold);
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .card-mock {
+      background: #111113;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .card-mock h4 {
+      font-size: 20px;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .footer-mock {
+      display: flex;
+      justify-content: space-between;
+      font-family: monospace;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Grid Columns Overlay -->
+  <div class="grid-bg-overlay">
+    <div class="grid-bg-col"></div><div class="grid-bg-col"></div><div class="grid-bg-col"></div><div class="grid-bg-col"></div>
+    <div class="grid-bg-col"></div><div class="grid-bg-col"></div><div class="grid-bg-col"></div><div class="grid-bg-col"></div>
+    <div class="grid-bg-col"></div><div class="grid-bg-col"></div><div class="grid-bg-col"></div><div class="grid-bg-col"></div>
+  </div>
+
+  <div class="wrapper">
+    <!-- Top Blueprint Title Header -->
+    <div class="header-banner">
+      <div>
+        <h1>Grids by Obys Agency</h1>
+        <p>HYPER-DETAILED VISUAL UI/UX WIREFRAME BLUEPRINT & TECHNICAL SPECIFICATIONS</p>
+      </div>
+      <div style="text-align: right; font-family: monospace; font-size: 12px; color: var(--gold);">
+        ARCHETYPE: Educational Grid Engine<br>
+        URL: https://grids.obys.agency/
+      </div>
+    </div>
+
+    <!-- Section 1: Header Navigation -->
+    <div class="section-block">
+      <span class="spec-tag">COMPONENT: HEADER / NAV SYSTEM</span>
+      <div class="annotation-box">sticky top-0 · mix-blend-difference · GSAP scroll triggers</div>
+
+      <div class="nav-mock">
+        <div style="font-weight: bold; font-size: 20px; color: var(--text);">
+          Grids<span style="color: var(--gold);">.</span> <span style="font-size: 12px; font-family: monospace; color: var(--text-muted); font-weight: normal; margin-left: 8px;">BY OBYS AGENCY</span>
+        </div>
+        <div style="font-family: monospace; font-size: 13px; color: var(--text-muted);">
+          CHAPTER <span style="color: var(--gold);">01</span>/04
+        </div>
+        <div style="font-family: monospace; font-size: 13px; color: var(--gold); border: 1px solid var(--gold); padding: 6px 16px; border-radius: 20px;">
+          MENU ☰
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2: Hero & Storytelling -->
+    <div class="section-block">
+      <span class="spec-tag">COMPONENT: HERO SECTION & KINETIC STORYTELLING</span>
+      <div class="annotation-box">font-serif: Georgia italic · SplitText kinetic reveal</div>
+
+      <div class="hero-mock">
+        <h2>Unusual Storytelling</h2>
+        <p>The educational project about grids which Obys uses every day with unusual storytelling.</p>
+      </div>
+    </div>
+
+    <!-- Section 3: Interactive 12-Column Grid Canvas -->
+    <div class="section-block">
+      <span class="spec-tag">COMPONENT: INTERACTIVE GRID CANVAS</span>
+      <div class="annotation-box">HTML5 Canvas 2d/WebGL · Dynamic column slider (2-24)</div>
+
+      <div class="grid-visualizer-mock">
+        <div class="mock-col">COL 1</div><div class="mock-col">COL 2</div><div class="mock-col">COL 3</div><div class="mock-col">COL 4</div>
+        <div class="mock-col">COL 5</div><div class="mock-col">COL 6</div><div class="mock-col">COL 7</div><div class="mock-col">COL 8</div>
+        <div class="mock-col">COL 9</div><div class="mock-col">COL 10</div><div class="mock-col">COL 11</div><div class="mock-col">COL 12</div>
+      </div>
+    </div>
+
+    <!-- Section 4: Grid Canons & Cards -->
+    <div class="section-block">
+      <span class="spec-tag">COMPONENT: GRID CANONS & MODULAR CARDS</span>
+      <div class="annotation-box">2-column grid layout · Van de Graaff canon math</div>
+
+      <div class="cards-grid">
+        <div class="card-mock">
+          <span style="font-family: monospace; font-size: 11px; color: var(--gold);">CANON 01</span>
+          <h4>Van de Graaff Canon</h4>
+          <p style="font-size: 14px; color: var(--text-muted); margin-top: 6px;">Classical page margin proportions derived from medieval manuscripts (2:3:4:6 ratio).</p>
+        </div>
+
+        <div class="card-mock">
+          <span style="font-family: monospace; font-size: 11px; color: var(--gold);">CANON 02</span>
+          <h4>12-Column Modular Grid</h4>
+          <p style="font-size: 14px; color: var(--text-muted); margin-top: 6px;">Modern responsive digital layout framework with flexible gutters and margins.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-mock">
+      <span>OBYS AGENCY EDUCATIONAL EXPERIENCE</span>
+      <span>DESIGNED FOR FRONTEND CREATORS</span>
+    </div>
+
+  </div>
+
+</body>
+</html>

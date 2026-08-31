@@ -1,0 +1,1222 @@
+[
+  {
+    "name": "Misc_MediamaskWrapper_01",
+    "category": "misc",
+    "file": "misc/Misc_MediamaskWrapper_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "mediaMask__wrapper",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Sections_Main_01",
+    "category": "sections",
+    "file": "sections/Sections_Main_01.tsx",
+    "tag": "main",
+    "id": "",
+    "className": "",
+    "width": 1920,
+    "height": 28782
+  },
+  {
+    "name": "Nav_Menu_01",
+    "category": "nav",
+    "file": "nav/Nav_Menu_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menu",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Nav_MenuInner_02",
+    "category": "nav",
+    "file": "nav/Nav_MenuInner_02.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menu__inner",
+    "width": 1888,
+    "height": 1024
+  },
+  {
+    "name": "Nav_Chaptertitlesvg_03",
+    "category": "nav",
+    "file": "nav/Nav_Chaptertitlesvg_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "chapterTitleSvg menu__titleSvg",
+    "width": 1888,
+    "height": 1024
+  },
+  {
+    "name": "Nav_MenuNav_04",
+    "category": "nav",
+    "file": "nav/Nav_MenuNav_04.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "menu__nav",
+    "width": 1888,
+    "height": 840
+  },
+  {
+    "name": "Nav_MenuNavlist_05",
+    "category": "nav",
+    "file": "nav/Nav_MenuNavlist_05.tsx",
+    "tag": "ul",
+    "id": "",
+    "className": "menu__navList",
+    "width": 510,
+    "height": 432
+  },
+  {
+    "name": "Nav_Menunavitem_06",
+    "category": "nav",
+    "file": "nav/Nav_Menunavitem_06.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menuNavItem",
+    "width": 361,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemInner_07",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemInner_07.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menuNavItem__inner",
+    "width": 361,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemSubtitle_08",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemSubtitle_08.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "menuNavItem__subtitle",
+    "width": 58,
+    "height": 16
+  },
+  {
+    "name": "Nav_MenunavitemTitle_09",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemTitle_09.tsx",
+    "tag": "h2",
+    "id": "",
+    "className": "menuNavItem__title",
+    "width": 361,
+    "height": 55
+  },
+  {
+    "name": "Nav_MenunavitemLine_10",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemLine_10.tsx",
+    "tag": "img",
+    "id": "",
+    "className": "menuNavItem__line",
+    "width": 361,
+    "height": 8
+  },
+  {
+    "name": "Nav_Menunavitem_11",
+    "category": "nav",
+    "file": "nav/Nav_Menunavitem_11.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menuNavItem",
+    "width": 397,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemInner_12",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemInner_12.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menuNavItem__inner",
+    "width": 397,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemSubtitle_13",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemSubtitle_13.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "menuNavItem__subtitle",
+    "width": 65,
+    "height": 16
+  },
+  {
+    "name": "Nav_MenunavitemTitle_14",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemTitle_14.tsx",
+    "tag": "h2",
+    "id": "",
+    "className": "menuNavItem__title",
+    "width": 397,
+    "height": 55
+  },
+  {
+    "name": "Nav_MenunavitemLine_15",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemLine_15.tsx",
+    "tag": "img",
+    "id": "",
+    "className": "menuNavItem__line",
+    "width": 397,
+    "height": 8
+  },
+  {
+    "name": "Nav_Menunavitem_16",
+    "category": "nav",
+    "file": "nav/Nav_Menunavitem_16.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menuNavItem",
+    "width": 346,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemInner_17",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemInner_17.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menuNavItem__inner",
+    "width": 346,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemSubtitle_18",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemSubtitle_18.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "menuNavItem__subtitle",
+    "width": 72,
+    "height": 16
+  },
+  {
+    "name": "Nav_MenunavitemTitle_19",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemTitle_19.tsx",
+    "tag": "h2",
+    "id": "",
+    "className": "menuNavItem__title",
+    "width": 346,
+    "height": 55
+  },
+  {
+    "name": "Nav_Menunavitem_20",
+    "category": "nav",
+    "file": "nav/Nav_Menunavitem_20.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menuNavItem",
+    "width": 510,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemInner_21",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemInner_21.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menuNavItem__inner",
+    "width": 510,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemSubtitle_22",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemSubtitle_22.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "menuNavItem__subtitle",
+    "width": 79,
+    "height": 16
+  },
+  {
+    "name": "Nav_MenunavitemTitle_23",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemTitle_23.tsx",
+    "tag": "h2",
+    "id": "",
+    "className": "menuNavItem__title",
+    "width": 510,
+    "height": 55
+  },
+  {
+    "name": "Nav_Menunavitem_24",
+    "category": "nav",
+    "file": "nav/Nav_Menunavitem_24.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menuNavItem",
+    "width": 464,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemInner_25",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemInner_25.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menuNavItem__inner",
+    "width": 464,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemSubtitle_26",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemSubtitle_26.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "menuNavItem__subtitle",
+    "width": 72,
+    "height": 16
+  },
+  {
+    "name": "Nav_MenunavitemTitle_27",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemTitle_27.tsx",
+    "tag": "h2",
+    "id": "",
+    "className": "menuNavItem__title",
+    "width": 464,
+    "height": 55
+  },
+  {
+    "name": "Nav_Menunavitem_28",
+    "category": "nav",
+    "file": "nav/Nav_Menunavitem_28.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "menuNavItem",
+    "width": 164,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemInner_29",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemInner_29.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "menuNavItem__inner",
+    "width": 164,
+    "height": 59
+  },
+  {
+    "name": "Nav_MenunavitemSubtitle_30",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemSubtitle_30.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "menuNavItem__subtitle",
+    "width": 72,
+    "height": 16
+  },
+  {
+    "name": "Nav_MenunavitemTitle_31",
+    "category": "nav",
+    "file": "nav/Nav_MenunavitemTitle_31.tsx",
+    "tag": "h2",
+    "id": "",
+    "className": "menuNavItem__title",
+    "width": 164,
+    "height": 55
+  },
+  {
+    "name": "Nav_Header_32",
+    "category": "nav",
+    "file": "nav/Nav_Header_32.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "header captionBigText visible",
+    "width": 1920,
+    "height": 50
+  },
+  {
+    "name": "Nav_HeaderBg_33",
+    "category": "nav",
+    "file": "nav/Nav_HeaderBg_33.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "header__bg",
+    "width": 1920,
+    "height": 64
+  },
+  {
+    "name": "Nav_HeaderLeft_34",
+    "category": "nav",
+    "file": "nav/Nav_HeaderLeft_34.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "header__left",
+    "width": 96,
+    "height": 43
+  },
+  {
+    "name": "Nav_HeaderLogo_35",
+    "category": "nav",
+    "file": "nav/Nav_HeaderLogo_35.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "header__logo",
+    "width": 80,
+    "height": 43
+  },
+  {
+    "name": "Misc_Svg_02",
+    "category": "misc",
+    "file": "misc/Misc_Svg_02.tsx",
+    "tag": "svg",
+    "id": "",
+    "className": "",
+    "width": 80,
+    "height": 40
+  },
+  {
+    "name": "Nav_Btnbrackets_36",
+    "category": "nav",
+    "file": "nav/Nav_Btnbrackets_36.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnBrackets captionBigText header__btnAccessibility",
+    "width": 184,
+    "height": 43
+  },
+  {
+    "name": "Nav_Textflip_37",
+    "category": "nav",
+    "file": "nav/Nav_Textflip_37.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "textFlip header__btnAccessibility",
+    "width": 151,
+    "height": 19
+  },
+  {
+    "name": "Nav_Hide_38",
+    "category": "nav",
+    "file": "nav/Nav_Hide_38.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "hide header__center",
+    "width": 160,
+    "height": 19
+  },
+  {
+    "name": "Nav_HeaderRight_39",
+    "category": "nav",
+    "file": "nav/Nav_HeaderRight_39.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "header__right",
+    "width": 172,
+    "height": 19
+  },
+  {
+    "name": "Nav_Btnbrackets_40",
+    "category": "nav",
+    "file": "nav/Nav_Btnbrackets_40.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnBrackets captionBigText header__credits",
+    "width": 143,
+    "height": 19
+  },
+  {
+    "name": "Nav_Textflip_41",
+    "category": "nav",
+    "file": "nav/Nav_Textflip_41.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "textFlip header__credits",
+    "width": 126,
+    "height": 19
+  },
+  {
+    "name": "Nav_Btnaudio_42",
+    "category": "nav",
+    "file": "nav/Nav_Btnaudio_42.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnAudio captionBigText off header__btnAudio",
+    "width": 92,
+    "height": 19
+  },
+  {
+    "name": "Interactive_Textflip_01",
+    "category": "interactive",
+    "file": "interactive/Interactive_Textflip_01.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "textFlip btnAudio__text btnAudio__sound",
+    "width": 42,
+    "height": 19
+  },
+  {
+    "name": "Interactive_Off_02",
+    "category": "interactive",
+    "file": "interactive/Interactive_Off_02.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "off btnAudio__dot",
+    "width": 6,
+    "height": 6
+  },
+  {
+    "name": "Interactive_BtnaudioStatus_03",
+    "category": "interactive",
+    "file": "interactive/Interactive_BtnaudioStatus_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btnAudio__status",
+    "width": 25,
+    "height": 19
+  },
+  {
+    "name": "Interactive_Textflip_04",
+    "category": "interactive",
+    "file": "interactive/Interactive_Textflip_04.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "textFlip btnAudio__text btnAudio__on",
+    "width": 17,
+    "height": 19
+  },
+  {
+    "name": "Interactive_Textflip_05",
+    "category": "interactive",
+    "file": "interactive/Interactive_Textflip_05.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "textFlip btnAudio__text btnAudio__off",
+    "width": 25,
+    "height": 19
+  },
+  {
+    "name": "Nav_Btnbrackets_43",
+    "category": "nav",
+    "file": "nav/Nav_Btnbrackets_43.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnBrackets captionBigText header__btnMenu",
+    "width": 50,
+    "height": 19
+  },
+  {
+    "name": "Nav_Textflip_44",
+    "category": "nav",
+    "file": "nav/Nav_Textflip_44.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "textFlip header__btnMenu",
+    "width": 34,
+    "height": 19
+  },
+  {
+    "name": "3d_Canvas_01",
+    "category": "3d",
+    "file": "3d/3d_Canvas_01.tsx",
+    "tag": "canvas",
+    "id": "",
+    "className": "",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "3d_Canvas_02",
+    "category": "3d",
+    "file": "3d/3d_Canvas_02.tsx",
+    "tag": "canvas",
+    "id": "",
+    "className": "",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Interactive_Btnbrackets_06",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btnbrackets_06.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnBrackets captionBigText btnClose",
+    "width": 59,
+    "height": 19
+  },
+  {
+    "name": "Interactive_Textflip_07",
+    "category": "interactive",
+    "file": "interactive/Interactive_Textflip_07.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "textFlip btnClose",
+    "width": 42,
+    "height": 19
+  },
+  {
+    "name": "Interactive_Btnbrackets_08",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btnbrackets_08.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnBrackets captionBigText active",
+    "width": 118,
+    "height": 19
+  },
+  {
+    "name": "Interactive_InteractivelayerBtnwrap_09",
+    "category": "interactive",
+    "file": "interactive/Interactive_InteractivelayerBtnwrap_09.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "interactiveLayer__btnWrap",
+    "width": 1920,
+    "height": 16
+  },
+  {
+    "name": "Interactive_Btninteractive_10",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btninteractive_10.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "btnInteractive next",
+    "width": 1920,
+    "height": 16
+  },
+  {
+    "name": "Interactive_Btnbg_11",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btnbg_11.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "btnBg",
+    "width": 0,
+    "height": 14
+  },
+  {
+    "name": "Interactive_Btntext_12",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btntext_12.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "btnText captionSmallText",
+    "width": 29,
+    "height": 16
+  },
+  {
+    "name": "Nav_Navbars_45",
+    "category": "nav",
+    "file": "nav/Nav_Navbars_45.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "navBars",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Nav_NavbarsText_46",
+    "category": "nav",
+    "file": "nav/Nav_NavbarsText_46.tsx",
+    "tag": "h3",
+    "id": "",
+    "className": "navBars__text captionSmallText",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Nav_NavbarsList_47",
+    "category": "nav",
+    "file": "nav/Nav_NavbarsList_47.tsx",
+    "tag": "ul",
+    "id": "",
+    "className": "navBars__list",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Nav_Navbarsitem_48",
+    "category": "nav",
+    "file": "nav/Nav_Navbarsitem_48.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "navBarsItem",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Nav_NavbarsitemInner_49",
+    "category": "nav",
+    "file": "nav/Nav_NavbarsitemInner_49.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "navBarsItem__inner",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Nav_NavbarsitemBg_50",
+    "category": "nav",
+    "file": "nav/Nav_NavbarsitemBg_50.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "navBarsItem__bg",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Nav_Navbarsitem_51",
+    "category": "nav",
+    "file": "nav/Nav_Navbarsitem_51.tsx",
+    "tag": "li",
+    "id": "",
+    "className": "navBarsItem",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Nav_NavbarsitemInner_52",
+    "category": "nav",
+    "file": "nav/Nav_NavbarsitemInner_52.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "navBarsItem__inner",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Nav_NavbarsitemProgress_53",
+    "category": "nav",
+    "file": "nav/Nav_NavbarsitemProgress_53.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "navBarsItem__progress",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Interactive_Btnbrackets_13",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btnbrackets_13.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnBrackets captionBigText chapterInteractive__cta sceneCTA",
+    "width": 160,
+    "height": 19
+  },
+  {
+    "name": "Interactive_Textflip_14",
+    "category": "interactive",
+    "file": "interactive/Interactive_Textflip_14.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "textFlip chapterInteractive__cta sceneCTA",
+    "width": 143,
+    "height": 19
+  },
+  {
+    "name": "Interactive_Active_15",
+    "category": "interactive",
+    "file": "interactive/Interactive_Active_15.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "active cta__hoverImage",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Interactive_Btnbrackets_16",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btnbrackets_16.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnBrackets captionBigText chapterInteractive__cta storyCTA bgActive",
+    "width": 126,
+    "height": 19
+  },
+  {
+    "name": "Interactive_Textflip_17",
+    "category": "interactive",
+    "file": "interactive/Interactive_Textflip_17.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "textFlip chapterInteractive__cta storyCTA bgActive",
+    "width": 109,
+    "height": 19
+  },
+  {
+    "name": "Nav_Editorialhero_54",
+    "category": "nav",
+    "file": "nav/Nav_Editorialhero_54.tsx",
+    "tag": "header",
+    "id": "",
+    "className": "editorialHero",
+    "width": 1920,
+    "height": 478
+  },
+  {
+    "name": "Interactive_Btnbrackets_18",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btnbrackets_18.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnBrackets captionBigText active readMore__btn",
+    "width": 92,
+    "height": 19
+  },
+  {
+    "name": "Interactive_Textflip_19",
+    "category": "interactive",
+    "file": "interactive/Interactive_Textflip_19.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "textFlip readMore__btn",
+    "width": 76,
+    "height": 19
+  },
+  {
+    "name": "Nav_Navbars_55",
+    "category": "nav",
+    "file": "nav/Nav_Navbars_55.tsx",
+    "tag": "nav",
+    "id": "",
+    "className": "navBars",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Nav_NavbarsList_56",
+    "category": "nav",
+    "file": "nav/Nav_NavbarsList_56.tsx",
+    "tag": "ul",
+    "id": "",
+    "className": "navBars__list",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Interactive_Active_20",
+    "category": "interactive",
+    "file": "interactive/Interactive_Active_20.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "active cta__hoverImage",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Nav_Editorialhero_57",
+    "category": "nav",
+    "file": "nav/Nav_Editorialhero_57.tsx",
+    "tag": "header",
+    "id": "",
+    "className": "editorialHero",
+    "width": 1920,
+    "height": 478
+  },
+  {
+    "name": "Interactive_Active_21",
+    "category": "interactive",
+    "file": "interactive/Interactive_Active_21.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "active cta__hoverImage",
+    "width": 1920,
+    "height": 0
+  },
+  {
+    "name": "Nav_Editorialhero_58",
+    "category": "nav",
+    "file": "nav/Nav_Editorialhero_58.tsx",
+    "tag": "header",
+    "id": "",
+    "className": "editorialHero",
+    "width": 1920,
+    "height": 546
+  },
+  {
+    "name": "Nav_Archiveheader_59",
+    "category": "nav",
+    "file": "nav/Nav_Archiveheader_59.tsx",
+    "tag": "header",
+    "id": "",
+    "className": "archiveHeader",
+    "width": 1920,
+    "height": 1086
+  },
+  {
+    "name": "Interactive_Btnbrackets_22",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btnbrackets_22.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnBrackets captionBigText active",
+    "width": 200,
+    "height": 19
+  },
+  {
+    "name": "Cards_Archivegriditem_01",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_01.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem descriptor",
+    "width": 1920,
+    "height": 22
+  },
+  {
+    "name": "Cards_Archivegriditem_02",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_02.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_03",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_03.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_04",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_04.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem descriptor",
+    "width": 1920,
+    "height": 38
+  },
+  {
+    "name": "Cards_Archivegriditem_05",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_05.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_06",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_06.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_07",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_07.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_08",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_08.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_09",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_09.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_10",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_10.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_11",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_11.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_12",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_12.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_13",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_13.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_14",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_14.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_15",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_15.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_16",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_16.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_17",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_17.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_18",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_18.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_19",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_19.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_20",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_20.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_21",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_21.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_22",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_22.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_23",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_23.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Cards_Archivegriditem_24",
+    "category": "cards",
+    "file": "cards/Cards_Archivegriditem_24.tsx",
+    "tag": "article",
+    "id": "",
+    "className": "archiveGridItem interactive",
+    "width": 1920,
+    "height": 48
+  },
+  {
+    "name": "Interactive_Btnbrackets_23",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btnbrackets_23.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnBrackets captionBigText active archiveGrid__paginate btnMore",
+    "width": 84,
+    "height": 19
+  },
+  {
+    "name": "Interactive_Textflip_24",
+    "category": "interactive",
+    "file": "interactive/Interactive_Textflip_24.tsx",
+    "tag": "span",
+    "id": "",
+    "className": "textFlip archiveGrid__paginate btnMore",
+    "width": 67,
+    "height": 19
+  },
+  {
+    "name": "Footers_Footer_01",
+    "category": "footers",
+    "file": "footers/Footers_Footer_01.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer",
+    "width": 1920,
+    "height": 2054
+  },
+  {
+    "name": "Nav_FooterHeaderwrap_60",
+    "category": "nav",
+    "file": "nav/Nav_FooterHeaderwrap_60.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__headerWrap",
+    "width": 1920,
+    "height": 298
+  },
+  {
+    "name": "Footers_FooterScribble_02",
+    "category": "footers",
+    "file": "footers/Footers_FooterScribble_02.tsx",
+    "tag": "img",
+    "id": "",
+    "className": "footer__scribble",
+    "width": 1920,
+    "height": 80
+  },
+  {
+    "name": "Nav_AccessibleFooter_61",
+    "category": "nav",
+    "file": "nav/Nav_AccessibleFooter_61.tsx",
+    "tag": "header",
+    "id": "accessible-footer",
+    "className": "footer__header",
+    "width": 720,
+    "height": 218
+  },
+  {
+    "name": "Footers_FooterTitle_03",
+    "category": "footers",
+    "file": "footers/Footers_FooterTitle_03.tsx",
+    "tag": "h1",
+    "id": "",
+    "className": "footer__title captionBigText",
+    "width": 720,
+    "height": 19
+  },
+  {
+    "name": "Footers_FooterBottom_04",
+    "category": "footers",
+    "file": "footers/Footers_FooterBottom_04.tsx",
+    "tag": "footer",
+    "id": "",
+    "className": "footer__bottom",
+    "width": 1920,
+    "height": 77
+  },
+  {
+    "name": "Footers_FooterLogo_05",
+    "category": "footers",
+    "file": "footers/Footers_FooterLogo_05.tsx",
+    "tag": "img",
+    "id": "",
+    "className": "footer__logo",
+    "width": 1888,
+    "height": 16
+  },
+  {
+    "name": "Footers_FooterBottomblock_06",
+    "category": "footers",
+    "file": "footers/Footers_FooterBottomblock_06.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "footer__bottomBlock",
+    "width": 1888,
+    "height": 61
+  },
+  {
+    "name": "Interactive_Btnbrackets_25",
+    "category": "interactive",
+    "file": "interactive/Interactive_Btnbrackets_25.tsx",
+    "tag": "button",
+    "id": "",
+    "className": "btnBrackets captionBigText active",
+    "width": 109,
+    "height": 19
+  },
+  {
+    "name": "Misc_SounduiWrapper_03",
+    "category": "misc",
+    "file": "misc/Misc_SounduiWrapper_03.tsx",
+    "tag": "div",
+    "id": "",
+    "className": "soundUI__wrapper active",
+    "width": 1920,
+    "height": 1080
+  }
+]

@@ -1,0 +1,45 @@
+/* Unleashing Best - OKLCH & HSL Design Tokens & Themes */
+:root {
+  /* Theme 1: Soft Neutral Green (Default) */
+  --color-green-primary: #35705B;
+  --color-green-bg: #D6E2DE;
+  
+  /* Theme 2: Soft Orange */
+  --color-orange-primary: #F57431;
+  --color-orange-bg: #FDE3D5;
+
+  /* Theme 3: Deep Blue */
+  --color-blue-primary: #016C8F;
+  --color-blue-bg: #CCE1E8;
+
+  /* Theme 4: Crimson Red */
+  --color-red-primary: #C74332;
+  --color-red-bg: #F3D9D6;
+
+  /* Theme 5: Vibrant Purple */
+  --color-purple-primary: #87359F;
+  --color-purple-bg: #E7D6EB;
+
+  /* Baseline Active Tokens */
+  --currentColor: var(--color-green-primary);
+  --soft: var(--color-green-bg);
+  --white: #FFFFFF;
+  --dark: #191919;
+  --gray: #E9E9E9;
+  --currentColorAlpha: rgba(53, 112, 91, 0.44);
+
+  /* Typography Stacks */
+  --font-serif: "GrifinitoLMedium", Georgia, serif;
+  --font-sans: "HelveticaRegular", -apple-system, sans-serif;
+  --font-sansbold: "HelveticaBd", -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--soft);
+  color: var(--currentColor);
+  font-family: var(--font-sans);
+  transition: background-color 0.8s cubic-bezier(0.16, 1, 0.3, 1), color 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.t-serif { font-family: var(--font-serif); }
+.t-sansbold { font-family: var(--font-sansbold); }

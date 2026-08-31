@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Made In Evolve - UI/UX Architectural Wireframe Blueprint</title>
+  <style>
+    :root {
+      --bg: #F4F4F0;
+      --card-bg: #FFFFFF;
+      --border: #E2E2DC;
+      --accent: #C3FF00;
+      --text: #0D0D0E;
+      --text-muted: #666660;
+      --code-bg: #1A1A1E;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Neue Haas Grotesk', -apple-system, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 2rem; line-height: 1.5; }
+    .header { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
+    .header h1 { font-size: 2.2rem; color: #000; font-weight: 700; letter-spacing: -0.02em; text-transform: uppercase; }
+    .header p { color: var(--text-muted); font-size: 0.95rem; }
+
+    .grid-layout { display: grid; grid-template-columns: 1fr 340px; gap: 2rem; }
+    .wireframe-stage { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; position: relative; }
+    
+    .comp-block { border: 2px dashed var(--border); border-radius: 6px; padding: 1.25rem; margin-bottom: 1.5rem; background: rgba(0,0,0,0.01); position: relative; }
+    .comp-tag { position: absolute; top: -12px; left: 16px; background: #000; color: #fff; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    .nav-bar { display: flex; justify-content: space-between; align-items: center; padding: 0.8rem 1rem; background: #fff; border-radius: 6px; border: 1px solid var(--border); }
+    .hero-scene { height: 320px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 2.5rem; border: 1px solid var(--border); border-radius: 6px; background: linear-gradient(135deg, #FFFFFF 0%, #F4F4F0 100%); position: relative; }
+    .hero-scene h2 { font-size: 3.5rem; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; }
+
+    .product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; }
+    .product-card { border: 1px solid var(--border); border-radius: 6px; padding: 1rem; background: #fff; }
+    .canvas-box { width: 100%; height: 140px; background: #000; border-radius: 4px; margin-bottom: 0.8rem; display: flex; align-items: center; justify-content: center; color: var(--accent); font-size: 0.75rem; font-weight: 700; }
+
+    .sidebar { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; }
+    .sidebar h3 { font-size: 1.1rem; margin-bottom: 1rem; color: #000; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; text-transform: uppercase; }
+    .spec-item { margin-bottom: 1rem; }
+    .spec-item label { display: block; font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .spec-item value { display: block; font-size: 0.95rem; color: var(--text); font-weight: 600; }
+    .code-snippet { background: var(--code-bg); padding: 0.8rem; border-radius: 4px; font-family: monospace; font-size: 0.8rem; color: #98c379; overflow-x: auto; margin-top: 0.5rem; }
+
+    .studio-badge { display: inline-block; background: var(--accent); color: #000; padding: 4px 10px; border-radius: 4px; font-weight: 700; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <h1>MADE IN EVOLVE — TECHNICAL ARCHITECTURAL BLUEPRINT</h1>
+      <span class="studio-badge">AWWWARDS RECOGNIZED</span>
+    </div>
+    <p>Italian Digital Boutique Studio (Modena) | Neue Haas Grotesk + Unicorn Studio WebGL + GSAP 3 Stack</p>
+  </div>
+
+  <div class="grid-layout">
+    <div class="wireframe-stage">
+      <!-- COMPONENT 1: NAV -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: BOUTIQUE ECOMMERCE HEADER NAV</span>
+        <div class="nav-bar">
+          <div style="font-weight: 700; font-size: 1.4rem; letter-spacing: -0.02em;">EVOLVE</div>
+          <div style="display: flex; gap: 1.5rem; align-items: center;">
+            <span style="font-size: 0.85rem; font-weight: 600;">DIRECTION</span>
+            <span style="font-size: 0.85rem; font-weight: 600;">TECH</span>
+            <span style="font-size: 0.85rem; font-weight: 600;">MARKETING</span>
+            <span style="font-size: 0.85rem; background: #000; color: #fff; padding: 6px 16px; border-radius: 4px; font-weight: 700;">LET'S TALK</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMPONENT 2: HERO SECTION -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: KINETIC HERO STAGE</span>
+        <div class="hero-scene">
+          <span style="font-size: 0.8rem; letter-spacing: 0.15em; color: var(--text-muted); font-weight: 700; margin-bottom: 0.5rem;">MODENA, ITALY // EST. 2008</span>
+          <h2>ECOMMERCE INNOVATION FOR VISIONARY BRANDS</h2>
+          <p style="font-size: 0.95rem; color: var(--text-muted); margin-top: 0.8rem; max-width: 540px;">Siamo nati developer. Il design ce lo siamo costruiti addosso. La tensione tra queste due anime è il nostro metodo.</p>
+        </div>
+      </div>
+
+      <!-- COMPONENT 3: DIGITAL PRODUCTS GRID -->
+      <div class="comp-block">
+        <span class="comp-tag">COMPONENT: UNICORN STUDIO 3D CANVAS GRID</span>
+        <div class="product-grid">
+          <div class="product-card">
+            <div class="canvas-box">UNICORN WEBGL 01</div>
+            <strong style="font-size: 0.9rem;">SHOPIFY PLUS ECOSYSTEM</strong>
+            <p style="font-size: 0.8rem; color: var(--text-muted);">Fashion & Luxury Architecture</p>
+          </div>
+          <div class="product-card" style="border-color: #000;">
+            <div class="canvas-box" style="background: #000; color: var(--accent);">UNICORN WEBGL 02</div>
+            <strong style="font-size: 0.9rem;">PERFORMANCE DESIGN</strong>
+            <p style="font-size: 0.8rem; color: var(--text-muted);">Conversion Science</p>
+          </div>
+          <div class="product-card">
+            <div class="canvas-box">UNICORN WEBGL 03</div>
+            <strong style="font-size: 0.9rem;">AI AUTOMATION ENGINE</strong>
+            <p style="font-size: 0.8rem; color: var(--text-muted);">Tailored Commerce Workflows</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECHNICAL SPEC SIDEBAR -->
+    <div class="sidebar">
+      <h3>ENGINEERING SPECIFICATIONS</h3>
+      
+      <div class="spec-item">
+        <label>Studio Identity</label>
+        <value>Made in Evolve (Modena, Italy)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Awards Pedigree</label>
+        <value>Awwwards Honorable Mention & Nominee</value>
+      </div>
+
+      <div class="spec-item">
+        <label>3D WebGL Canvas Engine</label>
+        <value>Unicorn Studio 2.0.3 (unicornStudio.umd.js)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Animation & SPA Stack</label>
+        <value>GSAP 3 (Flip, ScrambleText, SplitText) + Barba.js SPA</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Typography Hierarchy</label>
+        <value>Neue Haas Grotesk Text (Typekit tk-neue-haas-grotesk-text)</value>
+      </div>
+
+      <div class="spec-item">
+        <label>Color Tokens</label>
+        <value>Off-White (#F4F4F0), Lime Neon (#C3FF00), Obsidian Black (#0D0D0E)</value>
+        <div class="code-snippet">:root {
+  --color-bg: #F4F4F0;
+  --color-accent: #C3FF00;
+}</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

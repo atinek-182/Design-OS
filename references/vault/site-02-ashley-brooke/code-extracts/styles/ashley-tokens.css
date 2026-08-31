@@ -1,0 +1,31 @@
+/* Ashley Brooke CS — Design Tokens & Webflow GSAP Architecture Styles */
+:root {
+  /* Color Palette */
+  --_theme---background: #0D0D0E;
+  --_theme---card-bg: #161618;
+  --_theme---border: #26262B;
+  --_theme---accent: #E0533C;
+  --_theme---cream: #F5F3EF;
+  --_theme---text: #F5F3EF;
+  --_theme---text-muted: #8E8D95;
+
+  /* Typography */
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--_theme---background);
+  color: var(--_theme---text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Barba SPA Transition Wrapper */
+body[data-barba="wrapper"] {
+  overflow-x: hidden;
+}

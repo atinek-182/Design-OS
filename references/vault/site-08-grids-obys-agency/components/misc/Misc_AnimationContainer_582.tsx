@@ -1,0 +1,33 @@
+import React from 'react';
+
+/**
+ * Component: Misc_AnimationContainer_582
+ * Target Site: grids-obys-agency
+ * Category: misc
+ * Tag: <div> | ID: "" | Class: "animation-container"
+ * Dimensions: 50px x 61px
+ */
+export const Misc_AnimationContainer_582: React.FC = () => {
+  return (
+    <div className="component-container-misc">
+      {/* --- Raw Extracted DOM Structure --- */}
+      <div className="animation-container" style="left: 0px; top: 0px; width: 50px; height: 61px; z-index: 376; offset-path: path(&quot;M 25 30.5&quot;); offset-rotate: 0deg; opacity: 1; offset-distance: 0px;"><style>@keyframes animation_464_1 {
+	0%, 86.95652173913044% {opacity: 1; offset-distance: 0px; animation-timing-function: ease-out}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+</style><div className="animation-container invisible" style="left: 0px; top: 0px; width: 50px; height: 61px; z-index: 376; offset-path: path(&quot;M 25 30.5&quot;); offset-rotate: 0deg; opacity: 0; offset-distance: 0px;"><style>@keyframes animation_465_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+</style><div className="rmwidget widget-picture fixMobileImageStretch svg" data-id="610fbb95006f3202349d19f9" style="left: 0px; top: 0px; width: 50px; height: 61px; z-index: 376;"><div className="svg-scale-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 94 114.9990005493164" fill="none" preserveAspectRatio="xMidYMid meet" role="img">
+<mask id="2b079df8-e308-4240-948f-8cd6c2bf0b41" fill="white">
+<path fillRule="evenodd" clip-rule="evenodd" d="M0 54.9711V54.8778C23.8944 53.7013 43.0961 29.7746 44.0407 0H44.114C45.0828 30.5372 65.2559 54.9231 89.9998 54.9231H90V54.9258H89.9998C64.9459 54.9258 44.5781 79.9265 44.0867 110.999H44.068C43.5887 80.6929 24.2014 56.1627 0 54.9711Z"></path>
+</mask>
+<path fillRule="evenodd" clip-rule="evenodd" d="M0 54.9711V54.8778C23.8944 53.7013 43.0961 29.7746 44.0407 0H44.114C45.0828 30.5372 65.2559 54.9231 89.9998 54.9231H90V54.9258H89.9998C64.9459 54.9258 44.5781 79.9265 44.0867 110.999H44.068C43.5887 80.6929 24.2014 56.1627 0 54.9711Z" fill="#FAFF00"></path>
+<path d="M0 54.8778L-0.0983536 52.8802L-2 52.9738V54.8778H0ZM0 54.9711H-2V56.8751L-0.0983535 56.9687L0 54.9711ZM44.0407 0V-2H42.1031L42.0417 -0.0634168L44.0407 0ZM44.114 0L46.113 -0.0634168L46.0516 -2H44.114V0ZM90 54.9231H92V52.9231H90V54.9231ZM90 54.9258V56.9258H92V54.9258H90ZM44.0867 110.999V112.999H46.0553L46.0865 111.031L44.0867 110.999ZM44.068 110.999L42.0683 111.031L42.0994 112.999H44.068V110.999ZM-2 54.8778V54.9711H2V54.8778H-2ZM42.0417 -0.0634168C41.118 29.0529 22.4122 51.7719 -0.0983536 52.8802L0.0983536 56.8754C25.3767 55.6308 45.0742 30.4962 46.0397 0.0634168L42.0417 -0.0634168ZM44.114 -2H44.0407V2H44.114V-2ZM89.9998 52.9231C66.7096 52.9231 47.0608 29.8117 46.113 -0.0634168L42.115 0.0634168C43.1048 31.2627 63.8022 56.9231 89.9998 56.9231V52.9231ZM90 52.9231H89.9998V56.9231H90V52.9231ZM92 54.9258V54.9231H88V54.9258H92ZM89.9998 56.9258H90V52.9258H89.9998V56.9258ZM46.0865 111.031C46.5673 80.625 66.4192 56.9258 89.9998 56.9258V52.9258C63.4726 52.9258 42.5889 79.2281 42.087 110.968L46.0865 111.031ZM44.068 112.999H44.0867V108.999H44.068V112.999ZM-0.0983535 56.9687C22.7004 58.0912 41.5995 81.3882 42.0683 111.031L46.0678 110.968C45.578 79.9976 25.7025 54.2342 0.0983535 52.9735L-0.0983535 56.9687Z" fill="#010101" mask="url(#2b079df8-e308-4240-948f-8cd6c2bf0b41)"></path>
+</svg></div></div></div></div>
+    </div>
+  );
+};
+
+export default Misc_AnimationContainer_582;

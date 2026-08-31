@@ -1,0 +1,29 @@
+import React from 'react';
+
+/**
+ * Component: Misc_AnimationContainer_105
+ * Target Site: grids-obys-agency
+ * Category: misc
+ * Tag: <div> | ID: "" | Class: "animation-container invisible"
+ * Dimensions: 276px x 324px
+ */
+export const Misc_AnimationContainer_105: React.FC = () => {
+  return (
+    <div className="component-container-misc">
+      {/* --- Raw Extracted DOM Structure --- */}
+      <div className="animation-container invisible" style="left: 0px; top: 0px; width: 275.625px; height: 324.375px; bottom: 58.125px; margin-left: 0px; margin-top: 0px; z-index: 307; offset-path: path(&quot;M 137.813 162.188&quot;); offset-rotate: 0deg; opacity: 0; offset-distance: 0px;"><style>@keyframes animation_255_1 {
+	0% {opacity: 0; offset-distance: 0px; animation-timing-function: linear}
+	100% {opacity: 1; offset-distance: 0px; }
+}
+</style><div className="rmwidget widget-picture fixMobileImageStretch svg" data-id="610fbb96006f3202349d1ab2" style="left: 50%; top: 50%; width: 147px; height: 173px; margin-left: -73.5px; margin-top: -86.5px; z-index: 307; zoom: 1.875;"><div className="svg-scale-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 277.3450012207031 327" fill="none" preserveAspectRatio="xMidYMid meet" role="img">
+<mask id="ee2ed8b0-44a7-4b1c-baed-77da2b63139d" fill="white">
+<path fillRule="evenodd" clip-rule="evenodd" d="M0 159.958V159.7C73.317 156.278 132.235 86.6477 135.129 0H135.352C138.309 88.5505 199.779 159.329 275.331 159.829C198.83 160.336 136.769 232.895 135.268 323H135.213C133.744 234.807 74.2573 163.423 0 159.958Z"></path>
+</mask>
+<path fillRule="evenodd" clip-rule="evenodd" d="M0 159.958V159.7C73.317 156.278 132.235 86.6477 135.129 0H135.352C138.309 88.5505 199.779 159.329 275.331 159.829C198.83 160.336 136.769 232.895 135.268 323H135.213C133.744 234.807 74.2573 163.423 0 159.958Z" fill="#FAFF00"></path>
+<path d="M0 159.7L-0.0932299 157.702L-2 157.791V159.7H0ZM0 159.958H-2V161.867L-0.09323 161.956L0 159.958ZM135.129 0V-2H133.195L133.13 -0.066768L135.129 0ZM135.352 0L137.351 -0.0667681L137.286 -2H135.352V0ZM275.331 159.829L275.345 161.829L275.345 157.829L275.331 159.829ZM135.268 323V325H137.235L137.268 323.033L135.268 323ZM135.213 323L133.213 323.033L133.246 325H135.213V323ZM-2 159.7V159.958H2V159.7H-2ZM133.13 -0.066768C130.261 85.8277 71.9167 154.342 -0.0932299 157.702L0.0932299 161.698C74.7173 158.215 134.209 87.4676 137.128 0.066768L133.13 -0.066768ZM135.352 -2H135.129V2H135.352V-2ZM275.345 157.829C201.151 157.338 140.283 87.7216 137.351 -0.0667681L133.353 0.0667681C136.336 89.3794 198.406 161.32 275.318 161.829L275.345 157.829ZM137.268 323.033C138.756 233.698 200.221 162.327 275.345 161.829L275.318 157.829C197.44 158.345 134.782 232.092 133.268 322.967L137.268 323.033ZM135.213 325H135.268V321H135.213V325ZM-0.09323 161.956C72.8391 165.359 131.757 235.602 133.213 323.033L137.212 322.967C135.731 234.013 75.6754 161.487 0.09323 157.96L-0.09323 161.956Z" fill="#010101" mask="url(#ee2ed8b0-44a7-4b1c-baed-77da2b63139d)"></path>
+</svg></div></div></div>
+    </div>
+  );
+};
+
+export default Misc_AnimationContainer_105;

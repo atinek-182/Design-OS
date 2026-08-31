@@ -1,0 +1,19 @@
+import React from 'react';
+
+/**
+ * Component: Cards_CookiesCardBtnClose_244
+ * Target Site: sondaven
+ * Category: cards
+ * Tag: <div> | ID: "" | Class: "cookies_card_btn-close"
+ * Dimensions: 50px x 32px
+ */
+export const Cards_CookiesCardBtnClose_244: React.FC = () => {
+  return (
+    <div className="component-container-cards">
+      {/* --- Raw Extracted DOM Structure --- */}
+      <div fs-cc="close" className="cookies_card_btn-close" role="button" tabIndex="0"><a aria-label="Close" hover-btn-close="" href="#" className="btn-close w-inline-block"><div className="h6 text-dark">[</div><div hover="label" className="btn-close_label"><div hover="icon" className="btn-close_icon"><div className="h6 text-dark">x</div></div><div hover="icon" className="btn-close_icon"><div className="h6 text-dark">x</div></div></div><div className="h6 text-dark">]</div></a></div>
+    </div>
+  );
+};
+
+export default Cards_CookiesCardBtnClose_244;

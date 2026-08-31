@@ -1,0 +1,19 @@
+import React from 'react';
+
+/**
+ * Component: Modals_ModalChapTravel_12
+ * Target Site: unleashing-best
+ * Category: modals
+ * Tag: <ul> | ID: "" | Class: "modal-chap__travel e-rel"
+ * Dimensions: 1920px x 3200px
+ */
+export const Modals_ModalChapTravel_12: React.FC = () => {
+  return (
+    <div className="component-container-modals">
+      {/* --- Raw Extracted DOM Structure --- */}
+      <ul className="modal-chap__travel e-rel"><li className="modal-chap__each"><a href="/chapter/well-being" className="modal-chap__link e-flex"><span className="modal-chap__index">CHAPTER: 01.</span><span data-index="01" className="modal-chap__title" style="color:#35705b;">Well-Being</span></a><div className="modal-chap__each__hover" style="background-color:#35705b;"></div></li><li className="modal-chap__each"><a href="/chapter/task-results" className="modal-chap__link e-flex"><span className="modal-chap__index">CHAPTER: 02.</span><span data-index="02" className="modal-chap__title" style="color:#f57431;">Tasks vs Results</span></a><div className="modal-chap__each__hover" style="background-color:#f57431;"></div></li><li className="modal-chap__each"><a href="/chapter/successful-people" className="modal-chap__link e-flex"><span className="modal-chap__index">CHAPTER: 03.</span><span data-index="03" className="modal-chap__title" style="color:#016c8f;">Successful People</span></a><div className="modal-chap__each__hover" style="background-color:#016c8f;"></div></li><li className="modal-chap__each"><a href="/chapter/positioning" className="modal-chap__link e-flex"><span className="modal-chap__index">CHAPTER: 04.</span><span data-index="04" className="modal-chap__title" style="color:#c74332;">Positioning</span></a><div className="modal-chap__each__hover" style="background-color:#c74332;"></div></li><li className="modal-chap__each"><a href="/chapter/final-notes" className="modal-chap__link e-flex"><span className="modal-chap__index">CHAPTER: 05.</span><span data-index="05" className="modal-chap__title" style="color:#87359f;">Final Notes</span></a><div className="modal-chap__each__hover" style="background-color:#87359f;"></div></li><div className="no-mobile"><li className="modal-chap__each"><a href="/chapter/well-being" className="modal-chap__link e-flex"><span className="modal-chap__index">01.</span><span data-index="01" className="modal-chap__title" style="color:#35705b;">Well-Being</span></a><div className="modal-chap__each__hover" style="background-color:#35705b;"></div></li><li className="modal-chap__each"><a href="/chapter/task-results" className="modal-chap__link e-flex"><span className="modal-chap__index">02.</span><span data-index="02" className="modal-chap__title" style="color:#f57431;">Tasks vs Results</span></a><div className="modal-chap__each__hover" style="background-color:#f57431;"></div></li><li className="modal-chap__each"><a href="/chapter/successful-people" className="modal-chap__link e-flex"><span className="modal-chap__index">03.</span><span data-index="03" className="modal-chap__title" style="color:#016c8f;">Successful People</span></a><div className="modal-chap__each__hover" style="background-color:#016c8f;"></div></li><li className="modal-chap__each"><a href="/chapter/positioning" className="modal-chap__link e-flex"><span className="modal-chap__index">04.</span><span data-index="04" className="modal-chap__title" style="color:#c74332;">Positioning</span></a><div className="modal-chap__each__hover" style="background-color:#c74332;"></div></li><li className="modal-chap__each"><a href="/chapter/final-notes" className="modal-chap__link e-flex"><span className="modal-chap__index">05.</span><span data-index="05" className="modal-chap__title" style="color:#87359f;">Final Notes</span></a><div className="modal-chap__each__hover" style="background-color:#87359f;"></div></li></div></ul>
+    </div>
+  );
+};
+
+export default Modals_ModalChapTravel_12;
