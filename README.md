@@ -1,7 +1,8 @@
-# Antigravity Design OS
+# Design OS
 
 ```
-[BUILD: PASSING]  [SKILLS: 134 VERIFIED]  [EVALS: PLAYWRIGHT 5-VIEWPORT]  [WCAG: 2.2 AA MATHEMATICAL FLOOR]  [AST SCANNER: ZERO SLOP]
+[BUILD: PASSING]  [SKILLS: 134 VERIFIED]  [EVALS: PLAYWRIGHT 5-VIEWPORT] 
+[WCAG: 2.2 AA MATHEMATICAL FLOOR]  [AST SCANNER: ZERO SLOP]
 ```
 
 > **Autonomous Agentic Design-Engineering Runtime and Deterministic Control Plane for Foundation Coding Models.**
@@ -202,17 +203,6 @@ The Python engine (`scripts/design_os.py scan`) parses generated HTML, JSX, and 
 
 ---
 
-## Multi-Viewport Responsive QA Gates
-
-Every generated layout must pass automated visual regression testing across four physical form factors before sign-off:
-
-| Desktop (1920 x 1080) | Laptop (1440 x 900) |
-| :---: | :---: |
-| ![Desktop Viewport](assets/screenshots/desktop-1920x1080.png) | ![Laptop Viewport](assets/screenshots/laptop-1440x900.png) |
-| **Tablet (768 x 1024)** | **Mobile (375 x 812)** |
-| ![Tablet Viewport](assets/screenshots/tablet-768x1024.png) | ![Mobile Viewport](assets/screenshots/mobile-375x812.png) |
-
----
 
 ## Multi-Archetype Aesthetic System
 
