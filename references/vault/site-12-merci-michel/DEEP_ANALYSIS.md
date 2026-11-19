@@ -110,7 +110,7 @@ void main() {
 
 ## 10. AIOS System Integration & Reusable Code Blueprints
 
-Merci Michel's award-winning engineering provides key reusable patterns for Zorixel web applications:
+Merci Michel's award-winning engineering provides key reusable patterns for Design OS web applications:
 
 1. **Gamified 3D WebGL Stage:** Adapt particle bloom shader (`shader_01_fragment.glsl`) into Three.js canvas wrappers.
 2. **Interactive Audio Controls:** Implement Howler.js spatial sound hooks for micro-interactive websites.

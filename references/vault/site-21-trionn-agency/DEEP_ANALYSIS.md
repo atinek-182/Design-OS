@@ -112,7 +112,7 @@ void main() {
 
 ## 10. AIOS System Integration & Reusable Code Blueprints
 
-TRIONN's architecture provides critical reusable building blocks for the Zorixel Design System and AIOS web engine:
+TRIONN's architecture provides critical reusable building blocks for the Design OS Design System and AIOS web engine:
 
 1. **Bento Card Layout System:** Copy `code-extracts/components/cards/Cards_Bento_01.tsx` for modular feature displays.
 2. **WebGL GLSL Canvas Wrapper:** Reuse `code-extracts/shaders/shader_01_fragment.glsl` inside Three.js `shaderMaterial`.

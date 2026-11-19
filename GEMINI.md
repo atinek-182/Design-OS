@@ -132,6 +132,6 @@ Whenever instructed to create or scaffold a new website, web app, landing page, 
    - **`projects/For design/<project-name>`**: UI component systems, design tool experiments, design kits.
    - **`projects/For AIOS/<project-name>`**: AI OS integrations, subagent frameworks, and AI workflows.
    - **`projects/Learning/<project-name>`**: Tutorials, learning exercises, and educational builds.
-   - **`projects/Zorixel brand/<project-name>`**: Zorixel-branded digital properties and assets.
+   - **`projects/Brand/<project-name>`**: Brand web properties and assets.
    - **`projects/My advisors/<project-name>`**: Advisory and client consultancy projects.
 

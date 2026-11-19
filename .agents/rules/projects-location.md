@@ -14,7 +14,7 @@ Place the new project in the most relevant subfolder under `projects/`:
 - **`projects/For design/<project-name>`**: UI kits, design system explorations, design tool extensions.
 - **`projects/For AIOS/<project-name>`**: AI OS, subagent harnesses, and AI tool integrations.
 - **`projects/Learning/<project-name>`**: Demos, tutorials, and learning sandboxes.
-- **`projects/Zorixel brand/<project-name>`**: Zorixel-branded web properties and assets.
+- **`projects/Brand/<project-name>`**: Brand web properties and assets.
 - **`projects/My advisors/<project-name>`**: Advisory and consultancy projects.
 
 *If no specific category is mentioned, default to `projects/Websites/<project-name>` for websites/landing pages or `projects/Products/<project-name>` for web apps.*

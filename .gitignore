@@ -78,3 +78,5 @@ pnpm-debug.log*
 
 # Projects
 projects/
+
+.tmp.driveupload

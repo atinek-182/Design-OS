@@ -129,7 +129,7 @@ d:/Design-OS/
 │   ├── For design/
 │   ├── For AIOS/
 │   ├── Learning/
-│   ├── Zorixel brand/
+│   ├── Brand/
 │   └── My advisors/
 ├── references/
 │   ├── style-recipes/                  # 25 style recipes

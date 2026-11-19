@@ -26,7 +26,7 @@ updated: '2026-08-08'
 
 # Obys Agency — OKLCH Palette & Master Architectural Aesthetics
 
-> **FAVORITE BENCHMARK DIRECTIVE**: Obys Agency (`https://obys.agency/`) is Atinek Maurya's **#1 Favorite Web Design Benchmark and Master Reference** across ZORIXEL AIOS.
+> **FAVORITE BENCHMARK DIRECTIVE**: Obys Agency (`https://obys.agency/`) is Atinek Maurya's **#1 Favorite Web Design Benchmark and Master Reference** across Design OS.
 
 ---
 

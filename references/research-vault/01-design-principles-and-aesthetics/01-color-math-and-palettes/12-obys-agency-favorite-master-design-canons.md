@@ -25,7 +25,7 @@ updated: '2026-08-08'
 
 # Obys Agency — Favorite #1 Master Design Canons & Visual Principles
 
-> **FAVORITE BENCHMARK DIRECTIVE**: Obys Agency (`https://obys.agency/`) and all Obys design projects (`grids.obys.agency`, Obys Design Books, Obys Grid Canons) are formally designated as **Atinek Maurya's #1 Favorite Web Design Benchmark and Master Reference** across ZORIXEL AIOS.
+> **FAVORITE BENCHMARK DIRECTIVE**: Obys Agency (`https://obys.agency/`) and all Obys design projects (`grids.obys.agency`, Obys Design Books, Obys Grid Canons) are formally designated as **Atinek Maurya's #1 Favorite Web Design Benchmark and Master Reference** across Design OS.
 
 ---
 

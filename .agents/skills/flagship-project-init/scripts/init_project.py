@@ -26,7 +26,7 @@ VALID_CATEGORIES = [
     "For design",
     "For AIOS",
     "Learning",
-    "Zorixel brand",
+    "Brand",
     "My advisors"
 ]
 

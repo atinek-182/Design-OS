@@ -700,7 +700,7 @@ export default function Frame{frame_name}({{
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZORIXEL - Micrographics Templates Showcase</title>
+  <title>Design-OS - Micrographics Templates Showcase</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Mono&display=swap" rel="stylesheet">
@@ -858,7 +858,7 @@ export default function Frame{frame_name}({{
 
 <header>
   <div>
-    <div class="logo">zorixel.</div>
+    <div class="logo">design-os.</div>
     <div class="subtitle">Micrographics Design Templates Collection (50 Layouts)</div>
   </div>
   <div class="stats">

@@ -114,7 +114,7 @@ void main() {
 
 ## 10. AIOS System Integration & Reusable Code Blueprints
 
-Resn's award-winning architecture provides foundational patterns for high-craft Zorixel web experiences:
+Resn's award-winning architecture provides foundational patterns for high-craft Design OS web experiences:
 
 1. **3D WebGL Scroll Camera Rig:** Adapt Three.js scroll scrubbing logic from `code-extracts/shaders/` for 3D product showcases.
 2. **HUD Nav Control System:** Reuse `code-extracts/components/3d/` UI wrappers for spatial web apps.

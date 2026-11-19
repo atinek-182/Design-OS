@@ -39,7 +39,7 @@ When this skill is invoked, conduct the interactive inception interview **in str
    - `Products/` (Full web applications, SaaS tools, platforms, dashboards)
    - `Sandbox/` (Experimental prototypes, rapid visual spikes)
    - `For design/` (UI component systems, design kits)
-   - `Zorixel brand/` (Zorixel-branded digital properties)
+   - `Brand/` (Brand digital properties and assets)
 
 ### Turn 2: Technical Stack & Aesthetic Direction
 3. **Target Technology Stack**:

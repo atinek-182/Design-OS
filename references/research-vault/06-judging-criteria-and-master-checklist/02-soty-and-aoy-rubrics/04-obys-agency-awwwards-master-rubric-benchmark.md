@@ -1,7 +1,7 @@
 ---
 title: Obys Agency — Awwwards SOTY & SOTM Master Rubric Benchmark
 domain: reference
-summary: Evaluation of Obys Agency against Awwwards Site of the Year (SOTY) and Site of the Month (SOTM) rubrics as ZORIXEL's
+summary: Evaluation of Obys Agency against Awwwards Site of the Year (SOTY) and Site of the Month (SOTM) rubrics as Design OS's
 critical_directives:
 - FAVORITE BENCHMARK MANDATE: Obys Agency is explicitly designated as Atinek Maurya's
 - Sourcing components: Map to local Awwwards component vault at C:\Users\HP\Downloads\Components\Obys-Agency-Design-System.
@@ -25,7 +25,7 @@ updated: '2026-08-08'
 
 # Obys Agency — Awwwards SOTY & SOTM Master Rubric Benchmark
 
-As ZORIXEL's **#1 Favorite Web Design Benchmark**, Obys Agency represents the gold standard for jury scoring across Awwwards Site of the Year (SOTY) and Site of the Month (SOTM) competitions.
+As Design OS's **#1 Favorite Web Design Benchmark**, Obys Agency represents the gold standard for jury scoring across Awwwards Site of the Year (SOTY) and Site of the Month (SOTM) competitions.
 
 ---
 

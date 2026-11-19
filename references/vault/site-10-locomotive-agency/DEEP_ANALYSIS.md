@@ -110,7 +110,7 @@ void main() {
 
 ## 10. AIOS System Integration & Reusable Code Blueprints
 
-Locomotive's engineering provides essential patterns for high-craft Zorixel web applications:
+Locomotive's engineering provides essential patterns for high-craft Design OS web applications:
 
 1. **Locomotive Scroll v5 Rig:** Copy `code-extracts/animations/` smooth scroll hooks for Next.js landing pages.
 2. **Editorial Hero Section:** Adapt `code-extracts/components/hero/Hero_Section_01.tsx` for brand showcase headers.

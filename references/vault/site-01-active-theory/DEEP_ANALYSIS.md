@@ -112,7 +112,7 @@ void main() {
 
 ## 10. AIOS System Integration & Reusable Code Blueprints
 
-Active Theory's engineering principles provide critical blueprints for high-performance Zorixel web applications:
+Active Theory's engineering principles provide critical blueprints for high-performance Design OS web applications:
 
 1. **Hydra-Style WebGL Stage:** Adapt particle field shader (`shader_01_fragment.glsl`) into Three.js canvas wrappers.
 2. **HUD Nav System:** Reuse `code-extracts/components/nav/` overlays for spatial web applications.
